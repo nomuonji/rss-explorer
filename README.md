@@ -79,13 +79,28 @@ git 管理外（`.gitignore`）:
 `data/*.json` は**意図的にコミット対象**。これはシステムの記憶であり、これが無いと毎回リセットされて
 「増殖」しない。機密ではない（公開URLと統計のみ）。
 
+## あなたの好みを反映する（フィードバック）
+
+一般的な「面白さ」は近似でしかない。あなた固有の好みは `config/preferences.yaml` で効かせる：
+
+- **`pin:`（確定ソース）** — フィードURL / ソースid / ドメインのいずれか。ピン留めしたソースは
+  常に巡回・加点され、**淘汰されない**。「いいRSS見つけた→確定」がこれ。未登録のフィードURLを
+  書けば、その場で確定ソースとして**追加**される。
+- **`block:`** — 二度と表示しない（フィードURL / ドメイン / ソースid）。
+- **`boost_keywords / mute_keywords / boost_domains / mute_domains / boost_tags`** — 面白さスコアを
+  トピック・出所で加減点。
+
+**サイト上の 👍 / 👎 / 📌 ボタン**で反応を記録（localStorage）し、「⚙ 設定を書き出す」で
+`preferences.yaml` 片をダウンロード → 中身を `config/preferences.yaml` にマージしてコミットすれば、
+次回の実行から学習が効く（静的サイトのままフィードバックループが閉じる）。
+
 ## ディレクトリ
 
 ```
-config/     seeds.yaml（出発点）, mainstream.txt（中央＝減点対象）
-pipeline/   fetchers / scoring / discovery / summarize / render / run
+config/     seeds.yaml（出発点）, mainstream.txt（減点対象）, preferences.yaml（あなたの好み）
+pipeline/   fetchers / scoring / discovery / preferences / summarize / opml / render / run
 data/       進化する記憶（sources / candidates / seen）
-site/       静的サイト（GitHub Pages）
+site/       静的サイト（GitHub Pages）+ rss-explorer.opml
 ```
 
 ## 育て方

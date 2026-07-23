@@ -1,0 +1,28 @@
+# =============================================================================
+# YOUR preferences. Everything here is optional — but this is where the system
+# learns what YOU find interesting (nothing else knows your taste).
+# Edit by hand, or use the "設定を書き出す" button on the site to generate a
+# snippet you paste in here, then commit.
+# =============================================================================
+
+# CONFIRMED sources. Pinned = always fetched, interest-boosted, and NEVER
+# retired (even if quiet). This is "I found a good RSS, lock it in".
+# Each entry can be: a feed URL, a source id (from the Sources tab), or a domain.
+# A feed URL that isn't in the system yet is ADDED as a pinned source.
+pin: []
+  # - https://rashita.net/blog/index.xml
+  # - thesephist            # a source id
+  # - kottke.org            # a domain
+
+# NEVER show these again. Feed URL, domain, or source id.
+block: []
+  # - example-spam.com
+
+# Nudge the "interest" score by topic (case-insensitive substring match).
+boost_keywords: []   # e.g. [認知科学, "tools for thought", 自作, 辺境]
+mute_keywords:  []   # e.g. [仮想通貨, nft, 芸能]
+
+# Nudge by where it comes from.
+boost_domains: []    # e.g. [rashita.net, worrydream.com]
+mute_domains:  []    # e.g. [somesite.com]
+boost_tags:    []    # e.g. [tools-for-thought, ja, art]

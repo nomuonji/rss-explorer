@@ -22,6 +22,7 @@ def write_digest(items: list[dict], meta: dict) -> None:
                 "distance": it.get("distance"),
                 "interest": it.get("interest"),
                 "judged": it.get("judged", False),
+                "pinned": it.get("pinned", False),
                 "kind": it.get("kind"),
                 "reasons": it.get("reasons", []),
                 "reasons_interest": it.get("reasons_interest", []),

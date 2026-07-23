@@ -29,7 +29,7 @@ def _load_dotenv() -> None:
 
 _load_dotenv()
 
-from . import discovery, opml, render, state
+from . import discovery, opml, preferences, render, state
 from .fetchers import discover_feed, fetch_source, item_id
 from .scoring import blend, distance_score, interest_score
 from .summarize import judge_items
@@ -111,11 +111,15 @@ def run():
     settings = cfg.get("settings", {})
     mainstream = load_mainstream()
 
+    prefs = preferences.load_prefs()
     sources = state.load_sources()
     candidates = state.load_candidates()
     seen = state.load_seen()
 
     sync_seeds_into_state(cfg, sources)
+    # apply the user's taste to the source set: pin confirmed sources, block others
+    pinned_ids = preferences.apply_pins(sources, prefs)
+    blocked_ids = preferences.apply_blocks(sources, prefs)
     resolved = resolve_missing_feeds(sources)
 
     sources_by_id = {s["id"]: s for s in sources["sources"]}
@@ -123,7 +127,7 @@ def run():
     known_domains.discard("")
 
     # --- FETCH --------------------------------------------------------------
-    active = [s for s in sources["sources"] if s["status"] in ("seed", "active", "trial")]
+    active = [s for s in sources["sources"] if s["status"] in ("seed", "active", "trial", "pinned")]
     explore_k = max(1, round(settings.get("explore_fraction", 0.15) * settings.get("digest_size", 40) / 4))
     explorers = choose_exploration(sources, explore_k)
     explore_ids = {s["id"] for s in explorers}
@@ -143,11 +147,14 @@ def run():
         src = sources_by_id.get(it["source_id"], {})
         dist, dr = distance_score(it, src, mainstream)
         inter, ir = interest_score(it, src, prefer_ja)
+        pdelta, pr = preferences.score_adjust(it, src, prefs)  # your taste bends it
+        inter = max(0.0, min(1.0, inter + pdelta))
         it["distance"] = dist
         it["interest"] = inter
         it["judged"] = False
+        it["pinned"] = src.get("status") == "pinned"
         it["reasons"] = dr
-        it["reasons_interest"] = ir
+        it["reasons_interest"] = ir + pr
         it["score"] = blend(dist, inter, judged=False,
                             w_interest_heur=settings.get("interest_weight_heuristic", 0.5))
         state.record_item_score(src, it["score"])
@@ -155,8 +162,9 @@ def run():
     # --- DISCOVERY (feed the co-citation graph with everything we saw) -------
     discovery.update_candidates(candidates, all_items, sources_by_id, known_domains, mainstream)
 
-    # --- DEDUPE against what we've already shown ----------------------------
-    fresh = [it for it in all_items if it["id"] not in seen.get("ids", {})]
+    # --- DEDUPE (and drop anything you've blocked) --------------------------
+    fresh = [it for it in all_items
+             if it["id"] not in seen.get("ids", {}) and not preferences.is_blocked_item(it, prefs)]
 
     # --- JUDGE a shortlist with the LLM (real interestingness + Japanese) ----
     # Only the heuristic top-N is judged, so interest can affect selection while
@@ -220,6 +228,8 @@ def run():
         "items_seen_this_run": len(all_items),
         "items_judged": n_judged,
         "judge_enabled": n_judged > 0,
+        "pinned": pinned_ids,
+        "blocked": blocked_ids,
     }
     render.write_digest(digest, meta)
     render.write_sources(sources, candidates)

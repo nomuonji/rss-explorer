@@ -138,6 +138,9 @@ def manage_lifecycle(sources: dict, settings: dict) -> dict:
     hist_note = []
 
     for s in sources["sources"]:
+        # pinned = confirmed by the user; blocked = banned. Leave both untouched.
+        if s["status"] in ("pinned", "blocked"):
+            continue
         st = s.get("stats", {})
         items = st.get("items", 0)
         avg = st.get("avg", 0.5)

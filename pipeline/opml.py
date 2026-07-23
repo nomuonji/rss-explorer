@@ -42,9 +42,10 @@ def _outline(s: dict) -> str:
 
 
 def write_opml(sources: dict) -> int:
-    # Only real, importable http(s) feeds; skip engines (HN/arXiv) and retired.
+    # Only real, importable http(s) feeds; skip engines (HN/arXiv), retired, blocked.
     feeds = [s for s in sources["sources"]
-             if s.get("feed") and str(s["feed"]).startswith("http") and s.get("status") != "retired"]
+             if s.get("feed") and str(s["feed"]).startswith("http")
+             and s.get("status") not in ("retired", "blocked")]
 
     buckets: dict[str, list[str]] = {}
     for s in feeds:

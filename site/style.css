@@ -63,6 +63,14 @@ main { padding:24px 0 60px; }
 .sc.int { color:var(--accent); } .sc.dist { color:var(--accent2); }
 .sc.int.lo, .sc.dist.lo { color:var(--dim); }
 .sc.ai { color:var(--link); background:transparent; border:1px solid var(--line); }
+.sc.pin { color:#06130d; background:var(--accent2); }
+.pill.export { margin-left:auto; }
+.acts { display:flex; gap:6px; margin-top:10px; }
+.act-btn { font-size:.74rem; padding:3px 10px; border-radius:20px; cursor:pointer; font-family:inherit;
+  background:transparent; border:1px solid var(--line); color:var(--dim); }
+.act-btn:hover { border-color:var(--dim); }
+.act-btn.on { background:var(--accent); color:#06130d; border-color:var(--accent); font-weight:600; }
+.stat.pinned .n { color:var(--accent2); }
 .kind { font-size:.7rem; padding:2px 8px; border-radius:6px; text-transform:uppercase; letter-spacing:.4px; background:var(--panel2); color:var(--dim); }
 .kind.k-idea, .kind.k-research { color:var(--accent); } .kind.k-news { color:var(--warn); }
 .origtitle { font-size:.78rem; color:var(--dim); margin-top:3px; }

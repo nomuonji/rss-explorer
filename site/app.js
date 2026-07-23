@@ -18,6 +18,31 @@ async function getJSON(path) {
   catch { return null; }
 }
 
+// ------- taste feedback (kept in localStorage; exported to preferences.yaml) -------
+const store = {
+  get(k) { try { return JSON.parse(localStorage.getItem(k) || "[]"); } catch { return []; } },
+  has(k, v) { return store.get(k).includes(v); },
+  toggle(k, v) { const a = store.get(k), i = a.indexOf(v); if (i < 0) a.push(v); else a.splice(i, 1); localStorage.setItem(k, JSON.stringify(a)); return i < 0; },
+};
+const PINS = "rssx_pins", LIKES = "rssx_likes", DISLIKES = "rssx_dislikes";
+
+function buildPrefsYaml() {
+  const y = ["# rss-explorer preferences — generated from your reactions on the site.",
+    "# Merge these into config/preferences.yaml and commit.", ""];
+  const sect = (name, arr) => { y.push(name + ":" + (arr.length ? "" : " []")); arr.forEach(v => y.push("  - " + v)); };
+  sect("pin", store.get(PINS)); sect("boost_domains", store.get(LIKES)); sect("mute_domains", store.get(DISLIKES));
+  return y.join("\n") + "\n";
+}
+function downloadPrefs() {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([buildPrefsYaml()], { type: "text/yaml" }));
+  a.download = "preferences.yaml"; a.click();
+}
+function updateExportCount() {
+  const n = store.get(PINS).length + store.get(LIKES).length + store.get(DISLIKES).length;
+  const b = $("#export-btn"); if (b) b.textContent = `⚙ 設定を書き出す${n ? ` (${n})` : ""}`;
+}
+
 // ------- Feed with filters -------
 let FEED = [];
 const filters = { lang: "all", sort: "score", hideNews: false };
@@ -38,6 +63,7 @@ function card(it) {
   rail.appendChild(el("span", "sc int " + scoreClass(it.interest ?? 0), `面白 ${iv}`));
   rail.appendChild(el("span", "sc dist " + scoreClass(it.distance ?? 0), `辺境 ${dv}`));
   if (it.judged) rail.appendChild(el("span", "sc ai", "AI採点"));
+  if (it.pinned) rail.appendChild(el("span", "sc pin", "📌 確定"));
   if (it.kind) rail.appendChild(el("span", "kind k-" + it.kind, it.kind));
   c.appendChild(rail);
 
@@ -63,6 +89,19 @@ function card(it) {
     chips.appendChild(el("span", "chip " + cls, esc(r)));
   });
   c.appendChild(chips);
+
+  // taste actions: confirm the source, or nudge more/less of this domain
+  const acts = el("div", "acts");
+  const mkBtn = (label, key, val, title) => {
+    const b = el("button", "act-btn" + (store.has(key, val) ? " on" : ""), label);
+    b.title = title;
+    b.onclick = e => { e.stopPropagation(); b.classList.toggle("on", store.toggle(key, val)); updateExportCount(); };
+    return b;
+  };
+  acts.appendChild(mkBtn("📌 確定", PINS, it.source_id, "このソースを確定ソースにする（書き出しに含める）"));
+  acts.appendChild(mkBtn("👍", LIKES, host(it.url), "この系統をもっと（ドメインを加点）"));
+  acts.appendChild(mkBtn("👎", DISLIKES, host(it.url), "この系統を減らす（ドメインを減点）"));
+  c.appendChild(acts);
   return c;
 }
 
@@ -107,12 +146,13 @@ document.querySelectorAll("#ctl-sort .pill").forEach(b => b.onclick = () => {
   b.classList.add("active"); filters.sort = b.dataset.sort; drawFeed();
 });
 $("#hide-news").onchange = e => { filters.hideNews = e.target.checked; drawFeed(); };
+$("#export-btn").onclick = downloadPrefs;
 
 // ------- Sources tab (unchanged structure) -------
 function renderSources(d) {
   if (!d) { $("#src-counts").appendChild(el("div", "empty", "ソースデータ待ち。")); return; }
   const c = d.counts || {};
-  [["seed", "seed"], ["active", "active"], ["trial", "trial"], ["retired", "retired"]].forEach(([k, cls]) => {
+  [["pinned", "pinned"], ["seed", "seed"], ["active", "active"], ["trial", "trial"], ["retired", "retired"]].forEach(([k, cls]) => {
     const s = el("div", "stat " + cls);
     s.appendChild(el("div", "n", c[k] || 0));
     s.appendChild(el("div", "l", k));
@@ -160,6 +200,7 @@ function renderSources(d) {
 }
 
 (async () => {
+  updateExportCount();
   renderFeed(await getJSON("data/digest.json"));
   renderSources(await getJSON("data/sources.json"));
 })();
