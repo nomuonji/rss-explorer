@@ -76,3 +76,31 @@ seeds:
   - {id: fujipon,          title: "いつか電池がきれるまで",      url: "https://fujipon.hatenablog.com/",       tags: [ja, essays]}
   - {id: zenn,             title: "Zenn",                        url: "https://zenn.dev/",                     feed: "https://zenn.dev/feed", tags: [ja, tech, tools]}
   - {id: hatelabo-dev,     title: "Hatena Developer Blog",       url: "https://developer.hatenastaff.com/",    tags: [ja, tech]}
+  - {id: rashita,          title: "R-style（倉下忠憲）",         url: "https://rashita.net/blog/",             tags: [ja, tools-for-thought, writing]}
+  - {id: finalvent,        title: "極東ブログ",                  url: "https://finalvent.cocolog-nifty.com/",  tags: [ja, essays, commentary]}
+  - {id: shiba710,         title: "日々の音色とことば",          url: "https://shiba710.hateblo.jp/",          tags: [ja, music, criticism]}
+
+  # === RESEARCHED 2026-07: ideas / science / culture magazines (off-algorithm,
+  #     high signal). Explicit feeds verified from a Hacker News feed thread. ===
+  - {id: aeon,             title: "Aeon",                        url: "https://aeon.co/",                      feed: "https://aeon.co/feed",                                        tags: [ideas, philosophy]}
+  - {id: nautilus,         title: "Nautilus",                    url: "https://nautil.us/",                    feed: "https://nautil.us/feed/",                                     tags: [science, essays]}
+  - {id: noema,            title: "Noema Magazine",              url: "https://www.noemamag.com/",             feed: "https://www.noemamag.com/feed/",                              tags: [ideas, politics, tech]}
+  - {id: asterisk,         title: "Asterisk Magazine",           url: "https://asteriskmag.com/",              feed: "https://asteriskmag.com/feed",                                tags: [science, rigor]}
+  - {id: thepoint,         title: "The Point Magazine",          url: "https://thepointmag.com/",              feed: "https://thepointmag.com/feed/",                               tags: [essays, culture]}
+  - {id: newatlantis,      title: "The New Atlantis",            url: "https://www.thenewatlantis.com/",       feed: "https://www.thenewatlantis.com/feed",                         tags: [tech, society]}
+  - {id: lowtech,          title: "Low←Tech Magazine",           url: "https://solar.lowtechmagazine.com/",    feed: "https://solar.lowtechmagazine.com/feeds/all-en.atom.xml",     tags: [tech, sustainability, contrarian]}
+  - {id: publicbooks,      title: "Public Books",                url: "https://www.publicbooks.org/",          feed: "https://www.publicbooks.org/feed",                            tags: [ideas, books]}
+  - {id: symmetry,         title: "Symmetry Magazine",           url: "https://www.symmetrymagazine.org/",     tags: [physics]}
+
+  # === RESEARCHED: progress / metascience / tools-for-thought individuals ===
+  - {id: guzey,            title: "Alexey Guzey",                url: "https://guzey.com/",                    tags: [science, meta]}
+  - {id: applieddivinity,  title: "Applied Divinity Studies",    url: "https://www.applieddivinitystudies.com/", tags: [progress, essays]}
+  - {id: slimemold,        title: "Slime Mold Time Mold",        url: "https://slimemoldtimemold.com/",        tags: [science, contrarian]}
+  - {id: fantasticanach,   title: "Fantastic Anachronism",       url: "https://fantasticanachronism.com/",     tags: [science, meta]}
+  - {id: thesephist,       title: "Linus Lee · thesephist",      url: "https://thesephist.com/",               tags: [tools-for-thought, maker]}
+
+  # === RESEARCHED: creative / art / design (independent) ===
+  - {id: kottke,           title: "kottke.org",                  url: "https://kottke.org/",                   feed: "https://feeds.kottke.org/main",                               tags: [curation, culture]}
+  - {id: colossal,         title: "Colossal",                    url: "https://www.thisiscolossal.com/",       feed: "https://www.thisiscolossal.com/feed/",                        tags: [art, craft]}
+  - {id: swissmiss,        title: "swissmiss",                   url: "https://www.swiss-miss.com/",           feed: "https://www.swiss-miss.com/feed",                             tags: [design, curation]}
+  - {id: creativeindep,    title: "The Creative Independent",    url: "https://thecreativeindependent.com/",   tags: [creative, interviews]}

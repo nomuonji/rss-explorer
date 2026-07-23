@@ -34,7 +34,7 @@ from .fetchers import discover_feed, fetch_source, item_id
 from .scoring import blend, distance_score, interest_score
 from .summarize import judge_items
 
-SEED_FEED_PROBE_BUDGET = 8  # resolve this many missing seed feeds per run
+SEED_FEED_PROBE_BUDGET = 16  # resolve this many missing seed feeds per run
 
 
 def _domain(url: str) -> str:
