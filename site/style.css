@@ -45,13 +45,25 @@ main { padding:24px 0 60px; }
 .meta { margin-bottom:16px; display:flex; flex-wrap:wrap; gap:8px 16px; }
 .meta b { color:var(--accent); font-weight:600; }
 
+#controls { display:flex; flex-wrap:wrap; align-items:center; gap:8px 18px; margin:2px 0 18px; padding-bottom:14px; border-bottom:1px solid var(--line); }
+.ctl { display:flex; align-items:center; gap:6px; }
+.ctl-label { font-size:.74rem; color:var(--dim); text-transform:uppercase; letter-spacing:.5px; }
+.pill { background:var(--panel2); border:1px solid var(--line); color:var(--dim); border-radius:20px;
+  padding:4px 12px; font-size:.82rem; cursor:pointer; font-family:inherit; }
+.pill.active { background:var(--accent); color:#06130d; border-color:var(--accent); font-weight:600; }
+.ctl.checkbox { font-size:.82rem; color:var(--dim); cursor:pointer; gap:5px; }
+
 .list { display:flex; flex-direction:column; gap:12px; }
 .card { background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:14px 16px; position:relative; }
 .card.explore { border-left:3px solid var(--accent2); }
-.card .top { display:flex; align-items:baseline; gap:10px; }
-.score { font-family:ui-monospace,monospace; font-weight:700; font-size:.82rem; padding:2px 7px; border-radius:6px;
-  background:var(--panel2); color:var(--accent); flex-shrink:0; }
-.score.lo { color:var(--dim); } .score.hi { color:var(--accent); }
+.rail { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px; }
+.sc { font-family:ui-monospace,monospace; font-weight:700; font-size:.74rem; padding:2px 8px; border-radius:6px; background:var(--panel2); }
+.sc.int { color:var(--accent); } .sc.dist { color:var(--accent2); }
+.sc.int.lo, .sc.dist.lo { color:var(--dim); }
+.sc.ai { color:var(--link); background:transparent; border:1px solid var(--line); }
+.kind { font-size:.7rem; padding:2px 8px; border-radius:6px; text-transform:uppercase; letter-spacing:.4px; background:var(--panel2); color:var(--dim); }
+.kind.k-idea, .kind.k-research { color:var(--accent); } .kind.k-news { color:var(--warn); }
+.origtitle { font-size:.78rem; color:var(--dim); margin-top:3px; }
 .card h3 { margin:0; font-size:1.02rem; font-weight:600; }
 .src { color:var(--dim); font-size:.8rem; margin-top:5px; }
 .src .explore-badge { color:var(--accent2); }

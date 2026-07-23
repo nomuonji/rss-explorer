@@ -25,6 +25,17 @@ settings:
   # This is what structurally prevents the source set from ossifying.
   explore_fraction: 0.15
 
+  # --- ranking: distance (obscurity) vs. interest (worth) ---
+  # Final rank = interest_weight * interest + (1-weight) * distance.
+  # Interest is trusted more once the LLM has actually read the item.
+  interest_weight_heuristic: 0.5   # when only the keyword heuristic scored it
+  interest_weight_judged: 0.65     # when Claude read and scored it
+  # Language you'd rather read. "ja" gives Japanese-language items a nudge and
+  # (with an API key) every item gets a Japanese title + one-line summary.
+  prefer_language: ja
+  # How many heuristic-top items to send to the LLM judge each run (cost control).
+  judge_shortlist: 80
+
 # Always-on discovery aggregators. These are engines, not a fixed reading list:
 # they surface items AND continuously spit out new candidate domains for the
 # co-citation discovery to chew on. No API keys required.
@@ -33,6 +44,12 @@ discovery_sources:
   - {id: arxiv-cs-cy, kind: arxiv, query: "cat:cs.CY",  title: "arXiv · Computers & Society",         tags: [research, society]}
   - {id: hackernews,  kind: hn,                          title: "Hacker News (new, pre-viral)",         tags: [tech, frontier]}
   - {id: lobsters,    kind: rss, feed: "https://lobste.rs/rss", title: "Lobsters",                     tags: [tech, computing]}
+  # Japanese discovery engines — the JP equivalents of HN. Their outbound links
+  # auto-discover Japanese individual blogs via co-citation (so the source set
+  # grows in Japanese too, not just English).
+  - {id: hatena-it,   kind: rss, feed: "https://b.hatena.ne.jp/entrylist/it.rss",       title: "はてブ · テクノロジー新着", tags: [ja, tech]}
+  - {id: hatena-know, kind: rss, feed: "https://b.hatena.ne.jp/entrylist/knowledge.rss", title: "はてブ · 学び新着",       tags: [ja, ideas]}
+  - {id: anond,       kind: rss, feed: "https://anond.hatelabo.jp/rss",                  title: "はてな匿名ダイアリー（増田）", tags: [ja, raw]}
 
 # Human seed blogs / labs / individuals. `feed` is optional — if omitted, the
 # pipeline auto-discovers the RSS/Atom feed and caches it. Dead feeds get retired
@@ -53,3 +70,9 @@ seeds:
   - {id: robinsloan,       title: "Robin Sloan",                 url: "https://www.robinsloan.com/",           tags: [writing, media]}
   - {id: subpixel,         title: "Gordon Brander · Subconscious", url: "https://subconscious.substack.com/", tags: [tools-for-thought]}
   - {id: molleindustria,   title: "Molleindustria",              url: "https://www.molleindustria.org/",       tags: [gamedev, political]}
+  # --- Japanese-language seeds (feeds auto-discovered; dead ones self-retire) ---
+  - {id: tinect,           title: "Books&Apps",                  url: "https://blog.tinect.jp/",               tags: [ja, essays]}
+  - {id: shirokuma,        title: "シロクマの屑籠",              url: "https://p-shirokuma.hatenadiary.com/",  tags: [ja, essays, society]}
+  - {id: fujipon,          title: "いつか電池がきれるまで",      url: "https://fujipon.hatenablog.com/",       tags: [ja, essays]}
+  - {id: zenn,             title: "Zenn",                        url: "https://zenn.dev/",                     feed: "https://zenn.dev/feed", tags: [ja, tech, tools]}
+  - {id: hatelabo-dev,     title: "Hatena Developer Blog",       url: "https://developer.hatenastaff.com/",    tags: [ja, tech]}

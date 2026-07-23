@@ -22,6 +22,21 @@
 <main class="wrap">
   <section id="feed" class="tab active">
     <div id="feed-meta" class="meta"></div>
+    <div id="controls">
+      <div class="ctl" id="ctl-lang">
+        <span class="ctl-label">言語</span>
+        <button class="pill active" data-lang="all">すべて</button>
+        <button class="pill" data-lang="ja">日本語</button>
+        <button class="pill" data-lang="en">English</button>
+      </div>
+      <div class="ctl" id="ctl-sort">
+        <span class="ctl-label">並び</span>
+        <button class="pill active" data-sort="score">総合</button>
+        <button class="pill" data-sort="interest">面白さ</button>
+        <button class="pill" data-sort="distance">辺境度</button>
+      </div>
+      <label class="ctl checkbox"><input type="checkbox" id="hide-news"> ニュースを隠す</label>
+    </div>
     <div id="feed-list" class="list"></div>
   </section>
 

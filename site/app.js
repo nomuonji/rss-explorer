@@ -3,6 +3,7 @@ const el = (t, c, h) => { const e = document.createElement(t); if (c) e.classNam
 const esc = s => (s || "").replace(/[&<>"]/g, m => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[m]));
 const host = u => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return ""; } };
 const fmtDate = s => s ? s.slice(0, 10) : "";
+const hasJa = t => /[぀-ヿ]/.test(t || "");
 
 // Tabs
 document.querySelectorAll(".tabbtn").forEach(b => b.onclick = () => {
@@ -17,63 +18,105 @@ async function getJSON(path) {
   catch { return null; }
 }
 
+// ------- Feed with filters -------
+let FEED = [];
+const filters = { lang: "all", sort: "score", hideNews: false };
+
+function isJa(it) {
+  return !!it.ja_title || hasJa(it.title) || (it.tags || []).includes("ja");
+}
+
 function scoreClass(s) { return s >= 0.62 ? "hi" : s <= 0.42 ? "lo" : ""; }
 
-function renderFeed(d) {
+function card(it) {
+  const c = el("div", "card" + (it.explore ? " explore" : ""));
+
+  // two-score rail: interest (面白さ) + distance (辺境度)
+  const rail = el("div", "rail");
+  const iv = it.interest == null ? "–" : it.interest.toFixed(2);
+  const dv = it.distance == null ? "–" : it.distance.toFixed(2);
+  rail.appendChild(el("span", "sc int " + scoreClass(it.interest ?? 0), `面白 ${iv}`));
+  rail.appendChild(el("span", "sc dist " + scoreClass(it.distance ?? 0), `辺境 ${dv}`));
+  if (it.judged) rail.appendChild(el("span", "sc ai", "AI採点"));
+  if (it.kind) rail.appendChild(el("span", "kind k-" + it.kind, it.kind));
+  c.appendChild(rail);
+
+  const headline = it.ja_title || it.title;
+  const h = el("h3", null, `<a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(headline)}</a>`);
+  c.appendChild(h);
+  if (it.ja_title && it.title && it.ja_title !== it.title)
+    c.appendChild(el("div", "origtitle", esc(it.title)));
+
+  const src = el("div", "src");
+  src.innerHTML = `${esc(it.source)} · <span>${esc(host(it.url))}</span>` +
+    (it.published ? ` · ${fmtDate(it.published)}` : "") +
+    (it.explore ? ` · <span class="explore-badge">探索</span>` : "");
+  c.appendChild(src);
+
+  if (it.ja) c.appendChild(el("div", "blurb", esc(it.ja)));
+  else if (it.excerpt) c.appendChild(el("div", "excerpt", esc(it.excerpt)));
+
+  const chips = el("div", "chips");
+  (it.tags || []).forEach(t => chips.appendChild(el("span", "tagchip", "#" + esc(t))));
+  [...(it.reasons_interest || []), ...(it.reasons || [])].forEach(r => {
+    const cls = r.includes("(+)") ? "plus" : r.includes("(−)") ? "minus" : "";
+    chips.appendChild(el("span", "chip " + cls, esc(r)));
+  });
+  c.appendChild(chips);
+  return c;
+}
+
+function drawFeed() {
   const list = $("#feed-list");
+  list.innerHTML = "";
+  let items = FEED.slice();
+  if (filters.lang === "ja") items = items.filter(isJa);
+  else if (filters.lang === "en") items = items.filter(it => !isJa(it));
+  if (filters.hideNews) items = items.filter(it => it.kind !== "news");
+  const key = filters.sort;
+  items.sort((a, b) => (b[key] ?? 0) - (a[key] ?? 0));
+
+  if (!items.length) { list.appendChild(el("div", "empty", "この条件に合うものがありません。")); return; }
+  items.forEach(it => list.appendChild(card(it)));
+}
+
+function renderFeed(d) {
   if (!d || !d.items || !d.items.length) {
-    list.appendChild(el("div", "empty", "まだデータがありません。<code>python -m pipeline.run</code> を実行するか、GitHub Actions の初回実行を待ってください。"));
+    $("#feed-list").appendChild(el("div", "empty", "まだデータがありません。<code>python -m pipeline.run</code> を実行するか、GitHub Actions の初回実行を待ってください。"));
     return;
   }
   $("#gen").textContent = "· " + fmtDate(d.generated);
   const m = d.meta || {};
-  const meta = $("#feed-meta");
-  const bits = [
+  $("#feed-meta").innerHTML = [
     `ソース総数 <b>${m.sources_total ?? "?"}</b>`,
     `今回発見 <b>${(m.discovered_this_run || []).length}</b>`,
     `候補追跡中 <b>${m.candidates_tracked ?? 0}</b>`,
-    `巡回アイテム <b>${m.items_seen_this_run ?? 0}</b>`,
-  ];
-  meta.innerHTML = bits.join(" ");
-
-  d.items.forEach(it => {
-    const card = el("div", "card" + (it.explore ? " explore" : ""));
-    const top = el("div", "top");
-    top.appendChild(el("span", "score " + scoreClass(it.score), it.score.toFixed(2)));
-    const h = el("h3", null, `<a href="${esc(it.url)}" target="_blank" rel="noopener">${esc(it.title)}</a>`);
-    top.appendChild(h);
-    card.appendChild(top);
-
-    const src = el("div", "src");
-    src.innerHTML = `${esc(it.source)} · <span>${esc(host(it.url))}</span>` +
-      (it.published ? ` · ${fmtDate(it.published)}` : "") +
-      (it.explore ? ` · <span class="explore-badge">探索</span>` : "");
-    card.appendChild(src);
-
-    if (it.blurb_ja) card.appendChild(el("div", "blurb", esc(it.blurb_ja)));
-    else if (it.excerpt) card.appendChild(el("div", "excerpt", esc(it.excerpt)));
-
-    const chips = el("div", "chips");
-    (it.tags || []).forEach(t => chips.appendChild(el("span", "tagchip", "#" + esc(t))));
-    (it.reasons || []).forEach(r => {
-      const cls = r.includes("(+)") ? "plus" : r.includes("(−)") ? "minus" : "";
-      chips.appendChild(el("span", "chip " + cls, esc(r)));
-    });
-    card.appendChild(chips);
-    list.appendChild(card);
-  });
+    m.judge_enabled ? `AI採点 <b>${m.items_judged}</b>件` : `AI採点 <b>オフ</b>（APIキー未設定）`,
+  ].join(" ");
+  FEED = d.items;
+  drawFeed();
 }
 
+// filter wiring
+document.querySelectorAll("#ctl-lang .pill").forEach(b => b.onclick = () => {
+  document.querySelectorAll("#ctl-lang .pill").forEach(x => x.classList.remove("active"));
+  b.classList.add("active"); filters.lang = b.dataset.lang; drawFeed();
+});
+document.querySelectorAll("#ctl-sort .pill").forEach(b => b.onclick = () => {
+  document.querySelectorAll("#ctl-sort .pill").forEach(x => x.classList.remove("active"));
+  b.classList.add("active"); filters.sort = b.dataset.sort; drawFeed();
+});
+$("#hide-news").onchange = e => { filters.hideNews = e.target.checked; drawFeed(); };
+
+// ------- Sources tab (unchanged structure) -------
 function renderSources(d) {
   if (!d) { $("#src-counts").appendChild(el("div", "empty", "ソースデータ待ち。")); return; }
   const c = d.counts || {};
-  const order = [["seed", "seed"], ["active", "active"], ["trial", "trial"], ["retired", "retired"]];
-  const cc = $("#src-counts");
-  order.forEach(([k, cls]) => {
+  [["seed", "seed"], ["active", "active"], ["trial", "trial"], ["retired", "retired"]].forEach(([k, cls]) => {
     const s = el("div", "stat " + cls);
     s.appendChild(el("div", "n", c[k] || 0));
     s.appendChild(el("div", "l", k));
-    cc.appendChild(s);
+    $("#src-counts").appendChild(s);
   });
 
   const hist = $("#src-history");

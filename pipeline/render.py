@@ -12,14 +12,20 @@ def write_digest(items: list[dict], meta: dict) -> None:
         "items": [
             {
                 "title": it["title"],
+                "ja_title": it.get("ja_title"),
                 "url": it["url"],
                 "source": it["source_title"],
                 "source_id": it["source_id"],
                 "tags": it.get("source_tags", []),
                 "published": it.get("published"),
                 "score": it["score"],
+                "distance": it.get("distance"),
+                "interest": it.get("interest"),
+                "judged": it.get("judged", False),
+                "kind": it.get("kind"),
                 "reasons": it.get("reasons", []),
-                "blurb_ja": it.get("blurb_ja"),
+                "reasons_interest": it.get("reasons_interest", []),
+                "ja": it.get("ja"),
                 "excerpt": _clean(it.get("summary", "")),
                 "explore": it.get("explore", False),
             }

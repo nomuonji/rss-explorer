@@ -31,8 +31,8 @@ _load_dotenv()
 
 from . import discovery, render, state
 from .fetchers import discover_feed, fetch_source, item_id
-from .scoring import score_item
-from .summarize import summarize_items
+from .scoring import blend, distance_score, interest_score
+from .summarize import judge_items
 
 SEED_FEED_PROBE_BUDGET = 8  # resolve this many missing seed feeds per run
 
@@ -137,13 +137,20 @@ def run():
             it["explore"] = s["id"] in explore_ids
         all_items.extend(items)
 
-    # --- SCORE --------------------------------------------------------------
+    # --- SCORE: distance (obscurity) and interest (worth), kept separate ----
+    prefer_ja = settings.get("prefer_language", "ja") == "ja"
     for it in all_items:
         src = sources_by_id.get(it["source_id"], {})
-        sc, reasons = score_item(it, src, mainstream)
-        it["score"] = sc
-        it["reasons"] = reasons
-        state.record_item_score(src, sc)
+        dist, dr = distance_score(it, src, mainstream)
+        inter, ir = interest_score(it, src, prefer_ja)
+        it["distance"] = dist
+        it["interest"] = inter
+        it["judged"] = False
+        it["reasons"] = dr
+        it["reasons_interest"] = ir
+        it["score"] = blend(dist, inter, judged=False,
+                            w_interest_heur=settings.get("interest_weight_heuristic", 0.5))
+        state.record_item_score(src, it["score"])
 
     # --- DISCOVERY (feed the co-citation graph with everything we saw) -------
     discovery.update_candidates(candidates, all_items, sources_by_id, known_domains, mainstream)
@@ -151,11 +158,22 @@ def run():
     # --- DEDUPE against what we've already shown ----------------------------
     fresh = [it for it in all_items if it["id"] not in seen.get("ids", {})]
 
+    # --- JUDGE a shortlist with the LLM (real interestingness + Japanese) ----
+    # Only the heuristic top-N is judged, so interest can affect selection while
+    # keeping the API call small. No key => this is a no-op and we keep heuristics.
+    size = settings.get("digest_size", 40)
+    fresh.sort(key=lambda it: it["score"], reverse=True)
+    shortlist = fresh[: settings.get("judge_shortlist", size * 2)]
+    n_judged = judge_items(shortlist)
+    for it in shortlist:
+        if it.get("judged"):
+            it["score"] = blend(it["distance"], it["interest"], judged=True,
+                                w_interest_judged=settings.get("interest_weight_judged", 0.6))
+
     # --- RANK with diversity caps, reserving a slice for exploration --------
     # Caps stop any single engine (e.g. HN) or domain from flooding the digest,
     # which is what keeps the feed varied rather than "just Hacker News".
     fresh.sort(key=lambda it: it["score"], reverse=True)
-    size = settings.get("digest_size", 40)
     reserve = round(settings.get("explore_fraction", 0.15) * size)
     max_per_domain = settings.get("max_per_domain", 2)
     max_per_source = settings.get("max_per_source", 8)
@@ -190,9 +208,6 @@ def run():
     life = discovery.manage_lifecycle(sources, settings)
     candidates.setdefault("history", []).extend(life["history"])
 
-    # --- optional blurbs ----------------------------------------------------
-    summarize_items(digest[:settings.get("digest_size", 40)])
-
     # --- RENDER + PERSIST ---------------------------------------------------
     meta = {
         "sources_total": len(sources["sources"]),
@@ -203,6 +218,8 @@ def run():
         "retired_this_run": life["changes"]["retired"],
         "candidates_tracked": len(candidates.get("candidates", {})),
         "items_seen_this_run": len(all_items),
+        "items_judged": n_judged,
+        "judge_enabled": n_judged > 0,
     }
     render.write_digest(digest, meta)
     render.write_sources(sources, candidates)
