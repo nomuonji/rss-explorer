@@ -229,7 +229,7 @@ def run():
     state.save_candidates(candidates)
     state.save_seen(seen)
 
-    print("== frontier-radar run complete ==")
+    print("== rss-explorer run complete ==")
     for k, v in meta.items():
         print(f"  {k}: {v}")
     print(f"  digest_items: {len(digest)}")

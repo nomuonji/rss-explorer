@@ -14,7 +14,7 @@ import feedparser
 import requests
 from bs4 import BeautifulSoup
 
-UA = "frontier-radar/1.0 (+https://github.com/ ; personal edge-of-internet scanner)"
+UA = "rss-explorer/1.0 (+https://github.com/ ; personal edge-of-internet scanner)"
 HEADERS = {"User-Agent": UA}
 TIMEOUT = 20
 

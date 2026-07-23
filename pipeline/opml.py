@@ -65,7 +65,7 @@ def write_opml(sources: dict) -> int:
         '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<opml version="2.0">\n'
         "  <head>\n"
-        "    <title>frontier-radar — off-algorithm feeds</title>\n"
+        "    <title>rss-explorer — off-algorithm feeds</title>\n"
         f"    <dateModified>{state.now_iso()}</dateModified>\n"
         "  </head>\n"
         "  <body>\n"
@@ -73,5 +73,5 @@ def write_opml(sources: dict) -> int:
         "  </body>\n"
         "</opml>\n"
     )
-    (state.ROOT / "site" / "frontier-radar.opml").write_text(xml, encoding="utf-8")
+    (state.ROOT / "site" / "rss-explorer.opml").write_text(xml, encoding="utf-8")
     return len(feeds)

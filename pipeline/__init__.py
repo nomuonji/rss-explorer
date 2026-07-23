@@ -1,1 +1,1 @@
-"""frontier-radar: a self-expanding scanner for the edges of the internet."""
+"""rss-explorer: a self-expanding scanner for the edges of the internet."""

@@ -1,4 +1,4 @@
-# frontier-radar
+# rss-explorer
 
 A self-expanding scanner for the **edges of the internet**. It surfaces things
 far from the algorithmic centre — individual blogs, pre-viral posts, edge-of-field
@@ -49,7 +49,7 @@ python -m pipeline.run
 生成物:
 - `site/data/digest.json` — その日のランキング
 - `site/data/sources.json` — 生きているソースプール（増殖・淘汰の履歴つき）
-- `site/frontier-radar.opml` — 生きている全フィードの**OPML**。任意のRSSリーダー
+- `site/rss-explorer.opml` — 生きている全フィードの**OPML**。任意のRSSリーダー
   （NetNewsWire / Feedly / Inoreader …）に一括インポートできる。毎回再生成されるので、
   自動発見で増えたソースも常に反映される。サイト上部の「⤓ OPMLで全ソースを購読」からDL。
 - `data/*.json` — システムの**記憶**（コミットして次回に持ち越す）

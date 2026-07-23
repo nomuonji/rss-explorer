@@ -15,7 +15,7 @@ permissions:
   id-token: write     # required by deploy-pages
 
 concurrency:
-  group: frontier-radar
+  group: rss-explorer
   cancel-in-progress: false
 
 jobs:
@@ -39,9 +39,9 @@ jobs:
 
       - name: Commit evolved source memory
         run: |
-          git config user.name  "frontier-radar-bot"
+          git config user.name  "rss-explorer-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/ site/data/
+          git add data/ site/data/ site/*.opml
           if git diff --cached --quiet; then
             echo "no changes to commit"
           else
