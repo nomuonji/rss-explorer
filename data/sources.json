@@ -1,0 +1,405 @@
+{
+  "sources": [
+    {
+      "id": "arxiv-cs-hc",
+      "title": "arXiv · Human-Computer Interaction",
+      "url": "engine://arxiv-cs-hc",
+      "feed": null,
+      "kind": "arxiv",
+      "status": "seed",
+      "tags": [
+        "research",
+        "tools-for-thought"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 25,
+        "score_sum": 10.899899999999999,
+        "avg": 0.436,
+        "last_item": "2026-07-23",
+        "misses": 0
+      },
+      "query": "cat:cs.HC"
+    },
+    {
+      "id": "arxiv-cs-cy",
+      "title": "arXiv · Computers & Society",
+      "url": "engine://arxiv-cs-cy",
+      "feed": null,
+      "kind": "arxiv",
+      "status": "seed",
+      "tags": [
+        "research",
+        "society"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 25,
+        "score_sum": 10.9228,
+        "avg": 0.4369,
+        "last_item": "2026-07-23",
+        "misses": 0
+      },
+      "query": "cat:cs.CY"
+    },
+    {
+      "id": "hackernews",
+      "title": "Hacker News (new, pre-viral)",
+      "url": "engine://hackernews",
+      "feed": null,
+      "kind": "hn",
+      "status": "seed",
+      "tags": [
+        "tech",
+        "frontier"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 59,
+        "score_sum": 46.63340000000001,
+        "avg": 0.7904,
+        "last_item": "2026-07-23",
+        "misses": 0
+      }
+    },
+    {
+      "id": "lobsters",
+      "title": "Lobsters",
+      "url": "https://lobste.rs/rss",
+      "feed": "https://lobste.rs/rss",
+      "kind": "rss",
+      "status": "seed",
+      "tags": [
+        "tech",
+        "computing"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 25,
+        "score_sum": 20.642400000000002,
+        "avg": 0.8257,
+        "last_item": "2026-07-23",
+        "misses": 0
+      }
+    },
+    {
+      "id": "increpare",
+      "title": "Increpare (Stephen Lavelle)",
+      "url": "https://www.increpare.com/",
+      "feed": "https://www.increpare.com/feed.rss",
+      "kind": "rss",
+      "status": "seed",
+      "tags": [
+        "gamedev",
+        "experimental"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 30,
+        "score_sum": 18.943099999999994,
+        "avg": 0.6314,
+        "last_item": "2026-07-23",
+        "misses": 0
+      }
+    },
+    {
+      "id": "hundredrabbits",
+      "title": "Hundred Rabbits",
+      "url": "https://100r.co/",
+      "feed": "http://100r.ca/links/rss.xml",
+      "kind": "rss",
+      "status": "seed",
+      "tags": [
+        "gamedev",
+        "offgrid",
+        "tools"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 30,
+        "score_sum": 20.186499999999995,
+        "avg": 0.6729,
+        "last_item": "2026-07-23",
+        "misses": 0
+      }
+    },
+    {
+      "id": "matuschak",
+      "title": "Andy Matuschak",
+      "url": "https://andymatuschak.org/",
+      "feed": "https://andymatuschak.org/feed",
+      "kind": "rss",
+      "status": "seed",
+      "tags": [
+        "tools-for-thought"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 20,
+        "score_sum": 13.398300000000003,
+        "avg": 0.6699,
+        "last_item": "2026-07-23",
+        "misses": 0
+      }
+    },
+    {
+      "id": "nielsen",
+      "title": "Michael Nielsen",
+      "url": "https://michaelnielsen.org/",
+      "feed": null,
+      "kind": "rss",
+      "status": "seed",
+      "tags": [
+        "tools-for-thought",
+        "science"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 0,
+        "score_sum": 0.0,
+        "avg": 0.5,
+        "last_item": null,
+        "misses": 1
+      }
+    },
+    {
+      "id": "worrydream",
+      "title": "Bret Victor · Worrydream",
+      "url": "https://worrydream.com/",
+      "feed": "https://worrydream.com/feed.xml",
+      "kind": "rss",
+      "status": "seed",
+      "tags": [
+        "tools-for-thought",
+        "interfaces"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 11,
+        "score_sum": 6.7331,
+        "avg": 0.6121,
+        "last_item": "2026-07-23",
+        "misses": 0
+      }
+    },
+    {
+      "id": "inkandswitch",
+      "title": "Ink & Switch",
+      "url": "https://www.inkandswitch.com/",
+      "feed": "https://www.inkandswitch.com/index.xml",
+      "kind": "rss",
+      "status": "seed",
+      "tags": [
+        "research",
+        "local-first"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 30,
+        "score_sum": 20.640999999999995,
+        "avg": 0.688,
+        "last_item": "2026-07-23",
+        "misses": 0
+      }
+    },
+    {
+      "id": "maggieappleton",
+      "title": "Maggie Appleton",
+      "url": "https://maggieappleton.com/",
+      "feed": "https://maggieappleton.com/rss.xml",
+      "kind": "rss",
+      "status": "seed",
+      "tags": [
+        "digital-gardens",
+        "tools-for-thought"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 30,
+        "score_sum": 19.517999999999997,
+        "avg": 0.6506,
+        "last_item": "2026-07-23",
+        "misses": 0
+      }
+    },
+    {
+      "id": "gwern",
+      "title": "Gwern",
+      "url": "https://gwern.net/",
+      "feed": "https://gwern.substack.com/feed",
+      "kind": "rss",
+      "status": "seed",
+      "tags": [
+        "essays",
+        "research"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 14,
+        "score_sum": 4.0052,
+        "avg": 0.2861,
+        "last_item": "2026-07-23",
+        "misses": 0
+      }
+    },
+    {
+      "id": "quanta",
+      "title": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/",
+      "feed": "https://www.quantamagazine.org/feed/",
+      "kind": "rss",
+      "status": "seed",
+      "tags": [
+        "science",
+        "frontier"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 5,
+        "score_sum": 4.5310999999999995,
+        "avg": 0.9062,
+        "last_item": "2026-07-23",
+        "misses": 0
+      }
+    },
+    {
+      "id": "worksinprogress",
+      "title": "Works in Progress",
+      "url": "https://worksinprogress.co/",
+      "feed": null,
+      "kind": "rss",
+      "status": "seed",
+      "tags": [
+        "progress",
+        "essays"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 0,
+        "score_sum": 0.0,
+        "avg": 0.5,
+        "last_item": null,
+        "misses": 0
+      }
+    },
+    {
+      "id": "marginalrev",
+      "title": "Marginal Revolution",
+      "url": "https://marginalrevolution.com/",
+      "feed": "https://marginalrevolution.com/feed",
+      "kind": "rss",
+      "status": "seed",
+      "tags": [
+        "economics",
+        "curation"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 15,
+        "score_sum": 12.426699999999999,
+        "avg": 0.8284,
+        "last_item": "2026-07-23",
+        "misses": 0
+      }
+    },
+    {
+      "id": "naiveweekly",
+      "title": "Naive Weekly",
+      "url": "https://www.naiveweekly.com/",
+      "feed": null,
+      "kind": "rss",
+      "status": "seed",
+      "tags": [
+        "internet",
+        "quiet-corners",
+        "curation"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 0,
+        "score_sum": 0.0,
+        "avg": 0.5,
+        "last_item": null,
+        "misses": 0
+      }
+    },
+    {
+      "id": "robinsloan",
+      "title": "Robin Sloan",
+      "url": "https://www.robinsloan.com/",
+      "feed": null,
+      "kind": "rss",
+      "status": "seed",
+      "tags": [
+        "writing",
+        "media"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 0,
+        "score_sum": 0.0,
+        "avg": 0.5,
+        "last_item": null,
+        "misses": 0
+      }
+    },
+    {
+      "id": "subpixel",
+      "title": "Gordon Brander · Subconscious",
+      "url": "https://subconscious.substack.com/",
+      "feed": null,
+      "kind": "rss",
+      "status": "seed",
+      "tags": [
+        "tools-for-thought"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 0,
+        "score_sum": 0.0,
+        "avg": 0.5,
+        "last_item": null,
+        "misses": 0
+      }
+    },
+    {
+      "id": "molleindustria",
+      "title": "Molleindustria",
+      "url": "https://www.molleindustria.org/",
+      "feed": null,
+      "kind": "rss",
+      "status": "seed",
+      "tags": [
+        "gamedev",
+        "political"
+      ],
+      "added": "2026-07-23",
+      "weight": 1.0,
+      "stats": {
+        "items": 0,
+        "score_sum": 0.0,
+        "avg": 0.5,
+        "last_item": null,
+        "misses": 0
+      }
+    }
+  ]
+}

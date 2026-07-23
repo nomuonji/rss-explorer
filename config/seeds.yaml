@@ -1,0 +1,55 @@
+# =============================================================================
+# SEEDS — the ONLY hand-curated part of the system, and only a starting point.
+# The pipeline grows far beyond this list on its own (see pipeline/discovery.py).
+# You are encouraged to add sources here by hand too — but you never HAVE to.
+# =============================================================================
+
+# Tunables for the self-expanding behaviour.
+settings:
+  # How many *new* items to put in a daily digest.
+  digest_size: 40
+  # Co-citation: a candidate domain becomes a `trial` source once this many
+  # DISTINCT active/seed sources have linked to it.
+  promote_after_referrers: 2
+  # Max new candidate domains to probe for a feed per run (keeps runs fast/polite).
+  probe_budget: 12
+  # A `trial` source needs this many items at/above avg to become `active`.
+  trial_graduation_items: 3
+  # A source whose rolling avg frontier-score falls below this gets retired.
+  retire_below_avg: 0.28
+  # A source needs at least this many observed items before it can be retired
+  # (don't kill something just because it was quiet this week).
+  retire_min_items: 8
+  # epsilon-greedy exploration: fraction of the digest reserved for
+  # deliberately under-explored sources (retired / low-data / random candidate).
+  # This is what structurally prevents the source set from ossifying.
+  explore_fraction: 0.15
+
+# Always-on discovery aggregators. These are engines, not a fixed reading list:
+# they surface items AND continuously spit out new candidate domains for the
+# co-citation discovery to chew on. No API keys required.
+discovery_sources:
+  - {id: arxiv-cs-hc, kind: arxiv, query: "cat:cs.HC",  title: "arXiv · Human-Computer Interaction", tags: [research, tools-for-thought]}
+  - {id: arxiv-cs-cy, kind: arxiv, query: "cat:cs.CY",  title: "arXiv · Computers & Society",         tags: [research, society]}
+  - {id: hackernews,  kind: hn,                          title: "Hacker News (new, pre-viral)",         tags: [tech, frontier]}
+  - {id: lobsters,    kind: rss, feed: "https://lobste.rs/rss", title: "Lobsters",                     tags: [tech, computing]}
+
+# Human seed blogs / labs / individuals. `feed` is optional — if omitted, the
+# pipeline auto-discovers the RSS/Atom feed and caches it. Dead feeds get retired
+# automatically; you are not expected to maintain this list.
+seeds:
+  - {id: increpare,        title: "Increpare (Stephen Lavelle)", url: "https://www.increpare.com/",           tags: [gamedev, experimental]}
+  - {id: hundredrabbits,   title: "Hundred Rabbits",             url: "https://100r.co/",                      tags: [gamedev, offgrid, tools]}
+  - {id: matuschak,        title: "Andy Matuschak",              url: "https://andymatuschak.org/",            tags: [tools-for-thought]}
+  - {id: nielsen,          title: "Michael Nielsen",             url: "https://michaelnielsen.org/",           tags: [tools-for-thought, science]}
+  - {id: worrydream,       title: "Bret Victor · Worrydream",    url: "https://worrydream.com/",               tags: [tools-for-thought, interfaces]}
+  - {id: inkandswitch,     title: "Ink & Switch",                url: "https://www.inkandswitch.com/",         tags: [research, local-first]}
+  - {id: maggieappleton,   title: "Maggie Appleton",             url: "https://maggieappleton.com/",           tags: [digital-gardens, tools-for-thought]}
+  - {id: gwern,            title: "Gwern",                       url: "https://gwern.net/",                    tags: [essays, research]}
+  - {id: quanta,           title: "Quanta Magazine",             url: "https://www.quantamagazine.org/",       feed: "https://www.quantamagazine.org/feed/", tags: [science, frontier]}
+  - {id: worksinprogress,  title: "Works in Progress",           url: "https://worksinprogress.co/",           tags: [progress, essays]}
+  - {id: marginalrev,      title: "Marginal Revolution",         url: "https://marginalrevolution.com/",       feed: "https://marginalrevolution.com/feed", tags: [economics, curation]}
+  - {id: naiveweekly,      title: "Naive Weekly",                url: "https://www.naiveweekly.com/",          tags: [internet, quiet-corners, curation]}
+  - {id: robinsloan,       title: "Robin Sloan",                 url: "https://www.robinsloan.com/",           tags: [writing, media]}
+  - {id: subpixel,         title: "Gordon Brander · Subconscious", url: "https://subconscious.substack.com/", tags: [tools-for-thought]}
+  - {id: molleindustria,   title: "Molleindustria",              url: "https://www.molleindustria.org/",       tags: [gamedev, political]}

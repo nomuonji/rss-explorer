@@ -1,0 +1,64 @@
+# Domains treated as "the center" — items from here are PENALISED in scoring
+# (not banned: they can still surface links to the edge, but they rarely ARE the edge).
+# The whole point of this project is to look away from these.
+# One domain per line. Comments with #. Subdomains match by suffix.
+youtube.com
+youtu.be
+twitter.com
+x.com
+facebook.com
+instagram.com
+tiktok.com
+reddit.com
+medium.com
+substack.com          # note: individual substacks still surface via their own domain if mapped
+linkedin.com
+nytimes.com
+washingtonpost.com
+theguardian.com
+bbc.com
+cnn.com
+techcrunch.com
+theverge.com
+wired.com
+engadget.com
+forbes.com
+businessinsider.com
+bloomberg.com
+wsj.com
+gamespot.com
+ign.com
+kotaku.com
+polygon.com
+pcgamer.com
+steampowered.com
+epicgames.com
+amazon.com
+apple.com
+google.com
+microsoft.com
+wikipedia.org
+# --- shared infrastructure / aggregators: not "sources" in their own right ---
+github.com
+gist.github.com
+gitlab.com
+arxiv.org
+doi.org
+news.ycombinator.com
+lobste.rs
+are.na
+researchgate.net
+sciencedirect.com
+ncbi.nlm.nih.gov
+archive.org
+web.archive.org
+# --- more mainstream news that showed up as noise ---
+reuters.com
+bbc.co.uk
+economist.com
+arstechnica.com
+mashable.com
+newrepublic.com
+apnews.com
+cnbc.com
+theatlantic.com

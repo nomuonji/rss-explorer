@@ -1,0 +1,23 @@
+# --- Secrets (never commit) ---
+.env
+.env.*
+*.secret
+secrets/
+config/local.*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# NOTE: data/*.json is INTENTIONALLY committed. It is the evolving memory
+# of the system (which sources exist, their scores, discovery candidates).
+# Do not gitignore it.

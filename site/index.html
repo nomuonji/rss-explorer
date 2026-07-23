@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>frontier-radar — 辺境スキャナ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>frontier&#8202;·&#8202;radar</h1>
+    <p class="tag">アルゴリズムの中央から最も遠いものを、毎日自動で拾う。<span id="gen"></span></p>
+    <nav>
+      <button class="tabbtn active" data-tab="feed">Feed</button>
+      <button class="tabbtn" data-tab="sources">Sources <span class="livingdot" title="自己増殖中"></span></button>
+      <button class="tabbtn" data-tab="about">仕組み</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="feed" class="tab active">
+    <div id="feed-meta" class="meta"></div>
+    <div id="feed-list" class="list"></div>
+  </section>
+
+  <section id="sources" class="tab">
+    <div id="src-counts" class="counts"></div>
+    <h2>最近の増殖・淘汰</h2>
+    <div id="src-history" class="history"></div>
+    <h2>昇格候補（共引用リーダーボード）</h2>
+    <p class="hint">信頼ソースが繰り返しリンクしているドメイン。閾値を超えると自動でRSSを探して <code>trial</code> ソースに昇格する。</p>
+    <div id="src-cand" class="cand"></div>
+    <h2>ソース一覧</h2>
+    <div id="src-lists"></div>
+  </section>
+
+  <section id="about" class="tab">
+    <div class="prose">
+      <h2>なぜ「固定化しない」のか</h2>
+      <p>これは決め打ちのRSSリーダーではない。情報源の集合そのものが、実行のたびに<strong>増殖・淘汰</strong>する。</p>
+      <ol>
+        <li><strong>共引用ディスカバリー</strong> — 信頼できるソース（と反アルゴリズム系アグリゲータ）が繰り返しリンクする外部ドメインを候補化。閾値を超えるとRSSを自動検出して <code>trial</code> ソースに昇格する。辺境は辺境にリンクする、という性質を利用する。</li>
+        <li><strong>自己淘汰</strong> — 各ソースの「辺境スコア」平均を記録。成績の良い <code>trial</code> は <code>active</code> に昇格、劣化したものは <code>retired</code> に。リストが自分で自分を手入れする。</li>
+        <li><strong>ε-探索</strong> — 毎回わざと未知・低データ・引退済みのソースを混ぜる。決定論こそが停滞の正体なので、構造的に揺らぎを入れる。</li>
+      </ol>
+      <h2>辺境スコアとは</h2>
+      <p>「アルゴリズムの中央からどれだけ遠いか」を一つの数字にしたもの。個人ドメイン・バイラル前・分野の縁・希少なソースを加点し、大手ドメイン・既にバズり済み・煽り語彙を減点する。各項目の理由はカードに表示される。感覚でチューニングできるよう、全部人間可読。</p>
+      <p class="hint">seedは出発点にすぎない。ソースを手で足したいなら <code>config/seeds.yaml</code> に書けばいい。でも書かなくても、放っておけば勝手に広がる。</p>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">frontier-radar · 公開リポジトリ · 機密はgit管理外 · GitHub Actionsで毎日更新</div></footer>
+
+<script src="app.js"></script>
+</body>
+</html>

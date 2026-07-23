@@ -1,0 +1,7 @@
+feedparser>=6.0
+requests>=2.31
+PyYAML>=6.0
+beautifulsoup4>=4.12
+# Optional: only used if ANTHROPIC_API_KEY is set (Japanese/English summaries).
+# The pipeline runs fine without it.
+anthropic>=0.40

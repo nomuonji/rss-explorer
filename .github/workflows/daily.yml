@@ -1,0 +1,65 @@
+name: daily-scan
+
+# Runs every morning (JST), and on demand. Also on push to main for quick testing.
+on:
+  schedule:
+    - cron: "0 22 * * *"   # 22:00 UTC = 07:00 JST
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ["pipeline/**", "config/**", ".github/workflows/**"]
+
+permissions:
+  contents: write     # to commit the evolved source memory back to the repo
+  pages: write        # to publish the site
+  id-token: write     # required by deploy-pages
+
+concurrency:
+  group: frontier-radar
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run the scan
+        env:
+          # OPTIONAL. Set this repo secret to get Japanese blurbs. Works fine without it.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m pipeline.run
+
+      - name: Commit evolved source memory
+        run: |
+          git config user.name  "frontier-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ site/data/
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+          else
+            git commit -m "scan: $(date -u +%Y-%m-%d) — evolve sources & digest"
+            git push
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: scan
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
