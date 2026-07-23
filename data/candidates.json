@@ -1630,14 +1630,15 @@
     },
     "blog.codeberg.org": {
       "referrers": [
-        "lobsters"
+        "lobsters",
+        "hackernews"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-23",
       "sample_url": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://blog.codeberg.org/feeds/all.atom.xml",
+      "checked": true,
+      "promoted": true
     },
     "scrapbox.io": {
       "referrers": [
@@ -2133,7 +2134,91 @@
       "feed": null,
       "checked": false,
       "promoted": false
+    },
+    "3emalak.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-07-23",
+      "sample_url": "https://www.3emalak.com/2026/07/get-adsense-approval-after-rejection.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "simonwillison.net": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-07-23",
+      "sample_url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "litco.ai": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-07-23",
+      "sample_url": "https://litco.ai/litigationbench",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "calv.info": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-07-23",
+      "sample_url": "https://calv.info/durable-objects-are-made-for-agents",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "willpenman.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-07-23",
+      "sample_url": "https://willpenman.com/4000-queries-to-4.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "kyrylo.org": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-07-23",
+      "sample_url": "https://kyrylo.org/software/2026/07/22/programming-experience-is-no-longer-a-moat.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "codeberg.org": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-07-23",
+      "sample_url": "https://codeberg.org/Codeberg/org/pulls/1254",
+      "feed": null,
+      "checked": false,
+      "promoted": false
     }
   },
-  "history": []
+  "history": [
+    {
+      "date": "2026-07-23",
+      "domain": "blog.codeberg.org",
+      "action": "promoted",
+      "detail": "referred by lobsters, hackernews"
+    }
+  ]
 }

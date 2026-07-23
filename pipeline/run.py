@@ -29,7 +29,7 @@ def _load_dotenv() -> None:
 
 _load_dotenv()
 
-from . import discovery, render, state
+from . import discovery, opml, render, state
 from .fetchers import discover_feed, fetch_source, item_id
 from .scoring import blend, distance_score, interest_score
 from .summarize import judge_items
@@ -223,6 +223,7 @@ def run():
     }
     render.write_digest(digest, meta)
     render.write_sources(sources, candidates)
+    meta["opml_feeds"] = opml.write_opml(sources)
 
     state.save_sources(sources)
     state.save_candidates(candidates)
