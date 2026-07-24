@@ -17,6 +17,7 @@ GROUPS = [
     ("日本語 / Japanese", {"ja"}),
     ("Tools for Thought", {"tools-for-thought", "interfaces", "local-first"}),
     ("Games / Experimental", {"gamedev", "experimental", "political"}),
+    ("Entertainment / Criticism", {"film", "music", "games", "anime", "fiction", "scifi", "criticism"}),
     ("Creative / Art / Curation", {"art", "craft", "design", "creative", "curation", "interviews"}),
     ("Ideas / Science / Culture", {"ideas", "philosophy", "science", "essays", "progress",
                                    "meta", "physics", "society", "books", "rigor", "culture",

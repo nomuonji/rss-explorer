@@ -1,20 +1,23 @@
 {
-  "generated": "2026-07-23T02:06:32Z",
+  "generated": "2026-07-24T03:12:04Z",
   "count": 40,
   "meta": {
-    "sources_total": 49,
+    "sources_total": 68,
     "counts": {
-      "seed": 48,
-      "active": 1
+      "seed": 64,
+      "active": 1,
+      "trial": 3
     },
-    "feeds_resolved_this_run": 10,
-    "discovered_this_run": [],
-    "graduated_this_run": [
-      "blog-codeberg-org"
+    "feeds_resolved_this_run": 12,
+    "discovered_this_run": [
+      "codeberg-org",
+      "cnn-co-jp",
+      "fortune-com"
     ],
+    "graduated_this_run": [],
     "retired_this_run": [],
-    "candidates_tracked": 192,
-    "items_seen_this_run": 1010,
+    "candidates_tracked": 286,
+    "items_seen_this_run": 1222,
     "items_judged": 0,
     "judge_enabled": false,
     "pinned": [],
@@ -22,18 +25,19 @@
   },
   "items": [
     {
-      "title": "More power for you – what a storage quota will bring",
+      "title": "なぜ死んだ虫はひっくり返るのか？ - ナゾロジー",
       "ja_title": null,
-      "url": "https://blog.codeberg.org/more-power-for-you-what-a-storage-quota-will-bring.html",
-      "source": "blog.codeberg.org",
-      "source_id": "blog-codeberg-org",
+      "url": "https://nazology.kusuguru.co.jp/archives/197867",
+      "source": "はてブ · 学び新着",
+      "source_id": "hatena-know",
       "tags": [
-        "discovered"
+        "ja",
+        "ideas"
       ],
-      "published": "2024-10-19T22:00:00Z",
-      "score": 0.6594,
-      "distance": 0.62,
-      "interest": 0.6989,
+      "published": "2026-07-22T09:08:49Z",
+      "score": 0.8109,
+      "distance": 0.7575,
+      "interest": 0.8644,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -41,51 +45,84 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)"
+        "idea / essay (+)",
+        "poses a question (+)",
+        "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "tl;dr? To make abuse prevention easier, we are applying some default storage limits on Codeberg. Free/libre software projects that need more will have to kindly request more resources . Dear Codeberg users, the title sounds like a contradiction, but that's exactly how we mean it.",
-      "explore": true
+      "excerpt": "真夏日に道を歩いていると、よく虫の亡骸を目にします。 そんなときに、こう思ったことはないでしょうか。 「なんで死んだ虫は、あお向けにひっくり返っているんだろう？」 そう、セミでもカナブンでも、ほとんどの虫があお向けの状態で死んでいます。 その気になるギモンを科学的に解決してみましょう。 目次 死んだ虫...",
+      "explore": false
     },
     {
-      "title": "Protecting our FLOSS commons from LLMs",
+      "title": "iPhoneの箱はなぜ無傷で届くのか､アップルが世界中に｢おとりの箱｣を送り続ける驚きの理由",
       "ja_title": null,
-      "url": "https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html",
-      "source": "blog.codeberg.org",
-      "source_id": "blog-codeberg-org",
+      "url": "https://toyokeizai.net/articles/-/952119?display=b",
+      "source": "はてブ · テクノロジー新着",
+      "source_id": "hatena-it",
       "tags": [
-        "discovered"
+        "ja",
+        "tech"
       ],
-      "published": "2026-07-22T22:00:00Z",
-      "score": 0.6481,
-      "distance": 0.7688,
-      "interest": 0.5273,
+      "published": "2026-07-23T22:59:45Z",
+      "score": 0.7786,
+      "distance": 0.7687,
+      "interest": 0.7884,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
         "off-centre domain (+)"
       ],
-      "reasons_interest": [],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
       "ja": null,
-      "excerpt": "In Brief: Two motions regarding \"artificial intelligence\" and Large Language Models (LLMs) were voted on among Codeberg e. V. members and passed. We are promising to not use any of your data to train LLM and explain what the planned Terms of Use change mean …",
-      "explore": true
+      "excerpt": "宅配便で届いたiPhoneやiMacの箱を開けるとき、中身が壊れているかもしれないと身構える人は、まずいないだろう。当たり前のように無傷で届く――その安心感は、実は膨大な検証の上に成り立っている。筆者は、その裏側を確かめる機会を得た。 アップルが製品の箱を研究・開発する「パッケージングラボ」に、日本のメディア...",
+      "explore": false
     },
     {
-      "title": "ウクライナのワイルドベリー倉庫攻撃は、なぜ意味のないエスカレーションだったのか",
+      "title": "From Frontier Models to Enterprise Execution: Why Kimi Partnership Matters Now",
       "ja_title": null,
-      "url": "https://finalvent.cocolog-nifty.com/fareastblog/2026/07/post-8138d3.html",
-      "source": "極東ブログ",
-      "source_id": "finalvent",
+      "url": "https://www.cloud-net.ai/news/from-frontier-models-to-enterprise-execution-why-cloudnet.ai’s-kimi-partnership-matters-now",
+      "source": "Hacker News (new, pre-viral)",
+      "source_id": "hackernews",
       "tags": [
-        "ja",
-        "essays",
-        "commentary"
+        "tech",
+        "frontier"
       ],
-      "published": "2026-07-21T15:00:00Z",
-      "score": 0.8141,
-      "distance": 0.8096,
-      "interest": 0.8186,
+      "published": "2026-07-24T01:12:46Z",
+      "score": 0.7757,
+      "distance": 0.8694,
+      "interest": 0.682,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)",
+        "pre-viral (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "",
+      "explore": false
+    },
+    {
+      "title": "Styrofoam Winos :: The Aquarium Drunkard Interview",
+      "ja_title": null,
+      "url": "https://aquariumdrunkard.com/2026/07/21/styrofoam-winos-the-aquarium-drunkard-interview/",
+      "source": "Aquarium Drunkard",
+      "source_id": "aquariumdrunkard",
+      "tags": [
+        "music",
+        "curation"
+      ],
+      "published": "2026-07-21T16:08:12Z",
+      "score": 0.7755,
+      "distance": 0.8024,
+      "interest": 0.7486,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -95,26 +132,368 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "日本語 (+)"
+        "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "ウクライナによるロシア国内のワイルドベリー倉庫への一連のドローン攻撃は、単なる軍事作戦ではなく、明確に誤ったエスカレーションだった。そしてこの動向は、ウクライナの大義そのものを毀損しつつある。 7月18日と21日から22日にかけて実施された...",
+      "excerpt": "Spend a few minutes talking with Styrofoam Winos and it becomes obvious why Any River feels so effortless. There are no fixed roles, no designated leader, and very little interest in conventional band hierarchy. Just three longtime friends following songs wherever they lead. We s",
       "explore": false
     },
     {
-      "title": "Can cells think?",
+      "title": "Why AI works worse in your language",
       "ja_title": null,
-      "url": "https://aeon.co/videos/why-we-should-think-of-intelligence-in-terms-of-goals-not-brains",
-      "source": "Aeon",
-      "source_id": "aeon",
+      "url": "https://artifipedia.com/blog/multilingual-ai",
+      "source": "Hacker News (new, pre-viral)",
+      "source_id": "hackernews",
       "tags": [
-        "ideas",
-        "philosophy"
+        "tech",
+        "frontier"
       ],
-      "published": "2026-07-22T10:01:00Z",
-      "score": 0.7696,
-      "distance": 0.7652,
-      "interest": 0.7741,
+      "published": "2026-07-24T01:51:54Z",
+      "score": 0.7739,
+      "distance": 0.8696,
+      "interest": 0.6782,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)",
+        "pre-viral (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "",
+      "explore": false
+    },
+    {
+      "title": "My excellent Conversation with Andrew Graham-Dixon",
+      "ja_title": null,
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/07/my-excellent-conversation-with-andrew-graham-dixon.html?utm_source=rss&utm_medium=rss&utm_campaign=my-excellent-conversation-with-andrew-graham-dixon",
+      "source": "Marginal Revolution",
+      "source_id": "marginalrev",
+      "tags": [
+        "economics",
+        "curation"
+      ],
+      "published": "2026-07-23T04:54:07Z",
+      "score": 0.7735,
+      "distance": 0.7634,
+      "interest": 0.7836,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Here is the audio, video, and transcript. From the episode summary: Tyler and Andrew discuss whether it was inevitable we’d rediscover Vermeer, how that vanishingly rare sect left its fingerprints all over his life, why the Met has misread its own Allegory of the Catholic Faith, ",
+      "explore": false
+    },
+    {
+      "title": "みんなはハヤカワの話題作『マイ・ボディ・オン・ザ・ムーン』を読んだか",
+      "ja_title": null,
+      "url": "https://anond.hatelabo.jp/20260724030326",
+      "source": "はてブ · 学び新着",
+      "source_id": "hatena-know",
+      "tags": [
+        "ja",
+        "ideas"
+      ],
+      "published": "2026-07-23T18:24:07Z",
+      "score": 0.7695,
+      "distance": 0.7674,
+      "interest": 0.7717,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "私は読んだ。だから、ハヤカワにめちゃくちゃ苦言を呈したい。 以下、矢野アロウ『マイボディ・オン・ザ・ムーン』についてのネガティブな感想と、これを『プロジェクト・ヘイル・メアリー』や『三体』に比肩すると誇大広告を打ったハヤカワに対する文句を述べるので、これから読む予定の人は気を付けてください（ネタバ...",
+      "explore": false
+    },
+    {
+      "title": "LLMの評価を性能に変える3つの行き先",
+      "ja_title": null,
+      "url": "https://zenn.dev/takkuhiro/articles/eval-to-improvement-survey",
+      "source": "Zenn",
+      "source_id": "zenn",
+      "tags": [
+        "ja",
+        "tech",
+        "tools"
+      ],
+      "published": "2026-07-21T22:20:05Z",
+      "score": 0.7688,
+      "distance": 0.7543,
+      "interest": 0.7832,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "LLMアプリやエージェントの評価についての記事は増えましたが、評価は測って終わりではありません。スコアやフィードバックを「どこに反映するか」で、その先の改善手法は大きく分岐します。 この記事は、評価シグナルをAIシステムの改善に繋げる手法を、行き先ごとに3つの系統に分けて俯瞰するサーベイです。 モデルの重みに反映する（RLHF、RLAIF、RLVR） プロンプトに反映する（DSPy、GEPA、TextGrad） 実行時のコンテキストに反映する（Reflexion、経験メモリ、Agent-as-a-Judge） どの系統を選ぶかで必要なデータ量・コスト構造",
+      "explore": false
+    },
+    {
+      "title": "Ryuichi Sakamoto :: Beauty",
+      "ja_title": null,
+      "url": "https://aquariumdrunkard.com/2026/07/23/ryuichi-sakamoto-beauty/",
+      "source": "Aquarium Drunkard",
+      "source_id": "aquariumdrunkard",
+      "tags": [
+        "music",
+        "curation"
+      ],
+      "published": "2026-07-23T12:18:00Z",
+      "score": 0.7612,
+      "distance": 0.7656,
+      "interest": 0.7569,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Guided by an adherence to a philosophy of \"outernationalism\", Japanese composer Ryuichi Sakamoto's overlooked 1989 record Beauty concluded a pivotal decade of transnational works and collaborations. An audio patchwork tapestry that defies \"world music\" in its modern conventions, ",
+      "explore": false
+    },
+    {
+      "title": "第38回：サブスク84社に調査、ユーザー没後の解約対応はなぜ後手に回るのか？【天国へのプロトコル】",
+      "ja_title": null,
+      "url": "https://internet.watch.impress.co.jp/docs/column/tengoku/2127358.html",
+      "source": "はてブ · テクノロジー新着",
+      "source_id": "hatena-it",
+      "tags": [
+        "ja",
+        "tech"
+      ],
+      "published": "2026-07-23T23:28:13Z",
+      "score": 0.7607,
+      "distance": 0.7689,
+      "interest": 0.7525,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)",
+        "thin (−)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "",
+      "explore": false
+    },
+    {
+      "title": "The Corporate Creep of Plex: Why it may be time to move to Jellyfin",
+      "ja_title": null,
+      "url": "https://reprodev.com/the-corporate-creep-of-plex-why-it-may-be-time-to-move-to-jellyfin-and-the-open-source-reality/",
+      "source": "Hacker News (new, pre-viral)",
+      "source_id": "hackernews",
+      "tags": [
+        "tech",
+        "frontier"
+      ],
+      "published": "2026-07-24T02:18:23Z",
+      "score": 0.7595,
+      "distance": 0.8697,
+      "interest": 0.6494,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)",
+        "pre-viral (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "",
+      "explore": false
+    },
+    {
+      "title": "白黒のコマになぜ色が見えるのか 200年の謎をAIが解明 | Forbes JAPAN 公式サイト（フォーブス ジャパン）",
+      "ja_title": null,
+      "url": "https://forbesjapan.com/articles/detail/101363",
+      "source": "はてブ · テクノロジー新着",
+      "source_id": "hatena-it",
+      "tags": [
+        "ja",
+        "tech"
+      ],
+      "published": "2026-07-23T04:09:28Z",
+      "score": 0.7591,
+      "distance": 0.7631,
+      "interest": 0.7551,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "上面に白と黒のパターンが描かれたコマを回転させると、そこにあるはずのない色が浮かんで見える「ベンハムのコマ」をご存知だろうか。この現象は1826年に発見され、1894年に発明家チャールズ・ベンハムがその原理を利用して開発し発売した玩具だ。発見当初は、網膜や視覚経路における時間応答の違いなどによる作用だと...",
+      "explore": false
+    },
+    {
+      "title": "iPhoneの箱はなぜ無傷で届くのか､アップルが世界中に｢おとりの箱｣を送り続ける驚きの理由",
+      "ja_title": null,
+      "url": "https://toyokeizai.net/articles/-/952119",
+      "source": "はてブ · テクノロジー新着",
+      "source_id": "hatena-it",
+      "tags": [
+        "ja",
+        "tech"
+      ],
+      "published": "2026-07-23T10:43:10Z",
+      "score": 0.7587,
+      "distance": 0.7651,
+      "interest": 0.7523,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "コンテンツブロックが有効であることを検知しました。 このサイトを利用するには、コンテンツブロック機能（広告ブロック機能を持つ拡張機能等）を無効にしてページを再読み込みしてください。 なお、Microsoft Edgeをご利用のお客様はプライバシー設定が影響している可能性があるため「追跡防止を有効にする」の設定を...",
+      "explore": false
+    },
+    {
+      "title": "昔は『マネージャーはちゃんと叱れ』と言われていたが、今はどうなのか",
+      "ja_title": null,
+      "url": "https://blog.tinect.jp/?p=91268",
+      "source": "Books&Apps",
+      "source_id": "tinect",
+      "tags": [
+        "ja",
+        "essays"
+      ],
+      "published": "2026-06-29T23:26:19Z",
+      "score": 0.7586,
+      "distance": 0.62,
+      "interest": 0.8972,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "こんにちは、しんざきです。 今日書きたいことは、大体以下のようなことです。 &#160; ・昔、「お前は部下を叱れない」と上司から何度も怒られました ・確かに「叱責」とか「注意」はとても苦手で、今でもあまりできません ・(...) こんな記事も読まれています この会社はたぶん、遠からず潰れるだろう 「プロ被害者上司」に怒っている件について あの日、父がラーメンを食べなかった理由 「努力する人」と「努力できない人」の6つの大きなちがい 尊敬する上司に教えてもらった、「仕事を任されたら何をすべきか」8箇条",
+      "explore": false
+    },
+    {
+      "title": "What Do You Have to Hide?",
+      "ja_title": null,
+      "url": "https://www.honest-broker.com/p/what-do-you-have-to-hide",
+      "source": "Ted Gioia · The Honest Broker",
+      "source_id": "honestbroker",
+      "tags": [
+        "music",
+        "criticism",
+        "culture"
+      ],
+      "published": "2026-07-21T17:00:56Z",
+      "score": 0.7576,
+      "distance": 0.8027,
+      "interest": 0.7126,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)",
+        "scarce source (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)"
+      ],
+      "ja": null,
+      "excerpt": "A conversation with Lowry Pressly on why we need privacy as part of the good life",
+      "explore": false
+    },
+    {
+      "title": "The Two Faces of Commerce",
+      "ja_title": null,
+      "url": "https://jonathanrosenbaum.net/2026/07/the-two-faces-of-commerce/",
+      "source": "Jonathan Rosenbaum",
+      "source_id": "rosenbaum",
+      "tags": [
+        "film",
+        "criticism"
+      ],
+      "published": "2026-07-23T05:00:00Z",
+      "score": 0.752,
+      "distance": 0.7634,
+      "interest": 0.7406,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "From The Soho News (July 8, 1981). From today&#8217;s vantage point (fall 2016), I think I was much too needlessly unkind here to Blake Edwards, not to mention Paul Schrader. But I would add that part of my charge against S.O. B. would apply equally well to The Player : the alleg",
+      "explore": false
+    },
+    {
+      "title": "Why are American ambulances so expensive?  In part...",
+      "ja_title": null,
+      "url": "https://kottke.org/26/07/0049375-why-are-american-ambulanc",
+      "source": "kottke.org",
+      "source_id": "kottke",
+      "tags": [
+        "curation",
+        "culture"
+      ],
+      "published": "2026-07-23T17:17:00Z",
+      "score": 0.7514,
+      "distance": 0.767,
+      "interest": 0.7359,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -126,52 +505,23 @@
         "poses a question (+)"
       ],
       "ja": null,
-      "excerpt": "Inside the lab of a biologist who is seeking to understand intelligence by focusing on problem-solving, not neurons - by Aeon Video Watch on Aeon",
+      "excerpt": "Why are American ambulances so expensive? In part because Medicare pays only a fraction of the actual cost of an ambulance ride and the uninsured often don’t pay at all, so the privately insured get bills of $13,000 for a $2600 ride.",
       "explore": false
     },
     {
-      "title": "はてなブログAndroidアプリのエディタ実装",
+      "title": "Global Discoveries on DVD: Fantasies and Favorites",
       "ja_title": null,
-      "url": "https://developer.hatenastaff.com/entry/2026/07/08/121044",
-      "source": "Hatena Developer Blog",
-      "source_id": "hatelabo-dev",
+      "url": "https://jonathanrosenbaum.net/2026/07/global-discoveries-on-dvd-fantasies-and-favorites-tk/",
+      "source": "Jonathan Rosenbaum",
+      "source_id": "rosenbaum",
       "tags": [
-        "ja",
-        "tech"
+        "film",
+        "criticism"
       ],
-      "published": "2026-07-08T03:10:44Z",
-      "score": 0.758,
-      "distance": 0.7132,
-      "interest": 0.8029,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "scarce source (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "はじめに こんにちは、アプリケーションエンジニアの id:jj1uzh です。 Recomposing Hatena Blog for Androidは、昨2025年にリニューアルされたはてなブログAndroidアプリにまつわる開発体験や技術詳細を解説するブログシリーズです。 前回は「Webエンジニアが半年Androidアプリ開発をやってみて感じたこと」でした。私もWebのみの経験からAndroidを始めたので、共感しながら読みました。 今回はアプリの実装に踏み込んで、ブログアプリの根幹であるエディタについて以下の観点で紹介します。 WebViewを用い",
-      "explore": false
-    },
-    {
-      "title": "最近の大人は、お金の話ばかりしている。",
-      "ja_title": null,
-      "url": "https://blog.tinect.jp/?p=91251",
-      "source": "Books&Apps",
-      "source_id": "tinect",
-      "tags": [
-        "ja",
-        "essays"
-      ],
-      "published": "2026-06-23T23:05:58Z",
-      "score": 0.7549,
-      "distance": 0.62,
-      "interest": 0.8897,
+      "published": "2026-07-17T05:00:00Z",
+      "score": 0.7501,
+      "distance": 0.7205,
+      "interest": 0.7797,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -180,87 +530,54 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "long-form (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "みんなお金の話ばかりしている 最近、同僚と話していると、すぐにお金の話になる。 あるいは、電車でひどく熱心にスマホをのぞきこんでいる中年男性の画面がちらっと目に入る。 &#160; スマホの画面では、YouTuberが、(...) こんな記事も読まれています 「プロ被害者上司」に怒っている件について 人当たりがいいのに「実はものすごく怖い人たち」の話。 今週の人気 医者の僕でも、コロナウイルスをナメていたが、間違っていた。 著者プロフィール",
-      "explore": false
-    },
-    {
-      "title": "デジタル・クラフト",
-      "ja_title": null,
-      "url": "https://rashita.net/blog/?%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E3%83%BB%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88",
-      "source": "R-style（倉下忠憲）",
-      "source_id": "rashita",
-      "tags": [
-        "ja",
-        "tools-for-thought",
-        "writing"
-      ],
-      "published": "2026-07-03T07:38:24Z",
-      "score": 0.7513,
-      "distance": 0.6788,
-      "interest": 0.8239,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "scarce source (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "自分でツールをつくっている、という話をするとき、「自作ツールづくり」みたいな言い方になってしまうことがある。なんだか「腹痛が痛い」みたいな感じだ。もうちょっとシュッとした言い方がよい。 とは言え、「クリエイト・クリエーション」だと何か芸術的な感じがしてしまうし、「メイク」はメイカーブームでものづくり感が紐付いてしまった。 というわけで、「クラフト」だ。これなら手仕事感・DIY感がある。開発というよりも、もっと手近な営みを指し示すことができそうだ。",
-      "explore": false
-    },
-    {
-      "title": "What makes a good human interface?",
-      "ja_title": null,
-      "url": "https://thesephist.com/posts/dm/",
-      "source": "Linus Lee · thesephist",
-      "source_id": "thesephist",
-      "tags": [
-        "tools-for-thought",
-        "maker"
-      ],
-      "published": "2024-08-03T06:29:24Z",
-      "score": 0.742,
-      "distance": 0.67,
-      "interest": 0.814,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "scarce source (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "When I discuss interfaces on this blog, I’m most often referring to software interfaces: intermediating mechanisms from our human intentions to computers and the knowledge within them. But the concept of a human interface extends far before it and beyond it. I&rsquo;ve been tryin",
+      "excerpt": "&#160;From Cinema Scope #73, Winter 2017/2018. &#8212; J.R. Circa 1978, while I was living in a San Diego suburb and teaching a film course, I wrote a letter to Dr. Seuss (Ted Geisel), who lived in another San Diego suburb, inviting him to come to my class and talk about The 5,00",
       "explore": false
     },
     {
-      "title": "部屋を片付けられないやつはプロに頼れ",
+      "title": "Why Do We Tell Ourselves Scary Stories About AI?",
       "ja_title": null,
-      "url": "https://blog.tinect.jp/?p=91335",
+      "url": "https://nautil.us/why-do-we-tell-ourselves-scary-stories-about-ai-1282920/",
+      "source": "Nautilus",
+      "source_id": "nautilus",
+      "tags": [
+        "science",
+        "essays"
+      ],
+      "published": "2026-07-23T14:00:00Z",
+      "score": 0.7473,
+      "distance": 0.7661,
+      "interest": 0.7285,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)"
+      ],
+      "ja": null,
+      "excerpt": "Our tales of AI developing the will to survive, commandeer resources, and manipulate people say more about us than they do about language models. The post Why Do We Tell Ourselves Scary Stories About AI? appeared first on Nautilus .",
+      "explore": false
+    },
+    {
+      "title": "頭のわるい人が、良く考えずに言ってしまうこと",
+      "ja_title": null,
+      "url": "https://blog.tinect.jp/?p=91259",
       "source": "Books&Apps",
       "source_id": "tinect",
       "tags": [
         "ja",
         "essays"
       ],
-      "published": "2026-07-20T23:10:20Z",
-      "score": 0.74,
-      "distance": 0.7548,
-      "interest": 0.7253,
+      "published": "2026-07-21T23:56:40Z",
+      "score": 0.7467,
+      "distance": 0.7547,
+      "interest": 0.7387,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -272,50 +589,23 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "部屋を片付けられない人間 おれは「片付けられない人間」だ。世の中の人間を片付けられる人間と片付けられない人間に分けたら確実に後者。普通に片付けられる人間を100とすれば、おれはマイナス100だ。そんな人間の言い分は以前書(...) こんな記事も読まれています 「話のわかりやすい人」と「わかりにくい人」のちがい エリートサラリーマンに、異次元のリテラシーを見た 40歳になってようやくわかる8つのこと。 大学の恩師に教わった、「なにがわからないか、わからない」ときの質問のしかた。 医者の僕でも、コロナウイルスをナメていたが、間違っていた。",
+      "excerpt": "「頭のいい人が話す前に考えていること」という本を、3年ほど前に書いた。 今回は、これに関して少々、付加的な話題を取り上げてみたい。 &#160; この本の最大のポイントは、 「頭が良い」とはどういうことか？ という質問に(...) こんな記事も読まれています 「センスがない」人に、救いはあるのか。 面倒な人の欲求を「察してあげる」と、増長してさらに扱いづらくなる もうすぐ50歳だが、もう一度、恋をしたい。 40歳になってようやくわかる8つのこと。 片付けられない人間の言い分を聞いてくれ",
       "explore": false
     },
     {
-      "title": "I have lived more than two score and twelve years on this...",
+      "title": "【大原雄介の半導体業界こぼれ話】 中国の世界最速スパコン「LineShine」を考察する",
       "ja_title": null,
-      "url": "https://kottke.org/26/07/0049366-there-are-two-copies-of-t",
-      "source": "kottke.org",
-      "source_id": "kottke",
-      "tags": [
-        "curation",
-        "culture"
-      ],
-      "published": "2026-07-22T16:24:00Z",
-      "score": 0.7374,
-      "distance": 0.7671,
-      "interest": 0.7078,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "I have lived more than two score and twelve years on this Earth and somehow I didn’t know that there are two copies of the Gettysburg Address written in Lincoln’s own hand in the Smithsonian ( and five overall ).",
-      "explore": false
-    },
-    {
-      "title": "はてなブログのAndroidアプリにおけるはてなスター機能の実装",
-      "ja_title": null,
-      "url": "https://developer.hatenastaff.com/entry/2026/07/17/142424",
-      "source": "Hatena Developer Blog",
-      "source_id": "hatelabo-dev",
+      "url": "https://pc.watch.impress.co.jp/docs/column/tidbit/2127484.html",
+      "source": "はてブ · テクノロジー新着",
+      "source_id": "hatena-it",
       "tags": [
         "ja",
         "tech"
       ],
-      "published": "2026-07-17T05:24:24Z",
-      "score": 0.7305,
-      "distance": 0.7281,
-      "interest": 0.7329,
+      "published": "2026-07-23T23:22:28Z",
+      "score": 0.7384,
+      "distance": 0.7689,
+      "interest": 0.7079,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -324,26 +614,27 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
+        "thin (−)",
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "こんにちは、アプリケーションエンジニアの id:walnuts1018 です。 この記事は、昨年リニューアルされたはてなブログ Android アプリにまつわる開発体験や技術詳細を解説する連載 Recomposing Hatena Blog for Android の第三弾です。前回の記事は id:jj1uzh さんの はてなブログAndroidアプリのエディタ実装 でした。エディタ周りがうまく抽象化されていたおかげで初心者の私でも実装に取り組みやすく、とても助かった覚えがあります。 今回は、購読中のブログ記事画面において、はてなスターをアプリでつけられ",
+      "excerpt": "",
       "explore": false
     },
     {
-      "title": "Oh wow, The Verge made  a 70-minute video on how The...",
+      "title": "Home - Playing with code",
       "ja_title": null,
-      "url": "https://kottke.org/26/07/0049377-a-70-minute-video-on-how-",
-      "source": "kottke.org",
-      "source_id": "kottke",
+      "url": "https://haqr.eu/tinyrenderer/",
+      "source": "はてブ · テクノロジー新着",
+      "source_id": "hatena-it",
       "tags": [
-        "curation",
-        "culture"
+        "ja",
+        "tech"
       ],
-      "published": "2026-07-22T22:20:00Z",
-      "score": 0.7298,
-      "distance": 0.7689,
-      "interest": 0.6907,
+      "published": "2026-07-23T12:46:47Z",
+      "score": 0.7322,
+      "distance": 0.7657,
+      "interest": 0.6986,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -354,24 +645,23 @@
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "Oh wow, The Verge made a 70-minute video on how The Clapper became a viral sensation . When I was a kid, we didn’t have a Clapper, no one I knew had one, and I couldn’t understand why every single household didn’t have one of these magical devices.",
+      "excerpt": "Software rendering in 500 lines of bare C++ In this series of articles, I aim to demonstrate how OpenGL, Vulkan, Metal, and DirectX work by writing a simplified clone from scratch. Surprisingly, many people struggle with the initial hurdle of learning a 3D graphics API. To help w",
       "explore": false
     },
     {
-      "title": "アウトライン操作について",
+      "title": "Alex Tabarrok on the Economic Analysis of Crime",
       "ja_title": null,
-      "url": "https://rashita.net/blog/?%E3%82%A2%E3%82%A6%E3%83%88%E3%83%A9%E3%82%A4%E3%83%B3%E6%93%8D%E4%BD%9C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
-      "source": "R-style（倉下忠憲）",
-      "source_id": "rashita",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/07/alex-tabarrok-on-the-economic-analysis-of-crime.html?utm_source=rss&utm_medium=rss&utm_campaign=alex-tabarrok-on-the-economic-analysis-of-crime",
+      "source": "Marginal Revolution",
+      "source_id": "marginalrev",
       "tags": [
-        "ja",
-        "tools-for-thought",
-        "writing"
+        "economics",
+        "curation"
       ],
-      "published": "2026-07-11T09:06:36Z",
-      "score": 0.7284,
-      "distance": 0.6864,
-      "interest": 0.7704,
+      "published": "2026-07-23T11:20:42Z",
+      "score": 0.7295,
+      "distance": 0.7653,
+      "interest": 0.6938,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -379,28 +669,26 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
+        "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "汎用型ツールの話しとしてはじめたうちあわせCastの第百九十三回で「アウトライン操作」の話が出てきた。 第百九十三回：Tak.さんと汎用ツールと専用ツールについて - 知的生産の技術 以下の記事も参考になる。",
+      "excerpt": "I tell my Gary Becker story, why I like police more than prisons, how criminals are like children and more. The post Alex Tabarrok on the Economic Analysis of Crime appeared first on Marginal REVOLUTION .",
       "explore": false
     },
     {
-      "title": "AIに「レビューして」はもう古い？「敵対的検証」のすすめ",
+      "title": "体にいい魚の缶詰　栄養価が高い「ビッグ5」の魚、トップは？",
       "ja_title": null,
-      "url": "https://zenn.dev/loglass/articles/6aa18c80496ec6",
-      "source": "Zenn",
-      "source_id": "zenn",
+      "url": "https://natgeo.nikkeibp.co.jp/atcl/news/26/072200410/",
+      "source": "はてブ · 学び新着",
+      "source_id": "hatena-know",
       "tags": [
         "ja",
-        "tech",
-        "tools"
+        "ideas"
       ],
-      "published": "2026-07-17T05:56:17Z",
-      "score": 0.7224,
-      "distance": 0.7283,
-      "interest": 0.7165,
+      "published": "2026-07-22T21:14:03Z",
+      "score": 0.7293,
+      "distance": 0.7611,
+      "interest": 0.6975,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -412,23 +700,81 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "! この記事は毎週必ず記事がでるテックブログ Loglass Tech Blog Sprint の152週目の記事です！ 3年間連続達成まで残り7週となりました！ こんにちは、ログラスの松岡(@little_hand_s)です。 3行まとめ 「レビューして」でも指摘は返ってくる。「敵対的検証して」は課題がある前提で反証を試み、判定と根拠まで返してくるのが違い 敵対的検証はClaude Code公式も推奨するパターン。筆者のClaude Code環境では、一言でサブエージェントによる多視点検証が走った 指摘は鵜呑みにしない。採否を決めるのは人間。この記事自",
+      "excerpt": "魚の缶詰を食べれば、オメガ3脂肪酸やタンパク質などをたっぷり摂取できる。（REBECCA HALE, NATIONAL GEOGRAPHIC） 栄養の専門家は、加工食品よりも新鮮で加工されていない食品を勧めることが多いが、魚の缶詰は例外だ。 「魚の缶詰は単一の栄養素を単独で供給するものではなく、完全な食品なのです」と登録栄養士のコ...",
       "explore": false
     },
     {
-      "title": "Loitering towards war",
+      "title": "私にとって読書とはゲームだった！──『本とは何か』感想文2",
       "ja_title": null,
-      "url": "https://aeon.co/essays/viennas-cafes-inspired-poets-belgrades-bred-dissent",
+      "url": "https://p-shirokuma.hatenadiary.com/entry/20260706/1783332000",
+      "source": "シロクマの屑籠",
+      "source_id": "shirokuma",
+      "tags": [
+        "ja",
+        "essays",
+        "society"
+      ],
+      "published": "2026-07-06T10:00:00Z",
+      "score": 0.7278,
+      "distance": 0.6435,
+      "interest": 0.8121,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "昨日書いた難波優輝『本とは何か』の読書感想文の続き……というより、こちらが本体にあたります。 1995年頃、のちに有名になっていく『エースコンバット』シリーズの前身にあたる『エアーコンバット22』という大型筐体の空戦ゲームを毎日遊んでいた時期があった。戦闘機でイライラ棒や火の輪くぐりをさせられる『エースコンバット』とは違って、この『エアーコンバット22』では自由に大空を飛び回って好きなプレイをやって構わない。 そこはそれ、アーケードゲームだから難易度は高く、はじめは戦闘機を真っ直ぐ飛ばすのも難しい。けれども慣れてきて、ゲーム内のノルマを楽々とこなせる頃に",
+      "explore": false
+    },
+    {
+      "title": "生還率0.34% 美化しない戦争映画「ペリリュー　楽園のゲルニカ」レビュー",
+      "ja_title": null,
+      "url": "https://www.animekansou.com/peleliu.html",
+      "source": "アニるっ！（アニメ感想）",
+      "source_id": "animekansou",
+      "tags": [
+        "ja",
+        "anime",
+        "criticism"
+      ],
+      "published": "2026-07-19T10:34:47Z",
+      "score": 0.7209,
+      "distance": 0.7865,
+      "interest": 0.6553,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)",
+        "scarce source (+)"
+      ],
+      "reasons_interest": [
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "評価 ★★★★☆(75点) 全106分 『ペリリュー ー楽園のゲルニカー』本予告／12月5日(金)公開 あらすじ 太平洋戦争末期の昭和19年、21歳の日本兵・田丸均は、南国の美しい島・ペリリュー島にいた。漫画家志望の田丸 [&#8230;]",
+      "explore": false
+    },
+    {
+      "title": "The savage bites back",
+      "ja_title": null,
+      "url": "https://aeon.co/essays/anthropophagy-art-flips-the-cannibal-worries-of-colonialism",
       "source": "Aeon",
       "source_id": "aeon",
       "tags": [
         "ideas",
         "philosophy"
       ],
-      "published": "2026-07-16T10:00:00Z",
-      "score": 0.7183,
-      "distance": 0.7223,
-      "interest": 0.7142,
+      "published": "2026-07-23T10:00:00Z",
+      "score": 0.7195,
+      "distance": 0.7649,
+      "interest": 0.6741,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -439,169 +785,23 @@
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "While Vienna’s coffeehouses bred modernism, in Belgrade’s kafanas grew conspiracy and rage. Their clash consumed Europe - by Anton Cebalo Read on Aeon",
+      "excerpt": "Rooted in Brazilian modernism, anthropophagy devours and transforms culture, subverting colonial fears of cannibalism - by Sofia Cándano Read on Aeon",
       "explore": false
     },
     {
-      "title": "16 questions posed & answered by Leslie Berlin's book \"Troublemakers: Silicon Valley's Coming of Age\"",
+      "title": "Should robots be considered as slaves?",
       "ja_title": null,
-      "url": "https://guzey.com/books/troublemakers/",
-      "source": "Alexey Guzey",
-      "source_id": "guzey",
-      "tags": [
-        "science",
-        "meta"
-      ],
-      "published": "0001-01-01T00:00:00Z",
-      "score": 0.7154,
-      "distance": 0.67,
-      "interest": 0.7608,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "scarce source (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Bob Taylor &amp; Xerox PARC who does the most interesting work in the field? Graduate students, Taylor felt, did the most interesting work in the field. why is scarcity helpful for community building? To Taylor’s surprise, many students told him that the time-sharing computers ha",
-      "explore": false
-    },
-    {
-      "title": "リアリティショー化された戦争／オンライン演説のナラティブについて",
-      "ja_title": null,
-      "url": "https://shiba710.hateblo.jp/entry/2022/03/24/011021",
-      "source": "日々の音色とことば",
-      "source_id": "shiba710",
-      "tags": [
-        "ja",
-        "music",
-        "criticism"
-      ],
-      "published": "2022-03-23T16:10:21Z",
-      "score": 0.7134,
-      "distance": 0.62,
-      "interest": 0.8069,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "3月23日。ウクライナのゼレンスキー大統領の日本の国会での初めてのオンライン演説を聞いた。移動中だったので電車の中でYouTubeのライブ配信を見た。 youtu.be 正直な感想として「これはすごい」と心底思った。今、アメリカやヨーロッパやいろんな国で起きている情動のさざ波のようなものの一端に触れた気がした。 言葉はとても強い力を持っている。それは実際に人を動かす。人は誰しもそれぞれの物語の中を生きていて、そのナラティブが折り重なっていく中で歴史が形作られる。 また、語りは言葉の持つ力を増幅させる。どんな声で、どんな口調で語られるのか。声に宿るトーンは",
-      "explore": false
-    },
-    {
-      "title": "ハッピー・ハードコア漫才としてのヨネダ2000「餅つき」",
-      "ja_title": null,
-      "url": "https://shiba710.hateblo.jp/entry/2022/12/24/211326",
-      "source": "日々の音色とことば",
-      "source_id": "shiba710",
-      "tags": [
-        "ja",
-        "music",
-        "criticism"
-      ],
-      "published": "2022-12-24T12:13:26Z",
-      "score": 0.7126,
-      "distance": 0.62,
-      "interest": 0.8052,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "今年も『M-1グランプリ』面白かった！ なんだかんだで忙しくて直後に感想書けなくてもうすっかり時間が経ってしまったんだけど、それでもブログに書いておこう。ヨネダ2000の「餅つき」のネタがBPM160であることの“意味”について。 www.youtube.com 抜群に面白かったです。僕は劇場に足を運ぶほどのコアなお笑いファンではないけれど、去年から「すごいのがいる」という噂は伝わってきて。で、THE Wに続いてM-1で観て、すっかりファンになってしまった。 直後の感想はこれ。 ヨネダ2000、抜群に面白かった。ミニマルテクノ！ — 柴 那典 (@shi",
-      "explore": false
-    },
-    {
-      "title": "Rediscovering the Handcart",
-      "ja_title": null,
-      "url": "https://solar.lowtechmagazine.com/2026/04/rediscovering-the-handcart/",
-      "source": "Low←Tech Magazine",
-      "source_id": "lowtech",
-      "tags": [
-        "tech",
-        "sustainability",
-        "contrarian"
-      ],
-      "published": "2026-04-22T00:00:00Z",
-      "score": 0.7101,
-      "distance": 0.67,
-      "interest": 0.7502,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "scarce source (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Image: The handcart, equipped with a sail. Photo by Kris De Decker. The human-powered handcart is the oldest of vehicles, and it will likely be the last one around in the future. Of all vehicles, it&rsquo;s the cheapest and least complex to build and use. It offers a large advant",
-      "explore": false
-    },
-    {
-      "title": "権力論として読む『エレガンス入門』",
-      "ja_title": null,
-      "url": "https://p-shirokuma.hatenadiary.com/entry/20260621/1782027000",
-      "source": "シロクマの屑籠",
-      "source_id": "shirokuma",
-      "tags": [
-        "ja",
-        "essays",
-        "society"
-      ],
-      "published": "2026-06-21T07:30:00Z",
-      "score": 0.7077,
-      "distance": 0.62,
-      "interest": 0.7953,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "エレガンス入門 (ちくまプリマー新書)作者:中野香織筑摩書房Amazon 『エレガンス入門』という本から私がもらったインスピレーションを、今日はブログに書いてみたい。 はじめに、この『エレガンス入門』について短く紹介してみる。 この本は、その名のとおりエレガンスとは何かを解説・解読していく本だ。エレガンスとかエレガントって、ちょっとわかりにくい言葉だと思う。ゴージャスなら「豪華」って言葉が当てはまるだろうしノーブルだったら「高貴」って言葉が当てはまるだろう。でもエレガンスってそれらとはちょっと異なるニュアンスだけど、ちょうど良い日本語がなかなか思い浮かば",
-      "explore": false
-    },
-    {
-      "title": "Curl Noise",
-      "ja_title": null,
-      "url": "https://emildziewanowski.com/curl-noise/",
+      "url": "https://www.optimallyirrational.com/p/should-robots-be-considered-as-slaves",
       "source": "Hacker News (new, pre-viral)",
       "source_id": "hackernews",
       "tags": [
         "tech",
         "frontier"
       ],
-      "published": "2026-07-23T01:04:23Z",
-      "score": 0.7071,
-      "distance": 0.8697,
-      "interest": 0.5445,
+      "published": "2026-07-24T02:53:18Z",
+      "score": 0.7174,
+      "distance": 0.8699,
+      "interest": 0.565,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -609,52 +809,27 @@
         "off-centre domain (+)",
         "pre-viral (+)"
       ],
-      "reasons_interest": [],
+      "reasons_interest": [
+        "poses a question (+)"
+      ],
       "ja": null,
       "excerpt": "",
       "explore": false
     },
     {
-      "title": "Wikipedia for Mundane People and Events",
+      "title": "「キリスト教は先祖を救えるの？（ザビエルを日本人が論破）」が毎回話題だから「ゲルマン酋長のラドボドが先にその結論に到達してたよ」を持ち帰ってください - INVISIBLE Dojo.　ーQUIET & COLORFUL PLACE-",
       "ja_title": null,
-      "url": "https://minipedia.org/",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
-      "tags": [
-        "tech",
-        "frontier"
-      ],
-      "published": "2026-07-23T01:03:07Z",
-      "score": 0.7065,
-      "distance": 0.8697,
-      "interest": 0.5432,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
-      ],
-      "reasons_interest": [],
-      "ja": null,
-      "excerpt": "",
-      "explore": false
-    },
-    {
-      "title": "作品にベタ・メタに向き合うことと、「いわゆる上等な作品鑑賞態度」について",
-      "ja_title": null,
-      "url": "https://p-shirokuma.hatenadiary.com/entry/20260305/1772710200",
-      "source": "シロクマの屑籠",
-      "source_id": "shirokuma",
+      "url": "https://m-dojo.hatenadiary.com/entry/2026/07/23/042340",
+      "source": "はてブ · 学び新着",
+      "source_id": "hatena-know",
       "tags": [
         "ja",
-        "essays",
-        "society"
+        "ideas"
       ],
-      "published": "2026-03-05T11:30:00Z",
-      "score": 0.7054,
-      "distance": 0.62,
-      "interest": 0.7908,
+      "published": "2026-07-23T00:34:27Z",
+      "score": 0.7165,
+      "distance": 0.7621,
+      "interest": 0.6708,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -662,17 +837,17 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)",
+        "poses a question (+)",
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "最近、エヴァンゲリオン30周年のことがあったりして、アニメに対する視聴態度とか、アニメに対する批評的態度について思い出す機会が重なった。私がどうアニメを観るようになったのか、それが私自身を形成するうえでどう大事だったのかを思い出す機会になった。批評家の藤田先生からいただいた以下のポストが特に良いトリガーになったので、少し考えを広げてみたい。 ぼくも『エヴァンゲリオン』世代、「シンジくんはぼくだ！」的な癒着していた世代ですが、同時に「これはただのアニメ」「キャラクターにすぎない」「現実に帰れ」的なメタな意識と突き放しが同居していたと思うんですよ。その二重性",
+      "excerpt": "SNS上で、またザビエルと日本人というシチュエーション（しかも元資料から微妙に改変）で議論になっていた。 このテーマ自体は何度も論じられてるし、自分も好きというか興味はあっていろいろ資料を持っている。 実は新ネタもあるが、資料をファイルにぶっこんでたら見つからなくなった（笑）あとでさがす。 だが、この...",
       "explore": false
     },
     {
-      "title": "フロントエンドに広がりつつある OpenTelemetry：Browser SDK の現在地",
+      "title": "Go の設計、どこまでやる？〜小さく作って、壊さず育てる〜",
       "ja_title": null,
-      "url": "https://zenn.dev/cybozu_frontend/articles/opentelemetry-browser-frontend",
+      "url": "https://zenn.dev/135yshr/books/go-service-design",
       "source": "Zenn",
       "source_id": "zenn",
       "tags": [
@@ -680,10 +855,10 @@
         "tech",
         "tools"
       ],
-      "published": "2026-07-21T00:56:04Z",
-      "score": 0.7054,
-      "distance": 0.7554,
-      "interest": 0.6554,
+      "published": "2026-07-23T03:08:48Z",
+      "score": 0.7148,
+      "distance": 0.7628,
+      "interest": 0.6669,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -691,161 +866,56 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
+        "poses a question (+)",
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "OpenTelemetry と聞くと、サーバーサイドのトレースやメトリクスを集めるためのもの、という印象を持っている人は多いと思います。実際、バックエンドでは OpenTelemetry を使った計装をよく見かけるようになりました。 一方で、フロントエンドの監視は Sentry や Datadog のような SaaS の SDK に任せることが多く、OpenTelemetry をブラウザの計装に利用する場面はまだ少ないです。ただ、最近は OpenTelemetry のブラウザ向け SDK の開発が進んでおり、この状況も少しずつ変わりはじめています。 この",
+      "excerpt": "「クリーンアーキテクチャというアーキテクチャはない」——大事なのは図の形を真似ることではなく、依存の向きを設計し、変更に強いサービスを育てることです。本書は、Go でサービスを設計・運用する中で得た判断基準を、原則の理解、層ごとの設計判断、ドメインの表現、CI での維持、そして読書ログサービスを題材にしたハンズオンまで一冊にまとめました。読み終えたとき、自分のサービスを設計して作りはじめられる状態になることがゴールです。",
       "explore": false
     },
     {
-      "title": "Inside An Exposed WebDAV Malware Delivery Lab",
+      "title": "Show HN: Is there water? Live answers for Austin's creeks, lakes, and springs",
       "ja_title": null,
-      "url": "https://www.rapid7.com/blog/post/tr-exposed-webdav-malware-delivery-lab-analysis/",
+      "url": "https://atxwater.info/",
       "source": "Hacker News (new, pre-viral)",
       "source_id": "hackernews",
       "tags": [
         "tech",
         "frontier"
       ],
-      "published": "2026-07-23T01:50:08Z",
-      "score": 0.7037,
-      "distance": 0.8699,
-      "interest": 0.5375,
+      "published": "2026-07-24T01:41:25Z",
+      "score": 0.7147,
+      "distance": 0.8696,
+      "interest": 0.5598,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
         "off-centre domain (+)",
         "pre-viral (+)"
-      ],
-      "reasons_interest": [],
-      "ja": null,
-      "excerpt": "",
-      "explore": false
-    },
-    {
-      "title": "Run large language models at home, BitTorrent‑style",
-      "ja_title": null,
-      "url": "https://petals.dev/",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
-      "tags": [
-        "tech",
-        "frontier"
-      ],
-      "published": "2026-07-23T01:33:12Z",
-      "score": 0.7021,
-      "distance": 0.8698,
-      "interest": 0.5344,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
-      ],
-      "reasons_interest": [],
-      "ja": null,
-      "excerpt": "",
-      "explore": false
-    },
-    {
-      "title": "An Ad Hominem Argument Against GDP",
-      "ja_title": null,
-      "url": "https://guzey.com/economics/ad-hominem-gdp/",
-      "source": "Alexey Guzey",
-      "source_id": "guzey",
-      "tags": [
-        "science",
-        "meta"
-      ],
-      "published": "0001-01-01T00:00:00Z",
-      "score": 0.7021,
-      "distance": 0.62,
-      "interest": 0.7842,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
+        "poses a question (+)"
       ],
-      "ja": null,
-      "excerpt": "Epistemic status: this is not the argument against GDP but it&rsquo;s definitely underappreciated. Suppose, you read about some study in the media and decide to check the study&rsquo;s findings yourself. What do you do? First, you can read the abstract of the paper and look at so",
-      "explore": false
-    },
-    {
-      "title": "Summary of changes for March 2024",
-      "ja_title": null,
-      "url": "https://100r.ca/site/log.html#mar2024",
-      "source": "Hundred Rabbits",
-      "source_id": "hundredrabbits",
-      "tags": [
-        "gamedev",
-        "offgrid",
-        "tools"
-      ],
-      "published": "2024-04-01T07:00:00Z",
-      "score": 0.7013,
-      "distance": 0.62,
-      "interest": 0.7826,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Hey everyone! This is the list of all the changes we've done to our projects during the month of March. Summary Of Changes 100r.ca , added chainplates , knots , washing dishes , receiving mail , updated our notes on diy carbonation system , and refrigeration . Uxn , added 2 new c",
-      "explore": false
-    },
-    {
-      "title": "Programming experience is no longer a moat",
-      "ja_title": null,
-      "url": "https://kyrylo.org/software/2026/07/22/programming-experience-is-no-longer-a-moat.html",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
-      "tags": [
-        "tech",
-        "frontier"
-      ],
-      "published": "2026-07-23T01:08:03Z",
-      "score": 0.7008,
-      "distance": 0.8697,
-      "interest": 0.5319,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
-      ],
-      "reasons_interest": [],
       "ja": null,
       "excerpt": "",
       "explore": false
     },
     {
-      "title": "ヴァージニア・ウルフ「灯台へ」 - 読書の愉楽",
+      "title": "ドーパミンと報酬系について解説してみる",
       "ja_title": null,
-      "url": "https://beck33a.hatenablog.com/entry/2026/07/22/071847",
-      "source": "はてブ · 学び新着",
-      "source_id": "hatena-know",
+      "url": "https://p-shirokuma.hatenadiary.com/entry/20260423/1776931200",
+      "source": "シロクマの屑籠",
+      "source_id": "shirokuma",
       "tags": [
         "ja",
-        "ideas"
+        "essays",
+        "society"
       ],
-      "published": "2026-07-22T12:01:08Z",
-      "score": 0.7003,
-      "distance": 0.7658,
-      "interest": 0.6348,
+      "published": "2026-04-23T08:00:00Z",
+      "score": 0.7142,
+      "distance": 0.62,
+      "interest": 0.8083,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -853,26 +923,111 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
+        "idea / essay (+)",
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "どうも知識が不足していて、ヴァージニア・ウルフといえば、ジョイスと並ぶ『意識の流れ』を小説で著した作家だと勝手に認識していたが、実際この二人の作品を読みくらべてみると、その差異は歴然としている。ジョイスは、個人の内面の意識の流れを奔流として描き出したのに対し、ウルフは、その場にいる幾人もの人物の...",
+      "excerpt": "ドーパミンをキーワードに現代の資本主義とか精神疾患とかについて考える会をやってました。分かりやすい話としては、「おすすめ」やサムネイルやショート動画が僕らをどう煽ってくるのかを共有できました。… https://t.co/ckO6Gy0lgU— ホリィ・セン (@holysen) 2026年4月19日 色々な偶然が重なり、先日、ドーパミンやドパガキについて話しているミーティングに出かける機会を得た。 昨今は、ドーパミンという物質の名前をSNS上でよく見かける。関連して、ドパガキというネットスラングを見かけることもある。私がそのミーティングに関心を持った理",
       "explore": false
     },
     {
-      "title": "20代後半からブログを書きはじめ、50代になってしまった僕がいま、ブログと人生について考えていること。",
+      "title": "ウクライナ軍トップ大刷新　ポピュリズムと未解決のリスク",
       "ja_title": null,
-      "url": "https://fujipon.hatenablog.com/entry/2026/02/14/124747",
+      "url": "https://finalvent.cocolog-nifty.com/fareastblog/2026/07/post-014291.html",
+      "source": "極東ブログ",
+      "source_id": "finalvent",
+      "tags": [
+        "ja",
+        "essays",
+        "commentary"
+      ],
+      "published": "2026-07-22T15:00:00Z",
+      "score": 0.7139,
+      "distance": 0.8092,
+      "interest": 0.6186,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)",
+        "scarce source (+)"
+      ],
+      "reasons_interest": [
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "2026年7月12日以降、ゼレンスキー大統領は軍の最高指導部を急速に刷新したが、これが問題の連鎖を引き起こしている。 注目すべきことは、7月12日の内閣改造でミハイロ・フェドロフ前国防相が解任されたことをきっかけに、キーウなどで抗議デモが発...",
+      "explore": false
+    },
+    {
+      "title": "Beyond Greece and Rome",
+      "ja_title": null,
+      "url": "https://aeon.co/essays/uncovering-a-global-ancient-history-beyond-greece-and-rome",
+      "source": "Aeon",
+      "source_id": "aeon",
+      "tags": [
+        "ideas",
+        "philosophy"
+      ],
+      "published": "2026-07-20T10:00:00Z",
+      "score": 0.7138,
+      "distance": 0.7435,
+      "interest": 0.684,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "A dramatic shift in perspective is producing a much bigger, broader and more exciting view of ‘the ancient world’ - by Carlos Noreña Read on Aeon",
+      "explore": false
+    },
+    {
+      "title": "What’s On the Sandwich Named After You at the Local Deli?",
+      "ja_title": null,
+      "url": "https://kottke.org/26/07/whats-on-the-sandwich-named-after-you-at-the-local-deli",
+      "source": "kottke.org",
+      "source_id": "kottke",
+      "tags": [
+        "curation",
+        "culture"
+      ],
+      "published": "2026-07-23T17:54:00Z",
+      "score": 0.713,
+      "distance": 0.7672,
+      "interest": 0.6589,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "poses a question (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Following a prompt from Joanna at Cup of Jo … The local deli or sandwich shop names a sandwich after you. What would be on it? Perhaps another way of asking the question: what’s your favorite sandwich that’s a little bit unusual? I love a classic BLT, banh mi, or jambon beurre, b",
+      "explore": false
+    },
+    {
+      "title": "僕は心の中に「ドヤコンガ」を飼っている。",
+      "ja_title": null,
+      "url": "https://fujipon.hatenablog.com/entry/2025/07/13/093000",
       "source": "いつか電池がきれるまで",
       "source_id": "fujipon",
       "tags": [
         "ja",
         "essays"
       ],
-      "published": "2026-02-14T03:47:47Z",
-      "score": 0.7003,
+      "published": "2025-07-13T00:30:00Z",
+      "score": 0.7114,
       "distance": 0.62,
-      "interest": 0.7806,
+      "interest": 0.8028,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -884,23 +1039,53 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "inujin.hatenablog.com いぬじん (id:inujin)さんは、長い間『はてな』でブログを書いておられるかたで、直接の面識はないけれど、年齢的が比較的近いこともあり（僕はもう50代半ばなんですが）、いつも興味深くブログを読ませていただいています。冒頭のエントリを読みながら、僕がいちばんブログに夢中だったのは30代くらいのころで、その頃はいまよりずっと忙しくて使える時間もなかった。それこそ、仕事が終わって同僚と飲みに行って、家に帰ってきてから家族が寝ているあいだにブログを書くことも多々ありました。当時は、仕事はきつかったし、うまくいかな",
+      "excerpt": "goldhead.hatenablog.com 僕は心の中に「ドヤコンガ」を飼っている。 いや、飼われているのは僕のほうなのかもしれない。「ドヤコンガ」について知っている人も知らない人もいると思うけれど、だいたい、こういう話です。 tender-feelings.com maonkurosaki.com 実際に、この『ドヤコンガ』さんが、『Re:ゼロから始める異世界生活』のレム役などで知られる人気声優・水瀬いのりさんと同一人物なのかはわからないし、「アカウント乗っ取り」みたいな話で公式は説明して、時間とともに忘れられていっている、というのが現在の状況では",
       "explore": false
     },
     {
-      "title": "Durable Objects Are Made for Agents",
+      "title": "Movie Poster of the Week | The Best of Movie Poster of the Day, Part 31",
       "ja_title": null,
-      "url": "https://calv.info/durable-objects-are-made-for-agents",
+      "url": "https://mubi.com/en/notebook/posts/movie-poster-of-the-week-the-best-of-movie-poster-of-the-day-part-31",
+      "source": "MUBI Notebook",
+      "source_id": "mubi-notebook",
+      "tags": [
+        "film",
+        "criticism"
+      ],
+      "published": "2026-07-17T08:00:00Z",
+      "score": 0.7106,
+      "distance": 0.7714,
+      "interest": 0.6497,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)",
+        "scarce source (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "hype (−)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Swedish one sheet for Sweet Charity (Bob Fosse, USA, 1969). Designed by René Ferracci. I don’t know how it happened but I was very pleasantly surprised that this poster for Sweet Charity (1969), which I posted on June 23 on what would have been director and choreographer Bob Foss",
+      "explore": false
+    },
+    {
+      "title": "Which Odyssey translation wins a blind reading test?",
+      "ja_title": null,
+      "url": "https://homer.scrivium.com/report/",
       "source": "Hacker News (new, pre-viral)",
       "source_id": "hackernews",
       "tags": [
         "tech",
         "frontier"
       ],
-      "published": "2026-07-23T01:10:47Z",
-      "score": 0.7002,
+      "published": "2026-07-24T02:19:26Z",
+      "score": 0.7094,
       "distance": 0.8697,
-      "interest": 0.5306,
+      "interest": 0.5491,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -908,108 +1093,27 @@
         "off-centre domain (+)",
         "pre-viral (+)"
       ],
-      "reasons_interest": [],
+      "reasons_interest": [
+        "poses a question (+)"
+      ],
       "ja": null,
       "excerpt": "",
       "explore": false
     },
     {
-      "title": "Synthesizer for thought",
+      "title": "2026 western US snow drought was about 4x more likely due to climate change",
       "ja_title": null,
-      "url": "https://thesephist.com/posts/synth/",
-      "source": "Linus Lee · thesephist",
-      "source_id": "thesephist",
-      "tags": [
-        "tools-for-thought",
-        "maker"
-      ],
-      "published": "2024-06-23T04:20:00Z",
-      "score": 0.7001,
-      "distance": 0.62,
-      "interest": 0.7802,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "For most of the history of music, humans produced sounds out of natural materials — rubbing together strings, hitting things, blowing air through tubes of various lengths. Until two things happened. We understood the physics of sound . A sound is a combination of overlapping wave",
-      "explore": false
-    },
-    {
-      "title": "誰か俺に優しい言葉をかけてくれ",
-      "ja_title": null,
-      "url": "https://anond.hatelabo.jp/20260720231820",
-      "source": "はてブ · 学び新着",
-      "source_id": "hatena-know",
-      "tags": [
-        "ja",
-        "ideas"
-      ],
-      "published": "2026-07-20T21:15:47Z",
-      "score": 0.6998,
-      "distance": 0.7543,
-      "interest": 0.6454,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "俺かその辺の誰かもお前に優しい言葉をかけるから 2026/07/21 追記 もっとなんか雑に燃やされるか誰の目にも留まらず流れてくかと思ってたんだけど、 朝起きたらブクマコメントに大量のやさしい言葉が並んでて、案外世界は捨てたもんでもないなーってちょっと元気になった。 ありがとう。今日もなんとか、仕事頑張れそ...",
-      "explore": false
-    },
-    {
-      "title": "How Finitude Makes Us Happy — My Final Post",
-      "ja_title": null,
-      "url": "https://www.thenewatlantis.com/practicing-medicine/how-finitude-makes-us-happy",
-      "source": "The New Atlantis",
-      "source_id": "newatlantis",
-      "tags": [
-        "tech",
-        "society"
-      ],
-      "published": "2021-04-05T11:00:00Z",
-      "score": 0.699,
-      "distance": 0.62,
-      "interest": 0.7781,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "She looked her age — 27, startlingly close to my own age. Did we share acquaintances or friends of friends? She fixed her hair in a ponytail and wore jeans and a collared shirt with a sweater, a preppy and youthful fashion statement consistent with her budding career as an archit",
-      "explore": false
-    },
-    {
-      "title": "There is no steady state",
-      "ja_title": null,
-      "url": "https://www.benlandautaylor.com/p/there-is-no-steady-state",
+      "url": "https://www.pnas.org/doi/full/10.1073/pnas.2612961123",
       "source": "Hacker News (new, pre-viral)",
       "source_id": "hackernews",
       "tags": [
         "tech",
         "frontier"
       ],
-      "published": "2026-07-23T00:32:06Z",
-      "score": 0.6984,
-      "distance": 0.8695,
-      "interest": 0.5273,
+      "published": "2026-07-24T02:21:40Z",
+      "score": 0.7089,
+      "distance": 0.8698,
+      "interest": 0.548,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1023,19 +1127,19 @@
       "explore": false
     },
     {
-      "title": "4th Circuit: Border Agents Can Search Your Phone by Hand, No Suspicion Required",
+      "title": "WorkBuddy Bench: Agentic Coding Leaderboard",
       "ja_title": null,
-      "url": "https://www.eff.org/deeplinks/2026/07/fourth-circuit-says-border-agents-can-search-your-phone-hand-no-suspicion-required",
+      "url": "https://workbuddybench.com/index.html",
       "source": "Hacker News (new, pre-viral)",
       "source_id": "hackernews",
       "tags": [
         "tech",
         "frontier"
       ],
-      "published": "2026-07-23T00:28:15Z",
-      "score": 0.6977,
-      "distance": 0.8695,
-      "interest": 0.5259,
+      "published": "2026-07-24T02:18:47Z",
+      "score": 0.7085,
+      "distance": 0.8697,
+      "interest": 0.5472,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1046,90 +1150,6 @@
       "reasons_interest": [],
       "ja": null,
       "excerpt": "",
-      "explore": false
-    },
-    {
-      "title": "Why I, a Physician, Write",
-      "ja_title": null,
-      "url": "https://www.thenewatlantis.com/practicing-medicine/why-i-physician-write",
-      "source": "The New Atlantis",
-      "source_id": "newatlantis",
-      "tags": [
-        "tech",
-        "society"
-      ],
-      "published": "2019-06-04T16:04:00Z",
-      "score": 0.6975,
-      "distance": 0.62,
-      "interest": 0.7749,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "I remember my first encounter with great literature. Before bedtime, my father would read Great Expectations to me, using different voices for different characters. I remember Pip and Miss Havisham, though I don’t think I fully understood Miss Havisham’s peremptory and eery comma",
-      "explore": false
-    },
-    {
-      "title": "Musical tone and perceived dissonance",
-      "ja_title": null,
-      "url": "https://blog.andymatuschak.org/post/7565332844",
-      "source": "Andy Matuschak",
-      "source_id": "matuschak",
-      "tags": [
-        "tools-for-thought"
-      ],
-      "published": "2011-07-13T06:28:00Z",
-      "score": 0.6964,
-      "distance": 0.62,
-      "interest": 0.7728,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Why does a perfect fifth sound so satisfying when a brash tritone is just a half step away? It seems we have a physiological correlate to these psychological effects. As sounds arrive, the basilar membrane vibrates like an oblong drum head, stimulating tiny hair cells attached to",
-      "explore": false
-    },
-    {
-      "title": "Summary of changes for December 2025",
-      "ja_title": null,
-      "url": "https://100r.ca/site/log.html#dec2025",
-      "source": "Hundred Rabbits",
-      "source_id": "hundredrabbits",
-      "tags": [
-        "gamedev",
-        "offgrid",
-        "tools"
-      ],
-      "published": "2025-01-01T07:00:00Z",
-      "score": 0.6952,
-      "distance": 0.62,
-      "interest": 0.7704,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Hey everyone! This is the list of all the changes we've done to our projects during the month of December. Wiki , added alternator to engine care . Thousand Rooms , added a Danish version of the book, thank you Fyr for the translation! Punk Rabbits , completed 33 new rabbits(#64-",
       "explore": false
     }
   ]
