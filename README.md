@@ -94,6 +94,20 @@ git 管理外（`.gitignore`）:
 `preferences.yaml` 片をダウンロード → 中身を `config/preferences.yaml` にマージしてコミットすれば、
 次回の実行から学習が効く（静的サイトのままフィードバックループが閉じる）。
 
+### 自動化（Baserow）
+
+手動マージの代わりに、👍/👎/📌 を **Baserow** に直接書き込み、毎回の実行で自動反映できる。
+
+- **読み取り（安全・サーバー側）**：`pipeline/baserow.py` が env `BASEROW_TOKEN` /
+  `BASEROW_TABLE_ID` でフィードバック表を読み、preferences に自動合流。
+  ローカルは `.env`、CIは GitHub secrets（`BASEROW_TOKEN`, `BASEROW_TABLE_ID`）。
+- **書き込み（ブラウザ）**：`window.BASEROW`（`site/baserow.config.js`, gitignore）があれば反応を
+  直書き。無ければ localStorage + 書き出しに自動フォールバック。**公開サイトのJSに載るトークンは
+  必ず create-only** を使うこと（漏れても被害は「その表にゴミ行」だけ）。公開サイトで書き込ませたい
+  場合は secret `BASEROW_WRITE_TOKEN`（create-only）を設定 → ワークフローがデプロイ時に
+  `baserow.config.js` を注入（git履歴には残らない）。
+- 表の列：`type`（pin/block/like/dislike）, `value`（ソースid/ドメイン/フィードURL）, `active`（任意）。
+
 ## ディレクトリ
 
 ```

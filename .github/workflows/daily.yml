@@ -52,6 +52,22 @@ jobs:
             git push
           fi
 
+      # Optional: let the PUBLISHED site write feedback straight to Baserow.
+      # Writes site/baserow.config.js into the artifact only (never committed).
+      # The token becomes visible on the public page, so use a CREATE-ONLY token
+      # as BASEROW_TOKEN if you enable this. No secrets -> step is a no-op.
+      - name: Inject browser Baserow config
+        env:
+          BT: ${{ secrets.BASEROW_WRITE_TOKEN }}
+          TID: ${{ secrets.BASEROW_TABLE_ID }}
+        run: |
+          if [ -n "$TID" ] && [ -n "$BT" ]; then
+            printf 'window.BASEROW={apiUrl:"https://api.baserow.io",tableId:%s,token:"%s"};\n' "$TID" "$BT" > site/baserow.config.js
+            echo "injected browser Baserow config"
+          else
+            echo "no BASEROW_WRITE_TOKEN/TABLE_ID; public site stays localStorage-only"
+          fi
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
