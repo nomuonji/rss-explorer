@@ -35,6 +35,9 @@ jobs:
         env:
           # OPTIONAL. Set this repo secret to get Japanese blurbs. Works fine without it.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # OPTIONAL. Auto-apply taste feedback written from the site into Baserow.
+          BASEROW_TOKEN: ${{ secrets.BASEROW_TOKEN }}
+          BASEROW_TABLE_ID: ${{ secrets.BASEROW_TABLE_ID }}
         run: python -m pipeline.run
 
       - name: Commit evolved source memory

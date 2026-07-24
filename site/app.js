@@ -26,6 +26,18 @@ const store = {
 };
 const PINS = "rssx_pins", LIKES = "rssx_likes", DISLIKES = "rssx_dislikes";
 
+// Optional live sync to Baserow (only if site/baserow.config.js set window.BASEROW).
+// Fire-and-forget; failures never block the UI. `type` is pin|block|like|dislike.
+function baserowWrite(type, value) {
+  const b = window.BASEROW;
+  if (!b || !b.tableId || !b.token) return;
+  fetch(`${b.apiUrl}/api/database/rows/table/${b.tableId}/?user_field_names=true`, {
+    method: "POST",
+    headers: { "Authorization": `Token ${b.token}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ type, value, active: true }),
+  }).catch(() => { });
+}
+
 function buildPrefsYaml() {
   const y = ["# rss-explorer preferences — generated from your reactions on the site.",
     "# Merge these into config/preferences.yaml and commit.", ""];
@@ -92,10 +104,17 @@ function card(it) {
 
   // taste actions: confirm the source, or nudge more/less of this domain
   const acts = el("div", "acts");
+  const TYPE = { [PINS]: "pin", [LIKES]: "like", [DISLIKES]: "dislike" };
   const mkBtn = (label, key, val, title) => {
     const b = el("button", "act-btn" + (store.has(key, val) ? " on" : ""), label);
     b.title = title;
-    b.onclick = e => { e.stopPropagation(); b.classList.toggle("on", store.toggle(key, val)); updateExportCount(); };
+    b.onclick = e => {
+      e.stopPropagation();
+      const on = store.toggle(key, val);
+      b.classList.toggle("on", on);
+      if (on) baserowWrite(TYPE[key], val);   // live sync when turning a reaction ON
+      updateExportCount();
+    };
     return b;
   };
   acts.appendChild(mkBtn("📌 確定", PINS, it.source_id, "このソースを確定ソースにする（書き出しに含める）"));

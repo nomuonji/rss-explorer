@@ -4,6 +4,8 @@
 *.secret
 secrets/
 config/local.*
+# Browser-side Baserow token (create-only). Public deploy = don't commit this.
+site/baserow.config.js
 
 # --- Python ---
 __pycache__/

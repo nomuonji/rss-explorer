@@ -10,7 +10,7 @@ from urllib.parse import urlparse
 
 import yaml
 
-from . import state
+from . import baserow, state
 
 DEFAULTS = {
     "pin": [], "block": [], "boost_keywords": [], "mute_keywords": [],
@@ -42,6 +42,15 @@ def load_prefs() -> dict:
                     prefs[k] = [str(x).strip() for x in v if str(x).strip()]
         except Exception:
             pass
+    # Fold in live feedback from Baserow (if configured), unioned with the file.
+    # This is what makes reactions from the site apply automatically.
+    live = baserow.fetch_feedback()
+    if live:
+        for k, vals in live.items():
+            for v in vals:
+                if v not in prefs[k]:
+                    prefs[k].append(v)
+
     # normalise the match-by-value lists
     for k in ("boost_domains", "mute_domains"):
         prefs[k] = [d.lower().replace("www.", "") for d in prefs[k]]
