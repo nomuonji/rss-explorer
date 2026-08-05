@@ -1,15 +1,21 @@
 {
-  "generated": "2026-08-04T22:59:37Z",
+  "generated": "2026-08-05T22:54:59Z",
   "count": 40,
   "meta": {
-    "sources_total": 107,
+    "sources_total": 110,
     "counts": {
       "seed": 64,
-      "active": 36,
-      "trial": 7
+      "active": 43,
+      "trial": 3
     },
     "feeds_resolved_this_run": 0,
     "discovered_this_run": [
+      "phys-org",
+      "randsinrepose-com",
+      "epage-github-io"
+    ],
+    "graduated_this_run": [
+      "lemire-me",
       "seg6-space",
       "earendil-com",
       "seangoedecke-com",
@@ -17,13 +23,9 @@
       "blog-jetbrains-com",
       "pluralistic-net"
     ],
-    "graduated_this_run": [
-      "npr-org",
-      "rfc-editor-org"
-    ],
     "retired_this_run": [],
-    "candidates_tracked": 1211,
-    "items_seen_this_run": 1800,
+    "candidates_tracked": 1263,
+    "items_seen_this_run": 1966,
     "items_judged": 0,
     "judge_enabled": false,
     "pinned": [],
@@ -31,18 +33,18 @@
   },
   "items": [
     {
-      "title": "RFC 10013: Entity Attestation Token (EAT) Measured Component",
+      "title": "Go 1.27 Release Party – Free Online Event With the Go Team",
       "ja_title": null,
-      "url": "https://www.rfc-editor.org/info/rfc10013/",
-      "source": "rfc-editor.org",
-      "source_id": "rfc-editor-org",
+      "url": "https://blog.jetbrains.com/go/2026/08/05/new-livestream-go-127/",
+      "source": "blog.jetbrains.com",
+      "source_id": "blog-jetbrains-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-07-30T00:00:00Z",
-      "score": 0.7436,
-      "distance": 0.7274,
-      "interest": 0.7597,
+      "published": "2026-08-05T13:50:30Z",
+      "score": 0.7359,
+      "distance": 0.7673,
+      "interest": 0.7046,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -50,26 +52,25 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
+        "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "The term \"measured component\" refers to an object within the attester's target environment whose state can be sampled and typically digested using a cryptographic hash function. Examples of measured components include firmware stored in flash memory, software loaded into memory a",
+      "excerpt": "Join us on August 25 at 4:00 pm UTC for a free online event for Go developers, where we will discuss Go 1.27. Instead of reading the release notes on your own, we&#8217;d like to invite you to experience the release together with the community. Welcome to The Blue Gopher! For one",
       "explore": true
     },
     {
-      "title": "RFC 10019: Zeroconf Multicast Address Allocation Problem Statement and Requirements",
+      "title": "The Complete Package: Why Debugging Is Only Half the C# Productivity Story",
       "ja_title": null,
-      "url": "https://www.rfc-editor.org/info/rfc10019/",
-      "source": "rfc-editor.org",
-      "source_id": "rfc-editor-org",
+      "url": "https://blog.jetbrains.com/dotnet/2026/07/30/the-complete-package-why-debugging-is-only-half-the-csharp-productivity-story/",
+      "source": "blog.jetbrains.com",
+      "source_id": "blog-jetbrains-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-07-30T00:00:00Z",
-      "score": 0.6675,
-      "distance": 0.7274,
-      "interest": 0.6076,
+      "published": "2026-07-30T18:47:54Z",
+      "score": 0.7032,
+      "distance": 0.7259,
+      "interest": 0.6805,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -77,25 +78,25 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "long-form (+)"
+        "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "This document surveys current problems with existing protocols for automatically assigning multicast IP addresses in zero-configuration (zeroconf) networking environments. It addresses key challenges, such as link-layer address collisions, hardware limitations, multicast snooping",
+      "excerpt": "As .NET developers, we need to iterate on our applications while building, and part of that developer inner loop is the debugging experience. The rise of multi-platform code editors further requires developers to have all the functionality they need to build and debug their appli",
       "explore": true
     },
     {
-      "title": "Senate Democrats say banks turned blind eye to suspicious moves by Jeffrey Epstein",
+      "title": "my server is a phone now",
       "ja_title": null,
-      "url": "https://www.npr.org/2026/08/04/nx-s1-5919238/jeffrey-epstein-jpmorgan-bank-of-america-deutsche-bank-senate-democrats",
-      "source": "npr.org",
-      "source_id": "npr-org",
+      "url": "https://seg6.space/posts/phone-server/",
+      "source": "seg6.space",
+      "source_id": "seg6-space",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-04T17:43:06Z",
-      "score": 0.6576,
-      "distance": 0.7684,
-      "interest": 0.5468,
+      "published": "2026-08-04T00:00:00Z",
+      "score": 0.6512,
+      "distance": 0.756,
+      "interest": 0.5463,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -104,47 +105,22 @@
       ],
       "reasons_interest": [],
       "ja": null,
-      "excerpt": "A report from Senate Democrats accuses big banks of failing to report suspicious money transfers made by Jeffrey Epstein until after his arrest in 2019.",
+      "excerpt": "rooting a CMF Phone 1 to run my personal infrastructure at home.",
       "explore": true
     },
     {
-      "title": "They're a world leader in using drones for healthcare. But drones can't do it all",
+      "title": "concurrent device registration without redis",
       "ja_title": null,
-      "url": "https://www.npr.org/2026/08/04/g-s1-136906/drones-healthcare-trump-administration-rwanda",
-      "source": "npr.org",
-      "source_id": "npr-org",
+      "url": "https://seg6.space/posts/concurrent-registration/",
+      "source": "seg6.space",
+      "source_id": "seg6-space",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-04T11:05:10Z",
-      "score": 0.6551,
-      "distance": 0.7665,
-      "interest": 0.5437,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [],
-      "ja": null,
-      "excerpt": "Drones carrying medical supplies constantly crisscross the skies of Rwanda. The Trump administration is giving a major grant to the effort — and at the same time cutting aid to the country.",
-      "explore": true
-    },
-    {
-      "title": "松本人志が一時的人工肛門になったことについて語りたい",
-      "ja_title": null,
-      "url": "https://blog.tinect.jp/?p=91408",
-      "source": "Books&Apps",
-      "source_id": "tinect",
-      "tags": [
-        "ja",
-        "essays"
-      ],
-      "published": "2026-08-03T23:34:41Z",
-      "score": 0.8258,
-      "distance": 0.763,
-      "interest": 0.8887,
+      "published": "2026-06-01T00:00:00Z",
+      "score": 0.6459,
+      "distance": 0.62,
+      "interest": 0.6717,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -152,27 +128,25 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)",
-        "日本語 (+)"
+        "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "松本人志が大腸がんになった 松本人志の話をする。 松本人志の名前も見たくないという人は回れ右してくれ。 松本人志の起こした問題について論じるつもりもないので、それを期待する人も回れ右してくれ。 &#160; おれは松本人(...) こんな記事も読まれています 大学の恩師に教わった、「なにがわからないか、わからない」ときの質問のしかた。 人工肛門の一時造設で休戦できたと思ったのは浅はかだった ストーマ（人工肛門）とわたくし（日常編） 結局トイレのことばかり考えている。 ストーマ（人工肛門）とわたくし（出会い編）",
-      "explore": false
+      "excerpt": "race conditions, row-level locks, and why your isolation level matters.",
+      "explore": true
     },
     {
-      "title": "『ドラゴンボール』に通ずる？　アイデンティティ 田島直弥、Mr.Childrenから受けた感銘とM!LKの凄み",
+      "title": "Should You Use AI for a Task? Here’s a Simple Way to Decide",
       "ja_title": null,
-      "url": "https://realsound.jp/2026/08/post-2477008.html",
-      "source": "realsound.jp",
-      "source_id": "realsound-jp",
+      "url": "https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html",
+      "source": "schneier.com",
+      "source_id": "schneier-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-04T18:00:11Z",
-      "score": 0.8207,
-      "distance": 0.7685,
-      "interest": 0.8729,
+      "published": "2026-07-30T11:01:32Z",
+      "score": 0.7841,
+      "distance": 0.7236,
+      "interest": 0.8446,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -182,84 +156,25 @@
       "reasons_interest": [
         "idea / essay (+)",
         "poses a question (+)",
-        "日本語 (+)"
+        "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "『ドラゴンボール』シリーズの孫悟空の声優として知られる、野沢雅子のモノマネで話題のアイデンティティ 田島直弥。“歌ネタ”も多く披露しており、Mr.Childrenの大ファンとしても知られている田島に、Mr.Children愛や最近ハマっているアーティストについて聞いた。",
+      "excerpt": "This essay originally appeared in The Guardian . I teach public policy at the Harvard Kennedy School and the Munk School at the University of Toronto. And it will come as no surprise to you that my students regularly use AI to complete their writing assignments. Doing so is a was",
       "explore": false
     },
     {
-      "title": "育てて学ぶ はじめての自作プログラミング言語",
+      "title": "米イラン間の合意案を「回覧中」、カタール外務省が明らかに",
       "ja_title": null,
-      "url": "https://zenn.dev/kb84tkhr/books/learning-by-growing-language",
-      "source": "Zenn",
-      "source_id": "zenn",
-      "tags": [
-        "ja",
-        "tech",
-        "tools"
-      ],
-      "published": "2026-08-02T06:22:58Z",
-      "score": 0.8147,
-      "distance": 0.7508,
-      "interest": 0.8786,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "※執筆途中のドラフト状態ですが第 1 部まで書いたので公開しています。 ※そのため、今後修正が入る可能性があります。ご了承ください。 「Python や Ruby みたいなプログラミング言語って、中はどう動いているんだろう？」 「言語を自作するのって面白そうだけど、難しいんだろうな」 そんな風に思っている方に読んでみていただきたい「プログラミング言語の作り方」超入門です。 本書の狙いは、小さい小さい（プログラミング言語とは思えないような）言語からスタートし、少しずつ機能を追加しては動かす、を繰り返しているうちにいつのまにかプログラミング言語が作れるように",
-      "explore": false
-    },
-    {
-      "title": "ゲーム音楽の著作権は、なぜ会社のもの？職務著作の仕組みと直面する問題をJASRAC理事と作曲家が徹底解説【CEDEC 2026】 | インサイド",
-      "ja_title": null,
-      "url": "https://www.inside-games.jp/article/2026/08/04/185704.html",
-      "source": "はてブ · 学び新着",
-      "source_id": "hatena-know",
-      "tags": [
-        "ja",
-        "ideas"
-      ],
-      "published": "2026-08-04T04:58:27Z",
-      "score": 0.804,
-      "distance": 0.7646,
-      "interest": 0.8435,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "ゲーム音楽の著作権買い取り問題を、職務著作・法人著作・印税の格差・JASRAC活用・海外還流の課題とともに解説。【CEDEC 2026】",
-      "explore": false
-    },
-    {
-      "title": "小型機がエンジン停止、州間高速道路に間一髪の緊急着陸　米フロリダ州",
-      "ja_title": null,
-      "url": "https://www.cnn.co.jp/usa/35251245.html?ref=rss",
+      "url": "https://www.cnn.co.jp/world/35251280.html?ref=rss",
       "source": "cnn.co.jp",
       "source_id": "cnn-co-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-04T02:52:00Z",
-      "score": 0.7907,
-      "distance": 0.764,
-      "interest": 0.8174,
+      "published": "2026-08-04T23:48:00Z",
+      "score": 0.7816,
+      "distance": 0.7631,
+      "interest": 0.8002,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -271,51 +186,23 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "米連邦航空局（FAA）は、訓練飛行中の小型機がフロリダ州の州間高速道路に緊急着陸した事案について調査を進めている。3日午前に緊急着陸したこの機体は、高速道路の標識や走行中の車両に衝突する事態を間一髪で回避していた。 走行中のトラックの眼前で高速道路に緊急着陸する小型機（Eric Johnson） 当該の機体は単発エンジンのパイパーPA28チェロキー。3日午前11時少し前、ペンサコーラ国際空...",
+      "excerpt": "カタール外務省のアンサリ報道官は4日、記者団に対し、米イラン紛争の解決に向けた取り組みは「相当進展した段階にある」との認識を示した。合意案が「回覧されている」ことも明らかにした。 アンサリ氏は米イランの当局者から交渉の進捗（しんちょく）状況を巡り相反する声明が出されていることについて問われ、「全当事者との間で取り組みが継続していることを確認できる。我々は今この瞬間も、外交的な解決を目指している」...",
       "explore": false
     },
     {
-      "title": "懲戒処分の公表について | 東京大学",
+      "title": "Notes on Engineering leadership",
       "ja_title": null,
-      "url": "https://www.u-tokyo.ac.jp/focus/ja/press/z1404_00022.html",
-      "source": "はてブ · 学び新着",
-      "source_id": "hatena-know",
-      "tags": [
-        "ja",
-        "ideas"
-      ],
-      "published": "2026-08-04T10:10:02Z",
-      "score": 0.7818,
-      "distance": 0.7662,
-      "interest": 0.7974,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "東京大学は、教授（60歳代）に対し、7月29日付けで、出勤停止3日の懲戒処分を行った。 教授は、令和2年から令和3年頃のいずれかの時点において、所属する専攻のホームページのHTMLソース内に、また、令和5年11月までのいずれかの時期において、対象教員の主宰する研究室のホームページのHTMLソース内に、不適切な言葉を...",
-      "explore": false
-    },
-    {
-      "title": "Why a Flock Worker Quit: 'They Lied",
-      "ja_title": null,
-      "url": "https://www.404media.co/why-a-flock-worker-quit-they-lied/",
+      "url": "https://ianmccrystal.com/posts/notes-on-engineering-leadership/",
       "source": "Hacker News (new, pre-viral)",
       "source_id": "hackernews",
       "tags": [
         "tech",
         "frontier"
       ],
-      "published": "2026-08-04T21:54:59Z",
-      "score": 0.7759,
-      "distance": 0.8697,
-      "interest": 0.6821,
+      "published": "2026-08-05T22:37:23Z",
+      "score": 0.7785,
+      "distance": 0.8699,
+      "interest": 0.6871,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -331,9 +218,65 @@
       "explore": false
     },
     {
-      "title": "【RAG】話題の米国AIベンチャーで実践される「社内ナレッジ」管理",
+      "title": "恋人に“言わなくてもいい”2つのこと",
       "ja_title": null,
-      "url": "https://zenn.dev/knowledgesense/articles/7c1a8f7720b119",
+      "url": "https://nazology.kusuguru.co.jp/archives/188768",
+      "source": "nazology.kusuguru.co.jp",
+      "source_id": "nazology-kusuguru-co-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-05T21:30:14Z",
+      "score": 0.7782,
+      "distance": 0.7696,
+      "interest": 0.7868,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "恋人との関係は、十分なコミュニケーションによって上手くいきます。 しかし、「自分が感じたことをそのまますべて伝えればよい」わけではありません。 むしろそのことが相手に余計な傷を与えることもあります。 こうした問題について、アメリカの心理学者であるマーク・トラヴァース博士は、恋人に“あえて言わなくてもいい”2つのことを教えています。",
+      "explore": false
+    },
+    {
+      "title": "香港紙が報じる支持率低下の原因「高市は安倍の失敗から何も学んでいない」 | 国旗損壊罪に皇室典範改正…　なぜいま？",
+      "ja_title": null,
+      "url": "https://courrier.jp/news/archives/454189/",
+      "source": "はてブ · 学び新着",
+      "source_id": "hatena-know",
+      "tags": [
+        "ja",
+        "ideas"
+      ],
+      "published": "2026-08-02T19:54:20Z",
+      "score": 0.7778,
+      "distance": 0.7477,
+      "interest": 0.8079,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "高市早苗首相の支持率が急落している。大手メディアの世論調査では、朝日新聞が支持率の7ポイント下落と不支持率の8ポイント上昇を報じた。毎日新聞の調査でも支持率が10ポイント急落して41％となり、就任以来初めて50％の大台を割り込んだ。 支持率下落について問われた高市は「原因についてはわかりません」と答えてい...",
+      "explore": false
+    },
+    {
+      "title": "ROS 2 ハンズオン — 環境構築から自作ノード・自律走行まで",
+      "ja_title": null,
+      "url": "https://zenn.dev/kimushun1101/books/ros2-handson",
       "source": "Zenn",
       "source_id": "zenn",
       "tags": [
@@ -341,10 +284,10 @@
         "tech",
         "tools"
       ],
-      "published": "2026-08-04T00:02:05Z",
-      "score": 0.7734,
-      "distance": 0.7632,
-      "interest": 0.7837,
+      "published": "2026-08-04T01:08:42Z",
+      "score": 0.7762,
+      "distance": 0.7564,
+      "interest": 0.796,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -356,79 +299,51 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "本記事では、今をときめくAI半導体ベンチャーである「Cerebras」による、「社内ナレッジ検索」の仕組みについて、解説します。 株式会社ナレッジセンスは、社内データ検索技術をエンタープライズ企業向けに提供しているスタートアップです。 この記事は何 この記事は、Cerebras社が公開した技術ブログ「How We Built Our Knowledge Base」[1]について、日本語で簡単にまとめたものです。 https://www.cerebras.ai/blog/how-we-built-our-knowledge-base ! 今回も「そもそもR",
+      "excerpt": "ROS 2 Jazzy で TurtleBot3 をシミュレーション (Gazebo) 上で動かしながら、ノード / トピックの基礎、launch ファイル、自作パッケージ (C++ の Pub/Sub 実装)、SLAM・自律走行 (Nav2) までを一通り体験するハンズオン教材です。回答例付きのハンズオン演習を11本収録。Windows (WSL) / Ubuntu のどちらでも進められます。",
       "explore": false
     },
     {
-      "title": "Emergent Ventures winners, 57th cohort",
+      "title": "God Does Not Play Dice. We Built Software That Does",
       "ja_title": null,
-      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/emergent-ventures-winners-57th-cohort.html?utm_source=rss&utm_medium=rss&utm_campaign=emergent-ventures-winners-57th-cohort",
-      "source": "Marginal Revolution",
-      "source_id": "marginalrev",
+      "url": "https://quodeq.ai/blog/god-does-not-play-dice/",
+      "source": "Hacker News (new, pre-viral)",
+      "source_id": "hackernews",
       "tags": [
-        "economics",
-        "curation"
+        "tech",
+        "frontier"
       ],
-      "published": "2026-08-04T05:16:58Z",
-      "score": 0.7716,
-      "distance": 0.7647,
-      "interest": 0.7786,
+      "published": "2026-08-05T22:48:10Z",
+      "score": 0.7746,
+      "distance": 0.87,
+      "interest": 0.6792,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
-        "off-centre domain (+)"
+        "off-centre domain (+)",
+        "pre-viral (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
+        "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "Oisin O’Gorman, 15, Dublin, misinformation and fakes. Karsen Lee Wahal, Stanford, is AI killing the web?, and measuring media slant. Davy Deng, with Claire Wang (previous winner), whole brain emulation, MIT. Enej Grmek, 16, Ljubljana, privacy. Vladimir Shmelev, Ukraine, Ukrainian",
+      "excerpt": "",
       "explore": false
     },
     {
-      "title": "pの中にdivを入れられないのはなぜか - Legalscapeテックブログ",
+      "title": "The Cedar Bar",
       "ja_title": null,
-      "url": "https://tech.legalscape.co.jp/entry/2026/08/04/111358",
-      "source": "はてブ · テクノロジー新着",
-      "source_id": "hatena-it",
-      "tags": [
-        "ja",
-        "tech"
-      ],
-      "published": "2026-08-04T07:24:05Z",
-      "score": 0.7714,
-      "distance": 0.7654,
-      "interest": 0.7774,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "こんにちは、 Legalscape (採用情報) で法情報をいい感じに収集・運用しているあざらし🦭です。 一次情報・二次情報に関わらず、形式や公開方法が多岐にわたる法情報を正確に分析あるいは表示するためには構造化という処理が必要になります。弊社ではこの構造化処理フローと構造化モデルについて日々議論を重ね、改良を続...",
-      "explore": false
-    },
-    {
-      "title": "Turbulent Waters: The Cinema of Jean Epstein",
-      "ja_title": null,
-      "url": "https://mubi.com/en/notebook/posts/turbulent-waters-the-cinema-of-jean-epstein",
-      "source": "MUBI Notebook",
-      "source_id": "mubi-notebook",
+      "url": "https://jonathanrosenbaum.net/2026/08/the-cedar-bar/",
+      "source": "Jonathan Rosenbaum",
+      "source_id": "rosenbaum",
       "tags": [
         "film",
         "criticism"
       ],
-      "published": "2026-08-04T08:00:00Z",
-      "score": 0.7655,
-      "distance": 0.7655,
-      "interest": 0.7656,
+      "published": "2026-08-05T05:00:00Z",
+      "score": 0.7714,
+      "distance": 0.7647,
+      "interest": 0.7781,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -440,22 +355,78 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Jean Epstein. Illustration by Leonardo Goi. Jean Epstein was an aquatic filmmaker, an artist who saw water as embodying the kind of cinema he aspired to create: fluid, tempestuous, unpredictable. Like the roaring seas he immortalized over a three-decade career, from Marseilles to",
+      "excerpt": "From the Chicago Reader (August 23, 2002). In 1952 beat painter and filmmaker Alfred Leslie wrote a play based on an argument he witnessed between art critic Clement Greenberg and abstract expressionist painters at a celebrated hangout in Greenwich Village. The text was lost in a",
       "explore": false
     },
     {
-      "title": "“Some guy named Paul”",
+      "title": "How to Store Ebooks in Instagram Reels and Other Covert Data Storage Tricks",
       "ja_title": null,
-      "url": "https://unsung.aresluna.org/some-guy-named-paul",
-      "source": "unsung.aresluna.org",
-      "source_id": "unsung-aresluna-org",
+      "url": "https://kottke.org/26/08/how-to-store-ebooks-in-instagram-reels-and-other-covert-data-storage-tricks",
+      "source": "kottke.org",
+      "source_id": "kottke",
+      "tags": [
+        "curation",
+        "culture"
+      ],
+      "published": "2026-08-05T17:55:00Z",
+      "score": 0.7683,
+      "distance": 0.7685,
+      "interest": 0.7682,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Do you remember the video I posted last summer of YouTuber Benn Jordan where he &#8220;uploaded a picture of a bird to a bird and then downloaded the bird picture from the bird” ? So cool. Jordan is back with more data encoding tricks in his latest video, There Are Files Stored i",
+      "explore": false
+    },
+    {
+      "title": "Private LLM in a TEE, verified against Intel's root with no cloud in the chain",
+      "ja_title": null,
+      "url": "https://505labs.com/blog/private-llm-inside-a-tee",
+      "source": "Hacker News (new, pre-viral)",
+      "source_id": "hackernews",
+      "tags": [
+        "tech",
+        "frontier"
+      ],
+      "published": "2026-08-05T22:31:20Z",
+      "score": 0.7667,
+      "distance": 0.8699,
+      "interest": 0.6634,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)",
+        "pre-viral (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "",
+      "explore": false
+    },
+    {
+      "title": "How is this country attracting manufacturing investment?",
+      "ja_title": null,
+      "url": "http://www.euronews.com/business/2026/08/05/how-is-this-country-attracting-manufacturing-investment",
+      "source": "euronews.com",
+      "source_id": "euronews-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-04T14:29:00Z",
-      "score": 0.7642,
-      "distance": 0.7675,
-      "interest": 0.7609,
+      "published": "2026-08-05T13:00:45Z",
+      "score": 0.7653,
+      "distance": 0.7671,
+      "interest": 0.7636,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -464,26 +435,26 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "long-form (+)"
+        "poses a question (+)"
       ],
       "ja": null,
-      "excerpt": "An interesting 20-minute Config talk from the Instagram designer Rose McManus: It covers some of the same areas we recently talked about: diacritics and Polish S (and a fun video about English conventions from a while back ), but it tackles them on a higher level. McManus talks a",
+      "excerpt": "Kazakhstan is seeking to attract more investment into higher-value manufacturing as it looks to diversify its economy beyond raw materials and expand value-added industries.",
       "explore": false
     },
     {
-      "title": "公衆Wi-Fiの接続案内画面を悪用した攻撃活動CaptiveCrunchについてまとめてみた - piyolog",
+      "title": "AI漫画、試しに作ってみたけどめちゃくちゃ大変じゃねえか！ 1ページまるご..",
       "ja_title": null,
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/08/04/183114",
+      "url": "https://anond.hatelabo.jp/20260805165003",
       "source": "はてブ · テクノロジー新着",
       "source_id": "hatena-it",
       "tags": [
         "ja",
         "tech"
       ],
-      "published": "2026-08-04T11:07:11Z",
-      "score": 0.7617,
-      "distance": 0.7665,
-      "interest": 0.757,
+      "published": "2026-08-05T07:54:49Z",
+      "score": 0.7647,
+      "distance": 0.7655,
+      "interest": 0.7638,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -495,22 +466,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "Microsoft Threat Intelligenceは2026年7月31日、ホテルや会議施設などが提供する公衆Wi-Fi(キャプティブポータル)の通信を操作し、偽のブラウザやOSのアップデート画面等を通じてマルウェアを配布し、認証情報やセッション情報を窃取する攻撃活動「CaptiveCrunch」を公表しました。また、ReliaQuest Threat Researchも7...",
+      "excerpt": "AI漫画、試しに作ってみたけどめちゃくちゃ大変じゃねえか！ 1ページまるごと生成なんてできないからコマ割りは自分でやってコマごとの絵をそれぞれ生成していいものがでたら切り貼りで当てはめていって吹き出しとセリフを入れて……ぜんぜんつまらん！ 一応できたけど素人のマンガがそれなりにきれいな絵でできましたって...",
       "explore": false
     },
     {
-      "title": "Why R&D Waste Persists Despite Widespread AI Adoption",
+      "title": "AI models need moral support to make discoveries",
       "ja_title": null,
-      "url": "https://content.knowledgehub.wiley.com/the-2026-rd-benchmark-report-waste-ai-and-the-race-to-market/",
-      "source": "spectrum.ieee.org",
-      "source_id": "spectrum-ieee-org",
+      "url": "https://seangoedecke.com/ai-models-need-moral-support/",
+      "source": "seangoedecke.com",
+      "source_id": "seangoedecke-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-04T14:51:55Z",
-      "score": 0.7531,
-      "distance": 0.7676,
-      "interest": 0.7387,
+      "published": "2026-07-31T00:00:00Z",
+      "score": 0.7633,
+      "distance": 0.7275,
+      "interest": 0.7992,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -522,23 +493,106 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "This report examines R&amp;D waste and how AI adoption has outpaced the intelligence needed to make consequential decisions well. What Attendees will Learn Where R&amp;D budget is lost. More than a third of organizations spend 25 to 40 percent of their R&amp;D budget on projects ",
+      "excerpt": "One recent development in AI is its ability to solve some long-standing problems in mathematics. In 2024 and 2025, this was a trickle: once or twice a year somebody would say that an LLM came up with a proof, and then everyone would argue over whether that counted as “real” mathe",
       "explore": false
     },
     {
-      "title": "Born Against, or why hobby programming communities are aggressively against LLM usage",
+      "title": "Pluralistic: Dualism (03 Aug 2026)",
       "ja_title": null,
-      "url": "https://blog.fogus.me/llm/born-against.html",
+      "url": "https://pluralistic.net/2026/08/03/andor/",
+      "source": "pluralistic.net",
+      "source_id": "pluralistic-net",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-03T08:25:53Z",
+      "score": 0.7618,
+      "distance": 0.7514,
+      "interest": 0.7723,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Today's links Dualism: Why not both? Hey look at this: Delights to delectate. Object permanence: UK's Great Firewall falls; Mint the coins; Virtual pets v DRM; Getty copyfrauds 47,000 photos; Net Mexico-US illegal migration is zero; Build a wall (around Trump Tower); Remote-hacki",
+      "explore": false
+    },
+    {
+      "title": "Anthropic’s Opus 5 Is Better at Resisting Prompt Injection",
+      "ja_title": null,
+      "url": "https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html",
+      "source": "schneier.com",
+      "source_id": "schneier-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-07-31T17:23:16Z",
+      "score": 0.7552,
+      "distance": 0.7326,
+      "interest": 0.7778,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "The chart is interesting. On the IPI benchmark, Opus 5 improved over Opus 4.8, reducing the probability of an attacker succeeding within 15 attempts from 5.5% to 2.0%, and from 0.5% to 0.2% on 1 attempt. It also improved on Sonnet 5 (5.9% at k=15) and Mythos 5 (2.6%), making it t",
+      "explore": false
+    },
+    {
+      "title": "WorkFlowyのPane機能",
+      "ja_title": null,
+      "url": "https://rashita.net/blog/?WorkFlowy%E3%81%AEPane%E6%A9%9F%E8%83%BD",
+      "source": "R-style（倉下忠憲）",
+      "source_id": "rashita",
+      "tags": [
+        "ja",
+        "tools-for-thought",
+        "writing"
+      ],
+      "published": "2026-07-29T05:35:17Z",
+      "score": 0.755,
+      "distance": 0.7148,
+      "interest": 0.7952,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "以前のうちあわせCastで、「標準機能で右側にアウトラインを展開できるようになったぜ！」と喜んでいたのですが、気がついたらメニューからそのボタンが消えていました。 第百九三回：Tak.さんと汎用ツールと専用ツールについて 作成者：うちあわせCast 何かのバクかなと思っていたら、機能全体がブラッシュアップされていたようです。本日確認したら違った形で実装されていました。",
+      "explore": false
+    },
+    {
+      "title": "I Built a Blog and Forgot to Write",
+      "ja_title": null,
+      "url": "https://benjcal.space/blog/i-built-a-blog-and-forgot-to-write/",
       "source": "Lobsters",
       "source_id": "lobsters",
       "tags": [
         "tech",
         "computing"
       ],
-      "published": "2026-08-04T20:24:33Z",
-      "score": 0.7345,
+      "published": "2026-08-05T20:07:39Z",
+      "score": 0.7386,
       "distance": 0.7692,
-      "interest": 0.6998,
+      "interest": 0.708,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -553,18 +607,47 @@
       "explore": false
     },
     {
-      "title": "Announcing TanStack Table V9",
+      "title": "塩﨑太智（M!LK）、なぜ愛される？　芸能界とお茶の間が求めていた“全力感”、人懐っこさの権化",
       "ja_title": null,
-      "url": "https://tanstack.com/blog/announcing-tanstack-table-v9",
-      "source": "tanstack.com",
-      "source_id": "tanstack-com",
+      "url": "https://realsound.jp/2026/08/post-2482576.html",
+      "source": "realsound.jp",
+      "source_id": "realsound-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-04T12:00:00Z",
-      "score": 0.7343,
-      "distance": 0.7667,
-      "interest": 0.7018,
+      "published": "2026-08-06T05:50:19Z",
+      "score": 0.7384,
+      "distance": 0.62,
+      "interest": 0.8567,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "M!LKの塩﨑太智が『オトナモラトリアム』（テレビ東京）に出演。共演者の若槻千夏が塩﨑を「今、芸能界イチ推しタレントです」と紹介していたように、彼の何がそう思わせるのか。愛される理由を考える。",
+      "explore": false
+    },
+    {
+      "title": "Wednesday assorted links",
+      "ja_title": null,
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/08/wednesday-assorted-links-565.html?utm_source=rss&utm_medium=rss&utm_campaign=wednesday-assorted-links-565",
+      "source": "Marginal Revolution",
+      "source_id": "marginalrev",
+      "tags": [
+        "economics",
+        "curation"
+      ],
+      "published": "2026-08-05T15:35:40Z",
+      "score": 0.7372,
+      "distance": 0.7678,
+      "interest": 0.7066,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -575,22 +658,49 @@
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "TanStack Table V9 is here with a tree-shakable feature architecture, fine-grained reactivity, improved performance, and first-class support for more frameworks.",
+      "excerpt": "1. A catalog of past AI predictions. 2. Jasmine Sun on why people do not want data centers. And Jasmine Sun on Ezra Klein, on data centers (NYT). 3. A bot running an SF retail boutique? (NYT) 4. Elise Cawley, RIP. 5. On the NYC grocery store plan. 6. New credit card gives you tok",
       "explore": false
     },
     {
-      "title": "Shocking video shows Russian drone hunting civilian at Kherson market",
+      "title": "The Session You Cannot Take With You",
       "ja_title": null,
-      "url": "http://www.euronews.com/my-europe/2026/08/04/shocking-video-shows-russian-drone-hunting-civilian-at-kherson-market",
-      "source": "euronews.com",
-      "source_id": "euronews-com",
+      "url": "https://earendil.com/posts/session-portability/",
+      "source": "earendil.com",
+      "source_id": "earendil-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-04T12:42:26Z",
-      "score": 0.7323,
-      "distance": 0.7669,
-      "interest": 0.6977,
+      "published": "2026-07-29T22:00:00Z",
+      "score": 0.735,
+      "distance": 0.7197,
+      "interest": 0.7503,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "The original promise of an inference API was wonderfully simple: send some input, receive some output. If you kept both, you had the conversation. You could inspect it, archive it, replay it, or give it to a different model. That abstraction was never completely true. For instanc",
+      "explore": false
+    },
+    {
+      "title": "Why a friendlier robot loses your trust faster when It messes up",
+      "ja_title": null,
+      "url": "https://fortune.com/2026/08/05/robot-mistakes-trust-brain-study/",
+      "source": "fortune.com",
+      "source_id": "fortune-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-05T21:54:24Z",
+      "score": 0.732,
+      "distance": 0.7697,
+      "interest": 0.6942,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -601,22 +711,50 @@
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "A video shared by Ukraine’s police shows a Russian drone deliberately tracking a man at a market in Kherson. President Zelenskyy said the footage is evidence of Moscow’s “drone safari” against civilians.",
+      "excerpt": "A new brain-imaging study of the humanoid robot Pepper found that oxytocin spikes during a robot's mistakes track with suspicion, not affection.",
       "explore": false
     },
     {
-      "title": "Charitable wills in Spain reach record high amid growing cancer burden",
+      "title": "Giving and taking credit in big tech companies",
       "ja_title": null,
-      "url": "http://www.euronews.com/health/2026/08/04/cancer-now-leading-cause-of-death-in-spain-as-interest-in-charitable-wills-soars",
-      "source": "euronews.com",
-      "source_id": "euronews-com",
+      "url": "https://seangoedecke.com/giving-and-taking-credit/",
+      "source": "seangoedecke.com",
+      "source_id": "seangoedecke-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-04T13:43:10Z",
-      "score": 0.731,
-      "distance": 0.7672,
-      "interest": 0.6948,
+      "published": "2026-08-02T00:00:00Z",
+      "score": 0.7307,
+      "distance": 0.7418,
+      "interest": 0.7195,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Engineers often complain that visibility should be their manager’s job. In other words, they think engineers should be able to focus on the code, while their manager figures out who’s doing well and rewards them. This attitude is an extension of the “school fantasy”: the idea tha",
+      "explore": false
+    },
+    {
+      "title": "Tressie McMillan Cottom’s reading list for fighting back...",
+      "ja_title": null,
+      "url": "https://kottke.org/26/08/0049452-tressie-mcmillan-cottoms-",
+      "source": "kottke.org",
+      "source_id": "kottke",
+      "tags": [
+        "curation",
+        "culture"
+      ],
+      "published": "2026-08-05T14:55:00Z",
+      "score": 0.7306,
+      "distance": 0.7676,
+      "interest": 0.6935,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -627,21 +765,22 @@
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "Cancer now accounts for 26.3% of all deaths in Spain. Against this backdrop, more people are choosing to include social causes in their wills, with interest in charitable legacies reaching record levels in 2025.",
+      "excerpt": "Tressie McMillan Cottom’s reading list for fighting back against Big Tech . &#8220;Put simply, there is too much money, some of it too untraceable, giving a small group of unelected people too much power over the people.&#8221;",
       "explore": false
     },
     {
-      "title": "yinka ilori’s new book explores the chair as a vessel for memory and identity",
+      "title": "Here’s Why There Aren’t Any Tiny Dinosaurs",
       "ja_title": null,
-      "url": "https://www.designboom.com/design/yinka-ilori-book-chair-vessel-memory-identity-oro-editions-chairman/",
-      "source": "designboom.com",
-      "source_id": "designboom-com",
+      "url": "https://nautil.us/heres-why-there-arent-any-tiny-dinosaurs-1283402/",
+      "source": "Nautilus",
+      "source_id": "nautilus",
       "tags": [
-        "discovered"
+        "science",
+        "essays"
       ],
-      "published": "2026-08-04T07:45:16Z",
-      "score": 0.7291,
-      "distance": 0.7655,
+      "published": "2026-08-05T14:00:00Z",
+      "score": 0.73,
+      "distance": 0.7673,
       "interest": 0.6928,
       "judged": false,
       "pinned": false,
@@ -653,103 +792,48 @@
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "the publication traces more than a decade of chair design through new photography, archival material, and essays. The post yinka ilori’s new book explores the chair as a vessel for memory and identity appeared first on designboom | architecture &amp; design magazine .",
+      "excerpt": "There are plenty of teensy animals—just not dinosaurs The post Here’s Why There Aren’t Any Tiny Dinosaurs appeared first on Nautilus .",
       "explore": false
     },
     {
-      "title": "This Is Not About AI",
+      "title": "Carson Daly On Why Keke Palmer Is Hosting ‘The Voice: Celebrity’ As His Future On NBC Show Is Questioned: “I Am Not The Right Host For It”",
       "ja_title": null,
-      "url": "https://www.uncannymagazine.com/article/this-is-not-about-ai/",
-      "source": "Uncanny Magazine",
-      "source_id": "uncanny",
-      "tags": [
-        "fiction",
-        "scifi"
-      ],
-      "published": "2026-08-04T10:00:32Z",
-      "score": 0.7269,
-      "distance": 0.7661,
-      "interest": 0.6877,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "AI is an especially difficult topic for me to write about these days, I explained in an email to the editors of Uncanny Magazine in October 2024. They had reached out to ask if I would be interested in penning a follow-up to the essay that they had published in June 2023, “Not a ",
-      "explore": false
-    },
-    {
-      "title": "Towards an AI for Africa",
-      "ja_title": null,
-      "url": "https://aeon.co/essays/an-ai-for-africa-would-be-built-on-hunhu-ubuntu-ethics",
-      "source": "Aeon",
-      "source_id": "aeon",
-      "tags": [
-        "ideas",
-        "philosophy"
-      ],
-      "published": "2026-08-04T10:00:00Z",
-      "score": 0.7205,
-      "distance": 0.7661,
-      "interest": 0.6748,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "Western-developed AI rides roughshod over Ubuntu values of connection and community that animate African ethical life - by Fainos Mangena Read on Aeon",
-      "explore": false
-    },
-    {
-      "title": "Middle-Aged Love: Rereading in Your Forties and Beyond",
-      "ja_title": null,
-      "url": "https://www.uncannymagazine.com/article/middle-aged-love-rereading-in-your-forties-and-beyond/",
-      "source": "Uncanny Magazine",
-      "source_id": "uncanny",
-      "tags": [
-        "fiction",
-        "scifi"
-      ],
-      "published": "2026-08-04T10:00:06Z",
-      "score": 0.7197,
-      "distance": 0.7661,
-      "interest": 0.6732,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "If you last reread one of your favorite books for comfort during lockdown, congratulations, that was six years ago and counting. A major event like lockdown is likely to stand out no matter how old you are. But what if you reread the same book two years later? If you were eightee",
-      "explore": false
-    },
-    {
-      "title": "M!LKの真価はカップリング＆アルバム曲にあり？　「テレパシー」「コトノハ」……躍進を支える名曲たち",
-      "ja_title": null,
-      "url": "https://realsound.jp/2026/08/post-2472653.html",
-      "source": "realsound.jp",
-      "source_id": "realsound-jp",
+      "url": "https://deadline.com/2026/08/carson-daly-keke-palmer-host-the-voice-celebrity-future-1237018937/",
+      "source": "deadline.com",
+      "source_id": "deadline-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-04T17:00:44Z",
-      "score": 0.7147,
-      "distance": 0.7682,
-      "interest": 0.6613,
+      "published": "2026-08-05T19:35:41Z",
+      "score": 0.7246,
+      "distance": 0.769,
+      "interest": 0.6802,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "Carson Daly, the long-time host of The Voice, is clearing things up about his future on the NBC singing competition after a &#8220;Celebrity&#8221; spinoff was confirmed with Keke Palmer as the presenter. The TRL alum took to social media to explain why he was not hosting the spi",
+      "explore": false
+    },
+    {
+      "title": "ミラーレスカメラユーザーのための「動画サブカメラ論」　アクションカメラにジンバルカメラ……その実質的な違いは？",
+      "ja_title": null,
+      "url": "https://dc.watch.impress.co.jp/docs/column/2130531.html",
+      "source": "dc.watch.impress.co.jp",
+      "source_id": "dc-watch-impress-co-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-05T22:00:00Z",
+      "score": 0.7235,
+      "distance": 0.7697,
+      "interest": 0.6772,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -761,205 +845,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "「好きすぎて滅！」や「爆裂愛してる」をきっかけに、ダンスボーカルグループ・M!LKが気になり始めた人も多いのではないだろうか。そんな今だからこそぜひ聴いてほしいのが、彼らのカップリング楽曲とアルバム収録曲だ。今こそ、広く知られるべき――そんな使命感を胸に、今回は全力でプレゼンさせていただきたい。",
+      "excerpt": "DJI Osmo Pocket 4PやInsta360 Luna Ultraの登場で、小型ジンバルカメラが注目を集めています。",
       "explore": false
     },
     {
-      "title": "「悪夢を見分ける4つのサイン」と「悪夢を克服する方法」",
+      "title": "Where is gravity the strongest and weakest on Earth?",
       "ja_title": null,
-      "url": "https://nazology.kusuguru.co.jp/archives/198321",
-      "source": "nazology.kusuguru.co.jp",
-      "source_id": "nazology-kusuguru-co-jp",
+      "url": "https://bigthink.com/starts-with-a-bang/gravity-strongest-weakest-earth/",
+      "source": "bigthink.com",
+      "source_id": "bigthink-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-04T22:00:14Z",
-      "score": 0.7146,
-      "distance": 0.7697,
-      "interest": 0.6595,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "幽霊に追いかけられる夢、高い場所から落ちる夢、何者かに襲われる夢… こうした不快な夢は、すべてが「悪夢」と呼ばれるわけではありません。 心理学における悪夢には、単に怖い内容であるだけでなく、眠りから目を覚まし、その内容を思い出せるといった特徴があります。 たまに悪夢を見ることは珍しくありませんが、繰り返し起こると睡眠を妨げ、夜になること自体が怖くなってしまう場合もあります。 では、普通の嫌な夢と悪夢は、どのように見分ければよいのでしょうか。 また、何度も同じような悪夢を見てしまう場合、どのように対処すればいいのでしょうか。",
-      "explore": false
-    },
-    {
-      "title": "The Summer 50-Something Female Friendships Took Over Streaming With ‘Five Star Weekend’ & ‘Ride Or Die’s Surprise Success",
-      "ja_title": null,
-      "url": "https://deadline.com/2026/08/ride-or-die-five-star-weekend-female-friendships-streaming-1237016460/",
-      "source": "deadline.com",
-      "source_id": "deadline-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-04T22:05:31Z",
-      "score": 0.7135,
-      "distance": 0.7697,
-      "interest": 0.6572,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "In the era of network television, viewers used to lose a lot of their value once they hit 50 when it came to entertainment programming as advertisers are targeting the adults 18-49 demographic. Add to that the long-time stigma over shows with all-female leads, especially in a non",
-      "explore": false
-    },
-    {
-      "title": "内部収録が可能になった「DJI Mic Mini 2S」　レシーバーの4台接続にも対応　AIノイズキャンセリングも",
-      "ja_title": null,
-      "url": "https://dc.watch.impress.co.jp/docs/news/2130160.html",
-      "source": "dc.watch.impress.co.jp",
-      "source_id": "dc-watch-impress-co-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-04T12:00:00Z",
-      "score": 0.7099,
-      "distance": 0.7667,
-      "interest": 0.653,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "DJIは8月4日（火）、ワイヤレスマイクの新製品「DJI Mic Mini 2S」を発売した。32bitフロートでの内部収録やAIノイズキャンセリングを備える。",
-      "explore": false
-    },
-    {
-      "title": "Show HN: I gave my video editor an MCP server so Claude can edit videos for me",
-      "ja_title": null,
-      "url": "https://www.shorz.ai",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
-      "tags": [
-        "tech",
-        "frontier"
-      ],
-      "published": "2026-08-04T21:52:22Z",
-      "score": 0.7087,
-      "distance": 0.8697,
-      "interest": 0.5476,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
-      ],
-      "reasons_interest": [],
-      "ja": null,
-      "excerpt": "",
-      "explore": false
-    },
-    {
-      "title": "女性がマルチタスク上手に見える理由――男性は忙しくなると黙る",
-      "ja_title": null,
-      "url": "https://nazology.kusuguru.co.jp/archives/198332",
-      "source": "nazology.kusuguru.co.jp",
-      "source_id": "nazology-kusuguru-co-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-04T13:00:44Z",
-      "score": 0.7078,
-      "distance": 0.767,
-      "interest": 0.6486,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "「全財産と貴重品を全部失うのと、今まで撮った写真を全部失うのと、どちらがいいですか。その理由も教えてください」 料理をしながら、この質問にすらすら答えられるでしょうか。 しかも20秒後には、もう次の質問が飛んできます。 その間も目の前の画面には書き留めるべき単語が次々と流れ、隣の机ではさらに別の作業が待っています。 イギリスのブルネル大学（Brunel）などで行われた研究によって、この目の回るようなマルチタスクを実験室に持ち込み、男女のマルチタスク能力を比較しました。 すると用意された5つの課題のうち、4つは男女ほぼ互角だったのです。 差がついたのは、残",
-      "explore": false
-    },
-    {
-      "title": "As of August 3, 2026, T-Mobile's 2G GSM network will be retired",
-      "ja_title": null,
-      "url": "https://www.t-mobile.com/support/coverage/t-mobile-network-evolution",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
-      "tags": [
-        "tech",
-        "frontier"
-      ],
-      "published": "2026-08-04T21:58:32Z",
-      "score": 0.7076,
-      "distance": 0.8697,
-      "interest": 0.5455,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
-      ],
-      "reasons_interest": [],
-      "ja": null,
-      "excerpt": "",
-      "explore": false
-    },
-    {
-      "title": "Pi's Minimalism Is Its Advantage",
-      "ja_title": null,
-      "url": "https://earendil.com/posts/pi-autoresearch-and-databricks/",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
-      "tags": [
-        "tech",
-        "frontier"
-      ],
-      "published": "2026-08-04T22:22:12Z",
-      "score": 0.707,
-      "distance": 0.8698,
-      "interest": 0.5443,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
-      ],
-      "reasons_interest": [],
-      "ja": null,
-      "excerpt": "",
-      "explore": false
-    },
-    {
-      "title": "What Does a Christopher Nolan Movie Want?",
-      "ja_title": null,
-      "url": "https://mubi.com/en/notebook/posts/what-does-a-christopher-nolan-movie-want",
-      "source": "MUBI Notebook",
-      "source_id": "mubi-notebook",
-      "tags": [
-        "film",
-        "criticism"
-      ],
-      "published": "2026-08-03T08:00:00Z",
-      "score": 0.7067,
-      "distance": 0.7584,
-      "interest": 0.6551,
+      "published": "2026-08-05T06:00:00Z",
+      "score": 0.7224,
+      "distance": 0.765,
+      "interest": 0.6798,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -971,23 +872,23 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Oppenheimer (Christopher Nolan, 2023). In what has to be one of the earlier instances of literary criticism, Herodotus wrote that it was Homer “who gave to Greece its gods.” By this, he did not mean that The Iliad and The Odyssey gave the Greeks an entire theology but rather that",
+      "excerpt": "If you gather enough mass together in one place, as long as the individual particles inside aren&#8217;t moving too quickly, your mass will become gravitationally bound. If that mass is made out of atoms — particles that can collide, exchange energy and momentum, and stick togeth",
       "explore": false
     },
     {
-      "title": "Amiga clarifies Commodore rights and the future of AmigaOS",
+      "title": "Will You Become an Idol? Build your Football player from this game",
       "ja_title": null,
-      "url": "https://amiga.com/news/20260804-amiga-update",
+      "url": "https://www.idolojuego.com/",
       "source": "Hacker News (new, pre-viral)",
       "source_id": "hackernews",
       "tags": [
         "tech",
         "frontier"
       ],
-      "published": "2026-08-04T22:04:29Z",
-      "score": 0.7064,
-      "distance": 0.8697,
-      "interest": 0.543,
+      "published": "2026-08-05T22:31:53Z",
+      "score": 0.7219,
+      "distance": 0.8699,
+      "interest": 0.5739,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -995,50 +896,26 @@
         "off-centre domain (+)",
         "pre-viral (+)"
       ],
-      "reasons_interest": [],
+      "reasons_interest": [
+        "poses a question (+)"
+      ],
       "ja": null,
       "excerpt": "",
       "explore": false
     },
     {
-      "title": "Our top agent latency optimisations",
+      "title": "Bella Thorne and Zendaya Got Pitted Against Each Other During Disney Fame and Snuck Off Set to ‘Hash It Out’ After Things ‘Got Pretty Bad’",
       "ja_title": null,
-      "url": "https://lexifina.com/blog/top-10-agent-optimisations-for-latency",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
-      "tags": [
-        "tech",
-        "frontier"
-      ],
-      "published": "2026-08-04T22:22:56Z",
-      "score": 0.7063,
-      "distance": 0.8698,
-      "interest": 0.5428,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
-      ],
-      "reasons_interest": [],
-      "ja": null,
-      "excerpt": "",
-      "explore": false
-    },
-    {
-      "title": "写真を巡る、今日の読書 第116回：意図を超えた「何か」が宿る。写真というメディアの深遠さを伝える本 - デジカメ Watch",
-      "ja_title": null,
-      "url": "https://dc.watch.impress.co.jp/docs/column/Shashinwomeguru/2129894.html",
-      "source": "dc.watch.impress.co.jp",
-      "source_id": "dc-watch-impress-co-jp",
+      "url": "https://variety.com/2026/tv/news/zendaya-bella-thorne-feud-disney-pitted-against-each-other-1236828507/",
+      "source": "variety.com",
+      "source_id": "variety-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-04T22:00:00Z",
-      "score": 0.7059,
-      "distance": 0.7697,
-      "interest": 0.642,
+      "published": "2026-08-05T22:07:29Z",
+      "score": 0.7186,
+      "distance": 0.7698,
+      "interest": 0.6674,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1046,26 +923,25 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "日本語 (+)"
+        "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "写真家 大和田良が、写真にまつわる書籍を紹介する本連載。写真集、小説、エッセイ、写真論から、一見写真と関係が無さそうな雑学系まで、隔週で3冊ずつピックアップします。",
+      "excerpt": "Bella Thorne revealed on the latest episode of the &#8220;Call Her Daddy&#8221; podcast that she was aggressively pitted against her &#8220;Shake It Off&#8221; co-star Zendaya amid the height of their Disney stardom. The two actors became household names among Disney Channel view",
       "explore": false
     },
     {
-      "title": "Menu Manager の配信基盤を Pub/Sub から Cloud Tasks に作り直した話 - tacomsテックブログ",
+      "title": "Amanda Frances Out Of ‘The Real Housewives Of Beverly Hills’ After One Season: “I Win In The End”",
       "ja_title": null,
-      "url": "https://tacoms-inc.hatenablog.com/entry/2026/07/27/123000",
-      "source": "はてブ · テクノロジー新着",
-      "source_id": "hatena-it",
+      "url": "https://deadline.com/2026/08/amanda-frances-out-the-real-housewives-of-beverly-hills-1237025356/",
+      "source": "deadline.com",
+      "source_id": "deadline-com",
       "tags": [
-        "ja",
-        "tech"
+        "discovered"
       ],
-      "published": "2026-08-04T08:05:44Z",
-      "score": 0.7057,
-      "distance": 0.7656,
-      "interest": 0.6458,
+      "published": "2026-08-05T21:55:30Z",
+      "score": 0.7182,
+      "distance": 0.7697,
+      "interest": 0.6667,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1073,36 +949,171 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "日本語 (+)"
+        "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "はじめに こんにちは、tacomsでエンジニアをしている高橋です。 飲食チェーン向けに「メニューをデリバリープラットフォームへ一斉配信する」プロダクトMenu Managerの開発・運用に携わっています。 www.camel-series.com ある大手飲食チェーンの利用開始時に、1回の配信中にプラットフォーム側のレート制限に起因する配...",
+      "excerpt": "Amanda Frances has given up her Bravo diamond and is leaving The Real Housewives of Beverly Hills after one season. The entrepreneur joined the reality series in Season 15 and took to social media to explain why she would not return for Season 16, as production ramps up. &#8220;M",
       "explore": false
     },
     {
-      "title": "Show HN: Hinode – Cloud Linux desktop with a dedicated GPU that auto-pauses",
+      "title": "Telegram Temporarily Removed for CSAM",
       "ja_title": null,
-      "url": "https://hinode.run",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
+      "url": "https://mjtsai.com/blog/2026/08/05/telegram-temporarily-removed-for-csam/",
+      "source": "mjtsai.com",
+      "source_id": "mjtsai-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-05T21:10:40Z",
+      "score": 0.7178,
+      "distance": 0.7695,
+      "interest": 0.6662,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "Hartley Charlton (The Verge): Apple briefly removed Telegram from the App Store on Monday night after a review found content that violated its guidelines against child sexual abuse material (CSAM), but restored the app a short while later, according to Reuters. It seems like this",
+      "explore": false
+    },
+    {
+      "title": "The \"Disability Dongle\": Why Silicon Valley Hates Me and you",
+      "ja_title": null,
+      "url": "https://sightlessscribbles.com/disability-dongle/",
+      "source": "Lobsters",
+      "source_id": "lobsters",
       "tags": [
         "tech",
-        "frontier"
+        "computing"
       ],
-      "published": "2026-08-04T22:30:20Z",
-      "score": 0.7056,
-      "distance": 0.8699,
-      "interest": 0.5412,
+      "published": "2026-08-05T18:29:28Z",
+      "score": 0.7166,
+      "distance": 0.7687,
+      "interest": 0.6645,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
+        "off-centre domain (+)"
       ],
-      "reasons_interest": [],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
       "ja": null,
-      "excerpt": "",
+      "excerpt": "Comments",
+      "explore": false
+    },
+    {
+      "title": "Microsoft 謹製 デスクトップアプリ「Skill Recorder」で業務効率化スキル（SKILL.md）の作成が捗る？",
+      "ja_title": null,
+      "url": "https://zenn.dev/benjuwan/articles/c2ba48e7662f92",
+      "source": "Zenn",
+      "source_id": "zenn",
+      "tags": [
+        "ja",
+        "tech",
+        "tools"
+      ],
+      "published": "2026-08-04T04:57:19Z",
+      "score": 0.7161,
+      "distance": 0.7575,
+      "interest": 0.6747,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "poses a question (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "はじめに スキル（SKILL.md）で定型業務をAIに移譲したり、特定業務の自動化・半自動化を実現したりといった状況は珍しくなくなってきたと思います。 例えば、ブラウザ操作のトレースはplaywright-mcpまたはplaywright-cliで行い、そのトレース結果からAIに業務効率化のスキル作成までをしてもらうのも一般的でしょう。 とはいえ、あくまでブラウザ操作ベースでの話になります。 ここ最近、ローカルPCのアプリケーションやソフトといったPC操作ベースでの業務効率化スキルを作成できる術を探していたところ、今回紹介するmicrosoft/skil",
+      "explore": false
+    },
+    {
+      "title": "A TikTok A/B Test Proves It Is Responsible for What Users See",
+      "ja_title": null,
+      "url": "https://pxlnv.com/linklog/tiktok-agency-responsibility/",
+      "source": "pxlnv.com",
+      "source_id": "pxlnv-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-05T19:31:10Z",
+      "score": 0.7156,
+      "distance": 0.769,
+      "interest": 0.6622,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "In 2023, Bloomberg Businessweek asked TikTok for comment as it reported out a story about users who were recommended videos about self-harm and suicide, particularly teenagers like Chase Nasca. It is a difficult read. As a result of this press outreach, TikTok analyzed Nasca&#821",
+      "explore": false
+    },
+    {
+      "title": "Prompt Caching In Agents",
+      "ja_title": null,
+      "url": "https://earendil.com/posts/prompt-caching/",
+      "source": "earendil.com",
+      "source_id": "earendil-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-07-22T18:25:52Z",
+      "score": 0.7138,
+      "distance": 0.6687,
+      "interest": 0.759,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Large language models are often thought of like functions: send in some text, receive some text. That is a useful abstraction, but it ignores one of the most important parts of running a coding agent: most of the input is the same as last time. In other words we mostly append to ",
+      "explore": false
+    },
+    {
+      "title": "スガ シカオは“破格”の存在であるーー30年の軌跡、The Family Sugarとともに鳴らした極上の横浜BUNTAI公演",
+      "ja_title": null,
+      "url": "https://realsound.jp/2026/08/post-2474738.html",
+      "source": "realsound.jp",
+      "source_id": "realsound-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-05T19:00:38Z",
+      "score": 0.7113,
+      "distance": 0.7688,
+      "interest": 0.6538,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "7月25日、スガ シカオのデビュー30周年イヤーの幕開けを飾るワンマンライブ『YOKOHAMA UNITE音楽祭 2026 presents スガ シカオ 30th ANNIVERSARY Shikao & The Family Sugar ONE NIGHT LIVE!』が神奈川・横浜BUNTAIにて開催された。当日の模様をレポートする。",
       "explore": false
     }
   ]
