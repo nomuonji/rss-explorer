@@ -1743,14 +1743,15 @@
     },
     "statnews.com": {
       "referrers": [
-        "guzey"
+        "guzey",
+        "hackernews"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-23",
       "sample_url": "https://guzey.com/abolish-the-nih/",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://www.statnews.com/feed/",
+      "checked": true,
+      "promoted": true
     },
     "nexus.od.nih.gov": {
       "referrers": [
@@ -5300,13 +5301,14 @@
     },
     "gao.gov": {
       "referrers": [
-        "spectrum-ieee-org"
+        "spectrum-ieee-org",
+        "hackernews"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-26",
       "sample_url": "https://spectrum.ieee.org/ieee-program-girls-india-stem",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "unesdoc.unesco.org": {
@@ -6070,9 +6072,10 @@
         "hackernews",
         "seangoedecke-com",
         "simonwillison-net",
-        "hatena-know"
+        "hatena-know",
+        "hatena-it"
       ],
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-07-27",
       "sample_url": "https://www.anthropic.com/news/position-open-weights-models",
       "feed": null,
@@ -7189,14 +7192,15 @@
     },
     "openculture.com": {
       "referrers": [
-        "kottke"
+        "kottke",
+        "hackernews"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-28",
       "sample_url": "https://kottke.org/26/07/where-do-european-country-names-come-from",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://www.openculture.com/feed",
+      "checked": true,
+      "promoted": true
     },
     "abebooks.com": {
       "referrers": [
@@ -7615,14 +7619,15 @@
     },
     "depot.dev": {
       "referrers": [
-        "hackernews"
+        "hackernews",
+        "lobsters"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-29",
       "sample_url": "https://depot.dev/blog/github-is-the-wrong-shape-for-this-new-world",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://depot.dev/rss.xml",
+      "checked": true,
+      "promoted": true
     },
     "useglass.up.railway.app": {
       "referrers": [
@@ -17869,14 +17874,15 @@
     },
     "ryoppippi.com": {
       "referrers": [
-        "hatena-it"
+        "hatena-it",
+        "hackernews"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-10",
       "sample_url": "https://ryoppippi.com/blog/2026-07-30-uk-gtv-ja/",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://ryoppippi.com/feed.xml",
+      "checked": true,
+      "promoted": true
     },
     "businessinsider.jp": {
       "referrers": [
@@ -18848,14 +18854,15 @@
     },
     "bunshun.jp": {
       "referrers": [
-        "hatena-know"
+        "hatena-know",
+        "hatena-it"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-11",
       "sample_url": "https://bunshun.jp/articles/-/90850",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://bunshun.jp/list/feed/rss",
+      "checked": true,
+      "promoted": true
     },
     "bourbon.co.jp": {
       "referrers": [
@@ -20039,13 +20046,14 @@
     },
     "scientificamerican.com": {
       "referrers": [
-        "kottke"
+        "kottke",
+        "hackernews"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-12",
       "sample_url": "https://kottke.org/26/08/0049484-heres-how-rockys-musical-",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "blog.rootsofprogress.org": {
@@ -21153,14 +21161,15 @@
     },
     "ifixit.com": {
       "referrers": [
-        "macrumors-com"
+        "macrumors-com",
+        "hackernews"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-13",
       "sample_url": "https://www.macrumors.com/2026/08/13/ifixit-galaxy-z-fold8-teardown/",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://ifixit.com/News/rss",
+      "checked": true,
+      "promoted": true
     },
     "channelnews.com.au": {
       "referrers": [
@@ -21659,14 +21668,15 @@
     },
     "o.ee": {
       "referrers": [
-        "lobsters"
+        "lobsters",
+        "hackernews"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-14",
       "sample_url": "https://o.ee/blog/activitypub-won-by-being-boring/",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://o.ee/rss.xml",
+      "checked": true,
+      "promoted": true
     },
     "daniel.haxx.se": {
       "referrers": [
@@ -22357,6 +22367,545 @@
       "count": 1,
       "first_seen": "2026-08-14",
       "sample_url": "https://blog.terrygodier.com/2026/05/04/my-plan-with-rss.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "horn.gg": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://horn.gg/blog/engineers-will-do-anything-to-avoid-learning-from-history/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "tally.so": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://tally.so/r/0QP0lj",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "artinsociety.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://www.artinsociety.com/pt-1-initial-impacts.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "ashu1461.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://ashu1461.com/posts/a-calorie-tracker-on-my-garmin-watch/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "xescu.re": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://xescu.re/keeta-consensus.pdf",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "chrisbergeron.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://chrisbergeron.com/2026/08/11/why_ai_agents_need_verified_identity/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "overcomingbias.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://www.overcomingbias.com/p/no-new-physics-consciousness",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "nochan.net": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://nochan.net/b/Internet-Crap/20260108-Confuse-Some-SSH-Bots/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "tokenlab.sh": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://tokenlab.sh/zh/mcp",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "thuva4.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://thuva4.com/blog/agentic-development-fallacies/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "augmentingcognition.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://augmentingcognition.com/ltm.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "timeshighereducation.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://www.timeshighereducation.com/opinion/ai-makes-foundational-knowledge-more-important-ever",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "hayward-ca.gov": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://www.hayward-ca.gov/discover/news/aug26/hayward-council-consider-move-ban-data-centers-its-sept-15-meeting",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "daniellakens.blogspot.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "http://daniellakens.blogspot.com/2026/08/which-data-repository-should-you-use.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "acc.org": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://www.acc.org/about-acc/press-releases/2026/08/11/14/59/abdominal-fat-predicts-heart-disease-risk-better-than-bmi",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "alexwortega-my-pi-agent.hf.space": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://alexwortega-my-pi-agent.hf.space/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "theintercept.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://theintercept.com/2026/08/14/cornell-pro-palestine-student-targeting-ice/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "raylers.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://raylers.com",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "pulumi.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://www.pulumi.com/blog/terraforms-data-model-on-pulumis-engine/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "vox.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://www.vox.com/future-perfect/499434/ozempic-glp1-wegovy-obesity-overweight-diabetes",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "henrikkarlsson.xyz": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://www.henrikkarlsson.xyz/p/good-ideas",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "temporalstore.ai": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://temporalstore.ai/blog-context-management.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "evandroguedes.github.io": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://evandroguedes.github.io/doodlesoul/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "pcworld.com": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "lukefleed.xyz": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://lukefleed.xyz/posts/compression/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "blog.buenzli.dev": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://blog.buenzli.dev/flirt-github-and-mailing-list/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "bencornia.com": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://bencornia.com/blog/recap-software-should-work-2026",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "serokell.io": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://serokell.io/blog/serokell-s-work-on-ghc-dependent-types-part-5",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "corbinsimpson.com": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://corbinsimpson.com/words/power-relations.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "gotw.ca": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "http://www.gotw.ca/publications/concurrency-ddj.htm",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "eliasfarhan.ch": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://eliasfarhan.ch/gamedev/cpp/2026/08/14/srnative-01-why-a-custom-engine.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "sifter.org": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://sifter.org/~simon/journal/20260814.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "zig.day": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://zig.day/usa/seattle/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "ckrybus.com": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://ckrybus.com/static/papers/Bainbridge_1983_Automatica.pdf",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "jkm.dev": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://jkm.dev/posts/how-2004-runescape-fit-a-multiplayer-rpg-into-56k-dialup/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "diary.hatenablog.jp": {
+      "referrers": [
+        "hatena-it"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://diary.hatenablog.jp/entry/2026/08/15/235526",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "paper2.hatenablog.com": {
+      "referrers": [
+        "hatena-it"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://paper2.hatenablog.com/entry/2026/08/15/170823",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "dbgate.io": {
+      "referrers": [
+        "hatena-it"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://www.dbgate.io/ja/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "dropbox.com": {
+      "referrers": [
+        "hatena-it"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://www.dropbox.com/scl/fi/2dz2rnch41n0ym6svx2v1/260815_.pdf?rlkey=79hr9bq43shkosbwhe93003lu&st=z03mvt95&e=1&dl=0",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "debimate.jp": {
+      "referrers": [
+        "hatena-it"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://debimate.jp/post/ja/2026-08-09-golangcsvjsonexcelparquet%E3%81%ABsql%E3%82%92%E5%AE%9F%E8%A1%8C%E3%81%99%E3%82%8Bsqly%E3%82%92v1.0.0%E3%81%AB%E3%81%99%E3%82%8B%E8%A9%B1/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "ai.itokoba.com": {
+      "referrers": [
+        "hatena-it"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://ai.itokoba.com/archives/861/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "yomitai.jp": {
+      "referrers": [
+        "hatena-know"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://yomitai.jp/series/shikujiriotoko/13_yamashita/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "publishing.cdlib.org": {
+      "referrers": [
+        "rosenbaum"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://jonathanrosenbaum.net/2026/08/looking-for-nicholas-ray/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "baynature.org": {
+      "referrers": [
+        "simonwillison-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "notepadexe.com": {
+      "referrers": [
+        "9to5mac-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://9to5mac.com/2026/08/15/indie-app-spotlight-notepad-exe-is-an-ultra-fast-lightweight-code-editor-for-your-mac/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "mosyle.net": {
+      "referrers": [
+        "9to5mac-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://9to5mac.com/2026/08/15/apple-work-understanding-apple-business-manager-roles-and-permissions/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "link.amazon": {
+      "referrers": [
+        "9to5mac-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "https://9to5mac.com/2026/08/15/apple-weekend-deals-macbooks-airpods/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "grmitch.blogspot.com": {
+      "referrers": [
+        "bit-ly"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "http://grmitch.blogspot.com/2008/05/hi-all-welcome-to-my-blog.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "blogger.googleusercontent.com": {
+      "referrers": [
+        "bit-ly"
+      ],
+      "count": 1,
+      "first_seen": "2026-08-15",
+      "sample_url": "http://grmitch.blogspot.com/2008/04/blog-picture.html",
       "feed": null,
       "checked": false,
       "promoted": false
@@ -23958,6 +24507,96 @@
       "domain": "bit-ly",
       "action": "graduated",
       "detail": "avg=0.5637 over 8 items"
+    },
+    {
+      "date": "2026-08-15",
+      "domain": "statnews.com",
+      "action": "promoted",
+      "detail": "referred by guzey, hackernews"
+    },
+    {
+      "date": "2026-08-15",
+      "domain": "gao.gov",
+      "action": "probe-failed",
+      "detail": "2 referrers, no feed found"
+    },
+    {
+      "date": "2026-08-15",
+      "domain": "openculture.com",
+      "action": "promoted",
+      "detail": "referred by kottke, hackernews"
+    },
+    {
+      "date": "2026-08-15",
+      "domain": "depot.dev",
+      "action": "promoted",
+      "detail": "referred by hackernews, lobsters"
+    },
+    {
+      "date": "2026-08-15",
+      "domain": "ryoppippi.com",
+      "action": "promoted",
+      "detail": "referred by hatena-it, hackernews"
+    },
+    {
+      "date": "2026-08-15",
+      "domain": "bunshun.jp",
+      "action": "promoted",
+      "detail": "referred by hatena-know, hatena-it"
+    },
+    {
+      "date": "2026-08-15",
+      "domain": "scientificamerican.com",
+      "action": "probe-failed",
+      "detail": "2 referrers, no feed found"
+    },
+    {
+      "date": "2026-08-15",
+      "domain": "ifixit.com",
+      "action": "promoted",
+      "detail": "referred by macrumors-com, hackernews"
+    },
+    {
+      "date": "2026-08-15",
+      "domain": "o.ee",
+      "action": "promoted",
+      "detail": "referred by lobsters, hackernews"
+    },
+    {
+      "date": "2026-08-15",
+      "domain": "100r-ca",
+      "action": "graduated",
+      "detail": "avg=0.601 over 30 items"
+    },
+    {
+      "date": "2026-08-15",
+      "domain": "immich-app",
+      "action": "graduated",
+      "detail": "avg=0.5665 over 30 items"
+    },
+    {
+      "date": "2026-08-15",
+      "domain": "softwaredoug-com",
+      "action": "graduated",
+      "detail": "avg=0.5978 over 14 items"
+    },
+    {
+      "date": "2026-08-15",
+      "domain": "phoronix-com",
+      "action": "graduated",
+      "detail": "avg=0.6152 over 60 items"
+    },
+    {
+      "date": "2026-08-15",
+      "domain": "redhat-com",
+      "action": "graduated",
+      "detail": "avg=0.5596 over 7 items"
+    },
+    {
+      "date": "2026-08-15",
+      "domain": "alan-norbauer-com",
+      "action": "graduated",
+      "detail": "avg=0.5684 over 28 items"
     }
   ]
 }
