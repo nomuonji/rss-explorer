@@ -1,15 +1,21 @@
 {
-  "generated": "2026-08-31T00:13:57Z",
+  "generated": "2026-09-01T00:59:55Z",
   "count": 40,
   "meta": {
-    "sources_total": 264,
+    "sources_total": 268,
     "counts": {
       "seed": 64,
-      "active": 193,
-      "trial": 7
+      "active": 200,
+      "trial": 4
     },
     "feeds_resolved_this_run": 0,
     "discovered_this_run": [
+      "daily-jstor-org",
+      "jekyllrb-com",
+      "funcall-blogspot-com",
+      "techpolicy-press"
+    ],
+    "graduated_this_run": [
       "osnews-com",
       "learn-chatgpt-com",
       "kde-org",
@@ -18,17 +24,9 @@
       "surfingcomplexity-blog",
       "people-kernel-org"
     ],
-    "graduated_this_run": [
-      "drewdevault-com",
-      "daniellitt-com",
-      "neilalexander-dev",
-      "jointhefreeworld-org",
-      "four-htmx-org",
-      "anil-recoil-org"
-    ],
     "retired_this_run": [],
-    "candidates_tracked": 3263,
-    "items_seen_this_run": 4893,
+    "candidates_tracked": 3439,
+    "items_seen_this_run": 5113,
     "items_judged": 0,
     "judge_enabled": false,
     "pinned": [],
@@ -36,18 +34,44 @@
   },
   "items": [
     {
-      "title": "Using Forester to turn Foundations of CS into interactive evergreen lectures",
+      "title": "KDE Gear ⚙️ 26.08",
       "ja_title": null,
-      "url": "https://anil.recoil.org/notes/forester-teaching-notes",
-      "source": "anil.recoil.org",
-      "source_id": "anil-recoil-org",
+      "url": "https://kde.org/announcements/gear/26.08.0/",
+      "source": "kde.org",
+      "source_id": "kde-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-16T00:00:00Z",
-      "score": 0.7214,
-      "distance": 0.6628,
-      "interest": 0.7801,
+      "published": "2026-08-20T00:00:00Z",
+      "score": 0.6335,
+      "distance": 0.684,
+      "interest": 0.583,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Okular Okular is KDE’s flagship document reader most commonly used for reading, signing, and annotating PDFs while also being an excellent eBook and comic reader that can also render Markdown. In this new version, we have reinforced the signing features resulting in the process b",
+      "explore": true
+    },
+    {
+      "title": "KDE Ships Frameworks 6.29.0",
+      "ja_title": null,
+      "url": "https://kde.org/announcements/frameworks/6/6.29.0/",
+      "source": "kde.org",
+      "source_id": "kde-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-14T00:00:00Z",
+      "score": 0.6051,
+      "distance": 0.6411,
+      "interest": 0.5691,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -56,132 +80,122 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
+        "news / announcement (−)",
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "I've heard good feedback from my undergrad students about how Jon Sterling publishes his 1A Discrete Maths lectures in a structured online form using his own Forester tool . As my sabbatical comes to an end, I've started prepping my own Foundations of CS course [1] for resuming l",
+      "excerpt": "Friday, 14 August 2026 KDE today announces the release of KDE Frameworks 6.29.0. This release is part of a series of planned monthly releases making improvements available to developers in a quick and predictable manner. New in this version Baloo Install kcfg file. Commit. Remove",
       "explore": true
     },
     {
-      "title": "Improving local weather forecasts using Tessera embeddings",
+      "title": "Realtime translation guide",
       "ja_title": null,
-      "url": "https://anil.recoil.org/notes/weather-downscaling-tessera",
-      "source": "anil.recoil.org",
-      "source_id": "anil-recoil-org",
+      "url": "https://platform.openai.com/docs/guides/realtime-translation",
+      "source": "learn.chatgpt.com",
+      "source_id": "learn-chatgpt-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-13T00:00:00Z",
-      "score": 0.6978,
-      "distance": 0.6414,
-      "interest": 0.7543,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Pedro Sousa has put his first preprint paper online, on the topic of improving weather prediction using satellite foundation models! &quot; Earth observation embeddings are effective sub-grid descriptors for probabilistic weather downscaling &quot; (also on arXiv ) was joint work",
-      "explore": true
-    },
-    {
-      "title": "Understanding ICMP and why you shouldn’t just block it outright",
-      "ja_title": null,
-      "url": "https://neilalexander.dev/2017/04/16/understanding-icmp.html",
-      "source": "neilalexander.dev",
-      "source_id": "neilalexander-dev",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2017-04-16T00:00:00Z",
-      "score": 0.6506,
+      "published": "2025-07-21T00:00:00Z",
+      "score": 0.5766,
       "distance": 0.62,
-      "interest": 0.6812,
+      "interest": 0.5333,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
         "off-centre domain (+)"
       ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
+      "reasons_interest": [],
       "ja": null,
-      "excerpt": "ICMP, or “Internet Control Message Protocol”, is a protocol designed to help computers understand when things go wrong out on a network. It’s a supporting protocol - that is, to say, that IP does not strictly require on ICMP to function, however typical networking devices such as",
+      "excerpt": "Shows how to build live speech translation with the Realtime API. — realtime, voice, streaming, low latency, translation, audio",
       "explore": true
     },
     {
-      "title": "Thoughts on LLMs and vulnerability disclosure",
+      "title": "Realtime and audio guide",
       "ja_title": null,
-      "url": "https://neilalexander.dev/2026/03/31/llms-vulnerability-disclosure.html",
-      "source": "neilalexander.dev",
-      "source_id": "neilalexander-dev",
+      "url": "https://platform.openai.com/docs/guides/realtime",
+      "source": "learn.chatgpt.com",
+      "source_id": "learn-chatgpt-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-03-31T21:31:07Z",
-      "score": 0.6105,
+      "published": "2025-07-21T00:00:00Z",
+      "score": 0.5702,
       "distance": 0.62,
-      "interest": 0.601,
+      "interest": 0.5205,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
         "off-centre domain (+)"
       ],
-      "reasons_interest": [
-        "long-form (+)"
-      ],
+      "reasons_interest": [],
       "ja": null,
-      "excerpt": "It seems that there is no group of people more divided by the rise of LLMs than developers. Debates on whether LLMs are going to help us work, improve our lives, replace us outright or kill us all are certainly not new, but they rarely end with a consensus. One thing that’s becom",
+      "excerpt": "Shows how to build realtime voice agents, live translation, and streaming transcription. — realtime, voice, low latency",
       "explore": true
     },
     {
-      "title": "【なぜ躓く？】高齢者は「障害物の形」に応じた足の軌跡の変化が明瞭でないと判明",
+      "title": "Gpt-image-1.5 Prompting Guide",
       "ja_title": null,
-      "url": "https://nazology.kusuguru.co.jp/archives/199182",
-      "source": "nazology.kusuguru.co.jp",
-      "source_id": "nazology-kusuguru-co-jp",
+      "url": "https://developers.openai.com/cookbook/examples/multimodal/image-gen-1.5-prompting_guide",
+      "source": "learn.chatgpt.com",
+      "source_id": "learn-chatgpt-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-30T21:30:30Z",
-      "score": 0.8209,
-      "distance": 0.7692,
-      "interest": 0.8726,
+      "published": "2025-12-16T00:00:00Z",
+      "score": 0.57,
+      "distance": 0.62,
+      "interest": 0.5201,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
         "off-centre domain (+)"
       ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "日本語 (+)"
-      ],
+      "reasons_interest": [],
       "ja": null,
-      "excerpt": "道を歩いているとき、ちょっとした段差や縁石につまずきそうになった経験はないでしょうか？ 私たちは障害物をまたぐ際、その高さだけでなく「形」の違いも手がかりにして、足の軌道を調整している可能性があります。 ところが東京都健康長寿医療センター研究所の研究チームが若者と高齢者を比較したところ、高齢者では障害物の形に応じた足の軌跡の違いが、若者ほど明瞭に現れないことが分かりました。 この違いは、高齢者が障害物をどのように避けているのかを理解するうえで、興味深い手がかりになりそうです。 研究成果は2026年7月22日付で、国際学術誌『Human Movement ",
-      "explore": false
+      "excerpt": "Cookbook to prompt gpt-image-1.5 for reliable image generation results.",
+      "explore": true
     },
     {
-      "title": "麻生太郎氏は85歳…なぜ国会議員には「定年」がないのですか？〈池上彰氏が解説〉",
+      "title": "Sora 2 Prompting Guide",
       "ja_title": null,
-      "url": "https://bunshun.jp/articles/-/91617",
+      "url": "https://developers.openai.com/cookbook/examples/sora/sora2_prompting_guide/",
+      "source": "learn.chatgpt.com",
+      "source_id": "learn-chatgpt-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-03-12T00:00:00Z",
+      "score": 0.5654,
+      "distance": 0.62,
+      "interest": 0.5107,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [],
+      "ja": null,
+      "excerpt": "Cookbook to craft effective video prompts for Sora 2 generation.",
+      "explore": true
+    },
+    {
+      "title": "《辞職表明→出直し選挙も？》横浜市・山中竹春市長　パワハラ認定された「ダチョウ」発言【音声データを公開中】",
+      "ja_title": null,
+      "url": "https://bunshun.jp/articles/-/91649",
       "source": "bunshun.jp",
       "source_id": "bunshun-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-30T22:00:00Z",
-      "score": 0.8051,
-      "distance": 0.7693,
-      "interest": 0.8409,
+      "published": "2026-08-31T08:00:00Z",
+      "score": 0.8117,
+      "distance": 0.7649,
+      "interest": 0.8585,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -194,22 +208,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "Q なぜ国会議員には「定年」がないのですか？ 国会議員にはなぜ定年制度が設けられていないのでしょうか？ 多くの企業が65歳を定年として設けている中、政治の世界においては、2月の衆院選で現職国会議員として…",
+      "excerpt": "職員への言動がパワハラと認定され、8月28日に辞職の意向を表明し会見を行った神奈川・横浜市の山中竹春市長。今後については「全くの未定」と進退については明言を避け、10月に予定される市長選に再び出馬する…",
       "explore": false
     },
     {
-      "title": "『【再放送】なぜ最近の展示会は「人が来ない」と言われるのか？』というテーマのウェビナーを開催",
+      "title": "You honestly have no plausible deniability about the concerns I have with Dominic Barton. @MarkJCarney Why on earth would you appoint him of all people? <span class=\"entity-image\"><a href=\"https://pbs.twimg.com/media/HRFYaAlXoAAezNz.jpg\" target=\"_blank\"><img alt=\"Image\" src=\"https://threadreaderapp.com/images/1px.png\" /></a></span>",
       "ja_title": null,
-      "url": "https://prtimes.jp/main/html/rd/p/000005632.000054842.html",
-      "source": "prtimes.jp",
-      "source_id": "prtimes-jp",
+      "url": "https://threadreaderapp.com/thread/2094552510170067035.html",
+      "source": "threadreaderapp.com",
+      "source_id": "threadreaderapp-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-30T23:40:02Z",
-      "score": 0.7982,
-      "distance": 0.7698,
-      "interest": 0.8265,
+      "published": "2026-08-31T22:26:47Z",
+      "score": 0.7923,
+      "distance": 0.7692,
+      "interest": 0.8153,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -219,25 +233,25 @@
       "reasons_interest": [
         "idea / essay (+)",
         "poses a question (+)",
-        "日本語 (+)"
+        "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "[マジセミ株式会社] [画像1: https://prcdn.freetls.fastly.net/release_image/54842/5632/54842-5632-935a3b0aca7e5e89f7f805812113a3a3-2883x1042.jpg?width=536&amp;quality=85%2C75&amp;format=jpeg&amp;auto=webp&amp;fit=bound...",
+      "excerpt": "You honestly have no plausible deniability about the concerns I have with Dominic Barton. @MarkJCarney Why on earth would you appoint him of all people? You make BlackRock and Stephen Harper happy with this appointment I’m sure but it is screwing over Canada. Our water and commun",
       "explore": false
     },
     {
-      "title": "DJI公開の「Osmo Pocket 4P」技術白書を読む　歴史から設計思想まで、ジンバル機器12年の軌跡",
+      "title": "1億2500万年前のワニの尾の皮膚に「縞模様」が残っていた",
       "ja_title": null,
-      "url": "https://dc.watch.impress.co.jp/docs/column/2136631.html",
-      "source": "dc.watch.impress.co.jp",
-      "source_id": "dc-watch-impress-co-jp",
+      "url": "https://nazology.kusuguru.co.jp/archives/199215",
+      "source": "nazology.kusuguru.co.jp",
+      "source_id": "nazology-kusuguru-co-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-30T22:00:00Z",
-      "score": 0.7853,
-      "distance": 0.7693,
-      "interest": 0.8014,
+      "published": "2026-08-31T11:00:16Z",
+      "score": 0.7895,
+      "distance": 0.7658,
+      "interest": 0.8132,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -249,23 +263,23 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "6月の発売以来、大きな話題となっているのが広角と中望遠の”二眼カメラ”を搭載したDJI「Osmo Pocket 4P」だ。一時は品切れが続いていたほどのヒットアイテムとなった。",
+      "excerpt": "スペインのカタルーニャ古生物学研究所ミケル・クルサフォン（ICP）を中心とする研究チームが、1億2500万年前のワニの仲間の化石から、尾に残された明暗の縞模様を見つけ出しました。 ワニの仲間で体の模様が保存されていた例としては、これが最も古いものになります。 驚かされるのは、その縞が今のワニの尾にある模様とよく似ていることです。ワニが尾に縞をまとう姿は、恐竜が歩き回っていた時代からすでにあったことになります。 論文の共著者アルベルト・セジェス博士は「尾が何色だったかを確実に述べることはできませんが、さまざまな模様を持つ現生種と、それほどかけ離れてはいなか",
       "explore": false
     },
     {
-      "title": "ガチ中華の名店「味坊」が茨城になぜか「町中華」、料理人不足解決へロボットシェフ導入 - 36Kr Japan | 最大級の中国テック・スタートアップ専門メディア",
+      "title": "J:COMを使っているとPlumeルーターによってDNSブロッキングされる可能性がある 18.204.152.241 問題の顛末 - debiruはてなメモ",
       "ja_title": null,
-      "url": "https://36kr.jp/500714/",
+      "url": "https://debiru.hatenablog.com/entry/20260831/jcom-plume-dns-blocking",
       "source": "はてブ · テクノロジー新着",
       "source_id": "hatena-it",
       "tags": [
         "ja",
         "tech"
       ],
-      "published": "2026-08-30T12:11:32Z",
-      "score": 0.7851,
-      "distance": 0.7664,
-      "interest": 0.8037,
+      "published": "2026-08-31T22:57:16Z",
+      "score": 0.785,
+      "distance": 0.7694,
+      "interest": 0.8005,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -277,68 +291,13 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "茨城県守谷市の国道294号線沿いに今月6日にオープンした「町中華 炒炒」。見た目はよくある中華料理店だが、実はこの店、都内を中心にラム肉を使ったガチ中華を提供する人気チェーン「味坊集団」の新店舗であり、自動調理マシンのロボットが炒め物を作る「ロボット料理店」でもある。ロボットでなぜ町中華なのか味坊集団...",
+      "excerpt": "あるWebサイトにアクセスするとSSLエラーになった DNSの応答がおかしい J:COMの応答 J:COM問い合わせ J:COMの権威ある回答 まとめ J:COM問い合わせ対応について J:COMに改善してほしいこと おわりに 関連情報 あるWebサイトにアクセスするとSSLエラーになった こんにちは。趣味でDNSを研究したりしている @debiru_R です...",
       "explore": false
     },
     {
-      "title": "「習近平が一目ぼれ」「美貌と歌唱力で人気に」24歳で結婚、娘はハーバード大へ…中国のファーストレディ（63）の正体は",
+      "title": "創作の主体は、人間だった。 - 初音ミクのお誕生日なので TextAlive App API を使ってみた -",
       "ja_title": null,
-      "url": "https://bunshun.jp/articles/-/91616",
-      "source": "bunshun.jp",
-      "source_id": "bunshun-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-29T21:10:00Z",
-      "score": 0.7794,
-      "distance": 0.7619,
-      "interest": 0.797,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "Q 実は国民的歌手だった…中国のファーストレディ、習近平氏の妻の経歴って？ 中国の習近平国家主席の妻である彭麗媛（ポン・リーユエン）氏について。習主席と結婚する前から中国では誰もが知る国民的な歌手だった…",
-      "explore": false
-    },
-    {
-      "title": "I built a scanner to find a SaaS worth cloning. Its best answer was \"don't.\"",
-      "ja_title": null,
-      "url": "https://www.petervijeh.com/projects/saas-scanner",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
-      "tags": [
-        "tech",
-        "frontier"
-      ],
-      "published": "2026-08-30T21:57:46Z",
-      "score": 0.777,
-      "distance": 0.8693,
-      "interest": 0.6846,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "",
-      "explore": false
-    },
-    {
-      "title": "SPFとDKIMとDMARCの役割の違いを整理する",
-      "ja_title": null,
-      "url": "https://zenn.dev/rickysb527/articles/spf-dkim-dmarc-roles",
+      "url": "https://zenn.dev/tokium_dev/articles/textalive-miku-2026",
       "source": "Zenn",
       "source_id": "zenn",
       "tags": [
@@ -346,10 +305,10 @@
         "tech",
         "tools"
       ],
-      "published": "2026-08-29T14:36:39Z",
-      "score": 0.777,
-      "distance": 0.76,
-      "interest": 0.794,
+      "published": "2026-08-31T03:00:05Z",
+      "score": 0.7843,
+      "distance": 0.7635,
+      "interest": 0.805,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -361,22 +320,49 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "Introduction 「独自ドメインからメールを送りたい」と思ったとき、SPF・DKIM・DMARCという3つの単語に出会うことがあります。どれも「なりすましメール対策」の文脈で出てきますが、名前が似ているうえに設定もDNSレコードとして書くため、最初は「結局どれが何をしているのか」が非常に分かりにくいです。 この記事では、この3つがそれぞれ何を保証していて、なぜ1つではなく3つ揃って初めて意味を持つのかを整理します。前提知識として、DNSにレコードを追加した経験（TXTレコードとは何か程度）があると読みやすいですが、必須ではありません。 一言でいう",
+      "excerpt": "はじめに：エンジニアになった経緯 はじめまして！株式会社TOKIUMでエンジニアをしている、えしらと申します。 この春入社し、未経験からエンジニアになりました。 人生初めてのテックブログは、小学生の頃からずっと好きな初音ミク[1]をテーマに書いてみることにしました。 特に初音ミクの創作文化とライブが好きで、絵を描いたり、グッズを自作したり、DJしたり、ライブを見るために津々浦々を旅したり、いろいろなことをして生きています。 毎年夏に開催されるマジカルミライ[2]には、高一で初めて参加した「マジカルミライ2019」で心をつかまれてから、ずっと通っています。",
       "explore": false
     },
     {
-      "title": "1/17 The answer can be nothing less than letter D...All of the above. NONE of these people have a LICK of morals or ethics. NONE of them care about ANY of us. NONE of them are qualified, which is interesting due to the fact Trump says DEI hires always get hired due to the color <span class=\"entity-embed\"><span class=\"twitter-player\"><blockquote class=\"twitter-tweet\"><a href=\"https://twitter.com/Damaan4u33/status/2093819380404551690\">https://twitter.com/Damaan4u33/status/2093819380404551690</a></blockquote></span></span>",
+      "title": "「教祖の自宅建築費7000万円を肩代わり」新興宗教に金を吸い取られた女優・小川真由美の顛末　娘・雅代さんが「出家騒動」の詳細を明かした《3月に死去》",
       "ja_title": null,
-      "url": "https://threadreaderapp.com/thread/2094195854500577570.html",
-      "source": "threadreaderapp.com",
-      "source_id": "threadreaderapp-com",
+      "url": "https://bunshun.jp/articles/-/91559",
+      "source": "bunshun.jp",
+      "source_id": "bunshun-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-30T22:49:34Z",
-      "score": 0.7769,
-      "distance": 0.7696,
-      "interest": 0.7841,
+      "published": "2026-08-31T08:00:00Z",
+      "score": 0.782,
+      "distance": 0.7649,
+      "interest": 0.7991,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "昭和の名女優・小川真由美が今年3月に亡くなっていたことを、『文藝春秋』9月号が報じた。一世を風靡した芸能人が、なぜ“孤独”の中で生涯を閉じることになったのか。約10年にわたって絶縁状態だったひとり娘・…",
+      "explore": false
+    },
+    {
+      "title": "Introducing wrapture",
+      "ja_title": null,
+      "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+      "source": "simonwillison.net",
+      "source_id": "simonwillison-net",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-31T23:59:36Z",
+      "score": 0.7814,
+      "distance": 0.7697,
+      "interest": 0.7931,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -388,50 +374,132 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "1/17 The answer can be nothing less than letter D...All of the above. NONE of these people have a LICK of morals or ethics. NONE of them care about ANY of us. NONE of them are qualified, which is interesting due to the fact Trump says DEI hires always get hired due to the color h",
+      "excerpt": "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time. Wrapture ( full documentation here ) ",
       "explore": false
     },
     {
-      "title": "Why Some Image Conversions Come Out Blurry or Tiny",
+      "title": "トランプ氏、NBC司会者に規制当局からの「叱責または処罰」要求　番組内での発言に不満示す",
       "ja_title": null,
-      "url": "https://heic.frame-fix.workers.dev/",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
+      "url": "https://www.cnn.co.jp/usa/35252091.html?ref=rss",
+      "source": "cnn.co.jp",
+      "source_id": "cnn-co-jp",
       "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-31T09:02:00Z",
+      "score": 0.7772,
+      "distance": 0.7653,
+      "interest": 0.7891,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "米連邦通信委員会（FCC）をまるで自身の私的な執行機関のように扱うトランプ大統領は30日、ソーシャルメディア上で、NBCの番組司会者を務めるクリステン・ウェルカー氏について、「FCCに報告し、叱責または処罰を求める」考えを明らかにした。ウェルカー氏の手掛ける番組の内容が好ましくないとしている。 別の投稿では、「偽の世論調査」に対してすべて大文字で不満を表明。「何らかの対策を講じる必要がある」として、「FCC...",
+      "explore": false
+    },
+    {
+      "title": "Privacy on the Map (Part 2): Progress, Pitfalls, and the Fight for Enforceable Location Data Protections",
+      "ja_title": null,
+      "url": "https://www.eff.org/deeplinks/2026/08/privacy-map-part-2-progress-pitfalls-and-fight-enforceable-location-data",
+      "source": "eff.org",
+      "source_id": "eff-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-31T16:49:34Z",
+      "score": 0.7763,
+      "distance": 0.7676,
+      "interest": 0.785,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Regulating commercial location tracking has reached a turning point. Last year, we published our rubric for what comprehensive and protective location privacy laws should look like, outlining the baseline standards states should meet to shield individuals from pervasive location ",
+      "explore": false
+    },
+    {
+      "title": "Doxxing Safety Part II: Incident Response",
+      "ja_title": null,
+      "url": "https://www.eff.org/deeplinks/2026/08/doxxing-safety-part-ii-incident-response",
+      "source": "eff.org",
+      "source_id": "eff-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-31T19:02:37Z",
+      "score": 0.7734,
+      "distance": 0.7682,
+      "interest": 0.7786,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Doxxing, also known as the deliberate sharing of personal information to harass or endanger someone, is a tricky thing to protect against. It often happens by some ill-intentioned person accessing publicly available information, then sharing that information more widely in the ho",
+      "explore": false
+    },
+    {
+      "title": "「ページのトップへ戻るボタン」はなぜ非推奨か",
+      "ja_title": null,
+      "url": "https://zenn.dev/masahiko888/articles/91c9a1e354aacb",
+      "source": "Zenn",
+      "source_id": "zenn",
+      "tags": [
+        "ja",
         "tech",
-        "frontier"
+        "tools"
       ],
-      "published": "2026-08-30T21:37:46Z",
-      "score": 0.7718,
-      "distance": 0.8692,
-      "interest": 0.6744,
+      "published": "2026-08-30T14:22:43Z",
+      "score": 0.771,
+      "distance": 0.7597,
+      "interest": 0.7822,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
+        "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)"
+        "idea / essay (+)",
+        "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "",
+      "excerpt": "前提と問い 「ページのトップへ戻るボタン」がデジタル庁デザインシステムでは非推奨にされています。 なぜ非推奨なのでしょう。調べると、さまざまな問題があることが分かりました。 きっかけ https://x.com/bissybissy/status/2091795541625823268 なんでスクロールトップボタンが不要な理由を説明してくれないんやデジタル庁〜〜ッ こんな投稿を見て、デジタル庁デザインシステムを確認しました。確かに、「スクロールトップボタン」いわゆる「ページのトップへ戻るボタン」のページには「このコンポーネントの使用は非推奨です（depr",
       "explore": false
     },
     {
-      "title": "Good afternoon everyone! This is post 63 in my series on Kansas history,  today’s story is about one of the most famous silent film actors of all time, Buster Keaton. Enjoy! <span class=\"entity-image\"><a href=\"https://pbs.twimg.com/media/HQ_4m7pW4AAWfi6.jpg\" target=\"_blank\"><img alt=\"Image\" src=\"https://threadreaderapp.com/images/1px.png\" /></a></span>",
+      "title": "Quantum Physicist Takes Aim at the Universe's Mysterious Arrow of Time",
       "ja_title": null,
-      "url": "https://threadreaderapp.com/thread/2094167283279040966.html",
-      "source": "threadreaderapp.com",
-      "source_id": "threadreaderapp-com",
+      "url": "https://www.universetoday.com/articles/quantum-physicist-takes-aim-at-the-universes-mysterious-arrow-of-time",
+      "source": "universetoday.com",
+      "source_id": "universetoday-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-30T20:56:02Z",
-      "score": 0.7712,
-      "distance": 0.769,
-      "interest": 0.7735,
+      "published": "2026-09-01T00:30:13Z",
+      "score": 0.7671,
+      "distance": 0.7699,
+      "interest": 0.7644,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -443,23 +511,23 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Good afternoon everyone! This is post 63 in my series on Kansas history, today’s story is about one of the most famous silent film actors of all time, Buster Keaton. Enjoy! Joseph Keaton was born on October 4th, 1895 to parents Joseph and Myra in the town of Piqua, Kansas. The co",
+      "excerpt": "Scientists and philosophers have argued over the nature of time since … well, since time immemorial. Is time real, or is it a convenient illusion? Why does time seem to flow in just one direction? In a new book called “On Time,” British physicist Jim Al-Khalili lays out what he t",
       "explore": false
     },
     {
-      "title": "Blaugustの成り立ちと海外のブローガスト2026について - ねじまきの個人サイト",
+      "title": "ハーネスエンジニアリングとは何か——\"盛れば効く\"のかを確かめる - 電通総研 テックブログ",
       "ja_title": null,
-      "url": "https://nejimaki.me/belghast-blaugust-died-us-mmo-rpg-blogger",
+      "url": "https://tech.dentsusoken.com/entry/2026/08/31/%E3%83%8F%E3%83%BC%E3%83%8D%E3%82%B9%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B%E2%80%94%E2%80%94%22%E7%9B%9B%E3%82%8C%E3%81%B0%E5%8A%B9",
       "source": "はてブ · テクノロジー新着",
       "source_id": "hatena-it",
       "tags": [
         "ja",
         "tech"
       ],
-      "published": "2026-08-30T08:18:35Z",
-      "score": 0.7708,
-      "distance": 0.7653,
-      "interest": 0.7762,
+      "published": "2026-08-31T12:21:11Z",
+      "score": 0.7649,
+      "distance": 0.7662,
+      "interest": 0.7636,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -471,22 +539,51 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "ブローガストの背景どうも、ねじまきです。 ブローガストが終わる前に、ひとつ書いておかなければならないことがあるので、 軽くBlaugustの起源について触れておこうかなと。 ブローガストの発起人は、ゲーム系ブログ「Tales of the Aggronaut」を運営するアメリカ人ブロガー Belghast氏。 (本当の起源は、オーストラリ...",
+      "excerpt": "はじめまして。 金融IT本部 プロダクトソリューションユニット 融資ソリューション2部の 渡邉 真太郎 です。 現在は 2 年目社員として、地域金融機関向けの CRM / SFA サービス開発に従事しています。 2025 年 11 月、Anthropic がエンジニアリングブログの記事（Effective harnesses for long-running agents）のタイト...",
       "explore": false
     },
     {
-      "title": "The Extended Wedge Attack",
+      "title": "ブログの文体、あるいは宛て先",
       "ja_title": null,
-      "url": "https://eprint.iacr.org/2026/1830",
+      "url": "https://rashita.net/blog/?%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AE%E6%96%87%E4%BD%93%E3%80%81%E3%81%82%E3%82%8B%E3%81%84%E3%81%AF%E5%AE%9B%E3%81%A6%E5%85%88",
+      "source": "R-style（倉下忠憲）",
+      "source_id": "rashita",
+      "tags": [
+        "ja",
+        "tools-for-thought",
+        "writing"
+      ],
+      "published": "2026-08-31T07:07:16Z",
+      "score": 0.7644,
+      "distance": 0.7647,
+      "interest": 0.7641,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "もう少しで何かが固まりそうな予感があるので、引き続き文体=世界について考えます。 たとえば、一冊の本を読み終えたとしましょう。その出来事とブログの更新をどうつなげるのか。 まず、自分がその本を買い、読み、読み終えたという事実を書き留める方法があります。淡々とした報告という感じでしょうか。本を読んでどんな感想を持ったのかや、どんな考えを抱いたのかが添えられることもあるでしょうが、それは誰かに向けられたメッセージではありません。シンプルなログです。",
+      "explore": false
+    },
+    {
+      "title": "AVXPoS: Reducing Consensus Verification Cost in the Ethereum Proof-of-Stake Client",
+      "ja_title": null,
+      "url": "https://eprint.iacr.org/2026/1827",
       "source": "eprint.iacr.org",
       "source_id": "eprint-iacr-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-29T06:19:36Z",
-      "score": 0.7697,
-      "distance": 0.7575,
-      "interest": 0.782,
+      "published": "2026-08-28T15:14:10Z",
+      "score": 0.7644,
+      "distance": 0.7457,
+      "interest": 0.7831,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -498,156 +595,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "The wedge attack of Ran (EUROCRYPT 2026) recovers the secret oil space of a UOV public key over fields of characteristic two by exploiting the fact that the polar forms of the public map are alternating. It has since been generalized in several directions, each carrying its own a",
+      "excerpt": "Ethereum Proof-of-Stake (PoS) clients must verify large volumes of Boneh--Lynn--Shacham (BLS) signatures for attestations, sync-committee messages, and other consensus-critical objects within fixed slot deadlines. This recurring cost competes with state transition, fork choice, a",
       "explore": false
     },
     {
-      "title": "Threshold Encryption with Internally Motivated Corruptions",
+      "title": "Why do some proteins accumulate even on protein-resistant surfaces?",
       "ja_title": null,
-      "url": "https://eprint.iacr.org/2026/1826",
-      "source": "eprint.iacr.org",
-      "source_id": "eprint-iacr-org",
+      "url": "https://phys.org/news/2026-08-proteins-accumulate-protein-resistant-surfaces.html",
+      "source": "phys.org",
+      "source_id": "phys-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-28T15:04:44Z",
-      "score": 0.7638,
-      "distance": 0.753,
-      "interest": 0.7746,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "In recent years, threshold encryption has gained a lot of interest, particularly due to its potential use in encrypted mempools in blockchains. Standard security models allow the adversary to corrupt parties either statically (i.e., fixed at the onset of the game) or adaptively (",
-      "explore": false
-    },
-    {
-      "title": "Charlie Kirk",
-      "ja_title": null,
-      "url": "https://en.wikiquote.org/w/index.php?title=Charlie_Kirk&diff=4000374&oldid=4000372",
-      "source": "en.wikiquote.org",
-      "source_id": "en-wikiquote-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-30T23:36:03Z",
-      "score": 0.7626,
-      "distance": 0.7698,
-      "interest": 0.7554,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Undid revision 4000372 by ~2026-47266-89 ( talk ) ← Older revision Revision as of 23:36, 30 August 2026 Line 8: Line 8: *I believe marriage is one man one woman&lt;br&gt;Also '''gay people should be welcome''' in the conservative movement&lt;br&gt;As Christians we are called to '",
-      "explore": false
-    },
-    {
-      "title": "You have to beat the models at something",
-      "ja_title": null,
-      "url": "https://seangoedecke.com/you-have-to-beat-the-models-at-something/",
-      "source": "seangoedecke.com",
-      "source_id": "seangoedecke-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-30T00:00:00Z",
-      "score": 0.7604,
-      "distance": 0.7628,
-      "interest": 0.7579,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "In 2025, I wrote that software engineers ought to be assessed by “value over replacement” : not how much money they made for their company, but how much they would have made compared to the average engineer in their position. I’ve always found it vaguely silly when engineers put ",
-      "explore": false
-    },
-    {
-      "title": "Gospel of Matthew",
-      "ja_title": null,
-      "url": "https://en.wikiquote.org/w/index.php?title=Gospel_of_Matthew&diff=4000384&oldid=3893402",
-      "source": "en.wikiquote.org",
-      "source_id": "en-wikiquote-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-31T00:10:15Z",
-      "score": 0.7557,
-      "distance": 0.77,
-      "interest": 0.7414,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "See also ← Older revision Revision as of 00:10, 31 August 2026 Line 93: Line 93: *Now the chief priests, and elders, and all the council, sought false witness against Jesus, to put him to death. *Now the chief priests, and elders, and all the council, sought false witness against",
-      "explore": false
-    },
-    {
-      "title": "The More You Notice, the More Choices You Have",
-      "ja_title": null,
-      "url": "https://www.psychologytoday.com/us/blog/life-well-lived/202608/the-more-you-notice-the-more-choices-you-have",
-      "source": "psychologytoday.com",
-      "source_id": "psychologytoday-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-30T20:04:09Z",
-      "score": 0.7413,
-      "distance": 0.7688,
-      "interest": 0.7138,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "Attention shapes what we notice, how we interpret situations, and which options we see. By practicing attention, we can improve our judgment and make more intentional decisions.",
-      "explore": false
-    },
-    {
-      "title": "Why Isn’t Everyone Talking About Olivia Miles?",
-      "ja_title": null,
-      "url": "https://www.newyorker.com/sports/sporting-scene/why-isnt-everyone-talking-about-olivia-miles",
-      "source": "newyorker.com",
-      "source_id": "newyorker-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-30T10:00:00Z",
-      "score": 0.74,
-      "distance": 0.7658,
-      "interest": 0.7142,
+      "published": "2026-08-31T19:20:06Z",
+      "score": 0.7642,
+      "distance": 0.7683,
+      "interest": 0.7602,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -659,74 +622,22 @@
         "poses a question (+)"
       ],
       "ja": null,
-      "excerpt": "The W.N.B.A. has never attracted more attention. But, increasingly, the conversation around the league can overshadow the game itself—and its players.",
+      "excerpt": "Proteins with exposed arginine can selectively accumulate even on protein-resistant coatings, as reported by researchers from Science Tokyo. Through an in-depth analysis of which proteins adhere and how they adhere to various anti-fouling surfaces, the team found that arginine di",
       "explore": false
     },
     {
-      "title": "Why “Tony” Fails and What Therapists Can Learn From It",
+      "title": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act",
       "ja_title": null,
-      "url": "https://www.psychologytoday.com/us/blog/authenticity-101/202608/why-tony-fails-and-what-therapists-can-learn-from-it",
-      "source": "psychologytoday.com",
-      "source_id": "psychologytoday-com",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-designates-chatgpt-reddit-roblox-under-digital-services-act",
+      "source": "digital-strategy.ec.europa.eu",
+      "source_id": "digital-strategy-ec-europa-eu",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-30T21:57:25Z",
-      "score": 0.7348,
-      "distance": 0.7693,
-      "interest": 0.7003,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "In the new film \"Tony,\" the character of Anthony Bourdain enters adulthood learning that he could get away with being a lout—the opposite of what a coming-of-age story demands.",
-      "explore": false
-    },
-    {
-      "title": "Modi’s developed-nation dream strains against India’s growth gap",
-      "ja_title": null,
-      "url": "https://www.japantimes.co.jp/business/2026/08/30/modi-developed-india-growth/",
-      "source": "japantimes.co.jp",
-      "source_id": "japantimes-co-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-30T07:30:00Z",
-      "score": 0.7337,
-      "distance": 0.765,
-      "interest": 0.7023,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "The ambition, branded Viksit Bharat — or Developed India — has become a centerpiece of Modi's third term.",
-      "explore": false
-    },
-    {
-      "title": "Quest for the eternal Dock - lambdock",
-      "ja_title": null,
-      "url": "https://jointhefreeworld.org/blog/articles/gnu-linux/quest-for-eternal-dock/index.html",
-      "source": "jointhefreeworld.org",
-      "source_id": "jointhefreeworld-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-28T23:00:00Z",
-      "score": 0.7331,
-      "distance": 0.7553,
-      "interest": 0.711,
+      "published": "2026-08-31T09:10:00Z",
+      "score": 0.764,
+      "distance": 0.7653,
+      "interest": 0.7627,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -738,234 +649,51 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "This is the story of lambdock : https://codeberg.org/jjba23/lambdock lambdock is a modern, hyper-hackable, Wayland-native desktop dock application (C and Guile Scheme + GTK4) w/ REPL. As a heavy computer user, spending most of my day enjoying digital life, and as an eye-candy enj",
+      "excerpt": "Commission designates ChatGPT, Reddit, Roblox under Digital Services Act Anonymous (not verified) Mon, 08/31/2026 - 11:10 Today, the Commission has designated ChatGPT as a Very Large Online Search Engine (VLOSE), as well as Reddit and Roblox as Very Large Online Platforms (VLOPs)",
       "explore": false
     },
     {
-      "title": "Iceland says 'No': Four takeaways from the EU accession referendum",
+      "title": "Why You Should Care About the HF-OAI Incident",
       "ja_title": null,
-      "url": "http://www.euronews.com/my-europe/2026/08/30/iceland-says-no-four-takeaways-from-the-eu-accession-referendum",
-      "source": "euronews.com",
-      "source_id": "euronews-com",
+      "url": "https://sabaimran.com/hf-oai-incident",
+      "source": "Hacker News (new, pre-viral)",
+      "source_id": "hackernews",
       "tags": [
-        "discovered"
+        "tech",
+        "frontier"
       ],
-      "published": "2026-08-30T11:05:28Z",
-      "score": 0.7323,
-      "distance": 0.7661,
-      "interest": 0.6984,
+      "published": "2026-08-31T23:38:26Z",
+      "score": 0.7631,
+      "distance": 0.8696,
+      "interest": 0.6567,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
-        "off-centre domain (+)"
+        "off-centre domain (+)",
+        "pre-viral (+)"
       ],
       "reasons_interest": [
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "Iceland has voted 52.8% to 47.2% against resuming accession negotiations with the European Union, effectively closing the door on membership. Here are the four takeaways from the referendum.",
+      "excerpt": "",
       "explore": false
     },
     {
-      "title": "Venice Film Festival Changes Course To Reinstate Jury Press Conference: How It Went Down",
+      "title": "インターネットにはベンチが必要だ。 - 世界のねじを巻くブログ",
       "ja_title": null,
-      "url": "https://deadline.com/2026/08/venice-film-festival-uturn-reinstates-jury-press-conference-1237062875/",
-      "source": "deadline.com",
-      "source_id": "deadline-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-30T20:34:01Z",
-      "score": 0.7317,
-      "distance": 0.7689,
-      "interest": 0.6945,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "Good news. The Venice Film Festival has reinstated its jury press conference, overturning an unusual move to scrap the traditional opening event this year. The festival responded to Deadline&#8217;s inquiry on Sunday by confirming that the press conference was now on. A day earli",
-      "explore": false
-    },
-    {
-      "title": "Why Owner of ‘Heated Rivalry’ Cottage Did Some “Soul Searching” Before Agreeing to Season 2",
-      "ja_title": null,
-      "url": "https://www.hollywoodreporter.com/tv/tv-news/heated-rivalry-cottage-owner-soul-searching-agreeing-season-2-1236685112/",
-      "source": "hollywoodreporter.com",
-      "source_id": "hollywoodreporter-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-30T17:25:46Z",
-      "score": 0.7317,
-      "distance": 0.768,
-      "interest": 0.6954,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "The now-famous cottage served as the emotional backdrop for a major turning point in the queer hockey romance show's first season, which starred Hudson Williams and Connor Storrie.",
-      "explore": false
-    },
-    {
-      "title": "From Appalachia to Africa: Why Dolly Parton was beloved across the continent",
-      "ja_title": null,
-      "url": "https://www.npr.org/2026/08/30/nx-s1-5946399/africa-dolly-parton-fans",
-      "source": "npr.org",
-      "source_id": "npr-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-30T10:00:00Z",
-      "score": 0.7313,
-      "distance": 0.7658,
-      "interest": 0.6968,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "Dolly Parton's songs traveled far beyond Nashville. Across Africa, musicians embraced her stories of hardship, heartbreak and humble beginnings — and made them their own.",
-      "explore": false
-    },
-    {
-      "title": "Who's your canary?",
-      "ja_title": null,
-      "url": "https://sigma-star.at/blog/2023/05/stack-canary/",
-      "source": "sigma-star.at",
-      "source_id": "sigma-star-at",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2023-05-29T22:00:00Z",
-      "score": 0.7305,
-      "distance": 0.62,
-      "interest": 0.841,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Who&rsquo;s your canary? A few weeks ago we gave a training on secure coding and talked about the stack protector on Linux. While roughly explaining how it works and how it can be utilized with GCC , an attendee asked where the stack canary comes from. The question was quickly re",
-      "explore": false
-    },
-    {
-      "title": "Talking to your children about consent and sexual violence can be hard. Here's how to start the conversation",
-      "ja_title": null,
-      "url": "https://phys.org/news/2026-08-children-consent-sexual-violence-hard.html",
-      "source": "phys.org",
-      "source_id": "phys-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-29T12:00:08Z",
-      "score": 0.7291,
-      "distance": 0.7592,
-      "interest": 0.699,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "There have been multiple high-profile alleged incidents of sexual violence against women and girls in news headlines this month. Some involve teenage boys.",
-      "explore": false
-    },
-    {
-      "title": "Work Is Not Your Family, but AI Is Your Friend",
-      "ja_title": null,
-      "url": "https://www.mcsweeneys.net/articles/work-is-not-your-family-but-ai-is-your-friend",
-      "source": "mcsweeneys.net",
-      "source_id": "mcsweeneys-net",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-20T12:00:00Z",
-      "score": 0.7291,
-      "distance": 0.6949,
-      "interest": 0.7633,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Ready to join an exciting new startup with a radical approach to employee-employer relations? Trustus was founded on a belief that workplaces are not families. For too long, we’ve seen companies use this language to exploit employee labor for personal profit, and we don’t want to",
-      "explore": false
-    },
-    {
-      "title": "haystack-ai 3.2.0.dev20260831000339",
-      "ja_title": null,
-      "url": "https://pypi.org/project/haystack-ai/3.2.0.dev20260831000339/",
-      "source": "pypi.org",
-      "source_id": "pypi-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-31T00:04:01Z",
-      "score": 0.7285,
-      "distance": 0.77,
-      "interest": 0.687,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "LLM framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data.",
-      "explore": false
-    },
-    {
-      "title": "RTX 4070 TiからRadeon AI PRO R9700へ。32GB VRAMでローカルLLMベンチの値はどう変わったか？ - uepon日々の備忘録",
-      "ja_title": null,
-      "url": "https://uepon.hatenadiary.com/entry/2026/08/29/001732",
+      "url": "https://www.nejimakiblog.com/entry/internet-has-no-benches-blog-web-future",
       "source": "はてブ · テクノロジー新着",
       "source_id": "hatena-it",
       "tags": [
         "ja",
         "tech"
       ],
-      "published": "2026-08-30T10:53:54Z",
-      "score": 0.7266,
-      "distance": 0.766,
-      "interest": 0.6872,
+      "published": "2026-08-31T12:12:18Z",
+      "score": 0.7627,
+      "distance": 0.7662,
+      "interest": 0.7592,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -973,26 +701,403 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "poses a question (+)",
+        "idea / essay (+)",
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "以前、RTX 4070 Ti(12GB)でローカルLLMのベンチマーク定番セットを確立し、12GB VRAMの現在地を記録しました。 uepon.hatenadiary.com そして、前回はGPUをXFX Radeon AI PRO R9700 (32GB)に差し替えました。換装作業そのものは別記事にまとめています。 uepon.hatenadiary.com 今回は、換装後のマシンで前回と同一のマ...",
+      "excerpt": "ウェブの未来について ブローガスト最終日ということで、 インターネットの現状やこれからの可能性について書かれた スペンサー・チャンという海外の方のエッセイを紹介してみようかなと。 ・The Internet has no benches | spencer's paradoxes open.substack.com 「人間中心のインターネット」や「tiny internet」とい...",
       "explore": false
     },
     {
-      "title": "日本人は本当に「働きすぎ」なのか？ 主要国との比較で見える問題",
+      "title": "My Experience Has Nuance, Yours Is a Data Point",
       "ja_title": null,
-      "url": "https://nazology.kusuguru.co.jp/archives/198986",
+      "url": "https://blog.jim-nielsen.com/2026/nuance-for-me-none-for-you/",
+      "source": "blog.jim-nielsen.com",
+      "source_id": "blog-jim-nielsen-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-31T19:00:00Z",
+      "score": 0.7611,
+      "distance": 0.7682,
+      "interest": 0.754,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Eric Bailey has a fun little post about how we need more than a few icons to express the nuance of our shared human experience. For example, he suggests Netflix provide some feedback buttons to indicate the kinds of experiences we all share consuming and rating media: “Just becau",
+      "explore": false
+    },
+    {
+      "title": "Running a Business-Oriented Meetup in Rural Japan",
+      "ja_title": null,
+      "url": "https://www.tokyodev.com/articles/running-business-oriented-meetup-in-rural-japan",
+      "source": "tokyodev.com",
+      "source_id": "tokyodev-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-31T01:24:01Z",
+      "score": 0.7606,
+      "distance": 0.763,
+      "interest": 0.7582,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "My wife and I live and work in Kawaminami, a small rural town. While I’m primarily an independent mobile and web developer, I also work part-time as the community manager for a coworking space in Hyuga, and run a business-oriented meetup there once a month. The past two years hav",
+      "explore": false
+    },
+    {
+      "title": "How I’m using Codex and ChatGPT on my Mac",
+      "ja_title": null,
+      "url": "https://9to5mac.com/2026/08/31/codex-report-four-months-of-building-joy-on-my-mac-with-chatgpt/",
+      "source": "9to5mac.com",
+      "source_id": "9to5mac-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-31T22:00:00Z",
+      "score": 0.7584,
+      "distance": 0.7691,
+      "interest": 0.7476,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "9to5Mac is brought to you by Memoket : The Memoket Gem is an 11g AI wearable that slots beside your Apple Watch in a co-wear band. Press once to capture a conversation, and Gem connects it to what you discussed weeks ago — surfacing the earlier thread with a source link. From $17",
+      "explore": false
+    },
+    {
+      "title": "The 60s \"psychadelic revolution\" was fake, printed into reality by media magnate Henry Luce and CIA-contractor Gordon Wasson. <br />\n<br />\nStandard  MKULTRA lore treats this as a narrow thread, but I just found an unredacted version of \"REPORT OF TRIP, 6–11 April 1955\" that explodes this. <span class=\"row justify-content-center entity-multiple-undefined\"><span class=\"col-md-6\"><span class=\"entity-image\"><a href=\"https://pbs.twimg.com/media/HREcqe3WEAAQ4fR.png\" target=\"_blank\"><img alt=\"Image\" src=\"https://threadreaderapp.com/images/1px.png\" /></a></span></span><br />\n<span class=\"col-md-6\"><span class=\"entity-image\"><a href=\"https://pbs.twimg.com/media/HREiOABWYAAzZnr.jpg\" target=\"_blank\"><img alt=\"Image\" src=\"https://threadreaderapp.com/images/1px.png\" /></a></span></span></span>",
+      "ja_title": null,
+      "url": "https://threadreaderapp.com/thread/2094536043978461401.html",
+      "source": "threadreaderapp.com",
+      "source_id": "threadreaderapp-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-31T21:21:22Z",
+      "score": 0.7573,
+      "distance": 0.7689,
+      "interest": 0.7458,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "The 60s \"psychadelic revolution\" was fake, printed into reality by media magnate Henry Luce and CIA-contractor Gordon Wasson. Standard MKULTRA lore treats this as a narrow thread, but I just found an unredacted version of \"REPORT OF TRIP, 6–11 April 1955\" that explodes this. In A",
+      "explore": false
+    },
+    {
+      "title": "ブログとその世界",
+      "ja_title": null,
+      "url": "https://rashita.net/blog/?%E3%83%96%E3%83%AD%E3%82%B0%E3%81%A8%E3%81%9D%E3%81%AE%E4%B8%96%E7%95%8C",
+      "source": "R-style（倉下忠憲）",
+      "source_id": "rashita",
+      "tags": [
+        "ja",
+        "tools-for-thought",
+        "writing"
+      ],
+      "published": "2026-08-30T03:49:07Z",
+      "score": 0.756,
+      "distance": 0.7566,
+      "interest": 0.7553,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "昨日の記事 を書いた後に、しばらく考えていました。 実験した感触で言うと、たしかに「ですます」「である」という文体の力は大きいわけですが、そこまで絶対的なものではありません。私のように途中でまぜこぜしちゃうような文体は、それだけで叛逆的な存在です。 だとすれば、「ですます」「である」という文体が、それぞれの世界を生成する原理であるとしても、別の原理から同じような世界を生成することは可能ではないか、と考えることができそうです。",
+      "explore": false
+    },
+    {
+      "title": "Is \"Mercy Sex\" Such a Bad Thing?",
+      "ja_title": null,
+      "url": "https://www.psychologytoday.com/us/blog/the-future-of-intimacy/202608/is-mercy-sex-such-a-bad-thing",
+      "source": "psychologytoday.com",
+      "source_id": "psychologytoday-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-31T16:05:36Z",
+      "score": 0.752,
+      "distance": 0.7674,
+      "interest": 0.7365,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)"
+      ],
+      "ja": null,
+      "excerpt": "We admire generosity almost everywhere in relationships. Why are we so suspicious of it when it comes to sex?",
+      "explore": false
+    },
+    {
+      "title": "Why are rich people so pessimistic? What the numbers say",
+      "ja_title": null,
+      "url": "https://www.nature.com/articles/d41586-026-02687-y",
+      "source": "nature.com",
+      "source_id": "nature-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-31T00:00:00Z",
+      "score": 0.749,
+      "distance": 0.7626,
+      "interest": 0.7353,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)"
+      ],
+      "ja": null,
+      "excerpt": "Nature, Published online: 31 August 2026; doi:10.1038/d41586-026-02687-y Optimism about the future can seem in short supply nowadays, but people’s age, where they live and their expectations have a lot to do with it.",
+      "explore": false
+    },
+    {
+      "title": "Here’s the likely reason the iPhone Ultra isn’t getting an Apple Pencil",
+      "ja_title": null,
+      "url": "https://9to5mac.com/2026/08/31/heres-the-likely-reason-the-iphone-ultra-isnt-getting-an-apple-pencil/",
+      "source": "9to5mac.com",
+      "source_id": "9to5mac-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-31T11:06:32Z",
+      "score": 0.7461,
+      "distance": 0.7659,
+      "interest": 0.7263,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "A report yesterday suggested that Apple considered making a special version of the Apple Pencil for the upcoming iPhone Ultra before deciding against it . Bloomberg suggests that there are three reasons behind this decision, one of them being a desire not to conflict with the pos",
+      "explore": false
+    },
+    {
+      "title": "The Drin :: I Lost My Way for Centuries",
+      "ja_title": null,
+      "url": "https://aquariumdrunkard.com/2026/08/31/the-drin-i-lost-my-way-for-centuries/",
+      "source": "Aquarium Drunkard",
+      "source_id": "aquariumdrunkard",
+      "tags": [
+        "music",
+        "curation"
+      ],
+      "published": "2026-08-31T12:00:00Z",
+      "score": 0.7351,
+      "distance": 0.7661,
+      "interest": 0.7041,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "If you make it all the way through to track 21 (of 23), to “Sweet, Sweet Sickly Music”, you’ll hear a tortured guitar unspool against a beat obscured by fuzz. These are hooky songs rotted to phosphorescence, but plodding on nonetheless. The Drin’s tunes live furtively in fetid un",
+      "explore": false
+    },
+    {
+      "title": "Attacks flare between the U.S. and Iran after a monthlong pause",
+      "ja_title": null,
+      "url": "https://www.npr.org/2026/08/31/g-s1-141175/attacks-flare-us-iran",
+      "source": "npr.org",
+      "source_id": "npr-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-31T10:04:30Z",
+      "score": 0.7348,
+      "distance": 0.7656,
+      "interest": 0.704,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "U.S. threats erupt into attacks in the Strait of Hormuz, and Iran retaliates against U.S. targets in the United Arab Emirates and Jordan in the first exchange of fire since July 29.",
+      "explore": false
+    },
+    {
+      "title": "An actively maintained and updated Motif fork actually exists",
+      "ja_title": null,
+      "url": "https://www.osnews.com/story/145877/an-actively-maintained-and-updated-motif-fork-actually-exists/",
+      "source": "osnews.com",
+      "source_id": "osnews-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-24T20:15:18Z",
+      "score": 0.7348,
+      "distance": 0.7186,
+      "interest": 0.7509,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Motif is great, I love how it looks and feels, and I want it to be actively maintained. I want a healthy ecosystem of Motif applications and even window managers and desktop environments, so I can run a real Motif environment. Sadly, while Motif has been open source for a while, ",
+      "explore": false
+    },
+    {
+      "title": "Trump Escalates War on Press, Threatens FCC Case Against NBC’s Kristen Welker",
+      "ja_title": null,
+      "url": "https://www.hollywoodreporter.com/news/politics-news/donald-trump-kristen-welker-escalates-threatens-fcc-1236686109/",
+      "source": "hollywoodreporter.com",
+      "source_id": "hollywoodreporter-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-31T21:39:55Z",
+      "score": 0.7334,
+      "distance": 0.769,
+      "interest": 0.6979,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "It's the most direct move yet to weaponize the agency against an individual journalist by name — and the facts don't back him up.",
+      "explore": false
+    },
+    {
+      "title": "From Connection to No Contact: The Continuum of Estrangement",
+      "ja_title": null,
+      "url": "https://www.psychologytoday.com/us/blog/when-family-hurts/202608/from-connection-to-no-contact-the-continuum-of-estrangement",
+      "source": "psychologytoday.com",
+      "source_id": "psychologytoday-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-31T20:07:44Z",
+      "score": 0.7331,
+      "distance": 0.7686,
+      "interest": 0.6977,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "Family estrangement isn’t always all or nothing. Learn how relationships can shift from cordial contact to complete estrangement and why it may change over time.",
+      "explore": false
+    },
+    {
+      "title": "AROS gets official Raspberry Pi images",
+      "ja_title": null,
+      "url": "https://www.osnews.com/story/145875/aros-gets-official-raspberry-pi-images/",
+      "source": "osnews.com",
+      "source_id": "osnews-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-24T19:57:49Z",
+      "score": 0.7329,
+      "distance": 0.7185,
+      "interest": 0.7472,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "AROS, the open source Amiga OS-compatible operating system, now has images available for the Raspberry Pi 3 (although some people state it also works on the Pi 4), in both 32bit and 64bit versions. According to the AROS team, they are quite stable, but not yet complete, so do kno",
+      "explore": false
+    },
+    {
+      "title": "「性欲がない＝セックスに満足できない」ではない―人が性に求めるものとは？",
+      "ja_title": null,
+      "url": "https://nazology.kusuguru.co.jp/archives/199159",
       "source": "nazology.kusuguru.co.jp",
       "source_id": "nazology-kusuguru-co-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-30T12:00:37Z",
-      "score": 0.7261,
-      "distance": 0.7664,
-      "interest": 0.6858,
+      "published": "2026-08-30T13:00:08Z",
+      "score": 0.7323,
+      "distance": 0.7593,
+      "interest": 0.7053,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1004,113 +1109,7 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "欧米では夏に何週間も休暇を取れるのに、日本では長期休暇を取りにくい。 定時になっても帰れず、残業が当たり前になっている。 それだけ働いているのに、給料はそれほど高くない。 こうした不満を耳にすることは珍しくなく、日本には今も「世界でも特に長時間働く国」というイメージがあります。 実際、日本では長時間労働が長年にわたって社会問題となり、「過労死」という言葉が海外でも知られるほどになりました。 しかし、日本人の働き方はここ数十年で大きく変化しています。 では現在も、日本人は米国やヨーロッパの人々より長く働いているのでしょうか。 そして「働く時間の割に給料が低",
-      "explore": false
-    },
-    {
-      "title": "'Cut-to-fuse' strategy: A new route for molecular skeletal editing",
-      "ja_title": null,
-      "url": "https://phys.org/news/2026-08-fuse-strategy-route-molecular-skeletal.html",
-      "source": "phys.org",
-      "source_id": "phys-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-30T21:00:03Z",
-      "score": 0.7254,
-      "distance": 0.769,
-      "interest": 0.6819,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "Restructuring a molecule without rebuilding it from scratch is an increasingly important goal in modern organic chemistry. Skeletal editing is an approach that helps chemists explore new chemical structures and simplify the synthesis of molecules with potential pharmaceutical app",
-      "explore": false
-    },
-    {
-      "title": "How to Think About Thinking",
-      "ja_title": null,
-      "url": "https://nautil.us/how-to-think-about-thinking-1284587/",
-      "source": "Nautilus",
-      "source_id": "nautilus",
-      "tags": [
-        "science",
-        "essays"
-      ],
-      "published": "2026-08-28T16:00:00Z",
-      "score": 0.7235,
-      "distance": 0.7533,
-      "interest": 0.6938,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "A conversation with neuroscientist Adrian Owen about the importance of executive function The post How to Think About Thinking appeared first on Nautilus .",
-      "explore": false
-    },
-    {
-      "title": "「チート能力」が欲しかったのに与えられたのは…「地位」と「能力」？！『聞き間違いから始まる異世界開拓』竹コミ！にて8/26より連載開!!",
-      "ja_title": null,
-      "url": "https://prtimes.jp/main/html/rd/p/000000607.000109856.html",
-      "source": "prtimes.jp",
-      "source_id": "prtimes-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-30T23:40:02Z",
-      "score": 0.7223,
-      "distance": 0.7698,
-      "interest": 0.6748,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "poses a question (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "[株式会社竹書房] [画像1: https://prcdn.freetls.fastly.net/release_image/109856/607/109856-607-1cfbc5c1adb0c9b3dae18285c567917f-1760x2500.jpg?width=536&amp;quality=85%2C75&amp;format=jpeg&amp;auto=webp&amp;fit=bound...",
-      "explore": false
-    },
-    {
-      "title": "Ukraine’s ex-defence minister touts ‘new history’ in war against Russia with planned tech fund",
-      "ja_title": null,
-      "url": "https://www.ft.com/content/c9d10aeb-163e-46a3-b7ca-376ce6be9f8e?syn-25a6b1a6=1",
-      "source": "ft.com",
-      "source_id": "ft-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-30T21:11:58Z",
-      "score": 0.7221,
-      "distance": 0.7691,
-      "interest": 0.6751,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "Mykhailo Fedorov seeks western capital to build and manage weapons development companies he says will help Kyiv resist Moscow",
+      "excerpt": "セックスをする理由は、いつも「自分がしたいから」だけなのでしょうか。 自分の性的欲求は低くても、パートナーとの関係などを理由に性的な活動に応じることはあります。 米国ワシントンD.C.のインティムメディシン・スペシャリスツ（IntimMedicine Specialists）のニキータ・グプタン（Nikita Guptan）氏ら、性的欲求低下障害（HSDD）の女性を対象とした複数の臨床試験を分析しました。 すると、性欲が非常に低い女性であっても、平均して月に約2.5回程度、性的活動を行っており、しかもその性的活動に満足を感じていることがわかったのです。 ",
       "explore": false
     }
   ]
