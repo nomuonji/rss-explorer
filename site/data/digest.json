@@ -1,27 +1,29 @@
 {
-  "generated": "2026-09-02T23:51:59Z",
+  "generated": "2026-09-03T23:48:10Z",
   "count": 40,
   "meta": {
-    "sources_total": 274,
+    "sources_total": 280,
     "counts": {
       "seed": 64,
-      "active": 208,
-      "trial": 2
+      "active": 210,
+      "trial": 6
     },
     "feeds_resolved_this_run": 0,
     "discovered_this_run": [
+      "vale-rocks",
+      "codemanship-wordpress-com",
+      "trailofbits-com",
+      "texastribune-org",
+      "macg-co",
+      "lws-io"
+    ],
+    "graduated_this_run": [
       "techno-edge-net",
       "discuss-linuxcontainers-org"
     ],
-    "graduated_this_run": [
-      "nesbitt-io",
-      "stephango-com",
-      "bharadwajraju-com",
-      "popular-info"
-    ],
     "retired_this_run": [],
-    "candidates_tracked": 3641,
-    "items_seen_this_run": 5259,
+    "candidates_tracked": 3713,
+    "items_seen_this_run": 5300,
     "items_judged": 0,
     "judge_enabled": false,
     "pinned": [],
@@ -29,18 +31,18 @@
   },
   "items": [
     {
-      "title": "What can we remove?",
+      "title": "玄人志向が『Crowxis』(クロウシス)へ、四半世紀経て改名　八咫烏と「確かな選択の軸」から",
       "ja_title": null,
-      "url": "https://stephango.com/remove",
-      "source": "stephango.com",
-      "source_id": "stephango-com",
+      "url": "https://www.techno-edge.net/article/2026/09/01/5452.html",
+      "source": "techno-edge.net",
+      "source_id": "techno-edge-net",
       "tags": [
         "discovered"
       ],
-      "published": "2024-06-28T00:00:00Z",
-      "score": 0.732,
-      "distance": 0.62,
-      "interest": 0.8441,
+      "published": "2026-09-01T06:19:12Z",
+      "score": 0.7785,
+      "distance": 0.7505,
+      "interest": 0.8065,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -49,26 +51,25 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "poses a question (+)",
-        "long-form (+)"
+        "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "Our bias is to always add more. More rules, more process, more code, more features, more stuff. Interdependencies proliferate, and gradually strangle us. Systems want to grow and grow, but without pruning, they collapse. Slowly, then spectacularly. When a piece of trash drifts ac",
+      "excerpt": "自作PC向けブランドとして四半世紀にわたり親しまれた「玄人志向」が、新ブランド「Crowxis（クロウシス）」に改名しました。",
       "explore": true
     },
     {
-      "title": "Style is consistent constraint",
+      "title": "ERROR a partition already exists on device",
       "ja_title": null,
-      "url": "https://stephango.com/style",
-      "source": "stephango.com",
-      "source_id": "stephango-com",
+      "url": "https://discuss.linuxcontainers.org/t/error-a-partition-already-exists-on-device/27198#post_2",
+      "source": "discuss.linuxcontainers.org",
+      "source_id": "discuss-linuxcontainers-org",
       "tags": [
         "discovered"
       ],
-      "published": "2023-09-03T00:00:00Z",
-      "score": 0.7029,
-      "distance": 0.62,
-      "interest": 0.7858,
+      "published": "2026-09-03T02:25:53Z",
+      "score": 0.7544,
+      "distance": 0.7636,
+      "interest": 0.7452,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -80,22 +81,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Oscar Wilde once said: “Consistency is the last refuge of the unimaginative.” When it comes to ideas, I agree — allow your mind to be changed. When it comes to process, I disagree. Style emerges from consistency, and having a style opens your imagination. Your mind should be flex",
+      "excerpt": "I’ll start by strongly recommending against running IncusOS on a system that’s also running a different OS. While in theory this can work, especially with Windows 11 you’re going to have two different OSes fighting over control of the TPM when they boot. That’s just going to caus",
       "explore": true
     },
     {
-      "title": "McConnell, out sick for two months, voted against medical leave 23 times since 1985",
+      "title": "Recover of ovn network",
       "ja_title": null,
-      "url": "https://popular.info/p/mcconnell-out-sick-for-two-months",
-      "source": "popular.info",
-      "source_id": "popular-info",
+      "url": "https://discuss.linuxcontainers.org/t/recover-of-ovn-network/27182#post_12",
+      "source": "discuss.linuxcontainers.org",
+      "source_id": "discuss-linuxcontainers-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-13T10:31:28Z",
-      "score": 0.6495,
-      "distance": 0.6232,
-      "interest": 0.6759,
+      "published": "2026-09-03T13:47:00Z",
+      "score": 0.7212,
+      "distance": 0.767,
+      "interest": 0.6755,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -106,217 +107,49 @@
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "Senator Mitch McConnell (R-KY) was hospitalized on June 14 after suffering a fall that left him unconscious.",
+      "excerpt": "Hmm, but then why is the cluster reporting it as operational… Something must be answering the heartbeats… On tnode1, can you show incus config show and incus admin sql global \"SELECT * FROM nodes\" ?",
       "explore": true
     },
     {
-      "title": "Trump Labor Secretary nominee pitched access to “America’s comprehensive welfare” to Chinese nationals",
+      "title": "自宅PCで巨大AIが高速動作？　ノートPCで350億、プロ向けGPU1枚で7530億パラメータのAIモデルを非公式量子化なしで動かす無償ツール「FreeToken」など生成AI技術5つを解説（生成AIウィークリー）",
       "ja_title": null,
-      "url": "https://popular.info/p/trump-labor-secretary-nominee-pitched",
-      "source": "popular.info",
-      "source_id": "popular-info",
+      "url": "https://www.techno-edge.net/article/2026/08/29/5442.html",
+      "source": "techno-edge.net",
+      "source_id": "techno-edge-net",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-31T10:30:46Z",
-      "score": 0.6344,
-      "distance": 0.7517,
-      "interest": 0.5172,
+      "published": "2026-08-29T10:42:00Z",
+      "score": 0.7104,
+      "distance": 0.7304,
+      "interest": 0.6903,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
         "off-centre domain (+)"
       ],
-      "reasons_interest": [],
+      "reasons_interest": [
+        "poses a question (+)",
+        "日本語 (+)"
+      ],
       "ja": null,
-      "excerpt": "Keith Sonderling traveled to China to encourage investment in a Florida real estate development. Prospects were promised a green card and access government benefits.",
+      "excerpt": "今回の「生成AIウィークリー」（第157回）は、AIが自ら問題を作って学習する自己改善型モデル「Ornith-1.5」や、スマホで撮った1本の動画から動く人の3D映像を作るAI技術「4DAnyone」を取り上げます。",
       "explore": true
     },
     {
-      "title": "「都知事選に出ませんか？」と安倍晋三元首相に誘われた作家・林真理子さん　「ああ、いいですね。いずれ…」と答えた〈焼き鳥会食〉の真相",
+      "title": "【特許権利化】AIエージェントが買い物を代行する「エージェンティックコマース」元年。誤発注、なりすまし、偽物購入を「確定前」に止め、証跡は「BaaS」へ刻む日本初の特許を権利化（※1）",
       "ja_title": null,
-      "url": "https://bunshun.jp/articles/-/91711",
-      "source": "bunshun.jp",
-      "source_id": "bunshun-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-02T21:00:00Z",
-      "score": 0.8159,
-      "distance": 0.7692,
-      "interest": 0.8626,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "作家の林真理子さんは、4年にわたって務めた日大理事長を今年6月に退任した。林さんの今後について有働由美子さんが尋ねると……。◆◆◆日大理事長の経験は、本にしない？ 有働 今回の貴重なご経験は本にされな…",
-      "explore": false
-    },
-    {
-      "title": "We have the knowledge to build a better world. But is that enough?",
-      "ja_title": null,
-      "url": "https://bigthink.com/books/how-collective-knowledge-can-build-a-better-world/",
-      "source": "bigthink.com",
-      "source_id": "bigthink-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-02T14:30:00Z",
-      "score": 0.812,
-      "distance": 0.7672,
-      "interest": 0.8568,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "“The grand, leading principle, towards which every argument unfolded in these pages directly converges, is the absolute and essential importance of human development in its richest diversity.” — Wilhelm von Humboldt Knowledge, especially when shared and collectively held, is esse",
-      "explore": false
-    },
-    {
-      "title": "円安・インフレ時代を生きるための金融知識とは何か？作家・橘玲と経済学者・服部孝洋が読む『プアジャパン』 - 集英社新書プラス",
-      "ja_title": null,
-      "url": "https://shinsho-plus.shueisha.co.jp/interview/tachibana_hattori/36610",
-      "source": "はてブ · 学び新着",
-      "source_id": "hatena-know",
-      "tags": [
-        "ja",
-        "ideas"
-      ],
-      "published": "2026-09-01T12:52:36Z",
-      "score": 0.8113,
-      "distance": 0.7596,
-      "interest": 0.8629,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "世界的なインフレや歴史的な円安、新NISAの一般化など、ここ数年金融・経済についての関心が高まりつつある。そのようななか、私たちはどのような金融知識を身につければいいのか。小説『マネーロンダリング』（幻冬舎文庫）や新書『新・臆病者のための株入門』（文春新書）、新刊『プアジャパン インフレ世界を生き抜...",
-      "explore": false
-    },
-    {
-      "title": "なぜ自殺してはいけないのか？　殺してはいけないのか？　おれのラーメン理論",
-      "ja_title": null,
-      "url": "https://blog.tinect.jp/?p=91463",
-      "source": "Books&Apps",
-      "source_id": "tinect",
-      "tags": [
-        "ja",
-        "essays"
-      ],
-      "published": "2026-09-01T23:30:39Z",
-      "score": 0.8052,
-      "distance": 0.7628,
-      "interest": 0.8475,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "おれのブログが引用されました 上田信治さんという方からメールが届いた。著書におれのブログからの引用をしたので、ご恵贈いただけるという話だった。 引用に許可もなにもいらないのでありがたい話だと思った。そしておれの手元に『成(...) こんな記事も読まれています お問合わせページ 「不機嫌で人を支配しようとする人」の気持ちがわかった話",
-      "explore": false
-    },
-    {
-      "title": "過剰な考察が作品を破壊する。読者はどこまで自由に読めるか？『アクロイドを殺したのは誰か』9月3日（木）発売｜Hayakawa Books & Magazines（β）",
-      "ja_title": null,
-      "url": "https://www.hayakawabooks.com/n/n3a8f4d9a40f9",
-      "source": "はてブ · 学び新着",
-      "source_id": "hatena-know",
-      "tags": [
-        "ja",
-        "ideas"
-      ],
-      "published": "2026-09-02T11:01:51Z",
-      "score": 0.8025,
-      "distance": 0.7662,
-      "interest": 0.8389,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "過剰な考察が作品を破壊する。読者はどこまで自由に読めるか？『アクロイドを殺したのは誰か』9月3日（木）発売 「考察」ブーム「考察」がブームです。文芸評論家・三宅香帆『考察する若者たち』では、いま流行している「考察」について、以下のように述べられています。 考察とは「作者が作品に仕掛けたものとして謎を...",
-      "explore": false
-    },
-    {
-      "title": "「なぜ神社の石段を特急列車が…？」有田焼の聖地、佐賀・陶山神社に“あり得ない線路”が敷かれた“納得の理由”",
-      "ja_title": null,
-      "url": "https://bunshun.jp/articles/-/91375",
-      "source": "bunshun.jp",
-      "source_id": "bunshun-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-02T21:00:00Z",
-      "score": 0.7973,
-      "distance": 0.7692,
-      "interest": 0.8253,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "JR九州・佐世保線の上有田駅から有田駅へ向かう車窓には、あちらこちらに窯元の煙突が映る。そんな有田焼の町の駅間に鎮座するのが陶山神社だ。 社号標を横目に石段を上っていく。すると、段上に思いがけないもの…",
-      "explore": false
-    },
-    {
-      "title": "「給料を上げても辞める」に悩む経営者へ贈るトークイベント「『中小企業らしい』賃上げとは何か？」を開催",
-      "ja_title": null,
-      "url": "https://prtimes.jp/main/html/rd/p/000000258.000104413.html",
+      "url": "https://prtimes.jp/main/html/rd/p/000000173.000044818.html",
       "source": "prtimes.jp",
       "source_id": "prtimes-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-02T23:10:02Z",
-      "score": 0.7949,
+      "published": "2026-09-03T23:10:02Z",
+      "score": 0.7847,
       "distance": 0.7698,
-      "interest": 0.82,
+      "interest": 0.7995,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -325,45 +158,44 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "poses a question (+)",
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "[公益財団法人大阪産業局] 公益財団法人 大阪産業局は、生産性の向上や売上拡大を通じて利益率を高め、持続的な賃上げをめざす府内中小企業等を支援する「利益率向上・賃上げ支援事業」の一環として、トークイベント「『中小企業らしい』賃...",
+      "excerpt": "[cycaltrust株式会社] サイカルトラスト株式会社（本社：東京都渋谷区、代表取締役：須江剛、以下「サイカルトラスト」）は、日本国特許（特願2025-167191）について、2026年8月4日、特許庁より特許査定を受領し権利化が確定したこと...",
       "explore": false
     },
     {
-      "title": "During the Cold War the Soviets built a MILITARY compound that increases your DOPAMINE PRODUCTION by 65%.<br />\n<br />\nThe West has never heard of it.<br />\n<br />\nNo focus? No motivation? Crashing by 2pm? Caffeine just to function?<br />\n<br />\nImagine what 65% more dopamine does to your day.<br />\n<br />\nThey tested it in Afghanistan. Soldiers didn’t fatigue in 50°C heat. They didn’t crash. Olympic athletes got caught using it. WADA banned it. Russia approved it as medicine.<br />\n<br />\nNo crash. No dependency. No tolerance. It gets STRONGER with repeated use.<br />\n<br />\nI take 100mg every morning. First day I took it I went on a 20-minute walk and didn’t come home for 3 hours: 🧵<span class=\"entity-image\"><a href=\"https://pbs.twimg.com/media/HRPWeRpbUAAmbcU.jpg\" target=\"_blank\"><img alt=\"Image\" src=\"https://threadreaderapp.com/images/1px.png\" /></a></span>",
+      "title": "Gandi uses Spamhaus against its own customers",
       "ja_title": null,
-      "url": "https://threadreaderapp.com/thread/2095254074056974422.html",
-      "source": "threadreaderapp.com",
-      "source_id": "threadreaderapp-com",
+      "url": "https://docs.gandi.net/en/gandimail/faq/error_types/blocked_using_sbl_xbl_spamhaus_org.html",
+      "source": "Hacker News (new, pre-viral)",
+      "source_id": "hackernews",
       "tags": [
-        "discovered"
+        "tech",
+        "frontier"
       ],
-      "published": "2026-09-02T20:54:33Z",
-      "score": 0.7935,
-      "distance": 0.7691,
-      "interest": 0.8179,
+      "published": "2026-09-03T22:21:22Z",
+      "score": 0.7846,
+      "distance": 0.8696,
+      "interest": 0.6996,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
-        "off-centre domain (+)"
+        "off-centre domain (+)",
+        "pre-viral (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "long-form (+)"
+        "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "During the Cold War the Soviets built a MILITARY compound that increases your DOPAMINE PRODUCTION by 65%. The West has never heard of it. No focus? No motivation? Crashing by 2pm? Caffeine just to function? Imagine what 65% more dopamine does to your day. They tested it in Afghan",
+      "excerpt": "",
       "explore": false
     },
     {
-      "title": "AIエージェント時代にデータサイエンティストは生き残れるのか",
+      "title": "Prisma v7 移行のつまづきポイントと、importを安全に置き換えた話",
       "ja_title": null,
-      "url": "https://zenn.dev/miogawa/articles/09bed306fc615a",
+      "url": "https://zenn.dev/dress_code/articles/b9a34a1a55fd95",
       "source": "Zenn",
       "source_id": "zenn",
       "tags": [
@@ -371,10 +203,10 @@
         "tech",
         "tools"
       ],
-      "published": "2026-09-02T08:30:05Z",
-      "score": 0.7912,
-      "distance": 0.7654,
-      "interest": 0.8169,
+      "published": "2026-09-03T00:00:05Z",
+      "score": 0.7843,
+      "distance": 0.7629,
+      "interest": 0.8056,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -386,22 +218,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "! この記事は個人の見解であり、所属する組織を代表するものではありません。 はじめに データサイエンティストのキャリアについて聞かれることが、ここ数年でかなり増えました。社内やお客様先だけでなく、大学の知り合いからも聞かれます。これから進もうとしている学生もいれば、何年かやってきて次をどうするか迷っている人もいます。その都度その場で答えてきたのですが、一度まとめて書いておこうと思いました。 先日、AI の民主化はもう閉じたほうがいい、これからは AI の組織化とガバナンスだ、という記事を書きました。ただあれは、作る人を絞って使う人を増やす、という組織側の",
+      "excerpt": "はじめに Dress Code 株式会社のかわうそです。 先日、プロダクトのバックエンドで使っている Prisma を v6 から v7 に上げました。v7 は Prisma 2 で導入された Rust 製の Query Engine が廃止されるというアーキテクチャ変更を含むメジャーバージョンです。なぜ Rust をやめたのかは公式が書いています。 https://www.prisma.io/blog/from-rust-to-typescript-a-new-chapter-for-prisma-orm 移行ガイドをひととおり読んだ時点での見立ては、",
       "explore": false
     },
     {
-      "title": "【特許】「DPP（デジタルプロダクトパスポート）」のトラスト（真正性）は、それを検証する主体が更新される瞬間に途絶える ― 「DPP」における相互接続性を担保する「BaaS」に係る日本初の特許（※1）",
+      "title": "Lakin Ogunbanwo",
       "ja_title": null,
-      "url": "https://prtimes.jp/main/html/rd/p/000000171.000044818.html",
-      "source": "prtimes.jp",
-      "source_id": "prtimes-jp",
+      "url": "https://en.wikiquote.org/w/index.php?title=Lakin_Ogunbanwo&diff=4003469&oldid=0",
+      "source": "en.wikiquote.org",
+      "source_id": "en-wikiquote-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-02T23:10:02Z",
-      "score": 0.7892,
-      "distance": 0.7698,
-      "interest": 0.8086,
+      "published": "2026-09-03T22:20:25Z",
+      "score": 0.7835,
+      "distance": 0.7696,
+      "interest": 0.7975,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -410,54 +242,53 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "日本語 (+)"
+        "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "[cycaltrust株式会社] サイカルトラスト株式会社（本社：東京都渋谷区、代表取締役：須江剛、以下「サイカルトラスト」）は、日本国特許（特願2026-099357）について、2026年7月28日、特許庁より特許査定を受領し権利化が確定したこ...",
+      "excerpt": "#AfricaCreatives created New page [[W:Lakin Ogunbanwo|Lakin Ogunbanwo]] is a Nigerian fashion photographer[1] also known for his expression of sulky visuals. ==Quotes == *I don’t think any artist has to justify what he or she does, as long as it’s not exploitative or harmful to a",
       "explore": false
     },
     {
-      "title": "Tauriのアプリケーションでダークモードを実装する",
+      "title": "The Multiplayer AI Manifesto",
       "ja_title": null,
-      "url": "https://zenn.dev/ayaextech_fill/articles/tauri-application-dark-mode",
-      "source": "Zenn",
-      "source_id": "zenn",
+      "url": "https://multiplayer-ai.com/",
+      "source": "Hacker News (new, pre-viral)",
+      "source_id": "hackernews",
       "tags": [
-        "ja",
         "tech",
-        "tools"
+        "frontier"
       ],
-      "published": "2026-09-01T17:33:07Z",
-      "score": 0.7873,
-      "distance": 0.761,
-      "interest": 0.8137,
+      "published": "2026-09-03T23:23:43Z",
+      "score": 0.7813,
+      "distance": 0.8699,
+      "interest": 0.6927,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
-        "off-centre domain (+)"
+        "off-centre domain (+)",
+        "pre-viral (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
+        "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "UI層とロジック層の状態の扱いについて Tauri を扱う場合、大抵は React &amp; Rust で実装することになります。 その際、ダークモードを実装するにあたって、状態値をどう扱うべきかについて書きます。 ダークモード対応では、ライト・ダーク・OS追従の3状態を扱う設計が多いです。 この記事では、テーマの状態をRust側で持ち、 Reactで作成したUIから invoke で数値を渡して Rust 側の状態を変えるだけの設計を扱います。 ! 本文のコード例は説明のために簡略化しており、エラー処理を unwrap で省いています。 実際のアプリ",
+      "excerpt": "",
       "explore": false
     },
     {
-      "title": "『TIF』特別協賛 にしたんクリニック 西村誠司社長が語る、アイドルビジネスと推し活の本質「ベースはやっぱりお客さま」",
+      "title": "深夜ドラマで描かれる“感情の救済”を完璧に再現する音楽　異例の同クール2作品抜擢、Offo tokyoが求められる理由",
       "ja_title": null,
-      "url": "https://realsound.jp/2026/09/post-2508223.html",
+      "url": "https://realsound.jp/2026/09/post-2510965.html",
       "source": "realsound.jp",
       "source_id": "realsound-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-02T18:00:53Z",
-      "score": 0.7863,
-      "distance": 0.7683,
-      "interest": 0.8042,
+      "published": "2026-09-03T20:00:59Z",
+      "score": 0.7812,
+      "distance": 0.7689,
+      "interest": 0.7935,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -469,23 +300,106 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "『TIF』に特別協賛している、にしたんクリニックの西村誠司社長にインタビュー。アイドルビジネスと推し活の本質について聞いた。",
+      "excerpt": "2026年7月期の深夜ドラマで『一緒にごはんをたべるだけ』（テレビ東京系）のオープニングテーマ、『幸せになりたいマサムネ君』（MBS／TBS系）のエンディングテーマの2作品を担当したOffo tokyo。なぜ今彼らの音楽が求められるのか、その理由を紐解く。",
       "explore": false
     },
     {
-      "title": "Srest – A TUI for the Slurm REST API Built in Go",
+      "title": "テスト見積もりは掛け算2つで出せる",
       "ja_title": null,
-      "url": "https://srest.scszero.com/docs.html",
+      "url": "https://zenn.dev/bitkey_dev/articles/test-estimation-formula",
+      "source": "Zenn",
+      "source_id": "zenn",
+      "tags": [
+        "ja",
+        "tech",
+        "tools"
+      ],
+      "published": "2026-09-02T02:30:05Z",
+      "score": 0.7806,
+      "distance": 0.7565,
+      "interest": 0.8047,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "「だいたい○○ケースくらいですかね」の正体 テスト計画でスケジュールを立てるとき、テストケース数の見積もりはどうやっているだろうか。 正直なところ、多くの現場では「前回と同じくらいの規模感だから○○ケースくらい」「経験的にこの手の機能なら△△ケース」という見積もりが主流だと思う。自分もそうだった。 これで困るのは3つの場面。 初めての領域。 過去実績がないから「だいたい」が通用しない 説明責任。 上席に「なぜその工数なのか」と聞かれたとき、根拠を示せない 精度のばらつき。 見積もる人によって2〜3倍の差が出る 結局、見積もりの「勘と経験」の中身を分解して",
+      "explore": false
+    },
+    {
+      "title": "This Boat Is for Silent Brooding",
+      "ja_title": null,
+      "url": "https://www.mcsweeneys.net/articles/this-boat-is-for-silent-brooding",
+      "source": "mcsweeneys.net",
+      "source_id": "mcsweeneys-net",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-03T12:00:00Z",
+      "score": 0.7794,
+      "distance": 0.7665,
+      "interest": 0.7923,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "I can tell you didn’t come to this boat expo for puerile recreation. I mean, you walked right past the Alumacraft booth. No, something tells me you understand that having a boat isn’t about holding a fishing rod and chugging a cold one. It’s really a place to harbor your most irr",
+      "explore": false
+    },
+    {
+      "title": "消費者庁長官宛に行政文書開示請求13件を一括提出しました ― 併行して係属していた審査請求6件はすべて却下され、厚生労働省文書との齟齬について説明は示されませんでした",
+      "ja_title": null,
+      "url": "https://prtimes.jp/main/html/rd/p/000000092.000182444.html",
+      "source": "prtimes.jp",
+      "source_id": "prtimes-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-03T23:10:02Z",
+      "score": 0.7789,
+      "distance": 0.7698,
+      "interest": 0.7879,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "[株式会社薫製倶楽部] 株式会社薫製倶楽部(岡山県都窪郡早島町、代表取締役 森雅昭)は、消費者庁長官宛に行政文書開示請求13件を一括提出しました。 請求の対象は、令和6年3月28日の合同会議(プベルル酸が公の場で最初に示された有識者...",
+      "explore": false
+    },
+    {
+      "title": "here is how We're All Going to Die",
+      "ja_title": null,
+      "url": "https://www.noahpinion.blog/p/heres-how-were-all-going-to-die",
       "source": "Hacker News (new, pre-viral)",
       "source_id": "hackernews",
       "tags": [
         "tech",
         "frontier"
       ],
-      "published": "2026-09-02T23:25:47Z",
-      "score": 0.7825,
-      "distance": 0.8699,
-      "interest": 0.6951,
+      "published": "2026-09-03T22:44:29Z",
+      "score": 0.7759,
+      "distance": 0.8697,
+      "interest": 0.6821,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -501,127 +415,18 @@
       "explore": false
     },
     {
-      "title": "「後から思えば」予兆はあった、ネパール土石流で専門家が指摘",
+      "title": "🇯🇵 JAPAN JUST BROKE A 30-YEAR RELATIONSHIP<br />\n<br />\nJapanese 10-year bonds have risen to a 20+ year high<br />\n<br />\nMeanwhile, $USDJPY continues to compress the Yen into weakness<br />\n<br />\nBoth cannot stay this way forever (since rising yields usually strengthen currencies)<br />\n<br />\nThe carry trade, after hedging costs, means $TLT American bonds really yield more like 1.1%<br />\n<br />\nAs Japanese institutions find it more attractive to invest domestically<br />\n<br />\nHere's how the carry trade collapses, and how it affects different equities:<br />\n(A quick thread 🧵)<span class=\"entity-video\"><video controls=\"controls\" poster=\"https://pbs.twimg.com/amplify_video_thumb/2095587894479958018/img/41XV8MBOuNXoYYu9.jpg\" preload=\"none\"><source src=\"https://video.twimg.com/amplify_video/2095587894479958018/vid/avc1/476x270/j4f51jCrDT-dd_E3.mp4\" type=\"video/mp4\" /><br />\n<source src=\"https://video.twimg.com/amplify_video/2095587894479958018/vid/avc1/636x360/ZuYRZNq9l4vNLYXk.mp4\" type=\"video/mp4\" /><br />\n<source src=\"https://video.twimg.com/amplify_video/2095587894479958018/vid/avc1/848x480/f9qle0eq96bXxG-0.mp4\" type=\"video/mp4\" /><img alt=\"Video Poster\" src=\"https://pbs.twimg.com/amplify_video_thumb/2095587894479958018/img/41XV8MBOuNXoYYu9.jpg\" /></video></span>",
       "ja_title": null,
-      "url": "https://www.cnn.co.jp/world/35252174.html?ref=rss",
-      "source": "cnn.co.jp",
-      "source_id": "cnn-co-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-02T01:28:00Z",
-      "score": 0.7762,
-      "distance": 0.7633,
-      "interest": 0.7892,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "ネパールで壊滅的な土石流を引き起こした氷河の崩落について、専門家団体がまとめた報告書の中で、変化の兆候は数日前から見えていたと指摘した。 山岳環境のリスク関連データを観測している科学コンソーシアム「ハイリスク」の報告書では、氷河の崩落について「後から思えば予兆させる出来事は幾つかあった」と指摘。数日前から解けた水が目に見えて茶色くなったり、亀裂が周囲の斜面の岩盤へと拡大したりするなどしていたこ...",
-      "explore": false
-    },
-    {
-      "title": "AI Efficiency Could Cost Us the Next Generation of Experts",
-      "ja_title": null,
-      "url": "https://spectrum.ieee.org/ai-engineer-skills",
-      "source": "spectrum.ieee.org",
-      "source_id": "spectrum-ieee-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-02T13:00:04Z",
-      "score": 0.7728,
-      "distance": 0.7668,
-      "interest": 0.7788,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "A little over a decade ago, I led the controls design for a first-of-its-kind full digital-control system for a U.S. nuclear plant. It was, on paper, a beautiful machine—engineered to run itself the way a modern airliner does, with operators watching over a system that rarely nee",
-      "explore": false
-    },
-    {
-      "title": "Why Software Developers Are Highly Unrepresentative of Broader AI Use",
-      "ja_title": null,
-      "url": "https://paulkedrosky.com/why-software-developers-are-hiunrepresentative-of-broader-ai-use/",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
-      "tags": [
-        "tech",
-        "frontier"
-      ],
-      "published": "2026-09-02T23:28:56Z",
-      "score": 0.7726,
-      "distance": 0.8699,
-      "interest": 0.6753,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "",
-      "explore": false
-    },
-    {
-      "title": "How to protect yourself from workslop",
-      "ja_title": null,
-      "url": "https://seangoedecke.com/how-to-protect-yourself-from-workslop/",
-      "source": "seangoedecke.com",
-      "source_id": "seangoedecke-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-02T00:00:00Z",
-      "score": 0.7714,
-      "distance": 0.7629,
-      "interest": 0.78,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "“Workslop” is when your colleagues or bosses communicate with you by pasting big chunks of AI-generated text. The core problem with workslop is that the effort involved is asymmetrical , like a denial-of-service attack : it takes almost no effort to produce text with AI, but it s",
-      "explore": false
-    },
-    {
-      "title": "We're open-sourcing Claude Commerce Agents.<br />\n<br />\nThis is a blueprint for building shopping and merchant agents, with reference implementations across retail, travel, telecom, and entertainment. <span class=\"entity-video\"><video controls=\"controls\" poster=\"https://pbs.twimg.com/amplify_video_thumb/2095231624053219328/img/vb_u5Aj_IDsHxvvP.jpg\" preload=\"none\"><source src=\"https://video.twimg.com/amplify_video/2095231624053219328/vid/avc1/640x360/rRZJzsh8k55fRlh2.mp4\" type=\"video/mp4\" /><br />\n<source src=\"https://video.twimg.com/amplify_video/2095231624053219328/vid/avc1/1920x1080/J8Wk2HNsp9pq5b4B.mp4\" type=\"video/mp4\" /><br />\n<source src=\"https://video.twimg.com/amplify_video/2095231624053219328/vid/avc1/1280x720/rPC3oa1Brx4_yc2c.mp4\" type=\"video/mp4\" /><br />\n<source src=\"https://video.twimg.com/amplify_video/2095231624053219328/vid/avc1/480x270/gkIWPuKGixt_1xcw.mp4\" type=\"video/mp4\" /><img alt=\"Video Poster\" src=\"https://pbs.twimg.com/amplify_video_thumb/2095231624053219328/img/vb_u5Aj_IDsHxvvP.jpg\" /></video></span>",
-      "ja_title": null,
-      "url": "https://threadreaderapp.com/thread/2095233745167282602.html",
+      "url": "https://threadreaderapp.com/thread/2095591609123414017.html",
       "source": "threadreaderapp.com",
       "source_id": "threadreaderapp-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-02T19:33:47Z",
-      "score": 0.769,
+      "published": "2026-09-03T19:15:48Z",
+      "score": 0.7739,
       "distance": 0.7687,
-      "interest": 0.7692,
+      "interest": 0.7791,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -633,23 +438,131 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "We're open-sourcing Claude Commerce Agents. This is a blueprint for building shopping and merchant agents, with reference implementations across retail, travel, telecom, and entertainment. Retailers running shopping agents on Claude have seen carts up to 35% larger and shoppers 6",
+      "excerpt": "🇯🇵 JAPAN JUST BROKE A 30-YEAR RELATIONSHIP Japanese 10-year bonds have risen to a 20+ year high Meanwhile, $USDJPY continues to compress the Yen into weakness Both cannot stay this way forever (since rising yields usually strengthen currencies) The carry trade, after hedging cost",
       "explore": false
     },
     {
-      "title": "Why Do Male Chimpanzees Throw Rocks at the Same Trees for More Than a Decade?",
+      "title": "京都大学新聞 人文学入門講座「なぜ大学で人文学を学ぶのか」　第一講「なぜ大学で歴史学を学ぶのか」　藤井 崇 教授（西洋史学） | 京都大学新聞社／Kyoto University Press",
       "ja_title": null,
-      "url": "https://nautil.us/why-do-male-chimpanzees-throw-rocks-at-the-same-trees-for-more-than-a-decade-1284704/",
-      "source": "Nautilus",
-      "source_id": "nautilus",
+      "url": "https://www.kyoto-up.org/archives/13474",
+      "source": "はてブ · 学び新着",
+      "source_id": "hatena-know",
       "tags": [
-        "science",
-        "essays"
+        "ja",
+        "ideas"
       ],
-      "published": "2026-09-02T14:00:00Z",
-      "score": 0.7611,
-      "distance": 0.7671,
-      "interest": 0.755,
+      "published": "2026-09-02T02:45:18Z",
+      "score": 0.772,
+      "distance": 0.7566,
+      "interest": 0.7874,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "哲学や歴史学、文学といった「人文学」は人間の精神や文化を研究する学問とされている。しかし科学技術の発展や経済成長を追い求める社会において、実利を生まない人文学が軽視される風潮は否定できない。人文学の軽視の影響は受験生個人の自己実現にも及ぶ。受験生が抱く人文学への志を、「役に立たない」「就職できな...",
+      "explore": false
+    },
+    {
+      "title": "Pluralistic: Preparing for a post-Trump internet (03 Sep 2026)",
+      "ja_title": null,
+      "url": "https://pluralistic.net/2026/09/03/broken-arrows/",
+      "source": "pluralistic.net",
+      "source_id": "pluralistic-net",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-03T08:45:19Z",
+      "score": 0.7718,
+      "distance": 0.7655,
+      "interest": 0.7781,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Today's links Preparing for a post-Trump internet: You'd better hope it's also a post-American internet. Hey look at this: Delights to delectate. Object permanence: Barnum and Bailey v journalism; Wired's Wikipedia article is a wiki; Singapore's national wifi; Twitter arguments. ",
+      "explore": false
+    },
+    {
+      "title": "「逆らえばスタンガン」「排泄はビニール袋」《新潟・少女監禁事件》なぜ同居する母親は“息子の異常行動”を止めなかったのか（平成12年の事件）",
+      "ja_title": null,
+      "url": "https://bunshun.jp/articles/-/91442",
+      "source": "bunshun.jp",
+      "source_id": "bunshun-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-03T01:00:00Z",
+      "score": 0.7714,
+      "distance": 0.7632,
+      "interest": 0.7796,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "2000年、9年2カ月にわたり少女を自宅に監禁していた佐藤宣行。高齢の父と甘やかす母のもとで我がまま放題に育ち、会社を退職後に「怪物」へと変貌していった男は、9歳の少女を誘拐し、自宅2階のベッドの上に…",
+      "explore": false
+    },
+    {
+      "title": "【辻田真佐憲が解説】国立歴史民俗博物館から見える、戦後日本を定義する「転向・喪失」「忘却」というキーワード",
+      "ja_title": null,
+      "url": "https://bunshun.jp/articles/-/91694",
+      "source": "bunshun.jp",
+      "source_id": "bunshun-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-03T21:00:00Z",
+      "score": 0.7694,
+      "distance": 0.7692,
+      "interest": 0.7696,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "近現代史研究者の辻田真佐憲氏の好評連載「『戦後』の正体」が完結した。9月号に掲載された最終回では、日本の戦後における「切れ目」について論じられた。その中でも、国立歴史民俗博物館（歴博）における戦後史の…",
+      "explore": false
+    },
+    {
+      "title": "Why Is Raja Ravi Varma’s Art So Valuable Today?",
+      "ja_title": null,
+      "url": "https://daily.jstor.org/why-is-raja-ravi-varmas-art-so-valuable-today/",
+      "source": "daily.jstor.org",
+      "source_id": "daily-jstor-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-03T13:42:00Z",
+      "score": 0.7675,
+      "distance": 0.767,
+      "interest": 0.768,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -661,23 +574,22 @@
         "poses a question (+)"
       ],
       "ja": null,
-      "excerpt": "Accumulative stone throwing is a rare, potentially cultural, behavior that has been observed among four groups of wild chimpanzees in West Africa The post Why Do Male Chimpanzees Throw Rocks at the Same Trees for More Than a Decade? appeared first on Nautilus .",
+      "excerpt": "A record-breaking auction spotlights the artist who transformed Hindu imagery and helped shape modern Indian visual culture. The post Why Is Raja Ravi Varma’s Art So Valuable Today? appeared first on JSTOR Daily .",
       "explore": false
     },
     {
-      "title": "Transmissions :: Sun Ra: Door of the Cosmos",
+      "title": "@ChrisPentecos @va_shiva @IfindRetards Chrissy why didn't you nominate me ☹️☹️☹️☹️☹️☹️☹️☹️☹️☹️☹️☹️☹️☹️",
       "ja_title": null,
-      "url": "https://aquariumdrunkard.com/2026/09/02/transmissions-sun-ra-door-of-the-cosmos/",
-      "source": "Aquarium Drunkard",
-      "source_id": "aquariumdrunkard",
+      "url": "https://threadreaderapp.com/thread/2095606045578350600.html",
+      "source": "threadreaderapp.com",
+      "source_id": "threadreaderapp-com",
       "tags": [
-        "music",
-        "curation"
+        "discovered"
       ],
-      "published": "2026-09-02T12:00:00Z",
-      "score": 0.7591,
-      "distance": 0.7665,
-      "interest": 0.7518,
+      "published": "2026-09-03T20:13:10Z",
+      "score": 0.766,
+      "distance": 0.7689,
+      "interest": 0.763,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -689,21 +601,129 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Welcome back to Aquarium Drunkard Transmissions with Jason P. Woodbury. This week, we’ve got something extra special: a behind the scenes look at the forthcoming documentary, Sun Ra: Door of the Cosmos , a sonic cinema odyssey through the life, work and philosophy of the surreali",
+      "excerpt": "@ChrisPentecos @va_shiva @IfindRetards Chrissy why didn't you nominate me ☹️☹️☹️☹️☹️☹️☹️☹️☹️☹️☹️☹️☹️☹️@ChrisPentecos @va_shiva @IfindRetards @ChrisPentecos @HungryTrucker @Donald_nncim @LangleyResident @BarbaraDoduk @Cdnwatcher @Istandtoreason @facepalmchris @trustednerd @felixcr",
       "explore": false
     },
     {
-      "title": "Siri AI won’t be your friend, and here’s why that really matters",
+      "title": "Is It Madness or Something Else?",
       "ja_title": null,
-      "url": "https://9to5mac.com/2026/09/02/siri-ai-wont-be-your-friend-and-heres-why-that-really-matters/",
-      "source": "9to5mac.com",
-      "source_id": "9to5mac-com",
+      "url": "https://www.psychologytoday.com/us/blog/a-short-history-of-mental-health/202609/is-it-madness-or-something-else",
+      "source": "psychologytoday.com",
+      "source_id": "psychologytoday-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-02T13:21:44Z",
-      "score": 0.7565,
-      "distance": 0.7669,
+      "published": "2026-09-03T20:50:52Z",
+      "score": 0.7619,
+      "distance": 0.7691,
+      "interest": 0.7547,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)"
+      ],
+      "ja": null,
+      "excerpt": "Many terms have been used to describe mental illness in the past. Here's why I prefer using the term \"madness\" when I teach my students mental health history.",
+      "explore": false
+    },
+    {
+      "title": "Why mirrors flip left-to-right but not up-and-down",
+      "ja_title": null,
+      "url": "https://bigthink.com/starts-with-a-bang/mirrors-flip-left-right-up-down/",
+      "source": "bigthink.com",
+      "source_id": "bigthink-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-03T06:00:00Z",
+      "score": 0.7611,
+      "distance": 0.7647,
+      "interest": 0.7575,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "If you’ve ever looked in a mirror, you’ve likely noticed that everything you see is flipped. When you raise your left hand, your reflection raises their right hand. When you wink with your right eye, your reflection’s left eye winks back. And if you write a message and hold it up",
+      "explore": false
+    },
+    {
+      "title": "“I would be very happy to see all kinds of text editors adopt this.”",
+      "ja_title": null,
+      "url": "https://unsung.aresluna.org/i-would-be-very-happy-to-see-all-kinds-of-text-editors-adopt-this",
+      "source": "unsung.aresluna.org",
+      "source_id": "unsung-aresluna-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-03T14:31:59Z",
+      "score": 0.7601,
+      "distance": 0.7672,
+      "interest": 0.753,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Speaking of cut in File Explorer , Will McGugan, creator of the writing editor Ishmael , proposes doing the same thing for text editing – that is, leaving ghost text behind: I call it “Ghost Cut”, and it works like this: pressing Ctrl+X fades the selected text and makes it inert—",
+      "explore": false
+    },
+    {
+      "title": "Why are drug overdose deaths declining?",
+      "ja_title": null,
+      "url": "https://www.statnews.com/2026/09/03/drug-overdose-deaths-down-sharply-commonwealth-fund-study/?utm_campaign=rss",
+      "source": "statnews.com",
+      "source_id": "statnews-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-03T04:01:00Z",
+      "score": 0.7585,
+      "distance": 0.7641,
+      "interest": 0.7529,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)"
+      ],
+      "ja": null,
+      "excerpt": "Naloxone and harm reduction measures may be helping to curb drug overdose deaths, a new report says.",
+      "explore": false
+    },
+    {
+      "title": "I’m Your Friend Who Just Doesn’t “Do Politics”",
+      "ja_title": null,
+      "url": "https://www.mcsweeneys.net/articles/im-your-friend-who-just-doesnt-do-politics",
+      "source": "mcsweeneys.net",
+      "source_id": "mcsweeneys-net",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-03T17:01:00Z",
+      "score": 0.757,
+      "distance": 0.768,
       "interest": 0.746,
       "judged": false,
       "pinned": false,
@@ -716,22 +736,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Elon University has partnered with The Washington Post to conduct what turned out to be a worrying survey about Americans viewing AI chatbots as virtual friends or therapists. The results very much vindicate Apple’s careful decision to ensure that Siri AI doesn’t encourage such p",
+      "excerpt": "Look, we’ve known each other for how many years now? You remember how we met, of course. We’re current or former work colleagues whose kids go to school or play sports together or some other extracurricular activity, so we connected on LinkedIn, Facebook, Twitter, and in our book",
       "explore": false
     },
     {
-      "title": "Judge Rules DOD Unlawfully Retaliated Against Anthropic",
+      "title": "How to make difficult decisions, according to philosophy",
       "ja_title": null,
-      "url": "https://www.eff.org/deeplinks/2026/09/judge-rules-dod-unlawfully-retaliated-against-anthropic",
-      "source": "eff.org",
-      "source_id": "eff-org",
+      "url": "https://bigthink.com/mini-philosophy/how-to-make-difficult-decisions-according-to-philosophy/",
+      "source": "bigthink.com",
+      "source_id": "bigthink-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-02T01:13:50Z",
-      "score": 0.7546,
-      "distance": 0.7633,
-      "interest": 0.7458,
+      "published": "2026-09-03T16:56:11Z",
+      "score": 0.7536,
+      "distance": 0.768,
+      "interest": 0.7392,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -743,103 +763,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "A federal judge has sided with Anthropic on its claims that the Department of Defense illegally retaliated against Anthropic’s protected speech by labeling the AI company a “supply chain risk.” The judge found that designation, intended to penalize Anthropic for telling the U.S. ",
+      "excerpt": "Every now and then, life asks us a question with no easy answer. Which career should we pursue? Should we have children? Should we move to the coast or closer to our friends? We gather information, read testimonials, and exhaustively research both options. One path seems better i",
       "explore": false
     },
     {
-      "title": "When Did Avoidant Attachment Become the Villain?",
+      "title": "How an unassuming wildflower thrives in salt-laden air that kills other plants",
       "ja_title": null,
-      "url": "https://www.psychologytoday.com/us/blog/love-them-or-leave-them/202609/when-did-avoidant-attachment-become-the-villain",
-      "source": "psychologytoday.com",
-      "source_id": "psychologytoday-com",
+      "url": "https://phys.org/news/2026-09-unassuming-wildflower-salt-laden-air.html",
+      "source": "phys.org",
+      "source_id": "phys-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-02T19:18:44Z",
-      "score": 0.7464,
-      "distance": 0.7686,
-      "interest": 0.7242,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)"
-      ],
-      "ja": null,
-      "excerpt": "Attachment theory was supposed to help us have better relationships. Why has it become a new way to label and judge others?",
-      "explore": false
-    },
-    {
-      "title": "The Relationship Isn't Right for You, but Why Do You Stay?",
-      "ja_title": null,
-      "url": "https://www.psychologytoday.com/us/blog/invisible-bruises/202605/the-relationship-isnt-right-for-you-but-why-do-you-stay",
-      "source": "psychologytoday.com",
-      "source_id": "psychologytoday-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-02T14:36:25Z",
-      "score": 0.7464,
-      "distance": 0.7672,
-      "interest": 0.7256,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)"
-      ],
-      "ja": null,
-      "excerpt": "Many people stay in unhealthy or even abusive relationships because early experiences and lessons from their family teach them what to expect in relationships.",
-      "explore": false
-    },
-    {
-      "title": "parallel @ Savannah: GNU Parallel 20260822 ('Ceuta') released",
-      "ja_title": null,
-      "url": "https://savannah.gnu.org/news/?id=10930",
-      "source": "gnu.org",
-      "source_id": "gnu-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-30T21:07:02Z",
-      "score": 0.7454,
-      "distance": 0.7478,
-      "interest": 0.743,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "GNU Parallel 20260822 ('Ceuta') has been released. It is available for download at: lbry://@GnuParallel:4 Quote of the month: Parallel has an option for almost everything, it's almost too much. -- tester457@ycombinator New in this release: Replacement string: {%jq: jq-expression ",
-      "explore": false
-    },
-    {
-      "title": "Taiwan needs a new deterrence strategy",
-      "ja_title": null,
-      "url": "https://www.japantimes.co.jp/commentary/2026/09/03/world/taiwan-deterrence-strategy/",
-      "source": "japantimes.co.jp",
-      "source_id": "japantimes-co-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-02T23:00:00Z",
-      "score": 0.7367,
+      "published": "2026-09-03T22:50:01Z",
+      "score": 0.7393,
       "distance": 0.7697,
-      "interest": 0.7036,
+      "interest": 0.7089,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -850,22 +789,74 @@
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "Emboldened by U.S. President Donald Trump's war in Iran, Chinese leaders have ramped up their gray-zone coercion against Taiwan in recent months.",
+      "excerpt": "On the windswept coasts of Oregon and California lives an unassuming little plant that can withstand salty blasts that kill its inland counterparts. It's called the yellow monkeyflower. Now, researchers are beginning to understand how it manages to thrive in conditions that leave",
       "explore": false
     },
     {
-      "title": "&#038;TEAM、なぜ誰も見たことのない“日本発グローバルグループ”となったのか？　革命の2025年を経て迎えた結成4周年の歩み",
+      "title": "Ig Nobel Prize winners reveal why babies smell better than teenagers",
       "ja_title": null,
-      "url": "https://realsound.jp/2026/09/post-2510738.html",
-      "source": "realsound.jp",
-      "source_id": "realsound-jp",
+      "url": "https://phys.org/news/2026-09-ig-nobel-prize-winners-reveal.html",
+      "source": "phys.org",
+      "source_id": "phys-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-03T05:50:15Z",
-      "score": 0.7363,
+      "published": "2026-09-03T21:10:06Z",
+      "score": 0.7365,
+      "distance": 0.7692,
+      "interest": 0.7038,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "Babies smell wonderful—at least to their parents. An international research team of Ilona Croy, Tomasz Frackowiak, Thomas Hummel and Agnieszka Sorokowska investigated why teenagers lose this special olfactory advantage and has now been awarded an Ig Nobel Prize for the research.",
+      "explore": false
+    },
+    {
+      "title": "What \"Theo of Golden\" Teaches Us About Mattering",
+      "ja_title": null,
+      "url": "https://www.psychologytoday.com/us/blog/the-mattering-lab/202608/what-theo-of-golden-teaches-us-about-mattering",
+      "source": "psychologytoday.com",
+      "source_id": "psychologytoday-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-03T12:37:36Z",
+      "score": 0.7361,
+      "distance": 0.7667,
+      "interest": 0.7054,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "A novel about a man returning portraits to strangers helps us understand how we can show others that they matter to us.",
+      "explore": false
+    },
+    {
+      "title": "Why vibe code in Lisp?",
+      "ja_title": null,
+      "url": "https://funcall.blogspot.com/2026/08/why-vibe-code-in-lisp.html",
+      "source": "funcall.blogspot.com",
+      "source_id": "funcall-blogspot-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-08-06T20:36:06Z",
+      "score": 0.734,
       "distance": 0.62,
-      "interest": 0.8526,
+      "interest": 0.848,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -875,182 +866,24 @@
       "reasons_interest": [
         "idea / essay (+)",
         "poses a question (+)",
-        "日本語 (+)"
+        "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "&amp;TEAMが9月3日に結成4周年を迎えたのを機に、HYBE LABELS JAPAN（現YX LABELS）によるグローバルボーイグループオーディション番組『&amp;AUDITION - The Howling -』を経て結成し、“Japan to Global”を掲げて活動してきたその歩みを振り返る。",
+      "excerpt": "Why Target Common Lisp for Code Generation? I’ve been asked twice now: if the generated code doesn't matter—if the AI is doing the heavy lifting of writing the syntax—why do I vibe code in Common Lisp? Why not target Python, TypeScript, or Java? These are mainstream languages wit",
       "explore": false
     },
     {
-      "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
+      "title": "The Download: rethinking child safety and fossil-fueled farming",
       "ja_title": null,
-      "url": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
-      "source": "bleepingcomputer.com",
-      "source_id": "bleepingcomputer-com",
+      "url": "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming/",
+      "source": "technologyreview.com",
+      "source_id": "technologyreview-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-01T17:54:22Z",
-      "score": 0.7335,
-      "distance": 0.7611,
-      "interest": 0.7059,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building AI applications, to steal credentials, tokens, and keys. [...]",
-      "explore": false
-    },
-    {
-      "title": "How we make AI coding more cost efficient without sacrificing task quality",
-      "ja_title": null,
-      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
-      "source": "github.blog",
-      "source_id": "github-blog",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-02T18:00:00Z",
-      "score": 0.7333,
-      "distance": 0.7683,
-      "interest": 0.6983,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "Why shorter outputs can cost more, and how GitHub Copilot reduces wasted work across the complete coding task. The post How we make AI coding more cost efficient without sacrificing task quality appeared first on The GitHub Blog .",
-      "explore": false
-    },
-    {
-      "title": "Sumo misses out on potential superstar as Hidetora Hanada decides against turning pro",
-      "ja_title": null,
-      "url": "https://www.japantimes.co.jp/sports/2026/09/02/sumo/hidetora-hanada-skips-pro-chance/",
-      "source": "japantimes.co.jp",
-      "source_id": "japantimes-co-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-02T05:40:00Z",
-      "score": 0.7319,
-      "distance": 0.7646,
-      "interest": 0.6992,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "According to a Japanese media report, the former amateur yokozuna was still mulling over the decision right up until the deadline.",
-      "explore": false
-    },
-    {
-      "title": "openminion 0.0.15",
-      "ja_title": null,
-      "url": "https://pypi.org/project/openminion/0.0.15/",
-      "source": "pypi.org",
-      "source_id": "pypi-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-02T23:43:05Z",
-      "score": 0.731,
-      "distance": 0.77,
-      "interest": 0.6921,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "Local-first agent framework with brain, memory, A2A, MCP, and skills",
-      "explore": false
-    },
-    {
-      "title": "Explainable deep learning improves human mental models of self-driving cars",
-      "ja_title": null,
-      "url": "https://www.nature.com/articles/s41586-026-10950-5",
-      "source": "nature.com",
-      "source_id": "nature-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-02T00:00:00Z",
-      "score": 0.7308,
-      "distance": 0.7629,
-      "interest": 0.6986,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "Nature, Published online: 02 September 2026; doi:10.1038/s41586-026-10950-5 Concept-Wrapper Network, a concept-based explanation approach deployed on a real autonomous vehicle, improves drivers’ ability to understand and predict its behaviour.",
-      "explore": false
-    },
-    {
-      "title": "米Googleマップ、オンタリオ湖を「アメリカ湖」に　学生が覚える五大湖略称 HOMES → SHAME（恥）に？",
-      "ja_title": null,
-      "url": "https://japan.cnet.com/article/35252102/",
-      "source": "japan.cnet.com",
-      "source_id": "japan-cnet-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-31T22:34:00Z",
-      "score": 0.7301,
-      "distance": 0.7553,
-      "interest": 0.705,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "poses a question (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "米Googleは現地時間8月29日、地図サービス「Google マップ」で、五大湖の1つ「オンタリオ湖」の名称を「アメリカ湖」（Lake America）に変更した。対象は米国内のユーザーだ。オンタリオ湖をアメリカ湖と改名するトランプ米大統領の大統領令に従った措置となる。",
-      "explore": false
-    },
-    {
-      "title": "Nationally, unsubsidized ACA premiums to jump *another*...",
-      "ja_title": null,
-      "url": "https://kottke.org/26/09/0049542-nationally-unsubsidized-a",
-      "source": "kottke.org",
-      "source_id": "kottke",
-      "tags": [
-        "curation",
-        "culture"
-      ],
-      "published": "2026-09-01T14:54:00Z",
-      "score": 0.7295,
-      "distance": 0.7602,
+      "published": "2026-09-03T12:10:00Z",
+      "score": 0.7327,
+      "distance": 0.7665,
       "interest": 0.6988,
       "judged": false,
       "pinned": false,
@@ -1062,22 +895,49 @@
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "Nationally, unsubsidized ACA premiums to jump *another* ~15% next year . We can’t continue like this (but I feel like this has been the case for the last ~10 years and will in fact likely continue&#8230;)",
+      "excerpt": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Child-monitoring apps might need a reboot Digital harms have become the defining fear of American parents. In response, they’re in",
       "explore": false
     },
     {
-      "title": "Why Even the Best Edge Security Still Misses High-Risk Sessions",
+      "title": "スマートスピーカー、買うならどれ？　人気製品の中から最高の2機種を厳選",
       "ja_title": null,
-      "url": "https://www.bleepingcomputer.com/news/security/why-even-the-best-edge-security-still-misses-high-risk-sessions/",
-      "source": "bleepingcomputer.com",
-      "source_id": "bleepingcomputer-com",
+      "url": "https://www.cnn.co.jp/tech/35252182.html?ref=rss",
+      "source": "cnn.co.jp",
+      "source_id": "cnn-co-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-01T14:01:11Z",
-      "score": 0.7294,
-      "distance": 0.7599,
-      "interest": 0.699,
+      "published": "2026-09-02T03:47:00Z",
+      "score": 0.7322,
+      "distance": 0.7569,
+      "interest": 0.7075,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "poses a question (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "最高のスマートスピーカーとは、音声による指示への応答性が非常に高く、音響が優れているものを指す。だが、優れた音質ももちろん重要ではあるが、スマートスピーカーにとって最も重要な機能は、声を使ってバーチャルアシスタントとやり取りできることだ。 スマート照明やスマートサーモスタットなどのスマートホームデバイスを操作したい場合でも、質問の答えを調べたい場合でも、ハンズフリーで家族や友人と連絡を取りたい...",
+      "explore": false
+    },
+    {
+      "title": "Probing far-from-equilibrium dynamics of electrical double layers",
+      "ja_title": null,
+      "url": "https://www.nature.com/articles/s41586-026-10986-7",
+      "source": "nature.com",
+      "source_id": "nature-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-02T00:00:00Z",
+      "score": 0.7308,
+      "distance": 0.7558,
+      "interest": 0.7057,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1088,22 +948,74 @@
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "Attackers can hide behind residential proxies, VPNs, and other infrastructure that makes malicious sessions appear legitimate to existing edge security controls. Spur explains how session enrichment adds data points that help organizations identify risky sessions and make stronge",
+      "excerpt": "Nature, Published online: 02 September 2026; doi:10.1038/s41586-026-10986-7 A new framework combining experimental and computational methods to track ions and water present at an electrode interface allows the molecular structure and evolution of electrical double layers far from",
       "explore": false
     },
     {
-      "title": "Iranian rial in freefall as dollar breaks 2.1 million mark",
+      "title": "Psilocybin may protect against a common, debilitating side effect of chemotherapy, early study finds",
       "ja_title": null,
-      "url": "http://www.euronews.com/business/2026/09/02/iranian-rial-hits-record-low-as-us-dollar-breaks-22-million-mark",
+      "url": "https://www.livescience.com/health/medicine-drugs/psilocybin-may-protect-against-a-common-debilitating-side-effect-of-chemotherapy-early-study-finds",
+      "source": "livescience.com",
+      "source_id": "livescience-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-03T21:44:01Z",
+      "score": 0.7301,
+      "distance": 0.7694,
+      "interest": 0.6909,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "A psychedelic best known for its effects on the brain may also protect peripheral nerves from chemotherapy damage, early research suggests.",
+      "explore": false
+    },
+    {
+      "title": "George W. Bush’s Code of Silence",
+      "ja_title": null,
+      "url": "https://www.newyorker.com/news/essay/george-w-bushs-code-of-silence",
+      "source": "newyorker.com",
+      "source_id": "newyorker-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-01T10:00:00Z",
+      "score": 0.73,
+      "distance": 0.7516,
+      "interest": 0.7084,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "He lovingly paints immigrants, praises free trade and diplomacy, and rues the coarsening of American politics. Why won’t he talk about Donald Trump?",
+      "explore": false
+    },
+    {
+      "title": "Thousands of Ukrainian children still at risk in Russia as EU prepares new sanctions",
+      "ja_title": null,
+      "url": "http://www.euronews.com/my-europe/2026/09/03/thousands-of-ukrainian-children-still-at-risk-in-russia-as-eu-prepares-new-sanctions",
       "source": "euronews.com",
       "source_id": "euronews-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-02T12:37:11Z",
-      "score": 0.7292,
-      "distance": 0.7667,
-      "interest": 0.6917,
+      "published": "2026-09-03T15:01:20Z",
+      "score": 0.7268,
+      "distance": 0.7674,
+      "interest": 0.6862,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1114,7 +1026,85 @@
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "The rial has lost 63% of its value against the dollar since March, with the euro hitting 2.55 million rials and gold coins changing hands at 2.26 billion. Iran's central bank governor pledged a $2 billion injection while acknowledging inflation had placed \"heavy pressure on peopl",
+      "excerpt": "Thousands of Ukrainian children remain under Russian control, facing indoctrination, militarisation and the loss of their identity, the Bring Kids Back UA initiative warned as the EU prepares new sanctions against those responsible for their deportation.",
+      "explore": false
+    },
+    {
+      "title": "Podcast: We Spoke to an Amazon Worker Destroying Books for AI",
+      "ja_title": null,
+      "url": "https://www.404media.co/podcast-we-spoke-to-an-amazon-worker-destroying-books-for-ai/",
+      "source": "404media.co",
+      "source_id": "404media-co",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-02T12:47:45Z",
+      "score": 0.7264,
+      "distance": 0.7596,
+      "interest": 0.6931,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "A follow up to the Amazon destroying books for AI story, why a bunch of names keep appearing in AI-generated papers, and ICE's latest spending spree.",
+      "explore": false
+    },
+    {
+      "title": "Former French President Hollande publishes new book with plan for France, but remains undecided about running",
+      "ja_title": null,
+      "url": "http://www.euronews.com/my-europe/2026/09/03/former-french-president-hollande-publishes-new-book-with-plan-for-france-but-remains-undec",
+      "source": "euronews.com",
+      "source_id": "euronews-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-03T17:27:38Z",
+      "score": 0.7261,
+      "distance": 0.7681,
+      "interest": 0.6841,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "Former French President Hollande published his newest book on Thursday, laying out 80 policy proposals. Despite his book somewhat resembling a manifesto, the former president maintains he will wait until December to decide whether to run.",
+      "explore": false
+    },
+    {
+      "title": "‘handmade utopia’ traces radical homes of northern california’s back-to-the-land movement",
+      "ja_title": null,
+      "url": "https://www.designboom.com/architecture/handmade-utopia-radical-homes-northern-california-land-movement/",
+      "source": "designboom.com",
+      "source_id": "designboom-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-03T10:50:39Z",
+      "score": 0.7254,
+      "distance": 0.7661,
+      "interest": 0.6847,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "half a century after the back-to-the-land movement transformed northern california, the book documents the handmade homes and personal histories of those who attempted to build an alternative way of living. The post &#8216;handmade utopia&#8217; traces radical homes of northern c",
       "explore": false
     }
   ]
