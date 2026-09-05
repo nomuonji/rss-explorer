@@ -1,32 +1,30 @@
 {
-  "generated": "2026-09-04T23:47:06Z",
+  "generated": "2026-09-05T23:32:12Z",
   "count": 40,
   "meta": {
-    "sources_total": 285,
+    "sources_total": 289,
     "counts": {
       "seed": 64,
-      "active": 216,
-      "trial": 5
+      "active": 221,
+      "trial": 4
     },
     "feeds_resolved_this_run": 0,
     "discovered_this_run": [
+      "mitchellh-com",
+      "vimeo-com",
+      "thoughtbot-com",
+      "bcantrill-dtrace-org"
+    ],
+    "graduated_this_run": [
       "karapaia-com",
       "pointieststick-com",
       "ladybird-org",
       "arcprize-org",
       "status-claude-com"
     ],
-    "graduated_this_run": [
-      "vale-rocks",
-      "codemanship-wordpress-com",
-      "trailofbits-com",
-      "texastribune-org",
-      "macg-co",
-      "lws-io"
-    ],
     "retired_this_run": [],
-    "candidates_tracked": 3784,
-    "items_seen_this_run": 5419,
+    "candidates_tracked": 3830,
+    "items_seen_this_run": 5584,
     "items_judged": 0,
     "judge_enabled": false,
     "pinned": [],
@@ -34,45 +32,18 @@
   },
   "items": [
     {
-      "title": "Anthropic May Know A Lot About Dice, But Do They Understand The Game?",
+      "title": "Elevated errors for multiple models",
       "ja_title": null,
-      "url": "https://codemanship.wordpress.com/2026/08/25/anthropic-may-know-a-lot-about-dice-but-do-they-understand-the-game/",
-      "source": "codemanship.wordpress.com",
-      "source_id": "codemanship-wordpress-com",
+      "url": "https://status.claude.com/incidents/461yvfrzpwtt",
+      "source": "status.claude.com",
+      "source_id": "status-claude-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-08-25T04:51:39Z",
-      "score": 0.6784,
-      "distance": 0.6929,
-      "interest": 0.664,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "poses a question (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "You&#8217;d naturally be skeptical of advice on how to throw dice from a leading casino dice manufacturer, even though they obviously know a lot about dice. You&#8217;d be perhaps even more skeptical if it turned out that their track record at the craps table was worse than avera",
-      "explore": true
-    },
-    {
-      "title": "The Ultimate Equation about AI Coding",
-      "ja_title": null,
-      "url": "https://codemanship.wordpress.com/2026/09/03/the-ultimate-equation-about-ai-coding/",
-      "source": "codemanship.wordpress.com",
-      "source_id": "codemanship-wordpress-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-03T05:32:49Z",
-      "score": 0.6658,
-      "distance": 0.7574,
-      "interest": 0.5742,
+      "published": "2026-09-03T16:23:12Z",
+      "score": 0.6882,
+      "distance": 0.7536,
+      "interest": 0.6227,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -83,22 +54,48 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "There are some useful mathematical models relating to LLM-assisted and agentic software development, like my formula for the reliability of model interactions (&#8220;steps&#8221;) in an agentic workflow. It predicts when the wheels may start to wobble in autonomous execution and",
+      "excerpt": "Sep 3 , 16:23 UTC Resolved - The issue affecting Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5 has been resolved. Impact has ended as of 9:16 PT / 16:16 UTC. Sep 3 , 16:06 UTC Monitoring - A fix has been deployed for Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5",
       "explore": true
     },
     {
-      "title": "Kiln Lagoon Vault Diff Review",
+      "title": "Elevated errors on Claude Code and Claude Cowork",
       "ja_title": null,
-      "url": "https://trailofbits.com/library/kiln-lagoon-vault-diff-review/",
-      "source": "trailofbits.com",
-      "source_id": "trailofbits-com",
+      "url": "https://status.claude.com/incidents/vr9tpk8w7zr8",
+      "source": "status.claude.com",
+      "source_id": "status-claude-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-05-01T00:00:00Z",
-      "score": 0.5329,
+      "published": "2026-08-28T20:21:18Z",
+      "score": 0.6695,
+      "distance": 0.7119,
+      "interest": 0.6271,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Aug 28 , 20:21 UTC Resolved - The issue affecting Claude Cowork and Claude Code on the web has been resolved. Aug 28 , 18:21 UTC Monitoring - A mitigation has been applied for the issue affecting Claude Cowork and Claude Code on the web, and we are monitoring for recovery. Sessio",
+      "explore": true
+    },
+    {
+      "title": "Changing How We Develop Ladybird",
+      "ja_title": null,
+      "url": "https://ladybird.org/posts/changing-how-we-develop-ladybird",
+      "source": "ladybird.org",
+      "source_id": "ladybird-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-06-05T00:00:00Z",
+      "score": 0.6522,
       "distance": 0.62,
-      "interest": 0.4457,
+      "interest": 0.6844,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -106,102 +103,80 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "thin (−)"
+        "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "Security Reviews > Blockchain Reviews > Ethereum/EVM",
+      "excerpt": "Ladybird is changing how code enters the project as we prepare to ship a browser to real users.",
       "explore": true
     },
     {
-      "title": "dimensional-analysis",
+      "title": "This Month in Ladybird - April 2026",
       "ja_title": null,
-      "url": "https://github.com/trailofbits/skills/tree/main/plugins/dimensional-analysis/skills/dimensional-analysis",
-      "source": "trailofbits.com",
-      "source_id": "trailofbits-com",
+      "url": "https://ladybird.org/newsletter/2026-04-30",
+      "source": "ladybird.org",
+      "source_id": "ladybird-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-04-28T00:00:00Z",
-      "score": 0.384,
-      "distance": 0.26,
-      "interest": 0.508,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "mainstream domain (−)"
-      ],
-      "reasons_interest": [],
-      "ja": null,
-      "excerpt": "Annotates codebases with dimensional analysis comments documenting units, dimensions, and decimal scaling.",
-      "explore": true
-    },
-    {
-      "title": "graph-evolution",
-      "ja_title": null,
-      "url": "https://github.com/trailofbits/skills/tree/main/plugins/trailmark/skills/graph-evolution",
-      "source": "trailofbits.com",
-      "source_id": "trailofbits-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-04-29T00:00:00Z",
-      "score": 0.3817,
-      "distance": 0.26,
-      "interest": 0.5035,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "mainstream domain (−)"
-      ],
-      "reasons_interest": [],
-      "ja": null,
-      "excerpt": "Compares Trailmark code graphs at two source code snapshots (git commits, tags, or directories) to surface security-relevant structural changes.",
-      "explore": true
-    },
-    {
-      "title": "Ask Ethan: Are there really charm quarks inside the proton?",
-      "ja_title": null,
-      "url": "https://bigthink.com/starts-with-a-bang/proton-contain-charm-quark/",
-      "source": "bigthink.com",
-      "source_id": "bigthink-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-04T06:00:00Z",
-      "score": 0.7945,
-      "distance": 0.7647,
-      "interest": 0.8242,
+      "published": "2026-04-30T00:00:00Z",
+      "score": 0.6443,
+      "distance": 0.62,
+      "interest": 0.6687,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
         "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "Inline PDF viewer powered by pdf.js, GTK4 frontend, browsing history, speculative HTML parsing, off-thread JS compilation, async DNS, CSS anchor positioning, and more.",
+      "explore": true
+    },
+    {
+      "title": "What If We Had Taxed the Internet?",
+      "ja_title": null,
+      "url": "https://thesaltroad.net/p/what-if-we-had-taxed-the-internet",
+      "source": "Hacker News (new, pre-viral)",
+      "source_id": "hackernews",
+      "tags": [
+        "tech",
+        "frontier"
+      ],
+      "published": "2026-09-05T23:10:08Z",
+      "score": 0.8175,
+      "distance": 0.8699,
+      "interest": 0.7651,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)",
+        "pre-viral (+)"
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "poses a question (+)",
-        "long-form (+)"
+        "poses a question (+)"
       ],
       "ja": null,
-      "excerpt": "At the start of the 20th century, we were still figuring out what the structure of matter was. We knew everything was made up of atoms, and that there were negatively charged electrons within them, but the rest of the atom was a mystery. Over the course of the past 125 years, we ",
+      "excerpt": "",
       "explore": false
     },
     {
-      "title": "【動画】ゴルフボール大の深海タコの新種、色が上下逆転　なぜ？",
+      "title": "【世界初】完全養殖うなぎ2尾9720円で販売…それでも専門家が「まだ値段が下がる段階ではない」と語る理由とは？【舞台裏を徹底取材】",
       "ja_title": null,
-      "url": "https://natgeo.nikkeibp.co.jp/atcl/news/26/052900309/",
-      "source": "はてブ · 学び新着",
-      "source_id": "hatena-know",
+      "url": "https://bunshun.jp/articles/-/91732",
+      "source": "bunshun.jp",
+      "source_id": "bunshun-jp",
       "tags": [
-        "ja",
-        "ideas"
+        "discovered"
       ],
-      "published": "2026-09-03T21:29:17Z",
-      "score": 0.7916,
-      "distance": 0.7622,
-      "interest": 0.821,
+      "published": "2026-09-05T21:00:00Z",
+      "score": 0.8116,
+      "distance": 0.7692,
+      "interest": 0.854,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -214,49 +189,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "ガラパゴス沖の深海で見つかったミクロエレドネ・ガラパゲンシス（Microeledone galapagensis）。短い腕は狩りに向かず、背中がほぼ無色で腹側が濃い紫という、多くの海の生きものとは逆の配色をしている。（VIDEO: CHARLES DARWIN FOUNDATION） 南米エクアドル、ガラパゴス諸島のダーウィン島沖にある海山近くの水深177...",
+      "excerpt": "日本人に愛されるうなぎ。その養殖についても開発は進んでいるが、果たして、値段はより安くなり、より庶民が求めやすくなる時代は来るのだろうか。◆◆◆うなぎ新時代の幕開けか 5月下旬、鈴木憲和農林水産相と高…",
       "explore": false
     },
     {
-      "title": "イランとの衝突、「戦争」ではないとバンス氏　終結時期への明言避ける",
+      "title": "《会見で文春報道を否定》“高市陣営のキャプテン“小野田紀美大臣の公選法違反疑惑とは？《現役市議が証言》",
       "ja_title": null,
-      "url": "https://www.cnn.co.jp/usa/35252299.html?ref=rss",
-      "source": "cnn.co.jp",
-      "source_id": "cnn-co-jp",
+      "url": "https://bunshun.jp/articles/-/91816",
+      "source": "bunshun.jp",
+      "source_id": "bunshun-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-04T03:50:00Z",
-      "score": 0.7868,
-      "distance": 0.7641,
-      "interest": 0.8094,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "米国のバンス副大統領は3日、ホワイトハウスで記者会見を開いたが、イランとの戦争の終結時期やガソリン価格が開戦前の水準を下回る時期についての具体的な見通しを示せなかった。一方で、この紛争に終止符を打てるかどうかはイラン次第との認識を示唆した。両国の衝突は6カ月前、米国とイスラエルが合同でイランを空爆したことで始まった。 会見の中でバンス氏は、現在の敵対行為を「戦争」と呼ぶべきではないとも主張。「積...",
-      "explore": false
-    },
-    {
-      "title": "Will it DEFMACRO?",
-      "ja_title": null,
-      "url": "https://funcall.blogspot.com/2026/09/will-it-defmacro.html",
-      "source": "funcall.blogspot.com",
-      "source_id": "funcall-blogspot-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-04T07:00:00Z",
-      "score": 0.7864,
-      "distance": 0.765,
-      "interest": 0.8078,
+      "published": "2026-09-05T01:00:00Z",
+      "score": 0.8032,
+      "distance": 0.7633,
+      "interest": 0.843,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -266,52 +214,80 @@
       "reasons_interest": [
         "idea / essay (+)",
         "poses a question (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Why write boilerplate code when you can ask an LLM can do it for you? But even LLMs will avoid boilerplate if they can. I recently vibe coded a rogue-like game in Common Lisp. While I gave the model specific directions at certain points, I mostly let the model generate the code a",
-      "explore": false
-    },
-    {
-      "title": "イラン政権転覆を再びほのめかすトランプ氏、外交膠着で開戦当初の姿勢に逆戻り",
-      "ja_title": null,
-      "url": "https://www.cnn.co.jp/world/35252297.html?ref=rss",
-      "source": "cnn.co.jp",
-      "source_id": "cnn-co-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-04T03:02:00Z",
-      "score": 0.7862,
-      "distance": 0.7638,
-      "interest": 0.8085,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "トランプ米大統領はここ数カ月、国家安全保障チームに対して内々に「なぜイラン国民は指導者を打倒しないのか」と尋ねてきた。 開戦当初、トランプ氏はこうした結末を半ば確信しているようだった。イスラエルのネタニヤフ首相から、集中攻撃を浴びせればイランの首都テヘランで街頭デモが巻き起こる、と吹き込まれていたからだ。 事情に詳しい関係者によると、他の米当局者はその可能性は低いとの情報評価に目を通しており、...",
+      "excerpt": "小野田紀美経済安全保障大臣（43）は9月4日の記者会見で「週刊文春」の”ヤミ選挙事務所”報道について「政治活動の拠点として選挙より前から借り上げていた。選挙活動には利用しておらず、指摘は当たらない」と…",
       "explore": false
     },
     {
-      "title": "Welcome to the party, I've been talking about the Iranian 358 missile [variously called the Misagh-358, Qaem-118/Ghaem-118, Saqr-1, or Product-358] for some years.<br />\n<br />\n<span class=\"nop nop-start\">1/ </span> <span class=\"entity-embed\"><span class=\"twitter-player\"><blockquote class=\"twitter-tweet\"><a href=\"https://twitter.com/OSINTWarfare/status/2095799036049825828\">https://twitter.com/OSINTWarfare/status/2095799036049825828</a></blockquote></span></span>",
+      "title": "🔴 Why could a diabetes drug be relevant to Long COVID and ME/CFS?<br />\n<br />\nMetformin was developed to treat type 2 diabetes.<br />\n<br />\nBut today we know that its biology goes far beyond simply lowering blood glucose.<br />\n<br />\nIt can influence:<br />\n<br />\n→ immunometabolism<br />\n→ inflammation<br />\n→ oxidative stress<br />\n→ AMPK/mTOR<br />\n→ endothelial function<br />\n→ cellular metabolism<br />\n→ viral replication in certain contexts<br />\n→ the gut<br />\n→ and even the brain.<br />\n<br />\nAnd, surprisingly, one of the most interesting randomized signals we currently have for preventing Long COVID comes from metformin.<br />\n<br />\nLet’s go through the biology.<br />\n<br />\n<span class=\"nop nop-start\">(1) </span> 🧵<span class=\"entity-image\"><a href=\"https://pbs.twimg.com/media/HReLPpeaIAA2dTx.jpg\" target=\"_blank\"><img alt=\"Image\" src=\"https://threadreaderapp.com/images/1px.png\" /></a></span>",
       "ja_title": null,
-      "url": "https://threadreaderapp.com/thread/2095963154387746861.html",
+      "url": "https://threadreaderapp.com/thread/2096297260548067801.html",
       "source": "threadreaderapp.com",
       "source_id": "threadreaderapp-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-04T19:52:11Z",
-      "score": 0.7819,
-      "distance": 0.7688,
-      "interest": 0.7949,
+      "published": "2026-09-05T17:59:48Z",
+      "score": 0.7923,
+      "distance": 0.7684,
+      "interest": 0.8161,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "🔴 Why could a diabetes drug be relevant to Long COVID and ME/CFS? Metformin was developed to treat type 2 diabetes. But today we know that its biology goes far beyond simply lowering blood glucose. It can influence: → immunometabolism → inflammation → oxidative stress → AMPK/mTOR",
+      "explore": false
+    },
+    {
+      "title": "設計図も無料公開。ヒューマノイドロボットも自作の時代へ",
+      "ja_title": null,
+      "url": "https://karapaia.com/archives/626284.html",
+      "source": "karapaia.com",
+      "source_id": "karapaia-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-05T09:00:00Z",
+      "score": 0.7882,
+      "distance": 0.7657,
+      "interest": 0.8107,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "多くの製品に言えることだが、独自開発されたロボットの技術はまず明かされることはない。ところが近ごろ、設計からソフトまで無償公開され、自作できるヒューマノイドロボットが話題を呼んでいる&#8230;",
+      "explore": false
+    },
+    {
+      "title": "Finally!  <br />\n<br />\nGetting any part of the US military to give up on the idea AA-guns are obsolete is a paradigm shift.<br />\n<br />\nThere is a new request for information out there that seems based on this⬇️<br />\n<br />\nSHORAD 🧵<br />\n<span class=\"nop nop-start\">1/ </span> <span class=\"entity-embed\"><span class=\"twitter-player\"><blockquote class=\"twitter-tweet\"><a href=\"https://twitter.com/thewarzonewire/status/2095970535167430712\">https://twitter.com/thewarzonewire/status/2095970535167430712</a></blockquote></span></span>",
+      "ja_title": null,
+      "url": "https://threadreaderapp.com/thread/2096312871898505533.html",
+      "source": "threadreaderapp.com",
+      "source_id": "threadreaderapp-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-05T19:01:50Z",
+      "score": 0.7768,
+      "distance": 0.7687,
+      "interest": 0.7849,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -323,13 +299,176 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Welcome to the party, I've been talking about the Iranian 358 missile [variously called the Misagh-358, Qaem-118/Ghaem-118, Saqr-1, or Product-358] for some years. 1/ https://twitter.com/OSINTWarfare/status/2095799036049825828 1 June 2024 — 13 post thread My 1st long thread notin",
+      "excerpt": "Finally! Getting any part of the US military to give up on the idea AA-guns are obsolete is a paradigm shift. There is a new request for information out there that seems based on this⬇️ SHORAD 🧵 1/ https://twitter.com/thewarzonewire/status/2095970535167430712 Judging from the RFI",
       "explore": false
     },
     {
-      "title": "AIでチーム感が薄れたSREチームで始めた、AIによる週次チーム評価",
+      "title": "Gloria Steinem’s Final Essay",
       "ja_title": null,
-      "url": "https://zenn.dev/hubble/articles/ee2f962e0a69f1",
+      "url": "https://www.newyorker.com/culture/life-and-letters/gloria-steinems-final-essay?cndid=66114350",
+      "source": "daringfireball.net",
+      "source_id": "daringfireball-net",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-05T19:42:43Z",
+      "score": 0.7741,
+      "distance": 0.7689,
+      "interest": 0.7792,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Gloria Steinem, in a posthumous essay for The New Yorker: For me, saying that I am a feminist has always meant that I believe in the social, economic, and political equality of all males and females of all races and groups. I know this sounds too simple to need a word, but equali",
+      "explore": false
+    },
+    {
+      "title": "20歳の若さで殺害された母親、40年近く後に1本の電話が鳴った　米未解決事件",
+      "ja_title": null,
+      "url": "https://www.cnn.co.jp/usa/35252266.html?ref=rss",
+      "source": "cnn.co.jp",
+      "source_id": "cnn-co-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-05T02:24:00Z",
+      "score": 0.7693,
+      "distance": 0.7637,
+      "interest": 0.775,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "メリッサ・テイラー・エリソンさんは、1987年に自身の寝室で遺体となって発見され、当時まだ生後13カ月だった娘はリビングルームで泣き続けていた。それから何十年もの間、この事件は謎のままだった。 しかし、フロリダ州ジャクソンビルでエリソンさんが殺害されてから38年以上が経った7月8日、クレイ郡保安官事務所に、未解決事件について情報を提供したいという男性から電話が入った。 電話をかけてきたのは、フロリダ州ミ...",
+      "explore": false
+    },
+    {
+      "title": "Show HN: Phntm-ONE: I built a local AI desk assistant",
+      "ja_title": null,
+      "url": "https://www.phntmcore.com/",
+      "source": "Hacker News (new, pre-viral)",
+      "source_id": "hackernews",
+      "tags": [
+        "tech",
+        "frontier"
+      ],
+      "published": "2026-09-05T21:03:22Z",
+      "score": 0.7691,
+      "distance": 0.8693,
+      "interest": 0.6689,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)",
+        "pre-viral (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "",
+      "explore": false
+    },
+    {
+      "title": "Black Coffee",
+      "ja_title": null,
+      "url": "https://en.wikiquote.org/w/index.php?title=Black_Coffee&diff=4004888&oldid=0",
+      "source": "en.wikiquote.org",
+      "source_id": "en-wikiquote-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-05T22:54:58Z",
+      "score": 0.7682,
+      "distance": 0.7698,
+      "interest": 0.7666,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "GrimRob moved page Black Coffee to Black Coffee (DJ) without leaving a redirect Misspelled title New page [[File:Dj Shimza with Black Coffee Dj.jpg|thumb]] [https://en.wikipedia.org/wiki/Black_Coffee &#039;&#039;&#039;Nkosinathi Innocent Maphumulo&#039;&#039;&#039;] (born 11 Marc",
+      "explore": false
+    },
+    {
+      "title": "トランプ氏、イランとの戦争は「取るに足らないこと」　米兵18人死亡の紛争をまたも矮小化",
+      "ja_title": null,
+      "url": "https://www.cnn.co.jp/usa/35252320.html?ref=rss",
+      "source": "cnn.co.jp",
+      "source_id": "cnn-co-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-05T01:23:00Z",
+      "score": 0.7681,
+      "distance": 0.7634,
+      "interest": 0.7729,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "トランプ米大統領は4日、イランとの戦争について「取るに足らないこと」と表現した。ガソリン価格の高騰を引き起こし、米兵18人が死亡したここ半年の紛争をまたも矮小（わいしょう）化する姿勢を示した。 トランプ氏は大統領執務室で「多くの人は戦争という呼び方をしていない。私は軍事紛争と呼んでいる。我々にとっては取るに足らないことだからだ。大したことではない」と発言した。 バンス副大統領はこの前日、主な戦闘作...",
+      "explore": false
+    },
+    {
+      "title": "Apple @ Work: Capping bug bounty submissions is the wrong response in the AI era of security threats",
+      "ja_title": null,
+      "url": "https://9to5mac.com/2026/09/05/capping-bug-bounty-submissions-is-the-wrong-response-in-the-ai-era-of-security-threats/",
+      "source": "9to5mac.com",
+      "source_id": "9to5mac-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-05T13:01:00Z",
+      "score": 0.7681,
+      "distance": 0.7669,
+      "interest": 0.7693,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Apple @ Work is exclusively brought to you by Mosyle , the only Apple Unified Platform. Mosyle is the only solution that integrates in a single professional grade platform all the solutions necessary to seamlessly and automatically deploy, manage, and protect Apple devices at wor",
+      "explore": false
+    },
+    {
+      "title": "[OpenTelemetry] Go のコンパイル時計装において、ctx 伝搬なしで span を紐づける仕組みについて調べた",
+      "ja_title": null,
+      "url": "https://zenn.dev/ntk221/articles/34cbb95272720f",
       "source": "Zenn",
       "source_id": "zenn",
       "tags": [
@@ -337,10 +476,10 @@
         "tech",
         "tools"
       ],
-      "published": "2026-09-04T03:57:56Z",
-      "score": 0.7808,
-      "distance": 0.7641,
-      "interest": 0.7975,
+      "published": "2026-09-05T05:20:31Z",
+      "score": 0.7668,
+      "distance": 0.7646,
+      "interest": 0.769,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -352,104 +491,23 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "こんにちはHubble SREチームの三橋です！ 本日はSREチームのチーム力強化のために取り組んだ内容についてご紹介したいと思います。 先日のSRE NEXTでは、今後の課題としてチーム力を高めていく必要がある旨をお話ししました。あれから施策に取り組み、多少状況が改善されてきたため、今回はその内容に触れようと思います。具体的にはコミュニケーションの場を再設計し、チームの状態をAIに週次で評価させるようにしました。まだ始めたばかりで見えていない部分も多いのですが、方向性としては間違っていなさそうだという感触は得られています。 https://speake",
+      "excerpt": "Go の OpenTelemetry コンパイル時計装(opentelemetry-go-compile-instrumentation の otelc)について調べていると、context.Context を伝搬していなくても span の親子を繋げられる仕組みが入っていることがわかりました。これは GLS(goroutine-local storage) と呼ばれる仕組みです。 Go では span の親子関係を ctx で運ぶのが API の規約なので、ctx を引き回していないコードにそのまま計装を入れても span 同士は繋がりません。GLS ",
       "explore": false
     },
     {
-      "title": "Why We Must Return to the Office to Use AI in Person",
+      "title": "サイバーセキュリティ報告書 | 東芝 サイバーセキュリティ | 東芝",
       "ja_title": null,
-      "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
-      "source": "mcsweeneys.net",
-      "source_id": "mcsweeneys-net",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-04T17:00:00Z",
-      "score": 0.7805,
-      "distance": 0.768,
-      "interest": 0.793,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "When I awoke on RTO Day (officially “Remain to Office,” since management maintained that I’d misremembered and we’d always been in office six days a week), I was not as excited as I should have been. I felt queasy at the thought of signing the Memorandum of Loving RTO as a condit",
-      "explore": false
-    },
-    {
-      "title": "The science, medicine, and mythology of menstruation and menopause",
-      "ja_title": null,
-      "url": "https://bigthink.com/series/full-interview/science-menopause-menstruation/",
-      "source": "bigthink.com",
-      "source_id": "bigthink-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-04T04:00:00Z",
-      "score": 0.7801,
-      "distance": 0.7641,
-      "interest": 0.7961,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "OBGYN and author Dr. Jen Gunter explains what&#8217;s actually happening inside the body during menstruation and menopause, why so much of what we&#8217;ve been told is wrong, and why that information gap has been weaponized against half the population. This video The science, me",
-      "explore": false
-    },
-    {
-      "title": "中国産白菜に関する報道を受けた弊社キムチ商品の安全性について 原料の調達経路を確認し、ホルムアルデヒド検査でも「不検出」を確認",
-      "ja_title": null,
-      "url": "https://prtimes.jp/main/html/rd/p/000000015.000164844.html",
-      "source": "prtimes.jp",
-      "source_id": "prtimes-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-04T23:10:02Z",
-      "score": 0.7801,
-      "distance": 0.7698,
-      "interest": 0.7903,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "[株式会社河鶴] 株式会社河鶴（本社：和歌山県和歌山市）は、弊社が取り扱う中国産白菜を使用したキムチについて、原料の調達経路および管理状況をあらためて確認しました。その結果、今回報道された白菜が弊社商品の原料として...",
-      "explore": false
-    },
-    {
-      "title": "ルールではなくskillに指示を書くことで、Claudeのコメントを減らせた",
-      "ja_title": null,
-      "url": "https://zenn.dev/uzu_tech/articles/58a84a9346b910",
+      "url": "https://www.global.toshiba/jp/cybersecurity/corporate/report.html",
       "source": "はてブ · テクノロジー新着",
       "source_id": "hatena-it",
       "tags": [
         "ja",
         "tech"
       ],
-      "published": "2026-09-03T05:15:15Z",
-      "score": 0.7795,
-      "distance": 0.7573,
-      "interest": 0.8017,
+      "published": "2026-09-05T06:08:47Z",
+      "score": 0.7588,
+      "distance": 0.7648,
+      "interest": 0.7527,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -461,23 +519,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "はじめに 株式会社Sally 所属エンジニアの @wellPicker です。 弊社では、スマホやパソコンでマダミスを遊べるアプリであるウズや、マダミス情報・予約管理サイトマダミス.jp、マダミス開発ツールウズスタジオを開発しています。 マダミスについてはこちらをご覧ください。 Claude Code に実装させると、コメントがやた...",
+      "excerpt": "東芝グループにおけるサイバーセキュリティに対する取り組みについて、2025年度の活動報告を「サイバーセキュリティ報告書 2026」としてPDFで提供しています。",
       "explore": false
     },
     {
-      "title": "女性「男の人に『童貞！』って言うのがかなり暴力的な言葉になることにこの歳で気づいた。なぜなら『処女！』と言われても何とも思ないから」",
+      "title": "Pluralistic: Google skates (05 Sep 2026)",
       "ja_title": null,
-      "url": "https://posfie.com/@truejapantimes/p/nCnC2A9",
-      "source": "はてブ · 学び新着",
-      "source_id": "hatena-know",
+      "url": "https://pluralistic.net/2026/09/05/divorce-court/",
+      "source": "pluralistic.net",
+      "source_id": "pluralistic-net",
       "tags": [
-        "ja",
-        "ideas"
+        "discovered"
       ],
-      "published": "2026-09-02T15:38:59Z",
-      "score": 0.779,
-      "distance": 0.7533,
-      "interest": 0.8047,
+      "published": "2026-09-05T08:04:11Z",
+      "score": 0.7553,
+      "distance": 0.7654,
+      "interest": 0.7452,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -486,79 +543,132 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Today's links Google skates: Another federal judge loses a game of peek-a-boo. Hey look at this: Delights to delectate. Object permanence: Memory-hacking ads; \"Dzur\"; NZ Ministry of DRM; Canadians v looking at the internet; Advice for self-publishers; Advice for writers; Why Wiki",
+      "explore": false
+    },
+    {
+      "title": "Why Is Donald Trump Picking a Fight with Canada?",
+      "ja_title": null,
+      "url": "https://www.newyorker.com/podcast/political-scene/why-is-donald-trump-picking-a-fight-with-canada",
+      "source": "newyorker.com",
+      "source_id": "newyorker-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-05T03:59:00Z",
+      "score": 0.7454,
+      "distance": 0.7642,
+      "interest": 0.7266,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)"
+      ],
+      "ja": null,
+      "excerpt": "How the President’s instinct for escalation is costing him politically.",
+      "explore": false
+    },
+    {
+      "title": "paul clemence on how skyscraper crowns become landmarks of shanghai",
+      "ja_title": null,
+      "url": "https://www.designboom.com/architecture/paul-clemence-skyscraper-crowns-landmarks-shanghai-guest-essay/",
+      "source": "designboom.com",
+      "source_id": "designboom-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-05T20:45:18Z",
+      "score": 0.7394,
+      "distance": 0.7692,
+      "interest": 0.7096,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "from the 81st floor of the shanghai world financial center, paul clemence reflects on how the city’s skyscraper crowns act as landmarks. The post paul clemence on how skyscraper crowns become landmarks of shanghai appeared first on designboom | architecture &amp; design magazine ",
+      "explore": false
+    },
+    {
+      "title": "Saturday assorted links",
+      "ja_title": null,
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/09/friday-assorted-links-588.html?utm_source=rss&utm_medium=rss&utm_campaign=friday-assorted-links-588",
+      "source": "Marginal Revolution",
+      "source_id": "marginalrev",
+      "tags": [
+        "economics",
+        "curation"
+      ],
+      "published": "2026-09-05T15:50:35Z",
+      "score": 0.7355,
+      "distance": 0.7677,
+      "interest": 0.7033,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "1. Joaquin Rodrigo&#8217;s Toccata. Rodrigo by the way was blind, 2. China word of the day. 3. &#8220;People Keep Sneaking Into New York City Sewers. No One Knows Why.&#8221; (NYT) 4. Yiyang Zhuge has postponed her recording session with CWT, in case you will be wondering why the",
+      "explore": false
+    },
+    {
+      "title": "10月3日（土）11時よりオンライン開催！金利上昇・インフレ時代の「融資戦略」とは？融資と物件選びのポイントを解説",
+      "ja_title": null,
+      "url": "https://prtimes.jp/main/html/rd/p/000000186.000030719.html",
+      "source": "prtimes.jp",
+      "source_id": "prtimes-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-05T20:40:02Z",
+      "score": 0.7344,
+      "distance": 0.7691,
+      "interest": 0.6997,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "poses a question (+)",
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "なつぴ @natsupikkk 男の人に「童貞！」って言うのってかなり暴力的な言葉になるっぽいことにこの歳になって気づいた。（言ったことないけど） なぜなら「処女！」って言われたところでなんとも思わないから。 2026-08-27 23:05:16",
-      "explore": false
-    },
-    {
-      "title": "in general USians naturalize unemployment (remember that in the USSR you had a right to employment), but even amongst \"left\"/marxist circles, just recognizing that unemployment is an emergent phenomena born of the system is often presented as enough and investigation ceases",
-      "ja_title": null,
-      "url": "https://threadreaderapp.com/thread/2095965303637492004.html",
-      "source": "threadreaderapp.com",
-      "source_id": "threadreaderapp-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-04T20:00:44Z",
-      "score": 0.7788,
-      "distance": 0.7689,
-      "interest": 0.7887,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "in general USians naturalize unemployment (remember that in the USSR you had a right to employment), but even amongst \"left\"/marxist circles, just recognizing that unemployment is an emergent phenomena born of the system is often presented as enough and investigation ceasesthis i",
-      "explore": false
-    },
-    {
-      "title": "Unsung @ 500: Behind the scenes",
-      "ja_title": null,
-      "url": "https://unsung.aresluna.org/unsung-at-500-behind-the-scenes",
-      "source": "unsung.aresluna.org",
-      "source_id": "unsung-aresluna-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-04T15:44:21Z",
-      "score": 0.7782,
-      "distance": 0.7676,
-      "interest": 0.7888,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "(This is a meta post about this very blog . If that’s not interesting to you, skip to the next one!) A few people recently asked about my writing and publication process, so this post is for anyone who’s interested in that. The process My present goal is posting every day, and at",
+      "excerpt": "[株式会社ゴールドオンライン] 株式会社ゴールドオンライン（本社：東京都渋谷区千駄ヶ谷二丁目30番１号 ベネッセビル２階、代表取締役：山下征孝）は、株式会社アパックスホーム 取締役 兼 東京事業部部長 結城 準一氏による無料ウェビナーを...",
       "explore": false
     },
     {
       "title": "Incus application failing to start after update",
       "ja_title": null,
-      "url": "https://discuss.linuxcontainers.org/t/incus-application-failing-to-start-after-update/27202#post_2",
+      "url": "https://discuss.linuxcontainers.org/t/incus-application-failing-to-start-after-update/27202#post_8",
       "source": "discuss.linuxcontainers.org",
       "source_id": "discuss-linuxcontainers-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-04T14:06:09Z",
-      "score": 0.7751,
-      "distance": 0.7671,
-      "interest": 0.7831,
+      "published": "2026-09-04T15:27:07Z",
+      "score": 0.734,
+      "distance": 0.7605,
+      "interest": 0.7076,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -566,26 +676,103 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
+        "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "Are you able to interact with that fallback listener? It would be good to be able to pull some more detailed logs from that system to see what’s going on exactly. @gibmat the documentation on the fallback listener is a bit light on how exactly to use it? Feel like adding a paragr",
+      "excerpt": "It looks like the fallback listener is using a client cert generated by Operations Center (OC). OC was seeded with my client certificate, and I’ve confirmed that this is beign used by its own fallback listener (at least in the config). But the nodes have OC’s self-signed fallback",
       "explore": false
     },
     {
-      "title": "Iké Udé",
+      "title": "Nobody Will Say Why Every Major AI Chatbot Suddenly Went Down Yesterday",
       "ja_title": null,
-      "url": "https://en.wikiquote.org/w/index.php?title=Ik%C3%A9_Ud%C3%A9&diff=4004412&oldid=0",
-      "source": "en.wikiquote.org",
-      "source_id": "en-wikiquote-org",
+      "url": "https://futurism.com/artificial-intelligence/nobody-saying-why-major-chatbot-outage",
+      "source": "futurism.com",
+      "source_id": "futurism-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-04T23:20:36Z",
-      "score": 0.7748,
+      "published": "2026-09-04T15:55:34Z",
+      "score": 0.7338,
+      "distance": 0.7606,
+      "interest": 0.707,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "Was this a huge coincidence, or is something else going on behind the scenes? The post Nobody Will Say Why Every Major AI Chatbot Suddenly Went Down Yesterday appeared first on Futurism .",
+      "explore": false
+    },
+    {
+      "title": "Some disagreement makes groups more trustworthy, mathematical framework finds",
+      "ja_title": null,
+      "url": "https://phys.org/news/2026-09-disagreement-groups-trustworthy-mathematical-framework.html",
+      "source": "phys.org",
+      "source_id": "phys-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-05T14:00:04Z",
+      "score": 0.7324,
+      "distance": 0.7672,
+      "interest": 0.6976,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "When humans are making decisions, they are known not to rely solely on their own considerations and the evidence available to them. Past behavioral science and psychology studies have shown that people are often also influenced by the choices and opinions of others.",
+      "explore": false
+    },
+    {
+      "title": "‘Father Joe’: First Look Clip Of Kiefer Sutherland As A Priest Who Clashes With The Mob In Action-Crime Pic — Venice",
+      "ja_title": null,
+      "url": "https://deadline.com/2026/09/father-joe-first-clip-kiefer-sutherland-rebel-priest-1237069049/",
+      "source": "deadline.com",
+      "source_id": "deadline-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-05T19:46:03Z",
+      "score": 0.7308,
+      "distance": 0.7689,
+      "interest": 0.6926,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "EXCLUSIVE: Here&#8217;s your first clip for Venice Film Festival genre pic Father Joe, starring Kiefer Sutherland, Al Pacino and teen Ever Anderson, daughter of Milla Jovovich and filmmaker Paul W.S. Anderson. Sutherland plays &#8220;a man of faith who wages a violent war against",
+      "explore": false
+    },
+    {
+      "title": "From farmers to chefs, Japan’s culinary voices tell their tales",
+      "ja_title": null,
+      "url": "https://www.japantimes.co.jp/life/2026/09/06/food-drink/art-craft-japanese-cooking-recipes-essays-cookbook/",
+      "source": "japantimes.co.jp",
+      "source_id": "japantimes-co-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-05T23:05:00Z",
+      "score": 0.7308,
       "distance": 0.7699,
-      "interest": 0.7797,
+      "interest": 0.6916,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -593,26 +780,25 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
+        "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "#AfricaCreatives created New page [[File:Iké Udé - 2024 (cropped).jpg|thumb|Iké Udé - 2024 (cropped)]] [[W:Iké Udé|Iké Udé]] (born 1964) is a Nigerian-American photographer, performance artist, author, and publisher based in New York City, United States. ==Quotes == *What I’m mos",
+      "excerpt": "\"The Art and Craft of Japanese Cooking: Artisans, Chefs, Recipes\" combines recipes with essays on chefs' approaches as well as the artisans behind the ingredients they work with.",
       "explore": false
     },
     {
-      "title": "Audacity 4.0 fait peau neuve et revoit en profondeur son interface",
+      "title": "Why I Program in Lisp?",
       "ja_title": null,
-      "url": "https://www.macg.co/logiciels/2026/09/audacity-40-fait-peau-neuve-et-revoit-en-profondeur-son-interface-310849",
-      "source": "macg.co",
-      "source_id": "macg-co",
+      "url": "https://jointhefreeworld.org/blog/articles/lisps/why-i-program-in-lisp/index.html",
+      "source": "jointhefreeworld.org",
+      "source_id": "jointhefreeworld-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-04T09:24:21Z",
-      "score": 0.7738,
-      "distance": 0.7657,
-      "interest": 0.7819,
+      "published": "2025-04-11T23:00:00Z",
+      "score": 0.7303,
+      "distance": 0.62,
+      "interest": 0.8406,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -621,25 +807,26 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
+        "poses a question (+)",
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Gros coup de frais pour Audacity : ce célèbre utilitaire de traitement de son open source vient de passer en version 4.0, qui revoit complètement son interface et apporte un nouveau logo. Elle ajoute tout un tas d'améliorations rendant son utilisation plus agréable, et modernise ",
+      "excerpt": "Original article by Joe Marshall Lisp is not the most popular language. It never was. Other general purpose languages are more popular and ultimately can do everything that Lisp can (if Church and Turing are correct). They have more libraries and a larger user community than Lisp",
       "explore": false
     },
     {
-      "title": "(untitled)",
+      "title": "Boss of STIHL: Time for reforms – this is how we will safe prosperity and welfare state",
       "ja_title": null,
-      "url": "https://www.jvt.me/mf2/2026/09/jgtld/?utm_medium=rss&utm_source=rss",
-      "source": "jvt.me",
-      "source_id": "jvt-me",
+      "url": "http://www.euronews.com/my-europe/2026/09/05/boss-of-stihl-time-for-reforms-this-is-how-we-will-safe-prosperity-and-welfare-state",
+      "source": "euronews.com",
+      "source_id": "euronews-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-04T09:44:00Z",
-      "score": 0.7724,
-      "distance": 0.7658,
-      "interest": 0.7789,
+      "published": "2026-09-05T07:48:40Z",
+      "score": 0.7296,
+      "distance": 0.7653,
+      "interest": 0.6939,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -647,163 +834,26 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
+        "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "Listened to Forking Cal.com to closed source (Changelog Interviews #685) Post details This week I'm joined by Peer Richelsen, co-founder of Cal.com. What if the majority of open source repositories are already compromised and we just don't know it yet? That's the theory Peer brin",
+      "excerpt": "The German economy has been in crisis for years. Writes Nikolas Stihl in an OpEd für Euronews. Better business conditions are the key to breaking out of this stagnation. What’s at stake is nothing less than securing prosperity and welfare state. STIHL is the world’s best-selling ",
       "explore": false
     },
     {
-      "title": "なぜパナソニック エナジーは地熱電力を選んだのか　導入企業インタビューを九電みらいエナジーが公開",
+      "title": "あわや大惨事!!　夏になるとなぜか剥がれるSwitchBot ロックUltraの両面テープ問題に終止符を打つ 【テレワークグッズ・ミニレビュー 第166回】",
       "ja_title": null,
-      "url": "https://prtimes.jp/main/html/rd/p/000000003.000189723.html",
-      "source": "prtimes.jp",
-      "source_id": "prtimes-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-04T23:10:02Z",
-      "score": 0.7676,
-      "distance": 0.7698,
-      "interest": 0.7654,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "[九電みらいエナジー株式会社] 九電みらいエナジー株式会社（本社：福岡市）は、当社が提供する地熱発電由来の再生可能エネルギー電力を導入しているパナソニック エナジー株式会社の導入事例を公開しました。本事例では、導入の背景や地熱電力...",
-      "explore": false
-    },
-    {
-      "title": "AI をつかってみて思うこと (2026年9月4日)",
-      "ja_title": null,
-      "url": "https://member.ipmu.jp/yuji.tachikawa/misc/ai2026.html",
+      "url": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/2138319.html",
       "source": "はてブ · テクノロジー新着",
       "source_id": "hatena-it",
       "tags": [
         "ja",
         "tech"
       ],
-      "published": "2026-09-04T13:57:09Z",
-      "score": 0.7643,
-      "distance": 0.7671,
-      "interest": 0.7615,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "2026年初夏に、最新LLMが研究に使えるようになったと聞いたので、7月8月と Anthropic の Claude Fable を使ってみていました。その過程でいろいろ思ったことを、徒然なるままに書いておこうと思います。未来に読み返して思うこともあるでしょうし。 僕がこの件について良く知っているから書いている、と主張したいわけで...",
-      "explore": false
-    },
-    {
-      "title": "Thulani Hlatshwayo",
-      "ja_title": null,
-      "url": "https://en.wikiquote.org/w/index.php?title=Thulani_Hlatshwayo&diff=4004416&oldid=4004414",
-      "source": "en.wikiquote.org",
-      "source_id": "en-wikiquote-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-04T23:25:48Z",
-      "score": 0.7634,
-      "distance": 0.7699,
-      "interest": 0.757,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "← Older revision Revision as of 23:25, 4 September 2026 Line 18: Line 18: * Look at what Burnley did for Foster, they went all out to show support for him. We also just lost George Chigova, so you can imagine how it is affecting us psychologically. * Look at what Burnley did for ",
-      "explore": false
-    },
-    {
-      "title": "10時間足らずで侵入されたAIエージェントによるランサムウェア攻撃についてまとめてみた - piyolog",
-      "ja_title": null,
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/09/04/115554",
-      "source": "はてブ · テクノロジー新着",
-      "source_id": "hatena-it",
-      "tags": [
-        "ja",
-        "tech"
-      ],
-      "published": "2026-09-04T03:09:29Z",
-      "score": 0.7613,
-      "distance": 0.7639,
-      "interest": 0.7588,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "Palo Alto Networks Unit 42は2026年9月2日、ランサムウェア攻撃に対応したインシデントレスポンス事例を公表しました。攻撃者がフロンティアAIを用いてネットワークへの侵入からAI基盤の乗っ取りまでを自律的に進めさせていたとする内容で、被害組織のセキュリティ体制に関する80ページの技術監査レポートを残していっ...",
-      "explore": false
-    },
-    {
-      "title": "TAKARA、自分らしさと向き合い辿り着いた“居場所”　ASHAとKOKONAが引き寄せ合った必然、新たな航海への決意",
-      "ja_title": null,
-      "url": "https://realsound.jp/2026/09/post-2496762.html",
-      "source": "realsound.jp",
-      "source_id": "realsound-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-04T19:00:00Z",
-      "score": 0.7602,
-      "distance": 0.7686,
-      "interest": 0.7518,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "『No No Girls THE FINAL』から約1年半、ASHAとKOKONAが新ユニット TAKARAとなってついにデビューを果たした。リアルサウンドでは2人にインタビューを行い、互いの印象や4曲入りEP『宝』の制作、音楽のルーツや在りたい自分などについて、たっぷりと語ってもらった。",
-      "explore": false
-    },
-    {
-      "title": "堂本光一＆堂本剛、ふぉ～ゆ～へと渡した“イズム”　「僕らの半分はDOMOTOで出来ている」――愛とリスペクトで繋がれた絆",
-      "ja_title": null,
-      "url": "https://realsound.jp/2026/09/post-2512459.html",
-      "source": "realsound.jp",
-      "source_id": "realsound-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-04T22:00:29Z",
-      "score": 0.7587,
-      "distance": 0.7695,
-      "interest": 0.7478,
+      "published": "2026-09-04T08:37:20Z",
+      "score": 0.7295,
+      "distance": 0.7584,
+      "interest": 0.7007,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -816,22 +866,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "DOMOTOがふぉ～ゆ～へと渡した“イズム”について紹介する。",
+      "excerpt": "",
       "explore": false
     },
     {
-      "title": "Simon Josefsson: Soft-launching the DiffOS project",
+      "title": "What's up with FUTO?",
       "ja_title": null,
-      "url": "https://blog.josefsson.org/2026/09/04/soft-launching-the-diffos-project/",
-      "source": "gnu.org",
-      "source_id": "gnu-org",
+      "url": "https://drewdevault.com/blog/Whats-up-with-FUTO/",
+      "source": "drewdevault.com",
+      "source_id": "drewdevault-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-04T13:11:41Z",
-      "score": 0.7586,
-      "distance": 0.7668,
-      "interest": 0.7504,
+      "published": "2025-10-22T00:00:00Z",
+      "score": 0.727,
+      "distance": 0.62,
+      "interest": 0.8341,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -840,106 +890,26 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
+        "poses a question (+)",
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Today marks the day of soft-launching of my Debian derivative, which I’ve been using on several of my own machines for the past year or so. This is still work in progress, but I wanted to establish a launch date of the project so below is the DiffOS manifesto as motivation for co",
+      "excerpt": "Some time ago, I noticed some new organization called FUTO popping up here and there. I’m always interested in seeing new organizations that fund open source popping up, and seeing as they claim several notable projects on their roster, I explored their website with interest and ",
       "explore": false
     },
     {
-      "title": "Pixel 11 lets you make any Camera Look default with this buried setting",
+      "title": "Views from a physician and veterinarian: How to improve barriers to pet care when owners are hospitalized",
       "ja_title": null,
-      "url": "https://9to5google.com/2026/09/04/pixel-11-lets-you-make-any-camera-look-default-with-this-buried-setting/",
-      "source": "9to5google.com",
-      "source_id": "9to5google-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-04T15:08:00Z",
-      "score": 0.7533,
-      "distance": 0.7674,
-      "interest": 0.7392,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "The Pixel 11 series is out in the hands of plenty of (hopefully) happy users, and for the most part , I can count myself among them. This generation marks a massive shift for the camera in particular, as Google has finally loosened up its HDR-centric grip on processing. Really, t",
-      "explore": false
-    },
-    {
-      "title": "Drop Acer’s metal USB-A and Type-C card reader in your tech bin for $10 (Save 23%)",
-      "ja_title": null,
-      "url": "https://9to5toys.com/2026/09/04/acer-2-in-1-usb-c-sd-card-reader/",
-      "source": "9to5toys.com",
-      "source_id": "9to5toys-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-04T16:04:53Z",
-      "score": 0.7512,
-      "distance": 0.7677,
-      "interest": 0.7348,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Acer 2-in-1 USB-C SD Card Reader Buy for $10 (Reg. $13) What we love I added 24/7 security cameras to my home a few years back and they store the footage on microSD cards. I can browse the footage from my phone, but scrubbing through that can be a nightmare on mobile. It’s nice t",
-      "explore": false
-    },
-    {
-      "title": "Why doesn’t WiFi Lobby as Hard as Cellular?",
-      "ja_title": null,
-      "url": "https://nickvsnetworking.com/why-doesnt-wifi-lobby-as-hard/",
-      "source": "nickvsnetworking.com",
-      "source_id": "nickvsnetworking-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-04T08:57:50Z",
-      "score": 0.7434,
-      "distance": 0.7656,
-      "interest": 0.7212,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)"
-      ],
-      "ja": null,
-      "excerpt": "I was at a conference the other day and almost watched someone from a large WiFi AP get to fisticuffs with someone from the cellular industry about the upper 6Ghz band. It got me thinking &#8211; I&#8217;m always hearing sob stories from the mobile lobby groups, positioning thems",
-      "explore": false
-    },
-    {
-      "title": "Want a solution to plastic pollution? Scientists urge UN to require global reporting",
-      "ja_title": null,
-      "url": "https://phys.org/news/2026-09-solution-plastic-pollution-scientists-urge.html",
+      "url": "https://phys.org/news/2026-09-views-physician-veterinarian-barriers-pet.html",
       "source": "phys.org",
       "source_id": "phys-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-04T18:00:10Z",
-      "score": 0.7424,
-      "distance": 0.7683,
-      "interest": 0.7165,
+      "published": "2026-09-05T18:00:04Z",
+      "score": 0.7267,
+      "distance": 0.7684,
+      "interest": 0.685,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -947,54 +917,78 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)"
+        "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "Plastic is a wonder material that has molded itself to fit a wide variety of applications. But it comes with a host of drawbacks that aren't fully considered. That's why the United Nations has convened to hammer out a treaty to address plastic pollution.",
+      "excerpt": "The human-animal bond is often so strong that pet owners may delay or forgo medical treatment or leave a health care facility against medical advice if they have no one to care for their pet at home. A perspective paper published in the New England Journal of Medicine explains wh",
       "explore": false
     },
     {
-      "title": "What can we learn from 12M empirical research results?",
+      "title": "Pool creation with ashift=9 for older SAS drives?",
       "ja_title": null,
-      "url": "https://statmodeling.stat.columbia.edu/2026/09/02/metascience-corner-what-can-we-learn-from-12-million-empirical-research-results/",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
+      "url": "https://discuss.linuxcontainers.org/t/pool-creation-with-ashift-9-for-older-sas-drives/27203#post_3",
+      "source": "discuss.linuxcontainers.org",
+      "source_id": "discuss-linuxcontainers-org",
       "tags": [
-        "tech",
-        "frontier"
+        "discovered"
       ],
-      "published": "2026-09-04T21:36:09Z",
-      "score": 0.7382,
-      "distance": 0.8694,
-      "interest": 0.607,
+      "published": "2026-09-04T15:13:04Z",
+      "score": 0.7263,
+      "distance": 0.7604,
+      "interest": 0.6921,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
+        "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "poses a question (+)"
+        "poses a question (+)",
+        "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "",
+      "excerpt": "The main downside of an ashift=9 zpool is that down the road if you add a 4KiB native drive you’ll get massive write amplification as ZFS’s use of 512 byte blocks will force the new drive to rewrite its 4KiB sectors multiple times. Conversely, ashift=12 on a 512 byte native drive",
       "explore": false
     },
     {
-      "title": "les caryatides de guyancourt: a photo essay on the postmodernist complex of suburban paris",
+      "title": "Dollar posts weekly loss as yen jumps amid shifting rate bets",
       "ja_title": null,
-      "url": "https://www.designboom.com/architecture/caryatides-guyancourt-photo-essay-postmodernist-complex-suburban-paris-manuel-nunez-yanowsky-12-29-2025/",
-      "source": "designboom.com",
-      "source_id": "designboom-com",
+      "url": "https://www.japantimes.co.jp/business/2026/09/05/markets/dollar-loss-yen-jumps/",
+      "source": "japantimes.co.jp",
+      "source_id": "japantimes-co-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-04T10:50:18Z",
-      "score": 0.7378,
+      "published": "2026-09-04T23:39:00Z",
+      "score": 0.7259,
+      "distance": 0.7629,
+      "interest": 0.689,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "The Japanese currency posted its best week since July, gaining about 2.4% against the dollar.",
+      "explore": false
+    },
+    {
+      "title": "Trump slaps up to 100% tariffs on imported drones and critical components in latest move against China's proliferation of  U.S. drone market, citing national security — products from allied nation face 10-15% rates",
+      "ja_title": null,
+      "url": "https://www.tomshardware.com/tech-industry/drones/trump-slaps-up-to-100-percent-tariffs-on-imported-drones-and-critical-components-in-latest-move-against-chinas-proliferation-of-u-s-drone-market-citing-national-security-products-from-allied-nation-face-10-15-percent-rates",
+      "source": "tomshardware.com",
+      "source_id": "tomshardware-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-05T10:20:00Z",
+      "score": 0.7256,
       "distance": 0.7661,
-      "interest": 0.7095,
+      "interest": 0.685,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1005,22 +999,22 @@
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "designboom visits les caryatides in guyancourt to explore the iconic building in person and unveil its beauty and peculiarities. The post les caryatides de guyancourt: a photo essay on the postmodernist complex of suburban paris appeared first on designboom | architecture &amp; d",
+      "excerpt": "The Trump administration has imposed tariffs of up to 100% on imported drones and key components, as Washington intensifies its push to reduce reliance on Chinese drone technology and rebuild a domestic supply chain.",
       "explore": false
     },
     {
-      "title": "Why the Lindsay Clancy Trial Ended in a Deadlock",
+      "title": "佐々木彩夏、後藤真希、超♡ときめき宣伝部、いにしえ永遠？……レジェンドからフレッシュまで勢揃いの『TIF2026』を振り返る",
       "ja_title": null,
-      "url": "https://www.newyorker.com/news/the-lede/why-the-lindsay-clancy-trial-ended-in-a-deadlock",
-      "source": "newyorker.com",
-      "source_id": "newyorker-com",
+      "url": "https://realsound.jp/2026/09/post-2510824.html",
+      "source": "realsound.jp",
+      "source_id": "realsound-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-04T18:38:14Z",
-      "score": 0.7362,
-      "distance": 0.7685,
-      "interest": 0.704,
+      "published": "2026-09-05T18:00:37Z",
+      "score": 0.7254,
+      "distance": 0.7684,
+      "interest": 0.6825,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1028,53 +1022,26 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)"
+        "poses a question (+)",
+        "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "Both the prosecution and the defense tried to tell tidy stories. But, in the end, five weeks of testimony from more than eighty witnesses couldn’t resolve the central mystery of Clancy’s state of mind.",
+      "excerpt": "佐々木彩夏、後藤真希、超♡ときめき宣伝部、いにしえ永遠？ら、ベテランから新人まで勢揃いした『TOKYO IDOL FESTIVAL 2026』を振り返る。",
       "explore": false
     },
     {
-      "title": "A pre-registered test: can a business's rules be recovered from its data?",
+      "title": "Fairphone 6 + PostmarketOS fully working fingerprint sensor!",
       "ja_title": null,
-      "url": "https://justinsmith.build/writing/everything-a-business-knows/",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
-      "tags": [
-        "tech",
-        "frontier"
-      ],
-      "published": "2026-09-04T22:10:54Z",
-      "score": 0.7357,
-      "distance": 0.8695,
-      "interest": 0.6018,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
-      ],
-      "reasons_interest": [
-        "poses a question (+)"
-      ],
-      "ja": null,
-      "excerpt": "",
-      "explore": false
-    },
-    {
-      "title": "In ant nervous systems, gene expression may drive rescue behavior",
-      "ja_title": null,
-      "url": "https://phys.org/news/2026-09-ant-nervous-gene-behavior.html",
-      "source": "phys.org",
-      "source_id": "phys-org",
+      "url": "https://lemmy.ca/post/70436942",
+      "source": "catcrafts.net",
+      "source_id": "catcrafts-net",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-04T21:40:01Z",
-      "score": 0.7357,
-      "distance": 0.7694,
-      "interest": 0.702,
+      "published": "2026-09-05T05:48:49Z",
+      "score": 0.7251,
+      "distance": 0.7647,
+      "interest": 0.6856,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1085,22 +1052,22 @@
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "Why do some ants help nestmates in distress while others don't? A research team from Johannes Gutenberg University Mainz (JGU) and Tel Aviv University addressed this question in a new study. The researchers examined worker ants of the species Cataglyphis niger, some of which had ",
+      "excerpt": "I have returned, this time with a fully working fingerprint sensor! But TheMightyCat i hear you say, we already had a working fingerprint sensor made by nick! And you're right, that's why i specified fully while maybe nick's one is also fully working he doesn't show enrollment…",
       "explore": false
     },
     {
-      "title": "Living With Their Legacy: Understanding Celebrity Losses",
+      "title": "American Medical Association Fires Back Against Paper Finding AI Is Now Outperforming Doctors",
       "ja_title": null,
-      "url": "https://www.psychologytoday.com/us/blog/the-mental-mosaic/202609/living-with-their-legacy-understanding-celebrity-losses",
-      "source": "psychologytoday.com",
-      "source_id": "psychologytoday-com",
+      "url": "https://futurism.com/artificial-intelligence/american-medical-association-fires-back-ai-doctors",
+      "source": "futurism.com",
+      "source_id": "futurism-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-04T15:58:13Z",
-      "score": 0.7352,
-      "distance": 0.7677,
-      "interest": 0.7027,
+      "published": "2026-09-04T14:45:26Z",
+      "score": 0.7248,
+      "distance": 0.7602,
+      "interest": 0.6895,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1111,7 +1078,34 @@
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "Why can losing someone we’ve never met feel so personal? The recent losses of Dolly Parton, Tim Curry, and Peter Cullen offer a window into parasocial grief.",
+      "excerpt": "\"As AI improves, having humans in the loop will likely worsen patient care.:\" The post American Medical Association Fires Back Against Paper Finding AI Is Now Outperforming Doctors appeared first on Futurism .",
+      "explore": false
+    },
+    {
+      "title": "Upend the trickle-down",
+      "ja_title": null,
+      "url": "https://aeon.co/essays/why-western-democracy-is-ailing-and-how-to-fix-it",
+      "source": "Aeon",
+      "source_id": "aeon",
+      "tags": [
+        "ideas",
+        "philosophy"
+      ],
+      "published": "2026-09-04T10:00:00Z",
+      "score": 0.7246,
+      "distance": 0.7588,
+      "interest": 0.6903,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "Neoliberal policies have hollowed out democracies and spawned unchecked oligarchs. Grasping their structure points to a fix - by Les Coleman Read on Aeon",
       "explore": false
     }
   ]
