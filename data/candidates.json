@@ -482,9 +482,11 @@
         "schneier-com",
         "blog-trailofbits-com",
         "techpolicy-press",
-        "threadreaderapp-com"
+        "threadreaderapp-com",
+        "spectrum-ieee-org",
+        "metr-org"
       ],
-      "count": 10,
+      "count": 12,
       "first_seen": "2026-07-23",
       "sample_url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
       "feed": null,
@@ -1593,9 +1595,10 @@
         "daringfireball-net",
         "jvt-me",
         "sovereign-tech",
-        "simonwillison-net"
+        "simonwillison-net",
+        "dustycloud-org"
       ],
-      "count": 11,
+      "count": 12,
       "first_seen": "2026-07-23",
       "sample_url": "https://kottke.org/26/07/no-cgi-is-really-just-invisible-cgi",
       "feed": null,
@@ -1687,9 +1690,11 @@
       "referrers": [
         "kottke",
         "spectrum-ieee-org",
-        "eff-org"
+        "eff-org",
+        "hackernews",
+        "dustycloud-org"
       ],
-      "count": 3,
+      "count": 5,
       "first_seen": "2026-07-23",
       "sample_url": "https://kottke.org/26/07/0049263-the-trailer",
       "feed": null,
@@ -1860,9 +1865,10 @@
     "lesswrong.com": {
       "referrers": [
         "guzey",
-        "hackernews"
+        "hackernews",
+        "metr-org"
       ],
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-07-23",
       "sample_url": "https://guzey.com/ai/alignment-alchemy/",
       "feed": null,
@@ -4624,14 +4630,15 @@
     },
     "blog.jsbarretto.com": {
       "referrers": [
-        "lobsters"
+        "lobsters",
+        "hackernews"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-25",
       "sample_url": "https://blog.jsbarretto.com/post/languages-as-latent-spaces",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://blog.jsbarretto.com/rss.xml",
+      "checked": true,
+      "promoted": true
     },
     "vimuser.org": {
       "referrers": [
@@ -5564,13 +5571,14 @@
     },
     "mitpress.mit.edu": {
       "referrers": [
-        "spectrum-ieee-org"
+        "spectrum-ieee-org",
+        "dustycloud-org"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-26",
       "sample_url": "https://spectrum.ieee.org/eliza-chatbot-source-code",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "starwars.com": {
@@ -6191,9 +6199,10 @@
         "macrumors-com",
         "techpolicy-press",
         "lobsters",
-        "blog-trailofbits-com"
+        "blog-trailofbits-com",
+        "metr-org"
       ],
-      "count": 10,
+      "count": 11,
       "first_seen": "2026-07-27",
       "sample_url": "https://www.anthropic.com/news/position-open-weights-models",
       "feed": null,
@@ -10839,14 +10848,15 @@
     },
     "jiji.com": {
       "referrers": [
-        "hatena-it"
+        "hatena-it",
+        "hatena-know"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-01",
       "sample_url": "https://www.jiji.com/jc/article?k=2026073101338&g=int",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://www.jiji.com/rss/ranking.rdf",
+      "checked": true,
+      "promoted": true
     },
     "iphone-mania.jp": {
       "referrers": [
@@ -14882,14 +14892,16 @@
     },
     "lucumr.pocoo.org": {
       "referrers": [
-        "earendil-com"
+        "earendil-com",
+        "seangoedecke-com",
+        "dustycloud-org"
       ],
-      "count": 1,
+      "count": 3,
       "first_seen": "2026-08-07",
       "sample_url": "https://earendil.com/posts/announcement-reflection/",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://lucumr.pocoo.org/feed.atom",
+      "checked": true,
+      "promoted": true
     },
     "chatgpt.com": {
       "referrers": [
@@ -15227,9 +15239,10 @@
       "referrers": [
         "schneier-com",
         "hackernews",
-        "thinkingmachines-ai"
+        "thinkingmachines-ai",
+        "metr-org"
       ],
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-08-07",
       "sample_url": "https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html",
       "feed": null,
@@ -20758,9 +20771,10 @@
         "lea-verou-me",
         "hugodaniel-com",
         "daverupert-com",
-        "sovereign-tech"
+        "sovereign-tech",
+        "dustycloud-org"
       ],
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-08-12",
       "sample_url": "https://lea.verou.me/2009/04/creating-the-perfect-slider/",
       "feed": null,
@@ -23578,14 +23592,15 @@
     },
     "nolanlawson.com": {
       "referrers": [
-        "lobsters"
+        "lobsters",
+        "dustycloud-org"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-16",
       "sample_url": "https://nolanlawson.com/2026/08/16/you-can-just-choose-how-many-bugs-you-want-now/",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://nolanlawson.com/feed/",
+      "checked": true,
+      "promoted": true
     },
     "heiwiper.com": {
       "referrers": [
@@ -26143,14 +26158,15 @@
     },
     "newscenter.lbl.gov": {
       "referrers": [
-        "hackernews"
+        "hackernews",
+        "bigthink-com"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-20",
       "sample_url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://newscenter.lbl.gov/feed",
+      "checked": true,
+      "promoted": true
     },
     "academic.oup.com": {
       "referrers": [
@@ -31126,13 +31142,14 @@
     },
     "crowdsupply.com": {
       "referrers": [
-        "lobsters"
+        "lobsters",
+        "dustycloud-org"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-25",
       "sample_url": "https://www.crowdsupply.com/mnt-research/mnt-station",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "da.vidbuchanan.co.uk": {
@@ -33732,14 +33749,15 @@
     },
     "newsletter.semianalysis.com": {
       "referrers": [
-        "9to5google-com"
+        "9to5google-com",
+        "metr-org"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-28",
       "sample_url": "https://9to5google.com/2026/08/27/everyones-talking-to-their-phones-again/",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://newsletter.semianalysis.com/feed",
+      "checked": true,
+      "promoted": true
     },
     "9to5google.beehiiv.com": {
       "referrers": [
@@ -34819,9 +34837,10 @@
     "overcast.fm": {
       "referrers": [
         "9to5google-com",
-        "atp-fm"
+        "atp-fm",
+        "marco-org"
       ],
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-08-29",
       "sample_url": "https://9to5google.com/2026/08/28/pixelated-114-who-watches-the-pixel-watch/",
       "feed": null,
@@ -39518,13 +39537,14 @@
     },
     "community.obsidian.md": {
       "referrers": [
-        "obsidian-md"
+        "obsidian-md",
+        "birchtree-me"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-09-01",
       "sample_url": "https://obsidian.md/blog/future-of-plugins/",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "airtable.com": {
@@ -40257,14 +40277,15 @@
     },
     "adactio.com": {
       "referrers": [
-        "blog-jim-nielsen-com"
+        "blog-jim-nielsen-com",
+        "lobsters"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-09-02",
       "sample_url": "https://blog.jim-nielsen.com/2026/nobody-believes-it-everybody-does-it/",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://adactio.com/journal/rss",
+      "checked": true,
+      "promoted": true
     },
     "bonhams.com": {
       "referrers": [
@@ -44252,9 +44273,10 @@
     },
     "pcmag.com": {
       "referrers": [
-        "bcantrill-dtrace-org"
+        "bcantrill-dtrace-org",
+        "hackernews"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-09-07",
       "sample_url": "https://bcantrill.dtrace.org/2025/09/18/systems-software-in-the-large/",
       "feed": null,
@@ -44553,9 +44575,10 @@
     },
     "social.coop": {
       "referrers": [
-        "hackernews"
+        "hackernews",
+        "dustycloud-org"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-09-08",
       "sample_url": "https://social.coop/@cwebber/117236126658335889",
       "feed": null,
@@ -45609,9 +45632,10 @@
     },
     "cetra3.github.io": {
       "referrers": [
-        "lobsters"
+        "lobsters",
+        "hackernews"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-09-09",
       "sample_url": "https://cetra3.github.io/blog/state-of-allocators-2026-part-2/",
       "feed": null,
@@ -47535,9 +47559,10 @@
     },
     "stjude.org": {
       "referrers": [
-        "atp-fm"
+        "atp-fm",
+        "theenthusiast-net"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-09-11",
       "sample_url": "https://atp.fm/708",
       "feed": null,
@@ -47678,14 +47703,16 @@
     },
     "relay.fm": {
       "referrers": [
-        "atp-fm"
+        "atp-fm",
+        "marco-org",
+        "theenthusiast-net"
       ],
-      "count": 1,
+      "count": 3,
       "first_seen": "2026-09-11",
       "sample_url": "https://atp.fm/705",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "http://relay.fm/master/feed",
+      "checked": true,
+      "promoted": true
     },
     "home-assistant.io": {
       "referrers": [
@@ -48307,9 +48334,10 @@
     },
     "backblaze.com": {
       "referrers": [
-        "atp-fm"
+        "atp-fm",
+        "marco-org"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-09-11",
       "sample_url": "https://atp.fm/689",
       "feed": null,
@@ -49058,9 +49086,10 @@
     },
     "econ101.jp": {
       "referrers": [
-        "hatena-it"
+        "hatena-it",
+        "hatena-know"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-09-12",
       "sample_url": "https://econ101.jp/methodological-individualism/",
       "feed": null,
@@ -49212,9 +49241,10 @@
     },
     "512pixels.net": {
       "referrers": [
-        "daringfireball-net"
+        "daringfireball-net",
+        "theenthusiast-net"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-09-12",
       "sample_url": "https://9to5mac.com/2026/09/11/apple-hid-a-classic-mac-easter-egg-in-the-ios-27-settings-app/",
       "feed": null,
@@ -50712,14 +50742,16 @@
     "macstories.net": {
       "referrers": [
         "9to5mac-com",
-        "birchtree-me"
+        "birchtree-me",
+        "9to5google-com",
+        "theenthusiast-net"
       ],
-      "count": 2,
+      "count": 4,
       "first_seen": "2026-09-15",
       "sample_url": "https://9to5mac.com/2026/09/14/federico-viticci-on-ios-27-its-good-to-see-apple-sweat-the-details-again/",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://www.macstories.net/feed/",
+      "checked": true,
+      "promoted": true
     },
     "luma.com": {
       "referrers": [
@@ -50926,6 +50958,1195 @@
       "count": 1,
       "first_seen": "2026-09-15",
       "sample_url": "https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9?source=rss----138adf9c44c---4",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "joinhandshake.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://joinhandshake.com/research/benchmarks/articles/atlas-finance-evaluating-ai-agents-inside-a-bank/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "1f3d9.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://1f3d9.com/window/map",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "tesseracted-labs-blog.vercel.app": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://tesseracted-labs-blog.vercel.app/enforcing-coding-agent-guardrails-in-the-runtime-instead-of-the-prompt",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "zatona.dev": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://zatona.dev/blog/intel-tdx-remote-attestation-verifier",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "tech.marksblogg.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://tech.marksblogg.com/scikit-decide-openap-optimal-flight-planning.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "blog.coredump.cx": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://blog.coredump.cx/p/the-secret-life-of-circuits-is-here",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "echohive.ai": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.echohive.ai/can-an-agreement-reduce-ai-cheating-at-chess",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "gravitylinux.org": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://gravitylinux.org/blog/hello-gravity/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "labs.google": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://labs.google/fx/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "percentshop.vercel.app": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://percentshop.vercel.app/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "therage.co": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.therage.co/clarity-act-fails-in-senate/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "dailyneuron.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dailyneuron.com/automatic-motor-learning-effortless-walk/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "nand2mario.github.io": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://nand2mario.github.io/posts/2026/zsst-voodoo/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "semiqlassical.tech": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://semiqlassical.tech/toymodel/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "thedefensepost.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://thedefensepost.com/2026/09/15/anthropic-claude-weapons-surveillance/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "ministryofcyberaffairs.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://ministryofcyberaffairs.com/news/skill-poisioning-turning-ai-agents-into-malware-droppers-warns-china-s-national-cert-66b8bba4-9ffd-4583-a6c7-122e8149e0e8",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "thecut.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.thecut.com/article/my-husband-has-no-friends.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "togameforlife.wordpress.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://togameforlife.wordpress.com/2023/12/09/on-lucasarts-afterlife/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "rapidkt.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://rapidkt.com/pages/blog/why_we_keep_humans_at_the_center_of_ai_skill_transfer",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "aistlgenerator.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://aistlgenerator.com/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "predx-article.fika.bar": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://predx-article.fika.bar/bitcoin-s-momentum-cools-as-washington-s-crypto-promise-face-01M2HE34ZAXGSSTQB0D5DFBE3T",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "businesstimes.com.sg": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.businesstimes.com.sg/lifestyle/standing-cabernet-sauvignon",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "marc.info": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://marc.info/?l=openbsd-tech&m=178948744271633&w=2",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "will-keleher.com": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://will-keleher.com/posts/small-programming-tricks-matter/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "bkovac.github.io": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://bkovac.github.io/modem-thing/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "tintotint.eu": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://tintotint.eu/whacky-corner/f-droid_slop/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "chauhankiran.blogspot.com": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://chauhankiran.blogspot.com/2026/09/levels.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "swift.org": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.swift.org/blog/swift-6.4-released/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "azhdarchid.com": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://azhdarchid.com/gdscript-good-bad-ugly/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "jsgroth.dev": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://jsgroth.dev/blog/posts/trying-to-make-a-loop-auto-vectorize/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "vtrlx.ca": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://vtrlx.ca/w/2026-09-10-how-i-wrote-moonforth.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "anekstein.com": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://anekstein.com/posts/2026-08-22.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "i4u.gmo": {
+      "referrers": [
+        "hatena-it"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://i4u.gmo/QQZJU",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "corporate.jp.sharp": {
+      "referrers": [
+        "hatena-it"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://corporate.jp.sharp/news/260915-a.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "cto-a.org": {
+      "referrers": [
+        "hatena-it"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://cto-a.org/news/20260915_award",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "oranie.hatenablog.com": {
+      "referrers": [
+        "hatena-it"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://oranie.hatenablog.com/entry/2026/09/15/154245",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "repository.kulib.kyoto-u.ac.jp": {
+      "referrers": [
+        "hatena-it"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://repository.kulib.kyoto-u.ac.jp/items/72511a65-569e-4aec-a07f-35ea8ca46288",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "zenrin.co.jp": {
+      "referrers": [
+        "hatena-know"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.zenrin.co.jp/information/public/260820.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "manga-one.com": {
+      "referrers": [
+        "hatena-know"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://manga-one.com/manga/28348/chapter/356722",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "guggenheim.org": {
+      "referrers": [
+        "kottke"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://kottke.org/26/09/taryn-simons-father-country-i-do-love-you",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "vanityfair.com": {
+      "referrers": [
+        "kottke"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://kottke.org/26/09/taryn-simons-father-country-i-do-love-you",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "thetubecomputer.com": {
+      "referrers": [
+        "kottke"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://kottke.org/26/09/0049588-the-tube-computer",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "food.com": {
+      "referrers": [
+        "kottke"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://kottke.org/26/09/the-spice-drawer",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "rouge.com.au": {
+      "referrers": [
+        "rosenbaum"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://jonathanrosenbaum.net/2026/09/thinking-about-personal-history-lessons-the-movie-paintings-of-manny-farber/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "moorinsightsstrategy.com": {
+      "referrers": [
+        "spectrum-ieee-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://spectrum.ieee.org/inference-hardware-revolution",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "heritageproject.caltech.edu": {
+      "referrers": [
+        "spectrum-ieee-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://spectrum.ieee.org/elon-musk-tesla",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "tesla.com": {
+      "referrers": [
+        "spectrum-ieee-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://spectrum.ieee.org/elon-musk-tesla",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "effectgames.com": {
+      "referrers": [
+        "unsung-aresluna-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://unsung.aresluna.org/but-as-we-all-know-the-individual-light-bulbs-are-not-moving",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "catb.org": {
+      "referrers": [
+        "unsung-aresluna-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://unsung.aresluna.org/tuned-to-the-particular-typing-mistakes-to-which-teitelman-was-prone",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "slowboring.com": {
+      "referrers": [
+        "daringfireball-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.ft.com/content/bab5c4c5-5377-4dd0-8b46-d8c4ce9a36d5?syn-25a6b1a6=1",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "politicalwire.com": {
+      "referrers": [
+        "daringfireball-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.ft.com/content/bab5c4c5-5377-4dd0-8b46-d8c4ce9a36d5?syn-25a6b1a6=1",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "browser.geekbench.com": {
+      "referrers": [
+        "macrumors-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.macrumors.com/2026/09/15/apple-m5-ultra-chip-benchmark/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "otherworldcomputing.pxf.io": {
+      "referrers": [
+        "macrumors-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.macrumors.com/2026/09/15/owcs-mac-sale-macrumors/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "newsroom.spotify.com": {
+      "referrers": [
+        "macrumors-com",
+        "9to5mac-com"
+      ],
+      "count": 2,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.macrumors.com/2026/09/15/spotify-keep-kids-music-out-of-taste-profile/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "acteff.org": {
+      "referrers": [
+        "eff-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.eff.org/deeplinks/2026/09/california-tell-governor-stand-net-neutrality-affordability-and-public-safety",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "ntia.gov": {
+      "referrers": [
+        "eff-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.eff.org/deeplinks/2026/09/california-tell-governor-stand-net-neutrality-affordability-and-public-safety",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "broadbandusa.ntia.gov": {
+      "referrers": [
+        "eff-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.eff.org/deeplinks/2026/09/california-tell-governor-stand-net-neutrality-affordability-and-public-safety",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "vondra.me": {
+      "referrers": [
+        "lwn-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://lwn.net/Articles/1094470/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "my.gnusolidario.org": {
+      "referrers": [
+        "gnu-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://my.gnusolidario.org/2026/09/15/gnuhealthcon-2026-xi-free-software-and-social-medicine-conference/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "1password.com": {
+      "referrers": [
+        "blog-trailofbits-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "televisionacademy.com": {
+      "referrers": [
+        "macworld-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.macworld.com/article/3235631/widows-bay-sweeps-as-apple-tv-cleans-up-on-emmy-night.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "benq.com": {
+      "referrers": [
+        "macworld-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.macworld.com/article/3235451/iscreenbar-the-first-monitor-light-bar-designed-exclusively-for-imac.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "itselectric.us": {
+      "referrers": [
+        "electrek-co"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://electrek.co/2026/09/15/this-brooklyn-startup-will-put-nearly-700-ev-plugs-on-nyc-streets/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "elonmuskarchive.org": {
+      "referrers": [
+        "metr-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "elasticity.institute": {
+      "referrers": [
+        "metr-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "podscripts.co": {
+      "referrers": [
+        "metr-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "interconnects.ai": {
+      "referrers": [
+        "metr-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "carnegieendowment.org": {
+      "referrers": [
+        "metr-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://metr.org/zh-Hans/blog/2026-05-19-frontier-risk-report/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "tecunningham.github.io": {
+      "referrers": [
+        "metr-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://metr.org/notes/2026-04-21-ai-rd-nanogpt-progress/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "epoch.ai": {
+      "referrers": [
+        "metr-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://metr.org/blog/2026-04-10-mirrorcode-preliminary-results/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "constellation.org": {
+      "referrers": [
+        "metr-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://metr.org/blog/2026-04-01-fine-tuning-cot-controllability/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "activesite.bio": {
+      "referrers": [
+        "metr-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://metr.org/blog/2026-02-19-five-lessons-from-ai-biology-rct/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "virologytest.ai": {
+      "referrers": [
+        "metr-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://metr.org/blog/2026-02-19-five-lessons-from-ai-biology-rct/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "imore.com": {
+      "referrers": [
+        "marco-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://marco.org/2021/06/03/developer-relations",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "rugarciap.com": {
+      "referrers": [
+        "marco-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://marco.org/2020/01/13/macos-low-power-mode-redux",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "moshi.com": {
+      "referrers": [
+        "marco-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://marco.org/2019/11/13/mbp16",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "plex.tv": {
+      "referrers": [
+        "marco-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://marco.org/2018/11/06/mac-mini-2018-review",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "synology.com": {
+      "referrers": [
+        "marco-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://marco.org/2018/11/06/mac-mini-2018-review",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "fujitsu.com": {
+      "referrers": [
+        "marco-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://marco.org/2018/11/06/mac-mini-2018-review",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "rogueamoeba.com": {
+      "referrers": [
+        "marco-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://marco.org/2018/11/06/mac-mini-2018-review",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "david-smith.org": {
+      "referrers": [
+        "marco-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://marco.org/2018/10/09/infograph-legibility",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "media2.dev.to": {
+      "referrers": [
+        "dev-to"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dev.to/arisyn/building-answer-lineage-for-enterprise-data-agents-5cai",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "theaidownside.com": {
+      "referrers": [
+        "dev-to"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dev.to/theaidownside/gotten-lazy-a-week-of-users-watching-their-ai-do-less-3494",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "domainlanguage.com": {
+      "referrers": [
+        "dev-to"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dev.to/mckeondev/conceptual-contours-dc6",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "shorturl.at": {
+      "referrers": [
+        "dev-to"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dev.to/mohammedeshan/why-you-dont-have-to-learn-the-terminal-3m7i",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "mattiryttylainen.com": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/but-where-does-taste-come-from/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "stepsecurity.io": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/the-first-ai-agent-worm-is-months-away-if-that/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "grith.ai": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/the-first-ai-agent-worm-is-months-away-if-that/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "theshamblog.com": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/the-first-ai-agent-worm-is-months-away-if-that/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "shop.mntre.com": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/the-little-learner-and-hotel-room-hacking/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "docs.racket-lang.org": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/the-little-learner-and-hotel-room-hacking/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "thelittlelearner.com": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/the-little-learner-and-hotel-room-hacking/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "milkytracker.org": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/ode-to-cleaning-robots-a-song/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "zacchae.us": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/the-diy-foss-cyborg/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "spritely.institute": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/re-re-bluesky-decentralization/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "whtwnd.com": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/re-re-bluesky-decentralization/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "rys.io": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/how-decentralized-is-bluesky/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "gotosocial.org": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/how-decentralized-is-bluesky/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "joinpeertube.org": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/how-decentralized-is-bluesky/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "kyefox.com": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/how-decentralized-is-bluesky/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "joinmastodon.org": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/how-decentralized-is-bluesky/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "activitypub.software": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/how-decentralized-is-bluesky/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "mntre.com": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/mnt-pocket-reform-first-impressions/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "structurefilms.com": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/i-appeared-on-pbs-nova/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "alokpatelmd.com": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/i-appeared-on-pbs-nova/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "octodon.social": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/sucks-is-a-compliment-now/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "tiny.tilde.website": {
+      "referrers": [
+        "dustycloud-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://dustycloud.org/blog/sucks-is-a-compliment-now/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "kickstarter.com": {
+      "referrers": [
+        "theenthusiast-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-15",
+      "sample_url": "https://www.theenthusiast.net/303030/",
       "feed": null,
       "checked": false,
       "promoted": false
@@ -55689,6 +56910,102 @@
       "domain": "theenthusiast-net",
       "action": "graduated",
       "detail": "avg=0.5709 over 15 items"
+    },
+    {
+      "date": "2026-09-15",
+      "domain": "macstories.net",
+      "action": "promoted",
+      "detail": "referred by 9to5mac-com, birchtree-me, 9to5google-com, theenthusiast-net"
+    },
+    {
+      "date": "2026-09-15",
+      "domain": "lucumr.pocoo.org",
+      "action": "promoted",
+      "detail": "referred by earendil-com, seangoedecke-com, dustycloud-org"
+    },
+    {
+      "date": "2026-09-15",
+      "domain": "relay.fm",
+      "action": "promoted",
+      "detail": "referred by atp-fm, marco-org, theenthusiast-net"
+    },
+    {
+      "date": "2026-09-15",
+      "domain": "blog.jsbarretto.com",
+      "action": "promoted",
+      "detail": "referred by lobsters, hackernews"
+    },
+    {
+      "date": "2026-09-15",
+      "domain": "mitpress.mit.edu",
+      "action": "probe-failed",
+      "detail": "2 referrers, no feed found"
+    },
+    {
+      "date": "2026-09-15",
+      "domain": "jiji.com",
+      "action": "promoted",
+      "detail": "referred by hatena-it, hatena-know"
+    },
+    {
+      "date": "2026-09-15",
+      "domain": "nolanlawson.com",
+      "action": "promoted",
+      "detail": "referred by lobsters, dustycloud-org"
+    },
+    {
+      "date": "2026-09-15",
+      "domain": "newscenter.lbl.gov",
+      "action": "promoted",
+      "detail": "referred by hackernews, bigthink-com"
+    },
+    {
+      "date": "2026-09-15",
+      "domain": "crowdsupply.com",
+      "action": "probe-failed",
+      "detail": "2 referrers, no feed found"
+    },
+    {
+      "date": "2026-09-15",
+      "domain": "newsletter.semianalysis.com",
+      "action": "promoted",
+      "detail": "referred by 9to5google-com, metr-org"
+    },
+    {
+      "date": "2026-09-15",
+      "domain": "community.obsidian.md",
+      "action": "probe-failed",
+      "detail": "2 referrers, no feed found"
+    },
+    {
+      "date": "2026-09-15",
+      "domain": "adactio.com",
+      "action": "promoted",
+      "detail": "referred by blog-jim-nielsen-com, lobsters"
+    },
+    {
+      "date": "2026-09-15",
+      "domain": "seldo-com",
+      "action": "graduated",
+      "detail": "avg=0.6435 over 10 items"
+    },
+    {
+      "date": "2026-09-15",
+      "domain": "buttondown-com",
+      "action": "graduated",
+      "detail": "avg=0.5709 over 60 items"
+    },
+    {
+      "date": "2026-09-15",
+      "domain": "grahamdumpleton-me",
+      "action": "graduated",
+      "detail": "avg=0.5977 over 20 items"
+    },
+    {
+      "date": "2026-09-15",
+      "domain": "mail-cyberneticforests-com",
+      "action": "graduated",
+      "detail": "avg=0.601 over 15 items"
     }
   ]
 }
