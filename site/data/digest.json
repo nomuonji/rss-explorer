@@ -1,33 +1,29 @@
 {
-  "generated": "2026-09-19T23:54:20Z",
+  "generated": "2026-09-20T23:50:38Z",
   "count": 40,
   "meta": {
-    "sources_total": 367,
+    "sources_total": 370,
     "counts": {
       "seed": 64,
-      "active": 298,
-      "trial": 5
+      "active": 303,
+      "trial": 3
     },
     "feeds_resolved_this_run": 0,
     "discovered_this_run": [
+      "julialang-org",
+      "hugovk-dev",
+      "elijahpotter-dev"
+    ],
+    "graduated_this_run": [
       "rmondello-com",
       "herecomesthemoon-net",
       "jellyfin-org",
       "rustls-dev",
       "cetra3-github-io"
     ],
-    "graduated_this_run": [
-      "pcmag-com",
-      "spiegel-de",
-      "blog-yossarian-net",
-      "windowslatest-com",
-      "sports-yahoo-com",
-      "oxide-and-friends-transistor-fm",
-      "mcpherrin-ca"
-    ],
     "retired_this_run": [],
-    "candidates_tracked": 4979,
-    "items_seen_this_run": 7048,
+    "candidates_tracked": 5045,
+    "items_seen_this_run": 7100,
     "items_judged": 0,
     "judge_enabled": false,
     "pinned": [],
@@ -35,18 +31,18 @@
   },
   "items": [
     {
-      "title": "Windows 11 is getting a better way to find your mouse cursor, and we tried it",
+      "title": "A Decade of Rustls",
       "ja_title": null,
-      "url": "https://www.windowslatest.com/2026/09/19/windows-11-is-getting-a-better-way-to-find-your-mouse-cursor-and-we-tried-it/",
-      "source": "windowslatest.com",
-      "source_id": "windowslatest-com",
+      "url": "https://rustls.dev/blog/2026-09-08-a-decade-of-rustls/",
+      "source": "rustls.dev",
+      "source_id": "rustls-dev",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-19T14:57:06Z",
-      "score": 0.7705,
-      "distance": 0.7673,
-      "interest": 0.7737,
+      "published": "2026-09-08T00:00:00Z",
+      "score": 0.7124,
+      "distance": 0.6772,
+      "interest": 0.7475,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -58,49 +54,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "After three decades of looking like an 8-bit retro relic, Windows 11's Mouse Indicator is finally getting a proper visual redesign. Build 26340 brings a fluid animation, new Ctrl activation toggles, and a persistent mode. Here is how it works and how it stacks up against PowerToy",
+      "excerpt": "This year marks ten years of Rustls. In this post, we reflect on a decade of the project: where it started, how it has grown, and where it's heading next. This post is based on our presentation at RustConf 2026. The early days Rustls began with a first commit on May 2, 2016. Prog",
       "explore": true
     },
     {
-      "title": "Why did Lane Kiffin leave Ole Miss for LSU? Explaining coach’s controversial SEC move",
+      "title": "Creating MCP Servers in Rust",
       "ja_title": null,
-      "url": "https://sports.yahoo.com/articles/why-did-lane-kiffin-leave-233836416.html",
-      "source": "sports.yahoo.com",
-      "source_id": "sports-yahoo-com",
+      "url": "https://cetra3.github.io/blog/creating-mcp-servers-in-rust/",
+      "source": "cetra3.github.io",
+      "source_id": "cetra3-github-io",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-19T23:38:36Z",
-      "score": 0.7654,
-      "distance": 0.7699,
-      "interest": 0.761,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)"
-      ],
-      "ja": null,
-      "excerpt": "Lane Kiffin walked away from the greatest season in Ole Miss history to become LSU’s head coach. His decision involved championship expectations, recruiting resources, advice from two legendary coaches and a willingness to leave his comfort zone.",
-      "explore": true
-    },
-    {
-      "title": "IT admins can now remotely “Sanitize” PCs and reinstall Windows 11, thanks to two new features in Cloud Rebuild",
-      "ja_title": null,
-      "url": "https://www.windowslatest.com/2026/09/20/it-admins-can-now-remotely-sanitize-pcs-and-reinstall-windows-11-thanks-to-two-new-features-in-cloud-rebuild/",
-      "source": "windowslatest.com",
-      "source_id": "windowslatest-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-19T22:37:46Z",
-      "score": 0.7593,
-      "distance": 0.7696,
-      "interest": 0.7491,
+      "published": "2026-02-01T00:00:00Z",
+      "score": 0.6982,
+      "distance": 0.62,
+      "interest": 0.7764,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -112,48 +81,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Windows 11 is taking the hassle out of PC recovery. In Build 26340, Microsoft upgraded its experimental Cloud Rebuild tool with hardware-level storage sanitization and remote IT triggers via Recovery CSP, eliminating USB installers and making device decommissioning seamless. Here",
+      "excerpt": "MCP servers are useful tools that allow AI agents the ability to interact with applications in a prescribed fashion. I wanted to understand how they put together so I could work out where/how they are useful. One of the things I found when first investigating them, is that there ",
       "explore": true
     },
     {
-      "title": "Will Stein is fired up after Kentucky’s upset win over Texas A&M",
+      "title": "A tale of two lengths",
       "ja_title": null,
-      "url": "https://sports.yahoo.com/articles/stein-fired-kentucky-upset-win-233936228.html",
-      "source": "sports.yahoo.com",
-      "source_id": "sports-yahoo-com",
+      "url": "https://cetra3.github.io/blog/a-tale-of-two-lengths/",
+      "source": "cetra3.github.io",
+      "source_id": "cetra3-github-io",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-19T23:39:36Z",
-      "score": 0.7367,
-      "distance": 0.7699,
-      "interest": 0.7034,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "Kentucky head coach Will Stein loved what he saw from his team against Texas A&amp;M on Saturday.",
-      "explore": true
-    },
-    {
-      "title": "SNSもない時代から富裕層客がわざわざ訪れた！ 栃木にあるすごいレストランとは？ - 日本人の9割は知らない 世界の富裕層は日本で何を食べているのか？",
-      "ja_title": null,
-      "url": "https://diamond.jp/articles/-/399461",
-      "source": "diamond.jp",
-      "source_id": "diamond-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-19T23:15:00Z",
-      "score": 0.8084,
-      "distance": 0.7698,
-      "interest": 0.8469,
+      "published": "2025-05-11T00:00:00Z",
+      "score": 0.6953,
+      "distance": 0.62,
+      "interest": 0.7706,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -162,26 +105,25 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "poses a question (+)",
-        "日本語 (+)"
+        "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "SNSもグルメサイトもなかった40年以上前、地方で高級フレンチを成功させるのは無謀ともいえる挑戦でした。それでも宇都宮に店を構え、料理の力だけで人を呼び続けた料理人がいます。なぜ客は、わざわざ地方まで食べに来たのか。世界から注目を集める日本の地方のガストロノミーを書いた話題の書『日本人の9割は知らない 世界の富裕層は日本で何を食べているのか？ ―ガストロノミーツーリズム最前線』（柏原光太郎著）から、抜粋・再編集し、日本のデスティネーションレストランの原点を紹介します。",
-      "explore": false
+      "excerpt": "They say there are 2 hard problems in computer science, and I've hit all 3 of them.... This is a blog post about a memory problem we were hitting in production with a service written in rust, and the tools used to resolve it. The Problem Object Storage, whether S3 or something el",
+      "explore": true
     },
     {
-      "title": "夜使う3000円と、朝使う3000円。「いつもご機嫌な人」はどちらを選ぶ？ - ととのえる。",
+      "title": "Measuring and (slightly) Improving Post-Quantum Handshake Performance",
       "ja_title": null,
-      "url": "https://diamond.jp/articles/-/399440",
-      "source": "diamond.jp",
-      "source_id": "diamond-jp",
+      "url": "https://rustls.dev/perf/2024-12-17-pq-kx/",
+      "source": "rustls.dev",
+      "source_id": "rustls-dev",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-19T22:50:00Z",
-      "score": 0.8068,
-      "distance": 0.7697,
-      "interest": 0.8439,
+      "published": "2024-12-17T00:00:00Z",
+      "score": 0.6924,
+      "distance": 0.62,
+      "interest": 0.7647,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -190,26 +132,25 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "poses a question (+)",
-        "日本語 (+)"
+        "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "お金は、ただ貯めれば安心できるわけでも、好きに使えば人生が豊かになるわけでもありません。では、いつもご機嫌な人は、何にお金を使っているのでしょうか。ポイントは、あとからも自分の中に残り続ける「体験」にあります。今回は、「体」「時間」「環境」「思考」「心」「人間関係」をととのえるための具体的な習慣術を書いた『ととのえる。』（川田直樹著・ダイヤモンド社）から、人生を豊かにするお金の使い方について抜粋・編集して紹介します。",
-      "explore": false
+      "excerpt": "To defend against the potential advent of \"Cryptographically Relevant Quantum Computers\" there is a move to using \"hybrid\" key exchange algorithms. These glue together a widely-deployed classical algorithm (like X25519 ) and a new post-quantum-secure algorithm (like ML-KEM ) and ",
+      "explore": true
     },
     {
-      "title": "《テストが「99点」でも叱り飛ばす》高市早苗首相の原点をつくった母・和子の“厳しすぎる教え”とは？",
+      "title": "わずか20分で親族9人を殺傷…「おとなしい人間だった」66歳の元郵便局長はなぜ凶行に走ったのか？〈1926年・八橋事件〉",
       "ja_title": null,
-      "url": "https://bunshun.jp/articles/-/92125",
+      "url": "https://bunshun.jp/articles/-/92203",
       "source": "bunshun.jp",
       "source_id": "bunshun-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-19T21:00:00Z",
-      "score": 0.7999,
-      "distance": 0.7691,
-      "interest": 0.8308,
+      "published": "2026-09-20T01:20:00Z",
+      "score": 0.8113,
+      "distance": 0.7633,
+      "interest": 0.8593,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -222,23 +163,133 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "高市早苗首相はこれまで、とりわけ母親について折に触れて語ってきた。そこで繰り返されてきたのが、「母の厳しさ」だった。日本初の女性総理を産んだ母・和子は、娘をどう育てたのか。その教えは、高市早苗をどのよ…",
+      "excerpt": "今からちょうど100年前の1926（大正15）年、昭和への代替わり直前の10月。鳥取県の小さな町で、66歳の退職郵便局長が拳銃3丁を乱射し、親族ら9人を殺傷する事件が起きた。積もり積もった根深い恨みに…",
       "explore": false
     },
     {
-      "title": "ARGのゲームデザイン　～「フィクション表記」は現実と虚構の線引きを解決するのか？～",
+      "title": "《死刑囚の法廷闘争》一家総出で4人殺害した大牟田連続殺人事件・北村孝紘は、なぜ「国」を訴えたのか？",
       "ja_title": null,
-      "url": "https://zenn.dev/ryo_a/articles/bb5d25ef20020c",
-      "source": "Zenn",
-      "source_id": "zenn",
+      "url": "https://bunshun.jp/articles/-/91631",
+      "source": "bunshun.jp",
+      "source_id": "bunshun-jp",
       "tags": [
-        "ja",
-        "tech",
-        "tools"
+        "discovered"
       ],
-      "published": "2026-09-18T21:20:56Z",
-      "score": 0.796,
-      "distance": 0.7621,
+      "published": "2026-09-20T08:00:00Z",
+      "score": 0.8102,
+      "distance": 0.7653,
+      "interest": 0.8551,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "ノンフィクションライター・小野一光氏が、大牟田連続4人殺人事件の「その後」を追う。 発端は、2004年9月21日に、福岡県大牟田市内を流れる諏訪川で、同市に住む高校生Cさん（当時15）の遺体が発見され…",
+      "explore": false
+    },
+    {
+      "title": "「日本一のグループになれる」確信の根源　リアルピース・かずぅはなぜこの世の仕組みを知っているのか？",
+      "ja_title": null,
+      "url": "https://realsound.jp/2026/09/post-2529750.html",
+      "source": "realsound.jp",
+      "source_id": "realsound-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T18:00:25Z",
+      "score": 0.8093,
+      "distance": 0.7683,
+      "interest": 0.8502,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "リアルピースのかずぅが、初の著書『おまえ次第じゃん。』をKADOKAWAより刊行。メンバーが20代後半から40代という異色の構成ながら、「元気の押し売り」を掲げて活動を続け、SNS総フォロワー440万人超を誇るなど、大きな支持を集めてきたその理由を本を通して考える。",
+      "explore": false
+    },
+    {
+      "title": "「いい人なのに仕事が遅い人」の特徴 - 「今日も仕事が終わらなかった」はなぜ起きるのか？　仕事が3倍速くなる計画・実行・中断の技術",
+      "ja_title": null,
+      "url": "https://diamond.jp/articles/-/399501",
+      "source": "diamond.jp",
+      "source_id": "diamond-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T22:50:00Z",
+      "score": 0.8091,
+      "distance": 0.7697,
+      "interest": 0.8484,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "「ちょっといいですか？」と声をかけられたら、すぐに手を止めて話を聞く。こうした人ほど「いつも忙しそうなのに、なぜか仕事が終わらない」という状態に陥ることがあります。今回は書籍『「今日も仕事が終わらなかった」はなぜ起きるのか？』から、その原因を探ります。",
+      "explore": false
+    },
+    {
+      "title": "商品の差別化より強いものとは？ P&Gが教えた「市場そのものを変える」マーケティング - 概念シフト",
+      "ja_title": null,
+      "url": "https://diamond.jp/articles/-/399367",
+      "source": "diamond.jp",
+      "source_id": "diamond-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T22:35:00Z",
+      "score": 0.8091,
+      "distance": 0.7696,
+      "interest": 0.8485,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "マーケティングというと、商品の機能や価格、ブランドイメージで「違い」をつくることを思い浮かべる人は多い。だが、P&amp;Gではそのさらに上位の考え方として、「市場そのものの意味を再定義する」ことが教えられていたという。商品の差別化を超えて、人々の「当たり前」そのものを塗り替えるマーケティングとは何か。P&amp;G出身の佐宗邦威氏と、『概念シフト』著者の永山晋氏が語り合った。",
+      "explore": false
+    },
+    {
+      "title": "天皇とは何か？　26代継体天皇、33代推古天皇、40代天武天皇の歴史的な評価は？　縄文時代にまで遡って天皇の謎を解き明かす、関裕二『古代天皇の正体』が9月17日に新潮新書より発売！",
+      "ja_title": null,
+      "url": "https://prtimes.jp/main/html/rd/p/000003269.000047877.html",
+      "source": "prtimes.jp",
+      "source_id": "prtimes-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T22:10:02Z",
+      "score": 0.7997,
+      "distance": 0.7695,
       "interest": 0.8299,
       "judged": false,
       "pinned": false,
@@ -252,321 +303,23 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "記事の要約 ARGは現実空間をプラットフォームとするゲームであるため、特有のリスクが存在しており、実際にトラブルが生じた事例もある トラブルを防ぐためのゲームデザインが必要となる 「フィクション表記」が対策として挙げられ、その是非が議論になることも多いが、本来それは1つの手段にすぎない ストーリーや演出次第ではフィクション表記が不要なケースもありうるし、逆に「フィクションです」と書いていてもトラブルになるケースもありうる 「フィクション表記をする・しない」という単純な二項対立ではなく、きちんとリスク評価をして、作品に応じたゲームデザインを行う方法を考えよ",
+      "excerpt": "[株式会社新潮社] これまで該博な知識と大胆な推理で、日本古代史に新たな地平を切り開いてきた関裕二さんの最新作のテーマはズバリ「天皇とは何か？」です。天皇自身は強い権力を持っているわけではないのに、なぜ皇統はこれまで...",
       "explore": false
     },
     {
-      "title": "「コンドームさえ外せばすぐ妊娠できると…」40代半ばまで“勘違い”をしていた日本人女性（52）が、49歳で卵子提供を受けるまでの葛藤",
+      "title": "Jev クローンの Laya をローカルで60fpsで動かせるか？",
       "ja_title": null,
-      "url": "https://bunshun.jp/articles/-/91283",
-      "source": "bunshun.jp",
-      "source_id": "bunshun-jp",
+      "url": "https://zenn.dev/mizchi/articles/laya-mlx-60fps",
+      "source": "はてブ · テクノロジー新着",
+      "source_id": "hatena-it",
       "tags": [
-        "discovered"
+        "ja",
+        "tech"
       ],
-      "published": "2026-09-19T01:20:00Z",
-      "score": 0.7906,
-      "distance": 0.7633,
-      "interest": 0.818,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "49歳のときに卵子提供を受け、ニューヨークで出産したこりんごさん（52）。現在はYouTubeやブログで自身の不妊治療や高齢育児について発信をするなど、活動の幅を広げている。 そんな彼女に、44歳から…",
-      "explore": false
-    },
-    {
-      "title": "Why your order system and your payment provider disagree",
-      "ja_title": null,
-      "url": "https://dev.to/0xenx/why-your-order-system-and-your-payment-provider-disagree-1ob",
-      "source": "dev.to",
-      "source_id": "dev-to",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-19T22:56:30Z",
-      "score": 0.7851,
-      "distance": 0.7697,
-      "interest": 0.8004,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Twice a month somebody in operations finds a number that doesn't match. An order recorded at €120.00 against a capture of €119.40. Or an order with no payment at all. Or, the one that ruins the afternoon, a refund larger than anything that was ever collected. Then a week goes by.",
-      "explore": false
-    },
-    {
-      "title": "LAUSBUBが語る『society｜lazy』の二面性　社会との接点と自由な創造性で更新する“これからのポップス”",
-      "ja_title": null,
-      "url": "https://realsound.jp/2026/09/post-2517176.html",
-      "source": "realsound.jp",
-      "source_id": "realsound-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-19T19:00:22Z",
-      "score": 0.7827,
-      "distance": 0.7685,
-      "interest": 0.7969,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "LAUSBUBから2ndフルアルバム『society｜lazy』が届けられた。今回のインタビューではメンバー2人の音楽的ルーツ、バンド結成の経緯、本作「society｜lazy」制作プロセスについてじっくりと語ってもらった。ポップミュージックの定義を更新しようとする、強くてしなやかな2人の在り方をしっかりと感じ取ってほしい。",
-      "explore": false
-    },
-    {
-      "title": "生涯を通してセックスを経験したことがない人の特徴が明らかに",
-      "ja_title": null,
-      "url": "https://nazology.kusuguru.co.jp/archives/185313",
-      "source": "nazology.kusuguru.co.jp",
-      "source_id": "nazology-kusuguru-co-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-19T01:27:44Z",
-      "score": 0.7814,
-      "distance": 0.7633,
-      "interest": 0.7996,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "私たちの生活において、恋愛やセックスは「当たり前の経験」と考えられがちです。 しかし、実際には一度もセックスを経験しないまま人生を過ごす人も存在します。 その割合は決して大きくはありませんが、「なぜそうなるのか」「どのような特徴を持つのか」という点は、これまでほとんど明らかにされてきませんでした。 そこでオランダ・アムステルダム大学医療センター（Amsterdam UMC）を中心とする国際研究チームは、イギリスの大規模バイオバンク「UK Biobank」やオーストラリアの調査データを用い、数十万人規模で「セックス未経験者」の実態を分析しました。 すると研",
-      "explore": false
-    },
-    {
-      "title": "I watched NAZA.<br />\n<br />\n(Unlike 99% of people expressing their very strong opinions on this website).<br />\n<br />\n🧵 So here are my takes, which will make a lot of you very angry: <span class=\"entity-image\"><a href=\"https://pbs.twimg.com/media/HSl5bUWW8AAfwAr.jpg\" target=\"_blank\"><img alt=\"Image\" src=\"https://threadreaderapp.com/images/1px.png\" /></a></span>",
-      "ja_title": null,
-      "url": "https://threadreaderapp.com/thread/2101344216852906023.html",
-      "source": "threadreaderapp.com",
-      "source_id": "threadreaderapp-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-19T16:14:37Z",
-      "score": 0.7785,
-      "distance": 0.7677,
-      "interest": 0.7892,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "I watched NAZA. (Unlike 99% of people expressing their very strong opinions on this website). 🧵 So here are my takes, which will make a lot of you very angry: \"Is the film antisemitic blood libel against the IDF?\" It's literally a series of confessions by IDF war criminals themse",
-      "explore": false
-    },
-    {
-      "title": "I built a transport-independent foundation for JSON API clients in Perl",
-      "ja_title": null,
-      "url": "https://dev.to/pannakoota/i-built-a-transport-independent-foundation-for-json-api-clients-in-perl-1od6",
-      "source": "dev.to",
-      "source_id": "dev-to",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-19T23:37:59Z",
-      "score": 0.7743,
-      "distance": 0.7699,
-      "interest": 0.7787,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Writing a simple API client is easy. my $response = $http -&gt; get ( $url ); Then the client starts being used in production. Suddenly, it needs to handle: query parameters JSON encoding and decoding structured errors retries and Retry-After rate limits pagination authentication",
-      "explore": false
-    },
-    {
-      "title": "FARM: Disposable Forgejo Actions runners with Incus VMs",
-      "ja_title": null,
-      "url": "https://discuss.linuxcontainers.org/t/farm-disposable-forgejo-actions-runners-with-incus-vms/27249#post_1",
-      "source": "discuss.linuxcontainers.org",
-      "source_id": "discuss-linuxcontainers-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-19T11:31:20Z",
-      "score": 0.7732,
-      "distance": 0.7663,
-      "interest": 0.78,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "I’ve been working on a small project called FARM: github.com GitHub - maveonair/farm: FARM runs Forgejo Actions jobs in disposable Incus... FARM runs Forgejo Actions jobs in disposable Incus virtual machines FARM runs Forgejo Actions jobs in disposable Incus virtual machines. The",
-      "explore": false
-    },
-    {
-      "title": "“I don’t like passkeys”",
-      "ja_title": null,
-      "url": "https://www.osnews.com/story/145989/i-dont-like-passkeys/",
-      "source": "osnews.com",
-      "source_id": "osnews-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-19T12:07:30Z",
-      "score": 0.7715,
-      "distance": 0.7665,
-      "interest": 0.7766,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Passkeys are a fantastic technology. Since they are bound to the site they are created for, they cannot be phished by a hacker’s fake login screen. If a site suffers a data breach, passkeys are asymmetric and cannot be recovered from the server-side details. This leads to passkey",
-      "explore": false
-    },
-    {
-      "title": "Why AI Cannot Save an Enterprise That Doesn't Understand Its Data",
-      "ja_title": null,
-      "url": "https://architectureintel.com/why-ai-cannot-save-an-enterprise-that-doesnt-understand-its-data-83613f209317",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
-      "tags": [
-        "tech",
-        "frontier"
-      ],
-      "published": "2026-09-19T22:22:28Z",
-      "score": 0.7707,
-      "distance": 0.8695,
-      "interest": 0.6719,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "",
-      "explore": false
-    },
-    {
-      "title": "Altman and Amodei’s “unsafe at any prompt” moment for AI",
-      "ja_title": null,
-      "url": "https://uxdesign.cc/altman-and-amodeis-unsafe-at-any-prompt-moment-for-ai-6a73f144b56e?source=rss----138adf9c44c---4",
-      "source": "uxdesign.cc",
-      "source_id": "uxdesign-cc",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-18T07:38:53Z",
-      "score": 0.7696,
-      "distance": 0.758,
-      "interest": 0.7812,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Nader’s fight was never about one car, and neither is this one. AI assisted. Detroit spent a decade calling crashes driver error. The AI industry is running the same defense, now we’re all sitting in the same seat. Now is a great time to act. Ralph Nader published Unsafe at Any S",
-      "explore": false
-    },
-    {
-      "title": "Why fitting a logistic is nearly impossible from early data",
-      "ja_title": null,
-      "url": "https://www.johndcook.com/blog/2026/09/18/logistic-fit-sensitivity/",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
-      "tags": [
-        "tech",
-        "frontier"
-      ],
-      "published": "2026-09-19T23:09:27Z",
-      "score": 0.7688,
-      "distance": 0.8698,
-      "interest": 0.6678,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "",
-      "explore": false
-    },
-    {
-      "title": "CUTIE STREET、CANDY TUNE、きゃりーぱみゅぱみゅ……なぜアソビシステムはフェスシーン席巻？　“国民的ヒットソング”の力",
-      "ja_title": null,
-      "url": "https://realsound.jp/2026/09/post-2528297.html",
-      "source": "realsound.jp",
-      "source_id": "realsound-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-19T18:00:19Z",
-      "score": 0.7678,
-      "distance": 0.7682,
-      "interest": 0.7675,
+      "published": "2026-09-20T13:26:00Z",
+      "score": 0.7954,
+      "distance": 0.7669,
+      "interest": 0.8238,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -576,190 +329,25 @@
       "reasons_interest": [
         "idea / essay (+)",
         "poses a question (+)",
-        "thin (−)",
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "アソビシステムのアーティストが、2026年のフェスシーンを席巻。その理由を考察した。",
+      "excerpt": "ネタバレ: 部分的には可能 この記事は自分の発想をアイデアをもとに Claude が実証し、そのレポートを読みながら自分が手で修正したものになります。 機械学習は専門じゃないので、学習手法などの説明に間違いがあるかもしれません。 Jev については、先に書いた記事の知識を前提とします。 tl;dr Laya は Jev と同じ「...",
       "explore": false
     },
     {
-      "title": "『Fate/EXTRA Record』は原作を守りつつ「現代のJRPG」に進化、デッキ構築型バトルに大刷新。その狙いや“アニプレックス移管”の影響など、気になることを訊いた",
+      "title": "<span class=\"nop nop-start\">1/ </span> 🔴 NAC, glutamate and the brain: why is such an old mucolytic drug attracting interest in depression, multiple sclerosis, autoimmune disease, ME/CFS and Long COVID?<br />\n<br />\nBecause N-acetylcysteine does not act on a single pathway. It sits at a particularly interesting intersection between glutamate regulation, glutathione, oxidative stress, mitochondria, astrocytes and immunity.<br />\n<br />\nAnd when several of those systems are disrupted at the same time, a molecule capable of influencing several of them becomes especially interesting. 🧵<span class=\"entity-image\"><a href=\"https://pbs.twimg.com/media/HSsCD-7W8AA4wmw.jpg\" target=\"_blank\"><img alt=\"Image\" src=\"https://threadreaderapp.com/images/1px.png\" /></a></span>",
       "ja_title": null,
-      "url": "https://automaton-media.com/articles/reportjp/fate-extra-record-20260919-468661/",
-      "source": "automaton-media.com",
-      "source_id": "automaton-media-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-19T00:00:17Z",
-      "score": 0.7665,
-      "distance": 0.7629,
-      "interest": 0.7701,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "『Fate/EXTRA Record』の刷新されたバトルや探索、サーヴァントとの交流を紹介しつつ、開発体制の移管や刷新の狙いについて訊いた。",
-      "explore": false
-    },
-    {
-      "title": "Incus-compose 1.3 has been released",
-      "ja_title": null,
-      "url": "https://discuss.linuxcontainers.org/t/incus-compose-1-3-has-been-released/27160#post_16",
-      "source": "discuss.linuxcontainers.org",
-      "source_id": "discuss-linuxcontainers-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-19T16:50:00Z",
-      "score": 0.7634,
-      "distance": 0.7679,
-      "interest": 0.7589,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "virtuous-sloth: On the seed issue, it was necessary as I ran into a bind-mount error that seemed to indicate it was trying to do something that only makes sense for a local incus server? I’m still wrapping my head around all the moving parts but I found some post or doc that ment",
-      "explore": false
-    },
-    {
-      "title": "What Is a Smart Lock? Why I Recommend This Security Upgrade for Everyone",
-      "ja_title": null,
-      "url": "https://www.cnet.com/home/security/what-is-a-smart-lock-why-i-recommend-this-security-upgrade-for-everyone/",
-      "source": "cnet.com",
-      "source_id": "cnet-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-19T11:00:00Z",
-      "score": 0.7633,
-      "distance": 0.7662,
-      "interest": 0.7604,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)"
-      ],
-      "ja": null,
-      "excerpt": "A smart lock upgrade offers excellent utility and control without sacrificing privacy.",
-      "explore": false
-    },
-    {
-      "title": "日比谷高校オンライン整理券システム \"QUAINT\" 2025年開発体験記",
-      "ja_title": null,
-      "url": "https://zenn.dev/mrharu0310/articles/67288588758d64",
-      "source": "Zenn",
-      "source_id": "zenn",
-      "tags": [
-        "ja",
-        "tech",
-        "tools"
-      ],
-      "published": "2026-09-18T20:12:24Z",
-      "score": 0.7609,
-      "distance": 0.7618,
-      "interest": 0.7599,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "2025年の9/13~9/14に行われた東京都立日比谷高等学校の文化祭である星陵祭のWebサイトおよび当日に使用されたオンライン整理券システム\"QUAINT\"を開発しました。公開日時から分かる通り、この記事を書き始めた時には既に2025年星陵祭から1年以上経過していますが、2026年のシステムエラーを受け、開発での試行錯誤を後世に残す重要性を実感したこともあり公開した次第です。本システムの設計思想は2022~2024年度のものを引き継いでいます。過去の記事も読んでいただけると幸いです。また、今後公開予定の2026年度の記事を読む際は、本記事を参考にして頂",
-      "explore": false
-    },
-    {
-      "title": "iOS 27’s Wallet app adds feature that will make you want to use Apple Cash",
-      "ja_title": null,
-      "url": "https://9to5mac.com/2026/09/18/ios-27s-wallet-app-adds-feature-that-will-make-you-want-to-use-apple-cash/",
-      "source": "9to5mac.com",
-      "source_id": "9to5mac-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-18T16:14:17Z",
-      "score": 0.7605,
-      "distance": 0.7606,
-      "interest": 0.7603,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Apple Wallet is better than ever in iOS 27 thanks to a handful of new features , including a clever solution for splitting bills with friends and family via Apple Cash. Here’s how it works. more…",
-      "explore": false
-    },
-    {
-      "title": "Methone, a moon of Saturn only about three kilometres across, has no observed craters larger than 130 metres: its porous icy surface may slowly shift and erase impact scars, while Saturn’s tides and the moon’s rotation mould it into a smooth, egg-like shape.",
-      "ja_title": null,
-      "url": "https://spacedaily.com/t-methone-saturn-smooth-egg-no-craters/",
-      "source": "spacedaily.com",
-      "source_id": "spacedaily-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-19T08:01:54Z",
-      "score": 0.7598,
-      "distance": 0.7653,
-      "interest": 0.7544,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Cassini's only close look at tiny Methone found no crater larger than about 130 metres. Its smooth shape points to an extraordinarily porous moon whose surface cannot preserve relief easily. The post Methone, a moon of Saturn only about three kilometres across, has no observed cr",
-      "explore": false
-    },
-    {
-      "title": "Gamification is not points, badges, and leaderboards.<br />\n<br />\nThat’s the most expensive myth in product design.<br />\n<br />\nI’ve spent 20+ years designing for motivation — work that has touched 1.5B+ users. The teams that win don’t “add game stuff.” They redesign why people care.<br />\n<br />\nHere’s the map I actually use ↓",
-      "ja_title": null,
-      "url": "https://threadreaderapp.com/thread/2101345073061417164.html",
+      "url": "https://threadreaderapp.com/thread/2101775923397964257.html",
       "source": "threadreaderapp.com",
       "source_id": "threadreaderapp-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-19T16:18:01Z",
-      "score": 0.7589,
-      "distance": 0.7677,
-      "interest": 0.7501,
+      "published": "2026-09-20T20:50:03Z",
+      "score": 0.791,
+      "distance": 0.7691,
+      "interest": 0.8128,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -768,26 +356,82 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
+        "poses a question (+)",
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Gamification is not points, badges, and leaderboards. That’s the most expensive myth in product design. I’ve spent 20+ years designing for motivation — work that has touched 1.5B+ users. The teams that win don’t “add game stuff.” They redesign why people care. Here’s the map I ac",
+      "excerpt": "1/ 🔴 NAC, glutamate and the brain: why is such an old mucolytic drug attracting interest in depression, multiple sclerosis, autoimmune disease, ME/CFS and Long COVID? Because N-acetylcysteine does not act on a single pathway. It sits at a particularly interesting intersection bet",
       "explore": false
     },
     {
-      "title": "科学史 初学者向け 読書リスト | 日本科学史学会",
+      "title": "What If AI Works Too Well?",
       "ja_title": null,
-      "url": "https://historyofscience.jp/joho/readings/",
-      "source": "はてブ · 学び新着",
-      "source_id": "hatena-know",
+      "url": "https://dev.to/ewanderson_flaviano/what-if-ai-works-too-well-3dkl",
+      "source": "dev.to",
+      "source_id": "dev-to",
       "tags": [
-        "ja",
-        "ideas"
+        "discovered"
       ],
-      "published": "2026-09-19T07:33:33Z",
-      "score": 0.7587,
-      "distance": 0.7651,
-      "interest": 0.7522,
+      "published": "2026-09-20T23:46:50Z",
+      "score": 0.7898,
+      "distance": 0.77,
+      "interest": 0.8096,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "How We Could Build a Civilization We No Longer Know How to Rebuild For centuries, anyone could look at the symbols carved into the walls, temples, and monuments of ancient Egypt. They were still there. They had not been destroyed. They had not been erased. They were not hidden. A",
+      "explore": false
+    },
+    {
+      "title": "My AI Kept Pushing Me to Ship, So I Asked It Why",
+      "ja_title": null,
+      "url": "https://www.oreilly.com/radar/my-ai-kept-pushing-me-to-ship-so-i-asked-it-why/",
+      "source": "Hacker News (new, pre-viral)",
+      "source_id": "hackernews",
+      "tags": [
+        "tech",
+        "frontier"
+      ],
+      "published": "2026-09-20T23:18:01Z",
+      "score": 0.789,
+      "distance": 0.8698,
+      "interest": 0.7081,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)",
+        "pre-viral (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "",
+      "explore": false
+    },
+    {
+      "title": "KCCSグループ、温室効果ガス排出削減目標の「SBT認定」取得と国内外電力「実質再エネ100%」を達成",
+      "ja_title": null,
+      "url": "https://prtimes.jp/main/html/rd/p/000000197.000009956.html",
+      "source": "prtimes.jp",
+      "source_id": "prtimes-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T22:10:02Z",
+      "score": 0.787,
+      "distance": 0.7695,
+      "interest": 0.8045,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -799,22 +443,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "科学史について知りたい人、学びたい人のための読書リストです。大学学部生、科学史に関心のある一般の方を対象としています。分野別、難度順、発刊順に並べてあります。難度はあくまで目安です。個別科学者に関する書籍は数が多いため、原則として本リストには掲載していません。 基本的に21世紀以降に発行された書籍を...",
+      "excerpt": "[京セラコミュニケーションシステム株式会社] 京セラコミュニケーションシステム株式会社（本社：京都市伏見区、代表取締役社長：河之口 達也、以下KCCS）は、KCCSグループの温室効果ガス排出削減目標について、国際的な環境イニシアチブSBTiより2026年7月に...",
       "explore": false
     },
     {
-      "title": "Windows 11 High RAM usage",
+      "title": "Four bugs my test suite couldn't catch",
       "ja_title": null,
-      "url": "https://forum.proxmox.com/threads/windows-11-high-ram-usage.186536/",
-      "source": "forum.proxmox.com",
-      "source_id": "forum-proxmox-com",
+      "url": "https://dev.to/lucifer911/four-bugs-my-test-suite-couldnt-catch-2ip0",
+      "source": "dev.to",
+      "source_id": "dev-to",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-19T20:56:17Z",
-      "score": 0.7583,
-      "distance": 0.7691,
-      "interest": 0.7475,
+      "published": "2026-09-20T22:49:47Z",
+      "score": 0.7859,
+      "distance": 0.7697,
+      "interest": 0.8021,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -826,22 +470,104 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "hello, can someone tell me why my proxmox windows 11 vm idles with high RAM usage, like this picture: can someone help me improve it",
+      "excerpt": "216 passing tests. A feature that was completely broken. Here is the gap between those two facts, and what I changed afterwards. The feature I am building an encrypted messenger. Messages are end to end encrypted, and the server relaying them cannot read anything. That part worke",
       "explore": false
     },
     {
-      "title": "Citizen scientists revived NASA’s long-retired ISEE-3 probe in 2014 and fired its thrusters for the first time in 27 years, restoring its spin—but the larger burn meant to return it to an Earth–Sun observation point failed because the nitrogen needed to pressurize its fuel system had apparently run out.",
+      "title": "Jevには残念なことに技術的な革新は無いが、すでにそこにあることが強いアドバンテージ",
       "ja_title": null,
-      "url": "https://spacedaily.com/t-isee3-citizen-scientists-reboot-thrusters-nitrogen/",
+      "url": "https://anond.hatelabo.jp/20260920135749",
+      "source": "はてブ · テクノロジー新着",
+      "source_id": "hatena-it",
+      "tags": [
+        "ja",
+        "tech"
+      ],
+      "published": "2026-09-20T06:08:25Z",
+      "score": 0.782,
+      "distance": 0.7647,
+      "interest": 0.7993,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "Jevについて聞かれることにうんざりしてきたので、説明した内容をここに放流する。 Jevに技術的なブレイクスルーは無く、LLMのフロンティアモデルよりも性能が悪く、小型の蒸留モデルと良い勝負で、生成AIでは無いため早く安い。 技術的には作ろうと思えば作れるものであり、実際にLocalLLMとして動くように作っている人...",
+      "explore": false
+    },
+    {
+      "title": "『名探偵プリキュア！』第34話　るるかと、はなまるな満月",
+      "ja_title": null,
+      "url": "https://hokke-ookami.hatenablog.com/entry/20260920/1789914522",
+      "source": "hokke-ookami.hatenablog.com",
+      "source_id": "hokke-ookami-hatenablog-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T14:28:42Z",
+      "score": 0.7809,
+      "distance": 0.7672,
+      "interest": 0.7946,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "逃走する犯人を追いつめ、アゲセーヌから掛け軸をとりもどしたキュアット探偵事務所の4人。しかし、どこで誰から盗んだ物かがわからない。 とりあえず警察署に行くと、家入しるくがあらわれた。一日警察署長をつとめる家入が、テレビで持ち主に呼びかけると、3人の自称持ち主があらわれる…… 佐藤大脚本。洗脳ではなく自分の意思で敵組織に入って活動していた森亜について、前回*1に敵組織との決別を描いたように、今回は被害者への謝罪を描く。 基本的には謎解きに助力してくれる重要人物として森亜の被害者と再会させ、ひとりひとり謝っていく。このていねいさは子供向けアニメらしい好ましさ",
+      "explore": false
+    },
+    {
+      "title": "Grit your teeth and ship it",
+      "ja_title": null,
+      "url": "https://seangoedecke.com/grit-your-teeth-and-ship-it/",
+      "source": "seangoedecke.com",
+      "source_id": "seangoedecke-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T00:00:00Z",
+      "score": 0.7753,
+      "distance": 0.7629,
+      "interest": 0.7878,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Being good at building and being good at shipping are two separate skills. In the short term, they’re actually countervailing: if you have a gift for building, you’re likely to be worse at shipping. Ira Glass has a classic quote about this. All of us who do creative work, we get ",
+      "explore": false
+    },
+    {
+      "title": "The camera in your phone exists because a NASA engineer wanted to shrink spacecraft imaging onto a single chip, while much of his field doubted it could ever match the sensors already flying. Those chips now ship in the billions every year.",
+      "ja_title": null,
+      "url": "https://spacedaily.com/d-the-camera-in-your-phone-exists-because-a-nasa-engineer-wanted-to-shrink-spacecraft-imaging-onto-a-single-chip-while-much-of-his-field-doubted-it-could-ever-match-the-sensors-already-flying-those-ch/",
       "source": "spacedaily.com",
       "source_id": "spacedaily-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-19T10:30:00Z",
-      "score": 0.7582,
-      "distance": 0.766,
-      "interest": 0.7505,
+      "published": "2026-09-20T15:15:27Z",
+      "score": 0.7728,
+      "distance": 0.7674,
+      "interest": 0.7782,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -853,21 +579,265 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "A crowdfunded team rebuilt the ability to command ISEE-3, restored its spin with 11 thruster pulses and learned why a probe can still carry fuel yet be unable to use it. The post Citizen scientists revived NASA’s long-retired ISEE-3 probe in 2014 and fired its thrusters for the f",
+      "excerpt": "The technology that made smartphone cameras possible started as a contrarian bet against the entire imaging industry's most powerful incumbents. The post The camera in your phone exists because a NASA engineer wanted to shrink spacecraft imaging onto a single chip, while much of ",
       "explore": false
     },
     {
-      "title": "STAT+: Why do ‘never-smokers’ get lung cancer? In some cases, rare genetic variant may be a factor",
+      "title": "To understand the solar cycle, notice how the sun sleeps",
       "ja_title": null,
-      "url": "https://www.statnews.com/2026/09/17/rare-gene-variant-boosts-lung-cancer-risk-25-fold-in-non-smokers/?utm_campaign=rss",
-      "source": "statnews.com",
-      "source_id": "statnews-com",
+      "url": "https://phys.org/news/2026-09-solar-sun.html",
+      "source": "phys.org",
+      "source_id": "phys-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-17T18:00:00Z",
-      "score": 0.758,
-      "distance": 0.754,
+      "published": "2026-09-20T17:20:01Z",
+      "score": 0.7708,
+      "distance": 0.7681,
+      "interest": 0.7735,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "The sun is such a constant in our lives that it can be difficult to imagine our star ever changing. But the sun can be quite variable. There are times when its magnetic field is turbulent and generates many sunspots and other times when it is quiet and dormant. Since the 1800s, w",
+      "explore": false
+    },
+    {
+      "title": "Microsoft engineer explains why Windows gives new files the date of ones you deleted",
+      "ja_title": null,
+      "url": "https://www.windowslatest.com/2026/09/21/microsoft-engineer-explains-why-windows-can-give-a-brand-new-file-the-creation-date-of-a-file-you-already-deleted/",
+      "source": "windowslatest.com",
+      "source_id": "windowslatest-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T23:09:23Z",
+      "score": 0.7704,
+      "distance": 0.7698,
+      "interest": 0.771,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "If you delete a file in Windows and quickly create another with the same name, the new file can inherit the old creation timestamp. It is not a bug—it is an intentional feature called File System Tunneling. Here is why Microsoft built it into NTFS and why safe saves depend on it.",
+      "explore": false
+    },
+    {
+      "title": "Microsoft explains why Windows doesn’t really shut down when you click Shut Down",
+      "ja_title": null,
+      "url": "https://www.windowslatest.com/2026/09/18/microsoft-explains-why-restarting-windows-11-can-shut-it-down-more-completely-than-shutting-it-down/",
+      "source": "windowslatest.com",
+      "source_id": "windowslatest-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-18T01:00:51Z",
+      "score": 0.7694,
+      "distance": 0.7489,
+      "interest": 0.7899,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Fast Startup saves your PC's kernel session to hiberfil.sys every time you shut down, so stuck drivers and corrupted services can survive a shutdown and come right back. Restart wipes that session for good. Here's what actually happens in each case, plus the command to force a tr",
+      "explore": false
+    },
+    {
+      "title": "IncusOS - Expose wireguard interface to instances",
+      "ja_title": null,
+      "url": "https://discuss.linuxcontainers.org/t/incusos-expose-wireguard-interface-to-instances/27253#post_1",
+      "source": "discuss.linuxcontainers.org",
+      "source_id": "discuss-linuxcontainers-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T16:52:42Z",
+      "score": 0.7689,
+      "distance": 0.7679,
+      "interest": 0.7698,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "I’m a bit lost with the following task - any input is very much appreciated. I have setup a wireguard interface for my IncusOS host (using incus admin os system network edit ) and am now trying to 1) expose VMs to the wireguard network and 2) route all egress traffic through wire",
+      "explore": false
+    },
+    {
+      "title": "Jaadugar: A Witch In Mongolia Production Notes #07-12 – A Star-filled Ending (For Now)",
+      "ja_title": null,
+      "url": "https://blog.sakugabooru.com/2026/09/20/jaadugar-a-witch-in-mongolia-production-notes-07-12-a-star-filled-ending-for-now/",
+      "source": "Sakuga Blog",
+      "source_id": "sakugablog",
+      "tags": [
+        "anime",
+        "craft"
+      ],
+      "published": "2026-09-20T13:30:21Z",
+      "score": 0.7677,
+      "distance": 0.7669,
+      "interest": 0.7686,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Rather than merely limping to the goal line, allowing its gripping narrative and careful cultural research to carry it, Jaadugar fought back against production exhaustion. To do so, they gathered their most luxurious lineup of lead creators to tackle this final arc, making its en",
+      "explore": false
+    },
+    {
+      "title": "When Hubble swings from one galaxy to another, engineers fire no thrusters—Hubble has none. They change the speeds of four internal reaction wheels, making the observatory rotate the opposite way, while magnetic bars push against Earth’s field to bleed off excess momentum: a propellant-free steering system used since 1990.",
+      "ja_title": null,
+      "url": "https://spacedaily.com/t-hubble-reaction-wheels-magnetic-torquers-propellant-free/",
+      "source": "spacedaily.com",
+      "source_id": "spacedaily-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T16:30:00Z",
+      "score": 0.7674,
+      "distance": 0.7678,
+      "interest": 0.7671,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Hubble turns by trading angular momentum with four internal reaction wheels, then uses magnetic torquer bars to unload the momentum those wheels accumulate. The post When Hubble swings from one galaxy to another, engineers fire no thrusters—Hubble has none. They change the speeds",
+      "explore": false
+    },
+    {
+      "title": "Quoting voxium",
+      "ja_title": null,
+      "url": "https://simonwillison.net/2026/Sep/20/voxium/",
+      "source": "simonwillison.net",
+      "source_id": "simonwillison-net",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T21:06:43Z",
+      "score": 0.7673,
+      "distance": 0.7692,
+      "interest": 0.7655,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as m",
+      "explore": false
+    },
+    {
+      "title": "Backrooms, but for Introverts",
+      "ja_title": null,
+      "url": "https://www.mcsweeneys.net/articles/backrooms-but-for-introverts",
+      "source": "mcsweeneys.net",
+      "source_id": "mcsweeneys-net",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-17T17:20:00Z",
+      "score": 0.7635,
+      "distance": 0.7466,
+      "interest": 0.7804,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Thanks, everyone, for joining me on this Zoom pitch. I know we’re all in the same city, but it’s really hard for me to leave the house. Studio liaisons, assistants, third wives of executives who now work as development consultants, and everyone else on the line: You know Backroom",
+      "explore": false
+    },
+    {
+      "title": "Here in North Austin, where ICE agents appear to have shot an individual in his car. I spoke to two of the only witnesses. 🧵",
+      "ja_title": null,
+      "url": "https://threadreaderapp.com/thread/2101781644864630971.html",
+      "source": "threadreaderapp.com",
+      "source_id": "threadreaderapp-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T21:12:48Z",
+      "score": 0.7632,
+      "distance": 0.7692,
+      "interest": 0.7572,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Here in North Austin, where ICE agents appear to have shot an individual in his car. I spoke to two of the only witnesses. 🧵Nedevia Bolaños and her husband, Carlos, own a business just off the intersection where the shooting happened. Shortly before 1 pm they says they heard what",
+      "explore": false
+    },
+    {
+      "title": "Why Do We Need Human Mathematicians Anymore?",
+      "ja_title": null,
+      "url": "https://terrytao.wordpress.com/2026/09/19/why-do-we-need-human-mathematicians-anymore/",
+      "source": "terrytao.wordpress.com",
+      "source_id": "terrytao-wordpress-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T00:55:40Z",
+      "score": 0.7626,
+      "distance": 0.7632,
       "interest": 0.762,
       "judged": false,
       "pinned": false,
@@ -880,22 +850,50 @@
         "poses a question (+)"
       ],
       "ja": null,
-      "excerpt": "Researchers have identified a very rare genetic variant that is associated with higher odds of lung cancer in \"never smokers.\"",
+      "excerpt": "[This is a guest post by Po-Shen Loh, crossposted from his blog, where an illustrated version appears. This blog post was initially written in a different file format and converted using AI. &#8212; T.] Similar logic applies to every industry and every job. And it comes to the co",
       "explore": false
     },
     {
-      "title": "Emulating Oxide: How Faux Can You Go?",
+      "title": "New startup to test psychedelic-like drug against Parkinson's symptom",
       "ja_title": null,
-      "url": "https://share.transistor.fm/s/4810d351",
-      "source": "oxide-and-friends.transistor.fm",
-      "source_id": "oxide-and-friends-transistor-fm",
+      "url": "https://www.statnews.com/2026/09/17/biotech-news-ariadne-testing-psychedelic-like-drug-parkinsons-apathy/",
+      "source": "Hacker News (new, pre-viral)",
+      "source_id": "hackernews",
+      "tags": [
+        "tech",
+        "frontier"
+      ],
+      "published": "2026-09-20T23:42:47Z",
+      "score": 0.7622,
+      "distance": 0.87,
+      "interest": 0.6544,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)",
+        "pre-viral (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "",
+      "explore": false
+    },
+    {
+      "title": "トランプ氏、長男は「返金した」と主張　ロシア富豪が負担した結婚式費用数千万円めぐり",
+      "ja_title": null,
+      "url": "https://www.cnn.co.jp/usa/35252817.html?ref=rss",
+      "source": "cnn.co.jp",
+      "source_id": "cnn-co-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-11T14:00:00Z",
-      "score": 0.7579,
-      "distance": 0.7099,
-      "interest": 0.8059,
+      "published": "2026-09-20T03:39:00Z",
+      "score": 0.7619,
+      "distance": 0.764,
+      "interest": 0.7598,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -904,27 +902,160 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "poses a question (+)",
-        "long-form (+)"
+        "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "We've been hosting a live show weekly on Mondays at 5p for about an hour, and recording them all; here is the recording . How do you test configurations you haven't built yet? Steve, Andrew, and Rain join Bryan and Adam to talk about the transformative power of the Oxide emulatio",
+      "excerpt": "トランプ米大統領は18日、長男ドナルド・トランプ・ジュニア氏がバハマで開いた結婚式についてロシアの富豪ウマル・クレムレフ氏が数十万ドルの関連費用を負担したことをめぐり、ジュニア氏が返金したと主張した。 トランプ氏は大統領執務室で記者団に「私の理解では、彼は返済した」と述べた。米調査報道機関プロパブリカが結婚式費用の一部を負担したと報じたクレムレフ氏は、クレムリン（ロシア大統領府）とつながりのある...",
       "explore": false
     },
     {
-      "title": "Who will taste the cherries?",
+      "title": "Incus-caddy-config available",
       "ja_title": null,
-      "url": "https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries",
-      "source": "Aeon",
-      "source_id": "aeon",
+      "url": "https://discuss.linuxcontainers.org/t/incus-caddy-config-available/27243#post_5",
+      "source": "discuss.linuxcontainers.org",
+      "source_id": "discuss-linuxcontainers-org",
       "tags": [
-        "ideas",
-        "philosophy"
+        "discovered"
       ],
-      "published": "2026-09-17T10:00:00Z",
-      "score": 0.7563,
-      "distance": 0.7516,
-      "interest": 0.761,
+      "published": "2026-09-19T16:29:05Z",
+      "score": 0.7608,
+      "distance": 0.7607,
+      "interest": 0.7608,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "incus-compose is docker-compose a like, not docker-compose. I found docker-compose to be extremly simple for OCI stuff so I made it for incus, I disovered “incus-compose” from Brian first. incus-caddy-config is a dynamically configured caddy for you, well not a caddy but it confi",
+      "explore": false
+    },
+    {
+      "title": "Here’s why Apple scrapped its shorter Apple Pencil designed for iPhone Duo: report",
+      "ja_title": null,
+      "url": "https://9to5mac.com/2026/09/20/heres-why-apple-scrapped-its-shorter-apple-pencil-designed-for-iphone-duo-report/",
+      "source": "9to5mac.com",
+      "source_id": "9to5mac-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T14:38:43Z",
+      "score": 0.7597,
+      "distance": 0.7673,
+      "interest": 0.7522,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Leading into the iPhone Duo launch, we heard from Bloomberg’s Mark Gurman that Apple was considering a new Apple Pencil for iPhone Duo, though it was unlikely that the company would go forward with it. Of course, the iPhone Duo keynote came, and Apple did announce support for the",
+      "explore": false
+    },
+    {
+      "title": "Bot-free self-hosted analytics with GoatCounter on NixOS",
+      "ja_title": null,
+      "url": "https://vincent.bernat.ch/en/blog/2026-goatcounter",
+      "source": "vincent.bernat.ch",
+      "source_id": "vincent-bernat-ch",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T19:44:50Z",
+      "score": 0.7591,
+      "distance": 0.7688,
+      "interest": 0.7494,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "In 2016, I removed Google Analytics from this blog to avoid being complicit in feeding the biggest machine for harvesting personal data. Instead, I relied on GoAccess to analyze my server logs. 1 For the past couple of years, the statistics have made no sense, despite my attempts",
+      "explore": false
+    },
+    {
+      "title": "Jeannette Kagame",
+      "ja_title": null,
+      "url": "https://en.wikiquote.org/w/index.php?title=Jeannette_Kagame&diff=4016336&oldid=4016334",
+      "source": "en.wikiquote.org",
+      "source_id": "en-wikiquote-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T23:38:10Z",
+      "score": 0.7583,
+      "distance": 0.7699,
+      "interest": 0.7466,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "← Older revision Revision as of 23:38, 20 September 2026 Line 384: Line 384: *We must teach them how to think independently and cultivate courage, not avoidance. *We must teach them how to think independently and cultivate courage, not avoidance. **[https://www.newtimes.co.rw/art",
+      "explore": false
+    },
+    {
+      "title": "User talk:ᘙ",
+      "ja_title": null,
+      "url": "https://en.wikiquote.org/w/index.php?title=User_talk:%E1%98%99&diff=4016333&oldid=4016324",
+      "source": "en.wikiquote.org",
+      "source_id": "en-wikiquote-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-20T23:33:58Z",
+      "score": 0.7581,
+      "distance": 0.7699,
+      "interest": 0.7463,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Timeline ← Older revision Revision as of 23:33, 20 September 2026 Line 65: Line 65: - The procedural abuse: I was blocked for \"refusal to communicate\" (writing long replies), then banned while blocked and unable to respond, by an admin (Lemonaka) who had just voted against you - ",
+      "explore": false
+    },
+    {
+      "title": "Why does blond hair tend to darken with age?",
+      "ja_title": null,
+      "url": "https://www.livescience.com/health/why-does-blond-hair-tend-to-darken-with-age",
+      "source": "livescience.com",
+      "source_id": "livescience-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-19T09:00:00Z",
+      "score": 0.7554,
+      "distance": 0.7584,
+      "interest": 0.7525,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -936,50 +1067,22 @@
         "poses a question (+)"
       ],
       "ja": null,
-      "excerpt": "The computist has one dream: to debug the subjectivity out of all of human knowledge, creating a pure, frictionless world - by Liam Spradlin Read on Aeon",
+      "excerpt": "Some children have blond hair that darkens as they grow up. What causes this change?",
       "explore": false
     },
     {
-      "title": "青土社 ||現代思想：現代思想2026年10月号　特集＝危機にある文化財",
+      "title": "Google Home just became a power user’s paradise",
       "ja_title": null,
-      "url": "https://www.seidosha.co.jp/book/index.php?id=4167",
-      "source": "はてブ · 学び新着",
-      "source_id": "hatena-know",
-      "tags": [
-        "ja",
-        "ideas"
-      ],
-      "published": "2026-09-18T12:22:20Z",
-      "score": 0.754,
-      "distance": 0.7594,
-      "interest": 0.7485,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "私たちの過去を保存し、未来に受け渡すために 文化財行政を取り巻く環境は、近年大きく変化しつつある。国はミュージアムのあり方について見直しを進め、その再編や収蔵品の整理・削減についての方針は広く議論を呼んでいる。本特集ではあらためて文化財とはいかなる存在かを問い直し、国内外の事例をもとにその課題と可...",
-      "explore": false
-    },
-    {
-      "title": "TrueNAS SCALE plugin on PVE 9.2 (NVMe/TCP): two findings worth knowing, and a fork with the fixes",
-      "ja_title": null,
-      "url": "https://forum.proxmox.com/threads/truenas-scale-plugin-on-pve-9-2-nvme-tcp-two-findings-worth-knowing-and-a-fork-with-the-fixes.186537/",
-      "source": "forum.proxmox.com",
-      "source_id": "forum-proxmox-com",
+      "url": "https://9to5google.com/2026/09/17/google-home-just-became-a-power-users-paradise/",
+      "source": "9to5google.com",
+      "source_id": "9to5google-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-19T18:22:27Z",
-      "score": 0.753,
-      "distance": 0.7684,
-      "interest": 0.7377,
+      "published": "2026-09-17T11:00:00Z",
+      "score": 0.7552,
+      "distance": 0.7448,
+      "interest": 0.7657,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -991,22 +1094,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "We have been running the TrueNAS storage plugin for Proxmox VE ( github.com/truenas/truenas-proxmox-plugin ) in production for months: three nodes on PVE 9.2.4, NVMe/TCP against TrueNAS SCALE 25.10, plus iSCSI for testing. Two of the things we hit are not specific to that plugin,",
+      "excerpt": "Good morning. Today I’m finding some peace playing Lumines Remastered , deciding whether to get my kids one of the new 4th-gen Yoto players , and trying to figure out why everyone is freaking out about this recent Tom Cruise interview . more…",
       "explore": false
     },
     {
-      "title": "This week’s news from Zed, Anthropic, and OpenRouter shows why better harnesses matter more than better models",
+      "title": "The cost of having a baby in Europe: Where are essentials cheapest?",
       "ja_title": null,
-      "url": "https://thenewstack.io/ai-agent-harness-economics/",
-      "source": "thenewstack.io",
-      "source_id": "thenewstack-io",
+      "url": "https://www.euronews.com/business/2026/09/20/the-cost-of-having-a-baby-in-europe-where-are-essentials-cheapest",
+      "source": "euronews.com",
+      "source_id": "euronews-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-19T10:00:00Z",
-      "score": 0.752,
-      "distance": 0.7659,
-      "interest": 0.7382,
+      "published": "2026-09-20T05:00:26Z",
+      "score": 0.7526,
+      "distance": 0.7644,
+      "interest": 0.7407,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1015,118 +1118,10 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "long-form (+)"
+        "poses a question (+)"
       ],
       "ja": null,
-      "excerpt": "Our five most-read stories this week covered code collaboration, a model router, a UI change, a benchmark, and a caching The post This week’s news from Zed, Anthropic, and OpenRouter shows why better harnesses matter more than better models appeared first on The New Stack .",
-      "explore": false
-    },
-    {
-      "title": "This Week in Plasma: Let the Polishing Begin",
-      "ja_title": null,
-      "url": "https://blogs.kde.org/2026/09/19/this-week-in-plasma-let-the-polishing-begin/",
-      "source": "blogs.kde.org",
-      "source_id": "blogs-kde-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-19T00:00:01Z",
-      "score": 0.7519,
-      "distance": 0.7629,
-      "interest": 0.7408,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "--> --> Welcome to a new issue of This Week in Plasma! This week, Plasma folks shifted to bug-fixing and polishing work for Plasma 6.8. As of the time of writing, there are only four open regression reports for Plasma 6.8 , which means either the release is already amazing, or pe",
-      "explore": false
-    },
-    {
-      "title": "MOFT、前モデルと同じリバーシブルデザインでループとマグネットを組み合わせ安定した装着を実現した「Apple Watch バンド Active」を発売。",
-      "ja_title": null,
-      "url": "https://applech2.com/archives/20260920-moft-snap-duo-watch-bands-active.html",
-      "source": "applech2.com",
-      "source_id": "applech2-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-19T21:12:29Z",
-      "score": 0.7511,
-      "distance": 0.7692,
-      "interest": 0.733,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "long-form (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "MOFTが前モデルと同じリバーシブルデザインでループとマグネットを組み合わせ安定した装着を実現した「Apple Watch バンド Active」を発売しています。詳細は以下から。 香港のアクセサリーメーカーMOFT [&#8230;] The post MOFT、前モデルと同じリバーシブルデザインでループとマグネットを組み合わせ安定した装着を実現した「Apple Watch バンド Active」を発売。 first appeared on AAPL Ch. .",
-      "explore": false
-    },
-    {
-      "title": "Interpreting Pangram",
-      "ja_title": null,
-      "url": "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/",
-      "source": "lucumr.pocoo.org",
-      "source_id": "lucumr-pocoo-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-14T00:00:00Z",
-      "score": 0.7491,
-      "distance": 0.7272,
-      "interest": 0.7711,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Yesterday David Sacks wrote a tweet and within a few minutes people did, what they usually do, and they asked Pangram if it was AI. And Pangram said it&#8217;s entirely AI generated . To which David replied that these AI detectors are bogus . Now Pangram has a pretty low false po",
-      "explore": false
-    },
-    {
-      "title": "Proposal for EU KIDS Act - 'EU Keeping Internet Digital Spaces Accountable and Trustworthy'",
-      "ja_title": null,
-      "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy",
-      "source": "digital-strategy.ec.europa.eu",
-      "source_id": "digital-strategy-ec-europa-eu",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-17T07:21:00Z",
-      "score": 0.749,
-      "distance": 0.7508,
-      "interest": 0.7473,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Proposal for EU KIDS Act - 'EU Keeping Internet Digital Spaces Accountable and Trustworthy' Anonymous (not verified) Thu, 09/17/2026 - 09:21 This proposal seeks to protect minors from risky digital services and AI systems, uphold the digital single market and maintain a coherent ",
+      "excerpt": "Baby essentials can cost significantly more in some European countries than others. And when measured against average wages, the cost of nappies, feeding and clothing can place a heavy financial burden on parents.",
       "explore": false
     }
   ]
