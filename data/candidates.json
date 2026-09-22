@@ -162,9 +162,10 @@
         "schneier-com",
         "seangoedecke-com",
         "bcantrill-dtrace-org",
-        "lwn-net"
+        "lwn-net",
+        "threadreaderapp-com"
       ],
-      "count": 5,
+      "count": 6,
       "first_seen": "2026-07-23",
       "sample_url": "https://www.theregister.com/networks/2026/07/22/china-advances-plans-for-national-single-stack-ipv6-network-and-its-own-surveillance-friendly-version-of-the-protocol/5275984",
       "feed": null,
@@ -463,14 +464,15 @@
     },
     "tokio.rs": {
       "referrers": [
-        "lobsters"
+        "lobsters",
+        "cetra3-github-io"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-23",
       "sample_url": "https://tokio.rs/blog/2026-07-22-announcing-topcoat",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://tokio.rs/blog/index.xml",
+      "checked": true,
+      "promoted": true
     },
     "openai.com": {
       "referrers": [
@@ -1600,9 +1602,10 @@
         "sovereign-tech",
         "simonwillison-net",
         "dustycloud-org",
-        "oxide-and-friends-transistor-fm"
+        "oxide-and-friends-transistor-fm",
+        "bcantrill-dtrace-org"
       ],
-      "count": 13,
+      "count": 14,
       "first_seen": "2026-07-23",
       "sample_url": "https://kottke.org/26/07/no-cgi-is-really-just-invisible-cgi",
       "feed": null,
@@ -2598,13 +2601,14 @@
     },
     "irishtimes.com": {
       "referrers": [
-        "hackernews"
+        "hackernews",
+        "uxdesign-cc"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-24",
       "sample_url": "https://www.irishtimes.com/politics/2026/07/18/australias-ban-on-social-media-for-under-16s-has-jolted-eu-into-belated-action/",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "cbc.ca": {
@@ -4193,13 +4197,14 @@
     },
     "seattletimes.com": {
       "referrers": [
-        "hackernews"
+        "hackernews",
+        "daringfireball-net"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-25",
       "sample_url": "https://www.seattletimes.com/seattle-news/how-recreational-boaters-saved-the-day-after-kenmore-air-plane-crash/",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "lemire.me": {
@@ -5941,9 +5946,10 @@
         "epage-github-io",
         "blog-rust-lang-org",
         "timmarinin-net",
-        "servo-org"
+        "servo-org",
+        "cetra3-github-io"
       ],
-      "count": 5,
+      "count": 6,
       "first_seen": "2026-07-26",
       "sample_url": "https://ferrous-systems.com/blog/defmt-1-0-released/",
       "feed": null,
@@ -5974,14 +5980,15 @@
     },
     "memorysafety.org": {
       "referrers": [
-        "ferrous-systems-com"
+        "ferrous-systems-com",
+        "rustls-dev"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-26",
       "sample_url": "https://ferrous-systems.com/blog/hickory-dns-client/",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://memorysafety.org/index.xml",
+      "checked": true,
+      "promoted": true
     },
     "stackable.tech": {
       "referrers": [
@@ -6395,14 +6402,15 @@
     },
     "pagedout.institute": {
       "referrers": [
-        "lobsters"
+        "lobsters",
+        "herecomesthemoon-net"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-27",
       "sample_url": "https://pagedout.institute/webview.php?issue=9&page=1",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://pagedout.institute/rss.xml",
+      "checked": true,
+      "promoted": true
     },
     "mikemcquaid.com": {
       "referrers": [
@@ -6695,13 +6703,14 @@
     },
     "posfie.com": {
       "referrers": [
-        "hatena-know"
+        "hatena-know",
+        "hatena-it"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-27",
       "sample_url": "https://posfie.com/@Count_Down_000/p/RlwCBn5",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "ecb.europa.eu": {
@@ -7609,14 +7618,15 @@
     },
     "glog.glennf.com": {
       "referrers": [
-        "unsung-aresluna-org"
+        "unsung-aresluna-org",
+        "daringfireball-net"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-28",
       "sample_url": "https://unsung.aresluna.org/sets-of-overlapping-circles",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://glog.glennf.com/blog/rss/",
+      "checked": true,
+      "promoted": true
     },
     "immich.app": {
       "referrers": [
@@ -9515,9 +9525,10 @@
       "referrers": [
         "daringfireball-net",
         "9to5mac-com",
-        "lobsters"
+        "lobsters",
+        "hackernews"
       ],
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-07-30",
       "sample_url": "https://daringfireball.net/thetalkshow/2026/07/23/ep-452",
       "feed": null,
@@ -15908,9 +15919,10 @@
       "referrers": [
         "epage-github-io",
         "blog-yoshuawuyts-com",
-        "servo-org"
+        "servo-org",
+        "cetra3-github-io"
       ],
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-08-07",
       "sample_url": "https://epage.github.io/blog/2023/03/clap-v4-2/",
       "feed": null,
@@ -15919,13 +15931,14 @@
     },
     "semver.org": {
       "referrers": [
-        "epage-github-io"
+        "epage-github-io",
+        "cetra3-github-io"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-07",
       "sample_url": "https://epage.github.io/blog/2022/02/minor-semver-issue/",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "shopify.github.io": {
@@ -17474,9 +17487,10 @@
         "macrumors-com",
         "macworld-com",
         "macwelt-de",
-        "macg-co"
+        "macg-co",
+        "pcworld-com"
       ],
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-08-09",
       "sample_url": "https://www.macrumors.com/2026/08/08/claude-code-adds-cross-session-messaging/",
       "feed": null,
@@ -17558,13 +17572,14 @@
     },
     "rust-lang.github.io": {
       "referrers": [
-        "blog-rust-lang-org"
+        "blog-rust-lang-org",
+        "cetra3-github-io"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-09",
       "sample_url": "https://blog.rust-lang.org/2026/08/04/enabling-polonius-alpha-on-nightly/",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "thanks.rust-lang.org": {
@@ -17605,9 +17620,10 @@
       "referrers": [
         "blog-rust-lang-org",
         "blog-yoshuawuyts-com",
-        "lwn-net"
+        "lwn-net",
+        "cetra3-github-io"
       ],
-      "count": 3,
+      "count": 4,
       "first_seen": "2026-08-09",
       "sample_url": "https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/",
       "feed": null,
@@ -20153,13 +20169,14 @@
     },
     "hackmd.io": {
       "referrers": [
-        "lobsters"
+        "lobsters",
+        "cetra3-github-io"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-12",
       "sample_url": "https://hackmd.io/@s_haMSbyTAOWfoXc1aYNUg/Hka74gCwZg",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "calnewport.com": {
@@ -20989,14 +21006,15 @@
     },
     "seths.blog": {
       "referrers": [
-        "hackernews"
+        "hackernews",
+        "daringfireball-net"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-13",
       "sample_url": "https://seths.blog/2026/08/the-magic-of-a-two-year-waitlist/",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://seths.blog/feed",
+      "checked": true,
+      "promoted": true
     },
     "sgt.hootr.club": {
       "referrers": [
@@ -21446,9 +21464,10 @@
     },
     "tomsguide.com": {
       "referrers": [
-        "daringfireball-net"
+        "daringfireball-net",
+        "macrumors-com"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-13",
       "sample_url": "https://www.tomsguide.com/phones/iphones/iphone-17-and-iphone-air-durability-testing-heres-how-the-new-iphones-stand-up-to-bending-scratching-and-dropping",
       "feed": null,
@@ -30803,9 +30822,10 @@
     },
     "ocw.mit.edu": {
       "referrers": [
-        "sockpuppet-org"
+        "sockpuppet-org",
+        "kottke"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-24",
       "sample_url": "https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/",
       "feed": null,
@@ -33856,9 +33876,10 @@
     },
     "datatracker.ietf.org": {
       "referrers": [
-        "sigma-star-at"
+        "sigma-star-at",
+        "rustls-dev"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-28",
       "sample_url": "https://sigma-star.at/blog/2023/08/c-ares_cve-2023-31147/",
       "feed": null,
@@ -34797,9 +34818,10 @@
     },
     "typescriptlang.org": {
       "referrers": [
-        "gruhn-me"
+        "gruhn-me",
+        "cetra3-github-io"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-29",
       "sample_url": "https://gruhn.me/blog/2026-08-29/",
       "feed": null,
@@ -35594,9 +35616,10 @@
     },
     "android.com": {
       "referrers": [
-        "9to5google-com"
+        "9to5google-com",
+        "android-developers-googleblog-com"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-29",
       "sample_url": "https://9to5google.com/2026/08/29/new-google-messages-features/",
       "feed": null,
@@ -37091,9 +37114,10 @@
     "intel.com": {
       "referrers": [
         "spectrum-ieee-org",
-        "forum-proxmox-com"
+        "forum-proxmox-com",
+        "rustls-dev"
       ],
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-09-01",
       "sample_url": "https://spectrum.ieee.org/ruchira-shree-ham-radio",
       "feed": null,
@@ -47161,9 +47185,10 @@
     },
     "david.alvarezrosa.com": {
       "referrers": [
-        "lobsters"
+        "lobsters",
+        "hackernews"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-09-11",
       "sample_url": "https://david.alvarezrosa.com/posts/optimizing-a-spin-lock/",
       "feed": null,
@@ -52827,13 +52852,14 @@
     "typesafe.ai": {
       "referrers": [
         "seangoedecke-com",
-        "lobsters"
+        "lobsters",
+        "simonwillison-net"
       ],
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-09-17",
       "sample_url": "https://seangoedecke.com/jev-means-structured-output-is-interesting-again/",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "malwarebytes.com": {
@@ -54949,9 +54975,10 @@
     },
     "remy.wang": {
       "referrers": [
-        "hackernews"
+        "hackernews",
+        "lobsters"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-09-19",
       "sample_url": "https://remy.wang/blog/ra-ra.html",
       "feed": null,
@@ -56292,9 +56319,10 @@
     },
     "computerhistory.org": {
       "referrers": [
-        "oxide-and-friends-transistor-fm"
+        "oxide-and-friends-transistor-fm",
+        "macrumors-com"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-09-20",
       "sample_url": "https://share.transistor.fm/s/d065e481",
       "feed": null,
@@ -56352,6 +56380,1162 @@
       "count": 1,
       "first_seen": "2026-09-20",
       "sample_url": "https://share.transistor.fm/s/20b6e3dc",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "blog.cygankiewicz.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://blog.cygankiewicz.com/en/cezar-agent-orchestrator/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "luxir.org": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://luxir.org/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "blog.saikat.us": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://blog.saikat.us/p/what-we-should-do-during-a-pause",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "williamearthharp.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://www.williamearthharp.com/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "heckle.tf": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://heckle.tf",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "wondermark.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://wondermark.com/socrates-vs-writing/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "pr1nted.itch.io": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://pr1nted.itch.io/open-animal-stage",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "valency.io": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://www.valency.io/jevops/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "psyche.co": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://psyche.co/turning-points/his-frailty-made-ozzys-final-gig-true-heavy-metal",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "proofnews.org": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://www.proofnews.org/millions-spent-few-served-seattles-talkspace-deal-for-youth-therapy-falls-short/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "planetaryhealthcheck.org": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://www.planetaryhealthcheck.org/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "mversic.github.io": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://mversic.github.io/co3/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "blog.evolvingedge.ai": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://blog.evolvingedge.ai/post/how-little-do-you-have-to-trust-us-white-paper-launch/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "mimo-ai.xiaomimimo.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://mimo-ai.xiaomimimo.com/desktop/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "blog.xaml.io": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://blog.xaml.io/post/build-dotnet-apps-from-a-prompt",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "vstorm-co.github.io": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://vstorm-co.github.io/agenticos/arcade/context.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "yusufaytas.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://yusufaytas.com/there-may-be-nobody-there",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "arce.design": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://arce.design/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "robot-daycare.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://robot-daycare.com/posts/2016-01-06-motor-characterization-for-small-running-robots/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "mattgreer.dev": {
+      "referrers": [
+        "hackernews",
+        "lobsters"
+      ],
+      "count": 2,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://mattgreer.dev/blog/making-a-game-for-gba-and-pc/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "torrentfreak.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://torrentfreak.com/u-s-site-blocking-bill-adds-vpns-to-the-list-of-blocking/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "umais.me": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://umais.me/writing/ai-risk-cheatsheet/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "brand.io": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://brand.io/article/spymarks/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "acubom.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://acubom.com/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "agaro.ai": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://agaro.ai/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "distributedthoughts.org": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://www.distributedthoughts.org/my-log-router-doesnt-need-to-sing/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "kevquirk.com": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://kevquirk.com/do-you-use-visited-on-links",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "nostr-proto.org": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://github.com/dtonon/squalk",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "squalk-test.dtonon.com": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://github.com/dtonon/squalk",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "htmx.org": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://htmx.org/essays/markdown-in-src/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "botahamec.dev": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://botahamec.dev/named-optional-args",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "anishathalye.com": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://anishathalye.com/optimal-trace/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "canonical.com": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://canonical.com/blog/zephyr-lts-announcement",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "alicegg.tech": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://alicegg.tech/2026/09/21/attention",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "code.irenes.space": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://code.irenes.space/evocation/tree/README.txt",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "ee.columbia.edu": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://www.ee.columbia.edu/~dpwe/papers/FreeG96-lifestreams.pdf",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "redvice.org": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://redvice.org/2026/deterministic-hypervisor/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "projectzero.google": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://projectzero.google/2026/09/windows-dangling-com.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "jidounten-lab.com": {
+      "referrers": [
+        "hatena-it"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://jidounten-lab.com/u_68036",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "yoiyoru.org": {
+      "referrers": [
+        "hatena-know"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://www.yoiyoru.org/entry/2026/09/21/162058",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "buzzfeed.com": {
+      "referrers": [
+        "kottke"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://kottke.org/26/09/0049634-monopoly-as-a-metaphor-fo",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "langdonclay.com": {
+      "referrers": [
+        "kottke"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://kottke.org/26/09/cars-new-york-city-1974-1976",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "beehiiv.com": {
+      "referrers": [
+        "kottke"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://kottke.org/26/09/0049644-beehiiv-had-a-program-to-",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "niemanlab.org": {
+      "referrers": [
+        "kottke"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://kottke.org/26/09/0049644-beehiiv-had-a-program-to-",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "nareswari.co": {
+      "referrers": [
+        "kottke"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://kottke.org/26/09/gorgeous-nerikomi-pottery",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "physics.aps.org": {
+      "referrers": [
+        "bigthink-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://bigthink.com/starts-with-a-bang/most-accurate-clock-unexpected-instability/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "rhizomatica.org": {
+      "referrers": [
+        "spectrum-ieee-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "hermes.radio": {
+      "referrers": [
+        "spectrum-ieee-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "pretalx.sysmocom.de": {
+      "referrers": [
+        "spectrum-ieee-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "mercury.hermes.radio": {
+      "referrers": [
+        "spectrum-ieee-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://spectrum.ieee.org/hermes-shortwave-radio-digital-data",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "mux.com": {
+      "referrers": [
+        "daringfireball-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://www.mux.com/?utm_campaign=fireball&utm_source=DF",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "strategerygame.com": {
+      "referrers": [
+        "daringfireball-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://lexontech.org/strategery-is-back-and-im-the-developer",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "lexontech.org": {
+      "referrers": [
+        "daringfireball-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://lexontech.org/strategery-is-back-and-im-the-developer",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "mlb.com": {
+      "referrers": [
+        "daringfireball-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://www.mlb.com/news/tigers-ballpark-name-changed-to-fifth-third-park",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "matthewbutterick.com": {
+      "referrers": [
+        "daringfireball-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://matthewbutterick.com/chron/drop-dead.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "darkhorizons.com": {
+      "referrers": [
+        "daringfireball-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://deadline.com/2026/09/jessica-chastain-the-savant-new-release-date-apple-tv-1237108228/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "psytronik.itch.io": {
+      "referrers": [
+        "itch-io"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://psytronik.itch.io/joa",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "llm-prices.com": {
+      "referrers": [
+        "simonwillison-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://simonwillison.net/2026/Sep/21/jev/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "developers.cloudflare.com": {
+      "referrers": [
+        "simonwillison-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "cardpointers.com": {
+      "referrers": [
+        "9to5mac-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://9to5mac.com/2026/09/21/cardpointers-updated-for-ios-27-with-siri-ai-automatic-offer-syncing-and-much-more/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "rcfp.org": {
+      "referrers": [
+        "eff-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://www.eff.org/deeplinks/2026/09/dc-circuit-must-vacate-drone-flight-restriction-criminalized-recording-immigration",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "aclu.org": {
+      "referrers": [
+        "eff-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://www.eff.org/deeplinks/2026/09/dc-circuit-must-vacate-drone-flight-restriction-criminalized-recording-immigration",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "igalia.com": {
+      "referrers": [
+        "lwn-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://lwn.net/Articles/1095723/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "man.netbsd.org": {
+      "referrers": [
+        "lwn-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://lwn.net/Articles/1094310/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "netbsd.org": {
+      "referrers": [
+        "lwn-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://lwn.net/Articles/1094310/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "linux-test-project.readthedocs.io": {
+      "referrers": [
+        "lwn-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://lwn.net/Articles/1094310/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "2026.eurobsdcon.org": {
+      "referrers": [
+        "lwn-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://lwn.net/Articles/1094310/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "birdspot.co.uk": {
+      "referrers": [
+        "9to5toys-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://9to5toys.com/2026/09/21/12-days-of-craftsman-advent-calendar-promises-200-of-tools-for-65/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "blog.dclimate.net": {
+      "referrers": [
+        "anil-recoil-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://anil.recoil.org/notes/2026w38",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "eeg.zulipchat.com": {
+      "referrers": [
+        "anil-recoil-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://anil.recoil.org/notes/2026w38",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "de.ifixit.com": {
+      "referrers": [
+        "macwelt-de"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://www.macwelt.de/article/3239760/iphone-18-pro-teardown.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "sumarsono.com": {
+      "referrers": [
+        "discuss-linuxcontainers-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://discuss.linuxcontainers.org/t/issues-while-setting-up-ovn-on-incus-cluster-no-chassis-found-bridge-not-found-for-localnet-port/27257#post_1",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "git.dgnum.eu": {
+      "referrers": [
+        "discuss-linuxcontainers-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://discuss.linuxcontainers.org/t/issues-while-setting-up-ovn-on-incus-cluster-no-chassis-found-bridge-not-found-for-localnet-port/27257#post_1",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "bigiron.cc": {
+      "referrers": [
+        "discuss-linuxcontainers-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://discuss.linuxcontainers.org/t/issues-while-setting-up-ovn-on-incus-cluster-no-chassis-found-bridge-not-found-for-localnet-port/27257#post_1",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "politifact.com": {
+      "referrers": [
+        "uxdesign-cc"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://uxdesign.cc/the-lie-we-keep-telling-ourselves-about-regulating-ai-61e0163d795e?source=rss----138adf9c44c---4",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "maharship.com": {
+      "referrers": [
+        "dev-to"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://dev.to/cogumellum/mcp-debate-token-tax-context-bloat-and-what-devs-can-do-2npo",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "backbonehq.io": {
+      "referrers": [
+        "dev-to"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://dev.to/aeells/quarkus-graalvm-advanced-obfuscation-5hd4",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "tamiz.pro": {
+      "referrers": [
+        "dev-to"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://dev.to/tamizuddin/shifting-the-bottleneck-re-engineering-cicd-pipelines-for-the-ai-coding-era-fpe",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "reset.beer": {
+      "referrers": [
+        "dev-to"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://dev.to/sunny_su/i-built-an-mcp-server-that-tracks-ai-quota-resets-heres-how-4kn9",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "videolan.org": {
+      "referrers": [
+        "pcworld-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://www.pcworld.com/article/3227644/microsoft-defender-is-causing-slow-vlc-startups-heres-the-fix.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "digitaltrends.com": {
+      "referrers": [
+        "pcworld-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://www.pcworld.com/article/3239912/amd-gpu-and-motherboard-prices-could-jump-10-percent-soon-ryzen-may-follow.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "file-converter.io": {
+      "referrers": [
+        "pcworld-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://www.pcworld.com/article/3219316/this-free-windows-app-makes-file-conversion-ridiculously-easy.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "built-in.google": {
+      "referrers": [
+        "android-developers-googleblog-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://android-developers.googleblog.com/2026/09/bring-android-game-to-car-screen.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "aleteia.org": {
+      "referrers": [
+        "herecomesthemoon-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://herecomesthemoon.net/2026/09/why-is-big-tech-bad/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "50games.fun": {
+      "referrers": [
+        "herecomesthemoon-net"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://herecomesthemoon.net/2026/08/remaking-party-house/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "jbp.io": {
+      "referrers": [
+        "rustls-dev"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://rustls.dev/blog/2026-09-08-a-decade-of-rustls/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "buoyant.io": {
+      "referrers": [
+        "rustls-dev"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://rustls.dev/blog/2026-09-08-a-decade-of-rustls/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "csrc.nist.gov": {
+      "referrers": [
+        "rustls-dev"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://rustls.dev/perf/2024-12-17-pq-kx/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "hetzner.com": {
+      "referrers": [
+        "rustls-dev"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://rustls.dev/perf/2024-11-28-threading/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "issues.chromium.org": {
+      "referrers": [
+        "rustls-dev"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://rustls.dev/perf/2024-10-31-arm64/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "automerge.org": {
+      "referrers": [
+        "cetra3-github-io"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://cetra3.github.io/blog/creating-mcp-servers-in-rust/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "kubernetes.io": {
+      "referrers": [
+        "cetra3-github-io"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://cetra3.github.io/blog/a-tale-of-two-lengths/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "foyer.rs": {
+      "referrers": [
+        "cetra3-github-io"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://cetra3.github.io/blog/a-tale-of-two-lengths/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "diesel.rs": {
+      "referrers": [
+        "cetra3-github-io"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://cetra3.github.io/blog/creating-your-own-derive-macro/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "jsonpatch.com": {
+      "referrers": [
+        "cetra3-github-io"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://cetra3.github.io/blog/synchronising-with-websocket/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "formlogic.com": {
+      "referrers": [
+        "cetra3-github-io"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://cetra3.github.io/blog/synchronising-with-websocket/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "actix.rs": {
+      "referrers": [
+        "cetra3-github-io"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://cetra3.github.io/blog/sharing-types-with-the-frontend/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "zeromq.org": {
+      "referrers": [
+        "cetra3-github-io"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://cetra3.github.io/blog/implementing-a-jobq/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "schoolbench.com.au": {
+      "referrers": [
+        "cetra3-github-io"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://cetra3.github.io/blog/implementing-a-jobq/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "kpzhang93.github.io": {
+      "referrers": [
+        "cetra3-github-io"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://cetra3.github.io/blog/face-detection-with-tensorflow-rust/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "tensorflow.org": {
+      "referrers": [
+        "cetra3-github-io"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://cetra3.github.io/blog/face-detection-with-tensorflow-rust/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "fionacastineira.com": {
+      "referrers": [
+        "cetra3-github-io"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://cetra3.github.io/blog/face-detection-with-tensorflow-rust/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "caffe.berkeleyvision.org": {
+      "referrers": [
+        "cetra3-github-io"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://cetra3.github.io/blog/face-detection-with-tensorflow-rust/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "rustfest.eu": {
+      "referrers": [
+        "cetra3-github-io"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://cetra3.github.io/blog/face-detection-with-tensorflow-rust/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "michael-f-bryan.github.io": {
+      "referrers": [
+        "cetra3-github-io"
+      ],
+      "count": 1,
+      "first_seen": "2026-09-22",
+      "sample_url": "https://cetra3.github.io/blog/rust-2019/",
       "feed": null,
       "checked": false,
       "promoted": false
@@ -61757,6 +62941,96 @@
       "domain": "cetra3-github-io",
       "action": "graduated",
       "detail": "avg=0.603 over 38 items"
+    },
+    {
+      "date": "2026-09-22",
+      "domain": "typesafe.ai",
+      "action": "probe-failed",
+      "detail": "3 referrers, no feed found"
+    },
+    {
+      "date": "2026-09-22",
+      "domain": "tokio.rs",
+      "action": "promoted",
+      "detail": "referred by lobsters, cetra3-github-io"
+    },
+    {
+      "date": "2026-09-22",
+      "domain": "irishtimes.com",
+      "action": "probe-failed",
+      "detail": "2 referrers, no feed found"
+    },
+    {
+      "date": "2026-09-22",
+      "domain": "seattletimes.com",
+      "action": "probe-failed",
+      "detail": "2 referrers, no feed found"
+    },
+    {
+      "date": "2026-09-22",
+      "domain": "memorysafety.org",
+      "action": "promoted",
+      "detail": "referred by ferrous-systems-com, rustls-dev"
+    },
+    {
+      "date": "2026-09-22",
+      "domain": "pagedout.institute",
+      "action": "promoted",
+      "detail": "referred by lobsters, herecomesthemoon-net"
+    },
+    {
+      "date": "2026-09-22",
+      "domain": "posfie.com",
+      "action": "probe-failed",
+      "detail": "2 referrers, no feed found"
+    },
+    {
+      "date": "2026-09-22",
+      "domain": "glog.glennf.com",
+      "action": "promoted",
+      "detail": "referred by unsung-aresluna-org, daringfireball-net"
+    },
+    {
+      "date": "2026-09-22",
+      "domain": "semver.org",
+      "action": "probe-failed",
+      "detail": "2 referrers, no feed found"
+    },
+    {
+      "date": "2026-09-22",
+      "domain": "rust-lang.github.io",
+      "action": "probe-failed",
+      "detail": "2 referrers, no feed found"
+    },
+    {
+      "date": "2026-09-22",
+      "domain": "hackmd.io",
+      "action": "probe-failed",
+      "detail": "2 referrers, no feed found"
+    },
+    {
+      "date": "2026-09-22",
+      "domain": "seths.blog",
+      "action": "promoted",
+      "detail": "referred by hackernews, daringfireball-net"
+    },
+    {
+      "date": "2026-09-22",
+      "domain": "julialang-org",
+      "action": "graduated",
+      "detail": "avg=0.5396 over 60 items"
+    },
+    {
+      "date": "2026-09-22",
+      "domain": "hugovk-dev",
+      "action": "graduated",
+      "detail": "avg=0.5777 over 30 items"
+    },
+    {
+      "date": "2026-09-22",
+      "domain": "elijahpotter-dev",
+      "action": "graduated",
+      "detail": "avg=0.6322 over 60 items"
     }
   ]
 }
