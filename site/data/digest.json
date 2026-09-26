@@ -1,15 +1,24 @@
 {
-  "generated": "2026-09-25T00:17:56Z",
+  "generated": "2026-09-26T00:24:19Z",
   "count": 40,
   "meta": {
-    "sources_total": 391,
+    "sources_total": 398,
     "counts": {
       "seed": 64,
-      "active": 321,
-      "trial": 6
+      "active": 327,
+      "trial": 7
     },
     "feeds_resolved_this_run": 0,
     "discovered_this_run": [
+      "gq-magazine-co-uk",
+      "lemonde-fr",
+      "discourse-haskell-org",
+      "status-openai-com",
+      "til-simonwillison-net",
+      "blog-glyph-im",
+      "tante-cc"
+    ],
+    "graduated_this_run": [
       "alpha-omega-dev",
       "pagetable-com",
       "telnyx-com",
@@ -17,14 +26,9 @@
       "cursor-com",
       "osv-dev"
     ],
-    "graduated_this_run": [
-      "jetbrains-com",
-      "python-org",
-      "workspaceupdates-googleblog-com"
-    ],
     "retired_this_run": [],
-    "candidates_tracked": 5482,
-    "items_seen_this_run": 7492,
+    "candidates_tracked": 5544,
+    "items_seen_this_run": 7606,
     "items_judged": 0,
     "judge_enabled": false,
     "pinned": [],
@@ -32,18 +36,18 @@
   },
   "items": [
     {
-      "title": "Use AI to supercharge your financial analysis with Workday for Google Sheets",
+      "title": "Announcing the New Alpha-Omega Seasonal Grant Program",
       "ja_title": null,
-      "url": "http://workspaceupdates.googleblog.com/2026/09/use-ai-to-supercharge-your-financial-analysis-with-Workday-for-Google-Sheets.html",
-      "source": "workspaceupdates.googleblog.com",
-      "source_id": "workspaceupdates-googleblog-com",
+      "url": "https://alpha-omega.dev/blog/announcing-the-new-alpha-omega-seasonal-grant-program/",
+      "source": "alpha-omega.dev",
+      "source_id": "alpha-omega-dev",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-21T17:18:06Z",
-      "score": 0.7655,
-      "distance": 0.7465,
-      "interest": 0.7845,
+      "published": "2026-07-23T16:28:05Z",
+      "score": 0.6564,
+      "distance": 0.62,
+      "interest": 0.6928,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -51,26 +55,25 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
+        "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "Workday for Google Sheets is a new add-on available in the Google Workspace Marketplace that connects Workday Adaptive Planning directly to Google Sheets and Slides. Deeply integrated with the AI-powered “Ask Workday” feature in Adaptive Planning, this add-on eliminates the need ",
+      "excerpt": "Alpha-Omega is evolving. We are thrilled to announce our New Seasonal Grant Framework, transitioning to a predictable four-quarter cadence that provides open source maintainers with clear timelines, synchronized community cohorts, and faster funding decisions.",
       "explore": true
     },
     {
-      "title": "Seamlessly import your emails from any IMAP server to Google Workspace",
+      "title": "Defending our ecosystem against AI threats",
       "ja_title": null,
-      "url": "http://workspaceupdates.googleblog.com/2026/09/seamlessly-import-your-emails-from-any-IMAP-server-to-Google-Workspace.html",
-      "source": "workspaceupdates.googleblog.com",
-      "source_id": "workspaceupdates-googleblog-com",
+      "url": "https://alpha-omega.dev/blog/our-self-defense-defending-our-ecosystem-against-ai-threats/",
+      "source": "alpha-omega.dev",
+      "source_id": "alpha-omega-dev",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-23T18:07:20Z",
-      "score": 0.6946,
-      "distance": 0.761,
-      "interest": 0.6282,
+      "published": "2026-09-03T18:34:23Z",
+      "score": 0.6477,
+      "distance": 0.62,
+      "interest": 0.6753,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -78,25 +81,25 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "long-form (+)"
+        "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "We’re excited to announce the GA release of a new, simplified way for Workspace admins to import their past emails from any IMAP-based email provider while setting up Google Workspace. By using this new feature, Google Workspace admins can import past emails seamlessly in a few c",
+      "excerpt": "Learn how the Erlang Ecosystem Foundation partners with Alpha-Omega to defend open source projects against AI-driven vulnerabilities and scale CVE management.",
       "explore": true
     },
     {
-      "title": "PEP 849: More Expressive Type Expressions",
+      "title": "Email API: Self-Service DKIM Key Rotation",
       "ja_title": null,
-      "url": "https://peps.python.org/pep-0849/",
-      "source": "python.org",
-      "source_id": "python-org",
+      "url": "https://telnyx.com/release-notes/email-api-self-service-dkim-rotation",
+      "source": "telnyx.com",
+      "source_id": "telnyx-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-20T00:00:00Z",
-      "score": 0.6296,
-      "distance": 0.7342,
-      "interest": 0.525,
+      "published": "2026-09-23T12:00:00Z",
+      "score": 0.64,
+      "distance": 0.752,
+      "interest": 0.5279,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -105,48 +108,46 @@
       ],
       "reasons_interest": [],
       "ja": null,
-      "excerpt": "Currently, the Python interpreter allows any expression to be used as an annotation. But their most popular usage, type annotations, are restricted to only a small subset of possible expressions. This is because type annotations need to be introspectable at runtime and many valid",
+      "excerpt": "Rotate DKIM keys for account-owned custom sending domains yourself via the Telnyx Email Domains API and publish the replacement DNS record without manual support.",
       "explore": true
     },
     {
-      "title": "PEP 824: None-coalescing operators",
+      "title": "Email API: More Control Over Scheduled Sends",
       "ja_title": null,
-      "url": "https://peps.python.org/pep-0824/",
-      "source": "python.org",
-      "source_id": "python-org",
+      "url": "https://telnyx.com/release-notes/email-api-more-control-over-scheduled-sends",
+      "source": "telnyx.com",
+      "source_id": "telnyx-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-20T00:00:00Z",
-      "score": 0.6161,
-      "distance": 0.7342,
-      "interest": 0.498,
+      "published": "2026-09-23T12:00:00Z",
+      "score": 0.636,
+      "distance": 0.752,
+      "interest": 0.52,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
         "off-centre domain (+)"
       ],
-      "reasons_interest": [
-        "thin (−)"
-      ],
+      "reasons_interest": [],
       "ja": null,
-      "excerpt": "This PEP proposes adding two new operators.",
+      "excerpt": "Reschedule scheduled emails in place with the Telnyx Email API. Invalid or past timestamps now return 422 instead of triggering unintended immediate sends.",
       "explore": true
     },
     {
-      "title": "なぜ「市場が求めるもの」を追うだけでは弱い？ 「つくり手の意思」の重要性 - 概念シフト",
+      "title": "「どう解決する？」では未来は見えない。「What if」から始める思考法 - 概念シフト",
       "ja_title": null,
-      "url": "https://diamond.jp/articles/-/399375",
+      "url": "https://diamond.jp/articles/-/399377",
       "source": "diamond.jp",
       "source_id": "diamond-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-24T21:45:00Z",
-      "score": 0.8142,
+      "published": "2026-09-25T21:45:00Z",
+      "score": 0.8231,
       "distance": 0.7692,
-      "interest": 0.8593,
+      "interest": 0.8769,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -159,22 +160,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "市場のニーズを捉え、求められるものをつくる。マーケティングでは王道とされる考え方だが、それだけでは新しい価値は生まれにくい。P&amp;Gでマーケティング、ソニーで新規事業やクリエイティブに携わった佐宗邦威氏は、イノベーションには「つくり手の意思」が欠かせないと語る。『概念シフト』の著者・永山晋氏との対談から、供給する側の意欲や創造性をどう引き出すかを考える。",
+      "excerpt": "目の前の課題をどう解決するか。ビジネスでは当たり前のように求められる問いだが、大きな変化の時代には、それだけでは未来を捉えきれないことがある。『概念シフト』の著者・永山晋氏と佐宗邦威氏の対談から、「How might we」ではなく「What if」と問い直す重要性を示す。",
       "explore": false
     },
     {
-      "title": "【中秋の名月】から金運がグンと上がる人が、月の光を浴びさせたいものとは？ - 旬のカレンダー",
+      "title": "老眼の経済損失は「80兆円規模」？ 眼科医が「国家戦略で老眼対策を」と訴える理由 - 100歳アイ",
       "ja_title": null,
-      "url": "https://diamond.jp/articles/-/399527",
+      "url": "https://diamond.jp/articles/-/398338",
       "source": "diamond.jp",
       "source_id": "diamond-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-24T22:10:00Z",
-      "score": 0.8115,
-      "distance": 0.7694,
-      "interest": 0.8537,
+      "published": "2026-09-25T21:50:00Z",
+      "score": 0.8107,
+      "distance": 0.7692,
+      "interest": 0.8523,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -187,50 +188,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "9月25日は中秋の名月、そして9月27日は満月。中秋の名月は秋の夜空を眺めながら、これからの未来を思い描くのにぴったり。さらに満月の日には、月の光を身近なものに取り入れるのがおすすめです。今回は、風水の第一人者・Dr.コパさんに、9月25日と27日の2日間で、月の金運パワーを取り込む開運法について教えてもらいました。",
+      "excerpt": "老眼は「小さな字が読みにくくなるだけ」の問題なのか。老眼対策の専門家・伊勢屋貴史さんは、そうではないと言います。40歳以上の人口、仕事への影響、消費活動などから考えると、「老眼による経済損失は80兆円規模に達する可能性すらある」と独自に試算。なぜ目の老化が日本経済の問題になるのでしょうか。",
       "explore": false
     },
     {
-      "title": "米国の若い世代で増える脳卒中、30年近くでほぼ倍増　専門家のアドバイスは？",
+      "title": "OpenTelemetry and Prometheus are getting along. What’s still missing?",
       "ja_title": null,
-      "url": "https://www.cnn.co.jp/fringe/35252929.html?ref=rss",
-      "source": "cnn.co.jp",
-      "source_id": "cnn-co-jp",
+      "url": "https://thenewstack.io/opentelemetry-prometheus-observability-interoperability/",
+      "source": "thenewstack.io",
+      "source_id": "thenewstack-io",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-24T08:30:00Z",
-      "score": 0.8053,
-      "distance": 0.7653,
-      "interest": 0.8453,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "心血管の健康について心配するのは、年齢を重ねてからという人が多い。しかし、脳卒中が若年成人の間で着実に増えており、30年近くでほぼ倍増したことが、新たな研究から明らかになった。 「脳卒中は何歳でなっても深刻な病気だ。若い人に起きた場合、とりわけ影響が大きい」。そう話すのは、専門誌ニューロロジーに23日に掲載された研究の上級著者、デービッド・ロビンソン氏だ。 研究によると、若年成人の脳卒中発症率は、1...",
-      "explore": false
-    },
-    {
-      "title": "This is being served in 57 minutes. So,<br />\nAs someone who’s cooked for 2 presidents (3 if you count BC when he’s out of office, and 4 if you count Jimmy Carter eating with us at a bbq festival), can I just say? This is why you don’t treat your staff like shit. Chef Rush would NEVER serve something like this. A 🧵<span class=\"entity-embed\"><span class=\"twitter-player\"><blockquote class=\"twitter-tweet\"><a href=\"https://twitter.com/redhotnerd/status/2103100246154998176\">https://x.com/redhotnerd/status/2103100246154998176</a></blockquote></span></span>",
-      "ja_title": null,
-      "url": "https://threadreaderapp.com/thread/2103262563651801443.html",
-      "source": "threadreaderapp.com",
-      "source_id": "threadreaderapp-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-24T23:17:26Z",
-      "score": 0.8049,
-      "distance": 0.7697,
-      "interest": 0.8401,
+      "published": "2026-09-25T16:56:47Z",
+      "score": 0.8042,
+      "distance": 0.7678,
+      "interest": 0.8405,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -243,22 +216,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "This is being served in 57 minutes. So, As someone who’s cooked for 2 presidents (3 if you count BC when he’s out of office, and 4 if you count Jimmy Carter eating with us at a bbq festival), can I just say? This is why you don’t treat your staff like shit. Chef Rush would NEVER ",
+      "excerpt": "Welcome to another edition of Road to KubeCon, where we&#8217;re tracking the major movements in the Kubernetes and cloud native The post OpenTelemetry and Prometheus are getting along. What’s still missing? appeared first on The New Stack .",
       "explore": false
     },
     {
-      "title": "100年前に東京藝大に留学していた台湾人彫刻家・黄土水の代表作は、なぜ60年以上も行方不明だったのか？【傑作ドキュメンタリー『甘露水』】",
+      "title": "《50歳直前に出産》卵子提供を受け、妊娠した日本人女性（52）が明かす、50代での子育て「精神的な余裕がめちゃくちゃある」",
       "ja_title": null,
-      "url": "https://bunshun.jp/articles/-/92304",
+      "url": "https://bunshun.jp/articles/-/92321",
       "source": "bunshun.jp",
       "source_id": "bunshun-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-24T21:10:00Z",
-      "score": 0.8017,
+      "published": "2026-09-25T21:20:00Z",
+      "score": 0.7896,
       "distance": 0.7691,
-      "interest": 0.8344,
+      "interest": 0.8101,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -267,26 +240,25 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "poses a question (+)",
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "9月19日、日本未公開の台湾映画の名作・話題作を紹介する「台湾文化センター 台湾映画上映会2026」の第8回が、ユーロライブ（東京・渋谷区）で開催された。今回上映されたのは、ドキュメンタリー映画の傑作…",
+      "excerpt": "49歳で卵子提供を受け、ニューヨークで出産したこりんごさん（52）。現在はYouTubeやブログで不妊治療や高齢育児について発信している。50歳を前にして始まった彼女の子育ては、精神的、経済的な余裕か…",
       "explore": false
     },
     {
-      "title": "How Many Dudes?",
+      "title": "@AnnieGlen20 The argument for radical electoral reform grows stronger every time there is an election in Scotland. <br />\n<br />\nWhy don't we just pull names from a hat? It's called 'sortition' in Switzerland and was used by the 'ancient' Greeks for a couple of centuries and seemed/",
       "ja_title": null,
-      "url": "https://daverupert.com/2026/09/how-many-dudes/",
-      "source": "daverupert.com",
-      "source_id": "daverupert-com",
+      "url": "https://threadreaderapp.com/thread/2103563692638085491.html",
+      "source": "threadreaderapp.com",
+      "source_id": "threadreaderapp-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-24T15:03:00Z",
-      "score": 0.7966,
-      "distance": 0.7673,
-      "interest": 0.826,
+      "published": "2026-09-25T19:14:01Z",
+      "score": 0.789,
+      "distance": 0.7685,
+      "interest": 0.8094,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -299,13 +271,40 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "If I’ve been missing from the internet it’s because I’ve been spending my evenings grinding on a game from Butterscotch Shenanigans called How Many Dudes? Hot off the heels of the release of their massive multi-year sequel project Crashlands 2 , the family+ operation at BS turned",
+      "excerpt": "@AnnieGlen20 The argument for radical electoral reform grows stronger every time there is an election in Scotland. Why don't we just pull names from a hat? It's called 'sortition' in Switzerland and was used by the 'ancient' Greeks for a couple of centuries and seemed/@AnnieGlen2",
       "explore": false
     },
     {
-      "title": "AWS DevOps Agent の堅牢性",
+      "title": "ダ・ヴィンチの水工学の研究メモに描かれた甲虫の謎。媚薬の効能を知ってスケッチした可能性",
       "ja_title": null,
-      "url": "https://zenn.dev/cscloud_blog/articles/9968d12b332c03",
+      "url": "https://karapaia.com/archives/629427.html",
+      "source": "karapaia.com",
+      "source_id": "karapaia-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-25T11:30:00Z",
+      "score": 0.7865,
+      "distance": 0.7662,
+      "interest": 0.8068,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "飽くなき探求心と湧き上がる独創性で万能の天才と呼ばれる、レオナルド・ダ・ヴィンチは、芸術家でありながら様々な科学技術分野で功績を遺した。飛行力学に夢中で、空を飛ぶ生物を数多くスケッチしていたが、水利工学のメモの中に、なぜか羽のない甲虫「ツチハンミョウ」の仲間が描かれている&#8230;",
+      "explore": false
+    },
+    {
+      "title": "age40 - 30代でやってよかったこと",
+      "ja_title": null,
+      "url": "https://zenn.dev/dress_code/articles/2026-09-24_age-40",
       "source": "Zenn",
       "source_id": "zenn",
       "tags": [
@@ -313,10 +312,10 @@
         "tech",
         "tools"
       ],
-      "published": "2026-09-24T00:36:37Z",
-      "score": 0.7877,
-      "distance": 0.763,
-      "interest": 0.8124,
+      "published": "2026-09-24T07:58:17Z",
+      "score": 0.7833,
+      "distance": 0.758,
+      "interest": 0.8087,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -328,102 +327,21 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "どうもセキュリティエンジニアの西川です。シルバーウィーク楽しみましたか？私は今回ご紹介する AWS DevOps Agent のセキュリティについてほとんどの時間を使いました。（汗）ということで、ぜひご覧ください（笑） と言いつつも、記事を読む前に Elevated Role や Directed Actions については事前に調べていただいた方がよいです。最近出たものなので、特徴を理解していると話が入ってきやすいかと思います。Elevated Role の説明を合わせて書こうかと思ったのですが、その解説だけで一つの記事になりそうだったので諦めました。",
+      "excerpt": "2026年9月24日、40歳になりました。昔バズった「35歳定年説」を聞きながら過ごした30代だった。 最近また読み返した、そーだいさんの記事がきっかけで、僕も40歳の区切りでエンジニアとしての30代を振り返ることにした。 ! TL;DR コードを書かない時期も、「伝える」「つなぐ」を通じて技術への理解と視野は広がった 技術の細部を忘れても、「前回との差分に気づく」ための経験は残る AIで作れる量が増えるほど、「何を、なぜ作るか」を決める力が重要になる 30代にやっていてよかったこと コードを書かない時期があっても、技術から離れなかった 30代前半までは",
       "explore": false
     },
     {
-      "title": "Why your pages are crawled but not indexed",
+      "title": "SHIPCHECK: An Autonomous ReAct Agent That Stops Cloud Outages Before They Happen",
       "ja_title": null,
-      "url": "https://dev.to/nooralto1/why-your-pages-are-crawled-but-not-indexed-4lfa",
+      "url": "https://dev.to/rajan_mishra_a9f78ad216b4/shipcheck-an-autonomous-react-agent-that-stops-cloud-outages-before-they-happen-5ag1",
       "source": "dev.to",
       "source_id": "dev-to",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-25T00:01:18Z",
-      "score": 0.7834,
+      "published": "2026-09-26T00:09:15Z",
+      "score": 0.7829,
       "distance": 0.7699,
-      "interest": 0.797,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Why your pages are crawled but not indexed \"Crawled, currently not indexed\" in Search Console gets treated as one problem with one fix, usually \"publish better content.\" The status covers several distinct failure modes, and content quality is only one of them. The other three are",
-      "explore": false
-    },
-    {
-      "title": "Cursor Projects: a plan rewritten 111 times and read once",
-      "ja_title": null,
-      "url": "https://dev.to/lutz_leonhardt/cursor-projects-a-plan-rewritten-111-times-and-read-once-4j77",
-      "source": "dev.to",
-      "source_id": "dev-to",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-25T00:00:19Z",
-      "score": 0.7821,
-      "distance": 0.7699,
-      "interest": 0.7943,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "TL;DR I like the idea. One orchestrator that keeps the context and hands the work to agents is a good approach, and it already did useful work for me. It is also still a beta. The work gets done. The orchestrator hands out the tasks, and the agents deliver. For professional proje",
-      "explore": false
-    },
-    {
-      "title": "36歳で急死の米俳優ヘイデン・パネッティーアさん、死因はフェンタニルなどの過剰摂取　「事故死」と断定",
-      "ja_title": null,
-      "url": "https://www.cnn.co.jp/usa/35252871.html?ref=rss",
-      "source": "cnn.co.jp",
-      "source_id": "cnn-co-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-23T04:44:00Z",
-      "score": 0.782,
-      "distance": 0.757,
-      "interest": 0.807,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "米サウスカロライナ州当局は22日、先月急死した米俳優ヘイデン・パネッティーアさん（享年36）について、オピオイド（麻薬性鎮痛薬）「フェンタニル」などの薬物の有害作用が死因になったとの見解を明らかにした。パネッティーアさんは若くして手に入れた名声や薬物依存を巡る葛藤を公に語っていた。 グリーンビル郡検視局によると、事故死と断定された。ただ、死亡現場から数千キロ離れた西海岸では、パネッティーアさんがカ...",
-      "explore": false
-    },
-    {
-      "title": "1.) Jim Copenhaver died yesterday at 76. He was shot twice at Butler. In June he sued the federal government, and that complaint laid out exactly how it was allowed to happen. 💎🧵",
-      "ja_title": null,
-      "url": "https://threadreaderapp.com/thread/2103181053875675552.html",
-      "source": "threadreaderapp.com",
-      "source_id": "threadreaderapp-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-24T17:53:33Z",
-      "score": 0.782,
-      "distance": 0.7681,
       "interest": 0.7959,
       "judged": false,
       "pinned": false,
@@ -436,22 +354,49 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "1.) Jim Copenhaver died yesterday at 76. He was shot twice at Butler. In June he sued the federal government, and that complaint laid out exactly how it was allowed to happen. 💎🧵2.) He and David Dutch, the other man shot that day, filed in the Western District of Pennsylvania on ",
+      "excerpt": "This is a submission for the Sanity Challenge, Path One: Ship an Agent That Queries Real Content . What I Built Modern engineering teams increasingly rely on autonomous AI coding agents (Claude Code, Cursor, GitHub Copilot) to generate code and push infrastructure pull requests. ",
       "explore": false
     },
     {
-      "title": "3年前に発売の「ミニオンズ」のWi-Fiルーター、“なぜかガチ性能”と今ごろ脚光浴びる。最大通信速度5400Mbpsの高速ケビン",
+      "title": "Astronomers Find a Sub-Neptune Orbiting Completely Backward Around a Red Dwarf",
       "ja_title": null,
-      "url": "https://automaton-media.com/articles/newsjp/20260924-469713/",
-      "source": "automaton-media.com",
-      "source_id": "automaton-media-com",
+      "url": "https://www.universetoday.com/articles/astronomers-find-a-sub-neptune-orbiting-completely-backward-around-a-red-dwarf",
+      "source": "universetoday.com",
+      "source_id": "universetoday-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-24T07:21:37Z",
-      "score": 0.7805,
-      "distance": 0.765,
-      "interest": 0.796,
+      "published": "2026-09-25T18:52:59Z",
+      "score": 0.7812,
+      "distance": 0.7684,
+      "interest": 0.794,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "In our own solar system, all eight planets orbit our Sun in a nice, orderly fashion. None are more than 7° or so out of alignment with the equator, and all of them rotate in the same direction as the Sun itself. But that’s not the case for all solar systems, and a new paper publi",
+      "explore": false
+    },
+    {
+      "title": "CNNなどのホワイトハウス立ち入り禁止、トランプ政権に差し止め命令　米連邦裁判所",
+      "ja_title": null,
+      "url": "https://www.cnn.co.jp/usa/35252915.html?ref=rss",
+      "source": "cnn.co.jp",
+      "source_id": "cnn-co-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-24T05:32:00Z",
+      "score": 0.7811,
+      "distance": 0.7572,
+      "interest": 0.805,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -463,22 +408,49 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "人気映画「ミニオンズ」のキャラクターを模したWi-FiルーターがSNSで大きな注目を浴びている。",
+      "excerpt": "米連邦裁判所は24日、トランプ大統領によるCNNとMS NOW、ポリティコへのホワイトハウス立ち入り禁止措置について、即時差し止めを命じた。 24日未明に公表された判決によると、ティモシー・ケリー判事は記者の取材許可証の取り消しが「憲法上の適正手続き」を経ずに実施されたとの判断を示した。 ケリー氏は「『一般的な原則』として、政府が憲法で保護された個人の権利をはく奪する前に、その個人は通知を受け、意見を述べる...",
       "explore": false
     },
     {
-      "title": "マウスコンピューターは今年のTGSで“昨年比2倍以上”にブースが巨大化、一体なぜ。“高いスペックの必要ないゲーム”を出展する理由、新製品のターゲット層までいろいろ訊いた",
+      "title": "『フォートナイト』が「子どもへの課金圧出し過ぎ」として集団訴訟を突きつけられる。和解できなければ法廷へ、賠償請求額は「約180億円超」か",
       "ja_title": null,
-      "url": "https://automaton-media.com/articles/reportjp/20260924-469609/",
+      "url": "https://automaton-media.com/articles/newsjp/20260925-469916/",
       "source": "automaton-media.com",
       "source_id": "automaton-media-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-24T04:00:04Z",
+      "published": "2026-09-25T03:45:56Z",
+      "score": 0.7807,
+      "distance": 0.7639,
+      "interest": 0.7975,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "オンラインゲーム『フォートナイト』について、オランダの消費者団体がEpic Gamesを相手取った集団訴訟に向けて動いている。",
+      "explore": false
+    },
+    {
+      "title": "SEO Automation Signals a Hybrid Future: Rules, AI, and Human Approval",
+      "ja_title": null,
+      "url": "https://dev.to/alifar/seo-automation-signals-a-hybrid-future-rules-ai-and-human-approval-2hd",
+      "source": "dev.to",
+      "source_id": "dev-to",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-26T00:15:30Z",
       "score": 0.7787,
-      "distance": 0.764,
-      "interest": 0.7934,
+      "distance": 0.77,
+      "interest": 0.7873,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -487,79 +459,25 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "日本語 (+)"
+        "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "昨年から2倍以上に拡大したマウスコンピューターのTGSブースを取材した。PCゲーミングの世界を広げていこうとするマウスコンピューターの姿勢が感じられた。",
+      "excerpt": "SEO automation is increasingly being framed as a workflow design problem , not a choice between manual work and autonomous AI. A recent signal from Search Engine Land's official X account highlights the practical question: which SEO tasks should run on rules, which benefit from A",
       "explore": false
     },
     {
-      "title": "「殺された可能性が高い」K-POP好き、マジメな少女がなぜ学校を無断欠席…《15歳少女失踪事件》警察が逮捕した「あまりに意外な人物」（平成31年・海外の事件）",
+      "title": "相葉雅紀、ラジオ＝“人の思いをつなぐ場所”で寄り添い続けた25年間　リスペクトを胸にACEesが受け取るバトン",
       "ja_title": null,
-      "url": "https://bunshun.jp/articles/-/92222",
-      "source": "bunshun.jp",
-      "source_id": "bunshun-jp",
+      "url": "https://realsound.jp/2026/09/post-2533515.html",
+      "source": "realsound.jp",
+      "source_id": "realsound-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-24T01:00:00Z",
-      "score": 0.7784,
-      "distance": 0.7631,
-      "interest": 0.7938,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "真面目な性格でK-POP好きの15歳少女が、姉の家から学校へ向かったまま行方不明となった。警察の捜査により、自主的な失踪ではなく殺人事件の可能性が浮上。監視カメラの映像や不審な検索履歴から、警察は「あ…",
-      "explore": false
-    },
-    {
-      "title": "AIと外部システムをつなぐ標準仕様MCPの原理から本番運用まで網羅『PythonとMCPで実装するAIエージェント基盤　プロトコルの基礎からコード設計／認証認可／本番運用まで』を9月24日（木）に発売",
-      "ja_title": null,
-      "url": "https://prtimes.jp/main/html/rd/p/000007682.000005875.html",
-      "source": "prtimes.jp",
-      "source_id": "prtimes-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-24T23:10:02Z",
-      "score": 0.7781,
-      "distance": 0.7697,
-      "interest": 0.7864,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "[株式会社インプレスホールディングス] インプレスグループでIT・デザイン関連メディア事業を展開する株式会社インプレス（本社：東京都千代田区、代表取締役社長：高橋隆志）は、AIと外部システムを接続する標準プロトコルMCP（Model Context Protocol...",
-      "explore": false
-    },
-    {
-      "title": "“Charlie Brown Must Stay the Course”: A Football Kick Autopsy Report by the Democratic Party",
-      "ja_title": null,
-      "url": "https://www.mcsweeneys.net/articles/charlie-brown-must-stay-the-course-a-football-kick-autopsy-report-by-the-democratic-party",
-      "source": "mcsweeneys.net",
-      "source_id": "mcsweeneys-net",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-24T17:30:00Z",
+      "published": "2026-09-25T22:00:38Z",
       "score": 0.778,
-      "distance": 0.768,
-      "interest": 0.7879,
+      "distance": 0.7693,
+      "interest": 0.7867,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -568,26 +486,26 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "long-form (+)"
+        "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "&#8220;Senator Tammy Duckworth (D-IL) says Democrats should not impeach &#8216;anybody&#8217; if they regain control of Congress &#8230; &#8216;I would rather move the ball forward&#8217; to the benefit of the American people, and if we can do it in a way that allows him [Trump] ",
+      "excerpt": "相葉雅紀がパーソナリティを務めるラジオ『相葉雅紀のレコメン！リミックス』（文化放送）が9月末で終了。相葉がラジオで寄り添った25年とバトンを受け取るACEesについて紹介する。",
       "explore": false
     },
     {
-      "title": "The 🔥🔥🔥 New Social App: NPR Podcasts Comments Section on Spotify",
+      "title": "閉園したカナダの水族館から移送の海洋哺乳類、相次ぎ死ぬ 元トレーナー「劣悪な飼育環境」を指摘",
       "ja_title": null,
-      "url": "https://kottke.org/26/09/the-new-social-app-npr-podcasts-comments-section-on-spotify",
-      "source": "kottke.org",
-      "source_id": "kottke",
+      "url": "https://www.afpbb.com/articles/-/3654412",
+      "source": "はてブ · 学び新着",
+      "source_id": "hatena-know",
       "tags": [
-        "curation",
-        "culture"
+        "ja",
+        "ideas"
       ],
-      "published": "2026-09-24T15:45:00Z",
-      "score": 0.7764,
-      "distance": 0.7675,
-      "interest": 0.7853,
+      "published": "2026-09-25T03:43:57Z",
+      "score": 0.7757,
+      "distance": 0.7638,
+      "interest": 0.7876,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -596,25 +514,26 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "long-form (+)"
+        "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "{Ira Glass voice} On this week’s episode of This American Life , the story of middle schoolers too young for social media chatting in the comments section of NPR’s podcasts on Spotify. From the transcript : And it was just, like, gibberish. There was a bunch of new comments, but ",
+      "excerpt": "【9月25日 AFP】閉園したカナダの海洋テーマパークから移送された海洋哺乳類の死が相次いでおり、スペインでイルカ1頭が死んだことが新たに分かった。 スペイン・バレンシアにあるオセアノグラフィック水族館は24日、2024年に閉園したカナダの「マリンランド」から到着したイルカの「エコー」について、「重度の視力障害...",
       "explore": false
     },
     {
-      "title": "Underwear",
+      "title": "日本を覆う「ふんわり情報統制」 - 環境と法 - 京都大学大学院法学研究科附属 法政策共同研究センター",
       "ja_title": null,
-      "url": "https://en.wikiquote.org/w/index.php?title=Underwear&diff=4019515&oldid=4019032",
-      "source": "en.wikiquote.org",
-      "source_id": "en-wikiquote-org",
+      "url": "https://environment-and-law-kyoto.jp/2026/09/25/0925y/",
+      "source": "はてブ · 学び新着",
+      "source_id": "hatena-know",
       "tags": [
-        "discovered"
+        "ja",
+        "ideas"
       ],
-      "published": "2026-09-24T22:31:47Z",
-      "score": 0.7748,
-      "distance": 0.7695,
-      "interest": 0.78,
+      "published": "2026-09-25T12:48:19Z",
+      "score": 0.7752,
+      "distance": 0.7665,
+      "interest": 0.7839,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -623,54 +542,25 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "long-form (+)"
+        "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "added thumbnail ← Older revision Revision as of 22:31, 24 September 2026 Line 1: Line 1: [[File:Style4321girdlePink.jpg|thumb]] '''[[w:Underwear|Underwear]]''', '''underclothing''', or '''undergarments''' are items of clothing worn beneath outer clothes, usually in direct contact",
+      "excerpt": "安田 陽（環境と法ユニット 協力研究員） （ストラスクライド大学・アカデミックビジター ／環境エネルギー政策研究所・主任研究員） キーワード #国際情報 #脱炭素 #エネルギー安全保障 前回のコラムで日本を覆う「ふんわり情報統制」についてほんの少しだけ言及しました。筆者のいう「ふんわり情報統制」とは、た...",
       "explore": false
     },
     {
-      "title": "Out Now: Low-tech Magazine Volume IV",
+      "title": "You should all be asking way more questions",
       "ja_title": null,
-      "url": "https://solar.lowtechmagazine.com/2026/09/out-now-low-tech-magazine-volume-iv/",
-      "source": "Low←Tech Magazine",
-      "source_id": "lowtech",
-      "tags": [
-        "tech",
-        "sustainability",
-        "contrarian"
-      ],
-      "published": "2026-09-24T00:00:00Z",
-      "score": 0.7736,
-      "distance": 0.7628,
-      "interest": 0.7845,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Image: Low-tech Magazine Volume IV (2022-2026). Photo: Juliette Demaret. Low-tech Magazine presents the fourth volume in the chronological book series. It contains twenty articles that were published online between 2022 and 2026. Three earlier volumes collect articles written and",
-      "explore": false
-    },
-    {
-      "title": "Not Everyone Can Code",
-      "ja_title": null,
-      "url": "https://funcall.blogspot.com/2026/09/not-everyone-can-code_01093260948.html",
-      "source": "funcall.blogspot.com",
-      "source_id": "funcall-blogspot-com",
+      "url": "https://seangoedecke.com/you-should-all-be-asking-way-more-questions/",
+      "source": "seangoedecke.com",
+      "source_id": "seangoedecke-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-24T11:51:42Z",
-      "score": 0.7733,
-      "distance": 0.7663,
-      "interest": 0.7803,
+      "published": "2026-09-25T00:00:00Z",
+      "score": 0.7732,
+      "distance": 0.7627,
+      "interest": 0.7836,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -682,23 +572,23 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Not everyone can debug code Counterfactual reasoning is a technique where you assume alternative scenarios that could have happened, but did not in fact happen. You assume something is true when it is, in fact, false. A question involving a counterfactual is \"What if dinosaurs ha",
+      "excerpt": "When someone is explaining something to me, I ask on average one question every thirty seconds. I’m sure this is frustrating to some people, but it’s actually a good habit and you should do it too. Trying to understand Most of the questions I ask are very short, and require very ",
       "explore": false
     },
     {
-      "title": "みんなJevの話してる。やってないの俺だけ",
+      "title": "OpenAIとClaudeのAgent SDKから学ぶAgentの基本構成 - ぷらすのブログ",
       "ja_title": null,
-      "url": "https://zenn.dev/unsoluble_sugar/articles/jev-system-one-model-intro",
+      "url": "https://blog.p1ass.com/posts/agent-foundations/",
       "source": "はてブ · テクノロジー新着",
       "source_id": "hatena-it",
       "tags": [
         "ja",
         "tech"
       ],
-      "published": "2026-09-24T08:41:14Z",
-      "score": 0.7732,
-      "distance": 0.7654,
-      "interest": 0.7811,
+      "published": "2026-09-25T13:15:56Z",
+      "score": 0.7729,
+      "distance": 0.7667,
+      "interest": 0.7791,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -710,22 +600,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "はじめに 2026年9月中旬あたりから、タイムラインが急に「Jev」の話題で埋まりました。「LLMより200倍速い」「出力トークン無料」「ハルシネーションしない」と景気のいい言葉が並ぶ一方で、自分はまだAPIキーすら持っていません。 やってないのは俺だけか…という焦りを燃料に、Jevとは何か、なぜ騒がれているのか、LLM...",
+      "excerpt": "こんにちは、ぷらす(@p1ass)です。 最近、Agent を「使う側」ではなく「作る側」に興味を持ち始めています。 色々と新しい学びが多いなぁと感じているので、せっかくなので自分が学んだ Agent の開発について、何回かに分けて記事を書いていこうと思います。 現在予定しているテーマは次の 7 つです。 Agent の基本構成 ...",
       "explore": false
     },
     {
-      "title": "Engineering the Substation Exit for Reliability, Capacity, and Expansion",
+      "title": "Backup  to NAS Synology",
       "ja_title": null,
-      "url": "https://content.knowledgehub.wiley.com/aerial-cable-systems-for-substation-exit-construction/",
-      "source": "spectrum.ieee.org",
-      "source_id": "spectrum-ieee-org",
+      "url": "https://forum.proxmox.com/threads/backup-to-nas-synology.149630/",
+      "source": "forum.proxmox.com",
+      "source_id": "forum-proxmox-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-24T10:00:06Z",
-      "score": 0.7732,
-      "distance": 0.7657,
-      "interest": 0.7807,
+      "published": "2026-09-25T14:04:29Z",
+      "score": 0.7729,
+      "distance": 0.7669,
+      "interest": 0.7789,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -737,49 +627,21 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "This white paper gives distribution engineers and utility teams a practical overview of the substation exit, the short and high-consequence section where station capacity divides into individual feeders. It explains how covered, spacer-supported overhead construction can reduce c",
+      "excerpt": "hi everyone I want to ask the best way to backup to a Synology Nas Is there a way to back up to a Synology Nas but only back up the latest data, not back up from the beginning? because backing up data from the start takes a long time and why sometimes the latest data from new bac",
       "explore": false
     },
     {
-      "title": "合意形成能力がなければ恋愛や結婚はうまくいかない",
+      "title": "OpenAI and Cursor agree on agent coordinators. They disagree on who runs them.",
       "ja_title": null,
-      "url": "https://blog.tinect.jp/?p=91498",
-      "source": "Books&Apps",
-      "source_id": "tinect",
-      "tags": [
-        "ja",
-        "essays"
-      ],
-      "published": "2026-09-23T23:23:31Z",
-      "score": 0.773,
-      "distance": 0.7626,
-      "interest": 0.7834,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "少し前、ある人から「恋愛や結婚に必要なのは何か」について話をうかがいました。 その人は「結婚はもちろん、恋愛でも契約が重要だ」とおっしゃいました。 その場の私は「確かにそうかもしれない」と思って否定しませんでしたが、違和(...) こんな記事も読まれています 医者の僕でも、コロナウイルスをナメていたが、間違っていた。 「国語ができる人には意味不明だけど、馬鹿には読める文章」の正体",
-      "explore": false
-    },
-    {
-      "title": "Why the best resume may be the wrong resume for a design team",
-      "ja_title": null,
-      "url": "https://uxdesign.cc/why-the-best-resume-may-be-the-wrong-resume-for-a-design-team-c019b8568662?source=rss----138adf9c44c---4",
-      "source": "uxdesign.cc",
-      "source_id": "uxdesign-cc",
+      "url": "https://thenewstack.io/openai-cursor-coordinator-agents/",
+      "source": "thenewstack.io",
+      "source_id": "thenewstack-io",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-23T04:06:17Z",
-      "score": 0.7665,
-      "distance": 0.7569,
+      "published": "2026-09-25T12:00:00Z",
+      "score": 0.7712,
+      "distance": 0.7663,
       "interest": 0.776,
       "judged": false,
       "pinned": false,
@@ -792,22 +654,187 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "What design leadership gets wrong about experience, expertise, and innovation on a team. Continue reading on UX Collective »",
+      "excerpt": "OpenAI opened its Agents API in public beta this month, exposing the harness that powers Codex with managed sessions, tool The post OpenAI and Cursor agree on agent coordinators. They disagree on who runs them. appeared first on The New Stack .",
       "explore": false
     },
     {
-      "title": "Opera’s free VPN can now turn on by itself on public Wi-Fi",
+      "title": "《超高齢出産》「高い値段で精子を売ってたけど…」ニューヨークに移住した日本人女性（52）が49歳で妊娠するまでの道のり",
       "ja_title": null,
-      "url": "https://www.pcworld.com/article/3243328/opera-free-vpn-can-now-turn-on-by-itself-on-public-wi-fi.html",
-      "source": "pcworld.com",
-      "source_id": "pcworld-com",
+      "url": "https://bunshun.jp/articles/-/92318",
+      "source": "bunshun.jp",
+      "source_id": "bunshun-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-24T15:03:28Z",
-      "score": 0.7659,
-      "distance": 0.7673,
-      "interest": 0.7646,
+      "published": "2026-09-25T21:20:00Z",
+      "score": 0.771,
+      "distance": 0.7691,
+      "interest": 0.7729,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "49歳で卵子提供を受け、ニューヨークで出産したこりんごさん（52）。現在はYouTubeやブログで不妊治療や高齢育児について発信を続ける彼女だが、そもそもなぜニューヨークへ移住したのか。こりんごさんと…",
+      "explore": false
+    },
+    {
+      "title": "3 QTNA: Where will Cowboys run game come from vs Ravens in Week 3?",
+      "ja_title": null,
+      "url": "https://sports.yahoo.com/articles/3-qtna-where-cowboys-run-000110841.html",
+      "source": "sports.yahoo.com",
+      "source_id": "sports-yahoo-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-26T00:01:10Z",
+      "score": 0.7709,
+      "distance": 0.7699,
+      "interest": 0.7718,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)"
+      ],
+      "ja": null,
+      "excerpt": "Dallas has to figure out why they struggle to run the ball, create explosive plays, and slow down mobile QBs if they want a win over the Ravens",
+      "explore": false
+    },
+    {
+      "title": "Angular: プライベートフィールドの意味論再考",
+      "ja_title": null,
+      "url": "https://zenn.dev/lacolaco/articles/angular-private-fields",
+      "source": "Zenn",
+      "source_id": "zenn",
+      "tags": [
+        "ja",
+        "tech",
+        "tools"
+      ],
+      "published": "2026-09-24T22:30:00Z",
+      "score": 0.7702,
+      "distance": 0.7623,
+      "interest": 0.7781,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "Angular v22.2.0アップデートから、コンポーネントクラスのプライベートフィールドについてテンプレートコンパイラの振る舞いが変更された。この記事では更新内容と、それにより再考しなければならないフィールド宣言の意味論について現在の考えをまとめる。 更新内容 Angular v22.2.0アップデートでは、コンポーネントのテンプレート内からprivate修飾子により宣言されたクラスフィールド（メンバ変数）が参照可能になった。 https://github.com/angular/angular/pull/70188 具体的には次のようなコードが実行",
+      "explore": false
+    },
+    {
+      "title": "Speculative Reward Hacking in Coding Agents",
+      "ja_title": null,
+      "url": "https://joinhandshake.com/research/ai/deepswe-reward-hacking/",
+      "source": "Hacker News (new, pre-viral)",
+      "source_id": "hackernews",
+      "tags": [
+        "tech",
+        "frontier"
+      ],
+      "published": "2026-09-25T23:13:52Z",
+      "score": 0.7693,
+      "distance": 0.8697,
+      "interest": 0.6689,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)",
+        "pre-viral (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "",
+      "explore": false
+    },
+    {
+      "title": "【総務省 後援】「JAPAN AX Player AWARD 2026」11月29日開催 全国から“現場でAXを実装するプレイヤー”を発掘・表彰",
+      "ja_title": null,
+      "url": "https://prtimes.jp/main/html/rd/p/000000009.000123016.html",
+      "source": "prtimes.jp",
+      "source_id": "prtimes-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-25T01:40:39Z",
+      "score": 0.7671,
+      "distance": 0.7632,
+      "interest": 0.771,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "[一般社団法人日本DX地域創生応援団] 一般社団法人日本DX地域創生応援団（以下、当応援団）は、2026年11月29日（日）、港区立産業振興センターにて「JAPAN AX Player AWARD 2026」を開催します。このたび、本アワードについて総務省の後援が決定しま...",
+      "explore": false
+    },
+    {
+      "title": "Why Are We So Bad at Resisting a Craving?",
+      "ja_title": null,
+      "url": "https://www.psychologytoday.com/us/blog/beyond-willpower/202609/why-are-we-so-bad-at-resisting-a-craving",
+      "source": "psychologytoday.com",
+      "source_id": "psychologytoday-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-24T20:32:57Z",
+      "score": 0.7669,
+      "distance": 0.7617,
+      "interest": 0.772,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)"
+      ],
+      "ja": null,
+      "excerpt": "We often blame willpower when we can’t resist food. But your food noise may be much louder than someone else’s.",
+      "explore": false
+    },
+    {
+      "title": "a hacky fucked up way to portably access errno from outside of c",
+      "ja_title": null,
+      "url": "https://sebsite.pw/w/20260925-errno.html",
+      "source": "sebsite.pw",
+      "source_id": "sebsite-pw",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-25T04:00:00Z",
+      "score": 0.7661,
+      "distance": 0.7639,
+      "interest": 0.7683,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -819,22 +846,49 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Opera hasn’t made much of a splash lately, with its most recent innovation being a new Paste Protect feature from July 2026 that blocks clipboard hijacking attacks. Indeed, it seems Opera is playing catch-up. The browser’s latest move is an improvement to its free, built-in VPN, ",
+      "excerpt": "here's something really cursed i made a while back. the goal here is to create a portable way to obtain the value of errno from outside of c, without using a wrapper function written in c. for those unaware, errno is defined as a macro, and its expansion is non-portable and usual",
       "explore": false
     },
     {
-      "title": "Proxmox File Level Restore Portal (Open Source) with snapshot timeline and guest restore",
+      "title": "Critical security vulnerabilities in the Radicle network protocol",
       "ja_title": null,
-      "url": "https://forum.proxmox.com/threads/proxmox-file-level-restore-portal-open-source-with-snapshot-timeline-and-guest-restore.186660/",
-      "source": "forum.proxmox.com",
-      "source_id": "forum-proxmox-com",
+      "url": "https://lwn.net/Articles/1096200/",
+      "source": "lwn.net",
+      "source_id": "lwn-net",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-24T23:25:07Z",
+      "published": "2026-09-23T14:20:46Z",
+      "score": 0.7658,
+      "distance": 0.7527,
+      "interest": 0.7789,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "The Radicle peer-to-peer code-collaboration project has disclosed two critical vulnerabilities in the network protocol used by Radicle nodes. The first flaw is that the network protocol used by Radicle \" does not give the confidentiality it was expected to give \", which allows an",
+      "explore": false
+    },
+    {
+      "title": "The philosophy of liberalism and how it has transformed our institutions",
+      "ja_title": null,
+      "url": "https://bigthink.com/series/full-interview/philosophy-of-liberalism/",
+      "source": "bigthink.com",
+      "source_id": "bigthink-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-25T04:00:00Z",
       "score": 0.7655,
-      "distance": 0.7697,
-      "interest": 0.7613,
+      "distance": 0.7639,
+      "interest": 0.7672,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -846,22 +900,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Proxmox&#039;s file-restore feature (browse/download individual files out of a PBS backup via the helper-VM) already does the hard part — it&#039;s just missing a way to scrub across snapshots instead of picking one at a time from a flat dropdown. I built a small companion app on",
+      "excerpt": "Jonathan Rauch, author and senior fellow at the Brookings Institution, dives into the philosophy of liberalism, how it has created and transformed our institutions, and the state of truth in a world rife with misinformation. This video The philosophy of liberalism and how it has ",
       "explore": false
     },
     {
-      "title": "クラウドAI全盛なのに、なぜスマホ本体にもAI処理性能が必要なのか--クアルコムの回答は",
+      "title": "Huge win for @OhioAG &amp; @AGTennessee against @Kalshi: the unanimous panel holds that sports-event contracts are not \"swaps\" and so there is not exclusive @CFTC jurisdiction per Judge Gibbons. This deepens the split with the Third Circuit. Supreme Court will be the next stop. <span class=\"row justify-content-center entity-multiple-undefined\"><span class=\"col-md-6\"><span class=\"entity-image\"><a href=\"https://pbs.twimg.com/media/HTFi5QhWkAAr7Q0.jpg\" target=\"_blank\"><img alt=\"Image\" src=\"https://threadreaderapp.com/images/1px.png\" /></a></span></span><br />\n<span class=\"col-md-6\"><span class=\"entity-image\"><a href=\"https://pbs.twimg.com/media/HTFjEvwWkAAKfRE.jpg\" target=\"_blank\"><img alt=\"Image\" src=\"https://threadreaderapp.com/images/1px.png\" /></a></span></span></span>",
       "ja_title": null,
-      "url": "https://japan.cnet.com/article/35252935/",
-      "source": "japan.cnet.com",
-      "source_id": "japan-cnet-com",
+      "url": "https://threadreaderapp.com/thread/2103572384615944530.html",
+      "source": "threadreaderapp.com",
+      "source_id": "threadreaderapp-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-24T22:10:00Z",
-      "score": 0.765,
-      "distance": 0.7694,
-      "interest": 0.7605,
+      "published": "2026-09-25T19:48:33Z",
+      "score": 0.7652,
+      "distance": 0.7686,
+      "interest": 0.7618,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -870,133 +924,25 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "日本語 (+)"
+        "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "生成AIの高性能モデルは、現在もクラウド上で動くものが中心だ。では、なぜスマートフォン側にも高性能なAI処理能力が必要なのか。米クアルコムは9月23日（現地時間）、米ハワイ州で開催中の「Snapdragon Summit 2026」の質疑応答で、その理由を説明した。",
+      "excerpt": "Huge win for @OhioAG &amp; @AGTennessee against @Kalshi: the unanimous panel holds that sports-event contracts are not \"swaps\" and so there is not exclusive @CFTC jurisdiction per Judge Gibbons. This deepens the split with the Third Circuit. Supreme Court will be the next stop. I",
       "explore": false
     },
     {
-      "title": "初期段階から巻き込みたいが初期すぎて巻き込みにくい問題の対処法",
+      "title": "VM VPN Client network traffic not working when Firewall enabled on Datacenter",
       "ja_title": null,
-      "url": "https://konifar-zatsu.hatenadiary.jp/entry/2026/09/24/120601",
-      "source": "konifar-zatsu.hatenadiary.jp",
-      "source_id": "konifar-zatsu-hatenadiary-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-24T03:06:01Z",
-      "score": 0.7632,
-      "distance": 0.7637,
-      "interest": 0.7627,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "新しいプロジェクトを始める時など、「まだ煮詰まっていない初期段階から関連しそうな人を巻き込んでいったほうが早めの軌道修正もできてよいだろうなと思いつつも、こんなに何も決まってない初期から巻き込むのもなあと思って気が引けてしまう問題」について雑にまとめてみたい。 議論の初期段階から直接関わることで、文脈や経緯を深く理解できる。たとえば、仕様が決まってから関わるのではなく、なぜ今やるのか、どういう仕様にするのかという生煮えの議論から入っておきたいエンジニアやデザイナーも多いんじゃないかな。 そんなん議事録生成して非同期で連携すればいいじゃんと思う人もいるかも",
-      "explore": false
-    },
-    {
-      "title": "Which storage pool drver for incus running on Hyper-V VM?",
-      "ja_title": null,
-      "url": "https://discuss.linuxcontainers.org/t/which-storage-pool-drver-for-incus-running-on-hyper-v-vm/27250#post_5",
-      "source": "discuss.linuxcontainers.org",
-      "source_id": "discuss-linuxcontainers-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-23T04:41:46Z",
-      "score": 0.7631,
-      "distance": 0.757,
-      "interest": 0.7692,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)"
-      ],
-      "ja": null,
-      "excerpt": "Ah, thought it would use it more heavily cause of how it normally works when having direct hardware access. So when it’s in a VM that “extra” caching behavior would be “wasted” as there are layers above doing it’s own caching already. Thanks:)",
-      "explore": false
-    },
-    {
-      "title": "What Survival Stories Tell Us (and Should We Listen?)",
-      "ja_title": null,
-      "url": "https://www.newyorker.com/podcast/critics-at-large/what-survival-stories-tell-us-and-should-we-listen",
-      "source": "newyorker.com",
-      "source_id": "newyorker-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-24T10:00:00Z",
-      "score": 0.7605,
-      "distance": 0.7657,
-      "interest": 0.7552,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)"
-      ],
-      "ja": null,
-      "excerpt": "Tales of human resilience in nature bring the thrill of the wild to the comfort of the couch. In our hyper-developed day and age, why do we return to stripped-down tales of survival?",
-      "explore": false
-    },
-    {
-      "title": "Siri AI is hiding inside Apple's HomePod — so why isn't it working?",
-      "ja_title": null,
-      "url": "https://www.tomsguide.com/audio/smart-speakers/siri-ai-is-hiding-inside-apples-homepod-so-why-isnt-it-working",
-      "source": "tomsguide.com",
-      "source_id": "tomsguide-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-09-24T10:21:35Z",
-      "score": 0.7595,
-      "distance": 0.7659,
-      "interest": 0.7532,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)"
-      ],
-      "ja": null,
-      "excerpt": "The audioOS 27 update has Siri AI hiding under the surface, but it's not accessible on your HomePod. Here's what we know.",
-      "explore": false
-    },
-    {
-      "title": "Stage 2 of GC finds no chunks (Hetzner S3)",
-      "ja_title": null,
-      "url": "https://forum.proxmox.com/threads/stage-2-of-gc-finds-no-chunks-hetzner-s3.186632/",
+      "url": "https://forum.proxmox.com/threads/vm-vpn-client-network-traffic-not-working-when-firewall-enabled-on-datacenter.186676/",
       "source": "forum.proxmox.com",
       "source_id": "forum-proxmox-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-24T15:07:56Z",
-      "score": 0.7592,
-      "distance": 0.7673,
-      "interest": 0.7511,
+      "published": "2026-09-25T12:50:55Z",
+      "score": 0.7621,
+      "distance": 0.7666,
+      "interest": 0.7576,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1008,22 +954,23 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Hello, I have a remote PBS running in Hetzner. The backups originate from another PBS (pulls). The data is encrypted on the other PBS during backup. Somehow it never deletes any chunks. I&#039;ve deleted all snapshots of both a large VM, relative to my total size of about 1TB, an",
+      "excerpt": "Hi, I have an issue where when I enable the Firewall on the Datacenter some VM traffic is blocked even when firewall is not enabled on the VM. Just to clearify. This is how I reproduce the problem. 1. Connect to a specific VM using the console 2. Connect to a customer site using ",
       "explore": false
     },
     {
-      "title": "Joanna Stern Interviews Mark Zuckerberg",
+      "title": "What if America Went Completely Dark? “We came up with...",
       "ja_title": null,
-      "url": "https://thenewthings.com/p/exclusive-mark-zuckerberg-interview",
-      "source": "daringfireball.net",
-      "source_id": "daringfireball-net",
+      "url": "https://kottke.org/26/09/0049670-what-if-america-went-comp",
+      "source": "kottke.org",
+      "source_id": "kottke",
       "tags": [
-        "discovered"
+        "curation",
+        "culture"
       ],
-      "published": "2026-09-24T20:53:03Z",
-      "score": 0.7588,
-      "distance": 0.769,
-      "interest": 0.7485,
+      "published": "2026-09-25T19:39:00Z",
+      "score": 0.7601,
+      "distance": 0.7686,
+      "interest": 0.7516,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1032,25 +979,26 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "long-form (+)"
+        "poses a question (+)"
       ],
       "ja": null,
-      "excerpt": "Great interview from Stern, as usual, seemingly conducted on the old set of Three’s Company . She opened by asking if AI is going to wipe out humanity, and I think Zuck whiffed by not simply laughing and saying no. She also directly asked his thoughts on people calling Meta Glass",
+      "excerpt": "What if America Went Completely Dark? &#8220;We came up with some very astounding numbers. If you knock out nine total substations among those three grids, you can black out the entire United States.” And it could last months ?",
       "explore": false
     },
     {
-      "title": "Bouncy Ball 3D and Taking KDE to the Pyramids",
+      "title": "Why is This Octopus Hitching a Ride on a Dolphin?",
       "ja_title": null,
-      "url": "https://blogs.kde.org/2026/09/24/bouncy-ball-3d/",
-      "source": "blogs.kde.org",
-      "source_id": "blogs-kde-org",
+      "url": "https://nautil.us/why-is-this-octopus-hitching-a-ride-on-a-dolphin-1285278/",
+      "source": "Nautilus",
+      "source_id": "nautilus",
       "tags": [
-        "discovered"
+        "science",
+        "essays"
       ],
-      "published": "2026-09-24T00:00:00Z",
-      "score": 0.7588,
-      "distance": 0.7628,
-      "interest": 0.7548,
+      "published": "2026-09-25T14:00:00Z",
+      "score": 0.7596,
+      "distance": 0.7669,
+      "interest": 0.7523,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1059,25 +1007,26 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "long-form (+)"
+        "poses a question (+)"
       ],
       "ja": null,
-      "excerpt": "During this year's Akademy, while celebrating KDE's 30th birthday, I found some time to do some hacking on a beloved old toy widget: the Bouncy Ball I used to maintain for a while, and which Filip recently made available for Plasma 6 again . The all-new Bouncy Ball 3D - find it o",
+      "excerpt": "A quirky little climate change story The post Why is This Octopus Hitching a Ride on a Dolphin? appeared first on Nautilus .",
       "explore": false
     },
     {
-      "title": "How confidential AI splits control between data and model owners — and opens new opportunities for both",
+      "title": "KC3で「Verilogで学ぶCPU自作入門」という1時間の講義をした - uyuki234’s blog",
       "ja_title": null,
-      "url": "https://thenewstack.io/confidential-ai-sensitive-enterprise-data/",
-      "source": "thenewstack.io",
-      "source_id": "thenewstack-io",
+      "url": "https://uyuki234.hatenablog.com/entry/2026/09/24/203544",
+      "source": "はてブ · テクノロジー新着",
+      "source_id": "hatena-it",
       "tags": [
-        "discovered"
+        "ja",
+        "tech"
       ],
-      "published": "2026-09-23T16:15:17Z",
-      "score": 0.7543,
-      "distance": 0.7605,
-      "interest": 0.7481,
+      "published": "2026-09-25T10:34:19Z",
+      "score": 0.7586,
+      "distance": 0.7659,
+      "interest": 0.7512,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1086,25 +1035,25 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "long-form (+)"
+        "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "Most people already understand what generative AI can do. But enterprises run into problems when they need to give a The post How confidential AI splits control between data and model owners — and opens new opportunities for both appeared first on The New Stack .",
+      "excerpt": "2026年9月23日のKC3で、「Verilogで学ぶCPU自作入門」という1時間の講義・ハンズオンをしました！ 受講者は18人とかなり多く、緊張しましたが、「わかりやすかったです！」との言葉を複数いただき、かなり好評で嬉しかったです。特に、講義終了後に質問に来てくれる方が4人くらいいて、講義の内容に興味を持ってもらえた...",
       "explore": false
     },
     {
-      "title": "UEFI boot order does not persist after reboot",
+      "title": "JagOS ‘Spot’ turns Atari Jaguar into the unreleased Atari Painter prototype computer",
       "ja_title": null,
-      "url": "https://discuss.linuxcontainers.org/t/uefi-boot-order-does-not-persist-after-reboot/27262#post_4",
-      "source": "discuss.linuxcontainers.org",
-      "source_id": "discuss-linuxcontainers-org",
+      "url": "https://www.osnews.com/story/146020/jagos-spot-turns-atari-jaguar-into-the-unreleased-atari-painter-prototype-computer/",
+      "source": "osnews.com",
+      "source_id": "osnews-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-09-23T01:19:57Z",
-      "score": 0.7539,
-      "distance": 0.756,
-      "interest": 0.7517,
+      "published": "2026-09-25T22:38:42Z",
+      "score": 0.7567,
+      "distance": 0.7695,
+      "interest": 0.7439,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1116,7 +1065,62 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "mkgvt: Note: Alpine doesn’t have shutdown , only halt which doesn’t close the Incus shell like shutdown -h now does in Debian. The VM has to be explicitly stopped. poweroff should do the job on Alpine. mkgvt: It appears that Incus generates the UEFI variables each time it boots. ",
+      "excerpt": "Can you run an operating system with a graphical user interface and applications on the Atari Jaguar? Well, you can. A long time running idea and work-in-progress, I&#8217;d like to finally announce the current version of JagOS &#8216;Spot&#8217; for the Atari Jaguar, running fro",
+      "explore": false
+    },
+    {
+      "title": "iPhone Duo video shows left-handed use for new model",
+      "ja_title": null,
+      "url": "https://9to5mac.com/2026/09/25/iphone-duo-video-shows-left-handed-use-for-new-model/",
+      "source": "9to5mac.com",
+      "source_id": "9to5mac-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-09-25T13:45:26Z",
+      "score": 0.7552,
+      "distance": 0.7668,
+      "interest": 0.7437,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "iPhone Duo is less than a month away , but many prospective buyers are still wondering how well the device will work in left-handed use. Here’s a video that shows a left-handed example. more…",
+      "explore": false
+    },
+    {
+      "title": "マネージャーは人間の話をしろ - takanorip blog",
+      "ja_title": null,
+      "url": "https://blog.takanorip.com/posts/2026-09-23/",
+      "source": "はてブ · 学び新着",
+      "source_id": "hatena-know",
+      "tags": [
+        "ja",
+        "ideas"
+      ],
+      "published": "2026-09-23T03:30:59Z",
+      "score": 0.7533,
+      "distance": 0.7495,
+      "interest": 0.7571,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "最近誰も彼もAIの話をしている。 新しいモデルがどうのとかハーネスがどうのとか、日々何かしら新しそうなものについて話をしないと気がすまない様子だ。当初あれだけ驚き屋を蔑んでいた人ですら、口を開けば驚きやと同じようなことを喋っている始末だ。 まあプレイヤーとして仕事をしている人はそれでも良いだろうが、...",
       "explore": false
     }
   ]
