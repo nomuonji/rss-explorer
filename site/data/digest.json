@@ -1,29 +1,29 @@
 {
-  "generated": "2026-10-24T00:17:09Z",
+  "generated": "2026-10-25T00:02:57Z",
   "count": 40,
   "meta": {
-    "sources_total": 564,
+    "sources_total": 568,
     "counts": {
       "seed": 64,
-      "active": 496,
+      "active": 500,
       "trial": 4
     },
     "feeds_resolved_this_run": 0,
     "discovered_this_run": [
+      "captnemo-in",
+      "makeuseof-com",
+      "intelligence-org",
+      "longreads-com"
+    ],
+    "graduated_this_run": [
       "techadvisor-com",
       "snopes-com",
       "devin-ai",
       "matrix-org"
     ],
-    "graduated_this_run": [
-      "digitimes-com",
-      "xda-developers-com",
-      "jank-lang-org",
-      "blog-master-dev"
-    ],
     "retired_this_run": [],
-    "candidates_tracked": 7824,
-    "items_seen_this_run": 10925,
+    "candidates_tracked": 7885,
+    "items_seen_this_run": 10950,
     "items_judged": 0,
     "judge_enabled": false,
     "pinned": [],
@@ -31,18 +31,18 @@
   },
   "items": [
     {
-      "title": "Taiwan sits out global chip selloff, thanks to typhoon",
+      "title": "Poll workers may mark your ballot. Here's why you shouldn't worry",
       "ja_title": null,
-      "url": "https://www.digitimes.com/news/a20261023VL215/typhoon-taiwan-apple-iphone-launch-tsmc.html",
-      "source": "digitimes.com",
-      "source_id": "digitimes-com",
+      "url": "https://www.snopes.com/fact-check/poll-worker-mark-ballot-disqualified/",
+      "source": "snopes.com",
+      "source_id": "snopes-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-23T03:37:36Z",
-      "score": 0.7342,
-      "distance": 0.7639,
-      "interest": 0.7044,
+      "published": "2026-10-20T13:00:00Z",
+      "score": 0.7105,
+      "distance": 0.7381,
+      "interest": 0.6829,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -53,46 +53,48 @@
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "Taiwan doesn't stop often. On Friday, October 23, Typhoon Champi made it stop.",
+      "excerpt": "We spoke to elections officials about the legitimate reasons poll workers sometimes write on ballots.",
       "explore": true
     },
     {
-      "title": "FCC grants Intel a waiver to foreign robot ban to prevent chip disruptions",
+      "title": "Does video show Trump making strange noise during South Carolina rally?",
       "ja_title": null,
-      "url": "https://www.digitimes.com/news/a20261023VL218/fcc-intel-ban-robot-mobile.html",
-      "source": "digitimes.com",
-      "source_id": "digitimes-com",
+      "url": "https://www.snopes.com/fact-check/trump-makes-strange-noise-rally/",
+      "source": "snopes.com",
+      "source_id": "snopes-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-23T04:00:22Z",
-      "score": 0.6542,
-      "distance": 0.764,
-      "interest": 0.5443,
+      "published": "2026-10-23T23:13:00Z",
+      "score": 0.6724,
+      "distance": 0.7626,
+      "interest": 0.5821,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
         "off-centre domain (+)"
       ],
-      "reasons_interest": [],
+      "reasons_interest": [
+        "poses a question (+)"
+      ],
       "ja": null,
-      "excerpt": "The US Federal Communications Commission (FCC) granted Intel a waiver to its ban on foreign-made mobile robots, which will allow it to update its fleet of autonomous guided vehicles (AGVs). Intel had earlier petitioned the agency for an exemption, saying that not doing so would t",
+      "excerpt": "The president made some strange utterances during a campaign speech on behalf of Sen. Darline Graham.",
       "explore": true
     },
     {
-      "title": "jank development update - Optimizing a ray tracer",
+      "title": "How Devin rebuilt its renderer",
       "ja_title": null,
-      "url": "https://jank-lang.org/blog/2023-04-07-ray-tracing",
-      "source": "jank-lang.org",
-      "source_id": "jank-lang-org",
+      "url": "https://devin.ai/blog/rebuilding-devins-chat-renderer",
+      "source": "devin.ai",
+      "source_id": "devin-ai",
       "tags": [
         "discovered"
       ],
-      "published": "2023-04-07T00:00:00Z",
-      "score": 0.6528,
+      "published": "2026-08-25T17:00:00Z",
+      "score": 0.6548,
       "distance": 0.62,
-      "interest": 0.6857,
+      "interest": 0.6896,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -103,22 +105,22 @@
         "idea / essay (+)"
       ],
       "ja": null,
-      "excerpt": "After the last post , which focused on optimizing jank&apos;s sequences, I wanted to get jank running a ray tracer I had previously written in Clojure. In this post, I document what was required to start ray tracing in jank and, more importantly, how I chased down the run time in",
+      "excerpt": "The largest Devin sessions took 20+ seconds to load and crawled afterwards. We built a new chat renderer — skeleton outlines, island loading, and scroll anchoring — so even sessions with hundreds of thousands of events load fast and scroll smoothly.",
       "explore": true
     },
     {
-      "title": "jank is C++",
+      "title": "Devin's Slack Etiquette",
       "ja_title": null,
-      "url": "https://jank-lang.org/blog/2025-07-11-jank-is-cpp",
-      "source": "jank-lang.org",
-      "source_id": "jank-lang-org",
+      "url": "https://devin.ai/blog/devins-slack-etiquette",
+      "source": "devin.ai",
+      "source_id": "devin-ai",
       "tags": [
         "discovered"
       ],
-      "published": "2025-07-11T00:00:00Z",
-      "score": 0.6052,
+      "published": "2026-08-20T12:00:00Z",
+      "score": 0.6417,
       "distance": 0.62,
-      "interest": 0.5904,
+      "interest": 0.6634,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -126,25 +128,139 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "How we refined Devin's behavior in Slack over the past year, across prompts, Devin's harness, and our usage of the Slack API.",
+      "explore": true
+    },
+    {
+      "title": "なぜか「がむしゃらに働いても評価されない人」の特徴 - その仕事、スケールするの？",
+      "ja_title": null,
+      "url": "https://diamond.jp/articles/-/401590",
+      "source": "diamond.jp",
+      "source_id": "diamond-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-10-24T21:45:00Z",
+      "score": 0.8264,
+      "distance": 0.7693,
+      "interest": 0.8835,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "毎日必死に働いているのに仕事が減らず、なぜか同じトラブルを繰り返してしまう――。そんな悩みを抱える人に知ってほしいのが、世界一流の「仕事の方程式」だ。『その仕事、スケールするの？』は、シアトルの巨大IT企業で働く著者・福原たまねぎ氏が、世界一流の同僚から学んだ成果の出る仕事のやり方を明かす1冊です。今回は書籍の発売に先駆け、本書の一部を先行公開します。",
+      "explore": false
+    },
+    {
+      "title": "なぜエジソンは金属の球を握って眠ったのか？ 睡眠学者・柳沢正史が明かす、数々のアイデアを生んだ眠り方 - 世界最高の睡眠学が教える 睡眠の正解",
+      "ja_title": null,
+      "url": "https://diamond.jp/articles/-/401344",
+      "source": "diamond.jp",
+      "source_id": "diamond-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-10-24T21:30:00Z",
+      "score": 0.818,
+      "distance": 0.7692,
+      "interest": 0.8668,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "ノーベル賞の登竜門・ラスカー賞受賞で話題！ 睡眠学の世界的権威・柳沢正史教授が、最新研究をもとにやさしく解説した著書『世界最高の睡眠学が教える 睡眠の正解』が話題です。巷にあふれる睡眠の常識・思い込みの真偽を解き明かしつつ、「眠れない」「起きられない」「寝ても疲れがとれない」といった悩みの解消法を提唱します。あなたが本来の自分を取り戻し、よりよい明日を迎える睡眠のヒントをお届けします。",
+      "explore": false
+    },
+    {
+      "title": "Why Gopher in 2026?",
+      "ja_title": null,
+      "url": "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt",
+      "source": "Hacker News (new, pre-viral)",
+      "source_id": "hackernews",
+      "tags": [
+        "tech",
+        "frontier"
+      ],
+      "published": "2026-10-24T23:33:19Z",
+      "score": 0.8127,
+      "distance": 0.8699,
+      "interest": 0.7555,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)",
+        "pre-viral (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)"
+      ],
+      "ja": null,
+      "excerpt": "",
+      "explore": false
+    },
+    {
+      "title": "Why are cybersecurity losses not worse?",
+      "ja_title": null,
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/10/why-are-cybersecurity-losses-not-worse.html?utm_source=rss&utm_medium=rss&utm_campaign=why-are-cybersecurity-losses-not-worse",
+      "source": "Marginal Revolution",
+      "source_id": "marginalrev",
+      "tags": [
+        "economics",
+        "curation"
+      ],
+      "published": "2026-10-24T15:57:10Z",
+      "score": 0.8093,
+      "distance": 0.7676,
+      "interest": 0.851,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)",
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "If you&apos;ve wondered how much a solo dev can build for seamless C++ interop on a quarter, you&apos;re about to find out. In April, jank was unable to reach into C++ at all. Toward the end of this post, I&apos;ll show some real world examples of what works today. Before that, t",
-      "explore": true
+      "excerpt": "Here’s the first part of my theory: cybercriminals are not the organized geniuses we implicitly imagine. Anyone building a criminal gang has to find candidates willing to forgo more stable opportunities in the formal economy. My modeling estimated that something like 720,000 peop",
+      "explore": false
     },
     {
-      "title": "なぜ「ただの野草」がごちそうになる？ 京都の名店に20年通って気づいた「商売の本質」 - ビジネスメイキング",
+      "title": "White Dwarfs Are Actually…Yellow, Green, Pink, and Purple?",
       "ja_title": null,
-      "url": "https://diamond.jp/articles/-/401552",
-      "source": "diamond.jp",
-      "source_id": "diamond-jp",
+      "url": "https://www.universetoday.com/articles/white-dwarfs-are-actuallyyellow-green-pink-and-purple",
+      "source": "universetoday.com",
+      "source_id": "universetoday-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-23T22:10:00Z",
-      "score": 0.8245,
-      "distance": 0.7694,
-      "interest": 0.8796,
+      "published": "2026-10-24T01:32:55Z",
+      "score": 0.8057,
+      "distance": 0.7633,
+      "interest": 0.8482,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -154,138 +270,25 @@
       "reasons_interest": [
         "idea / essay (+)",
         "poses a question (+)",
-        "日本語 (+)"
+        "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "高級食材に頼らず、野草や川魚で人の心をつかむ京都の日本料理店「草喰なかひがし」。20年以上通い続ける著者は、この店で「価値は新しくつくるだけではない」というビジネスの本質に気づいた。見過ごされていた食材に、季節や土地の物語を添えることで、忘れられない体験が生まれる。営業の現場も同じ。商品や技術のよさを伝えているつもりなのに、なぜか相手に響かない。そんな悩みを解くヒントは、身近な価値を「見えるようにする」ことにある。本稿は、書籍『ビジネスメイキング――売上と信頼が積み上がる「仕組みのつくり方」』から、その考え方を紹介する一節を抜粋したものだ。",
+      "excerpt": "The universe hosts a myriad of star types, including supergiants, giants, main sequence, red dwarfs, brown dwarfs, white dwarfs, and neutron stars. What makes these stars stand out are just their sizes, but their colors, as each one hosts a distinct color based on their surface t",
       "explore": false
     },
     {
-      "title": "BE:FIRSTのカバー曲はなぜ面白い？　「I Want It That Way」披露を機に紐解く、6人の歌声が与える新たな魅力",
+      "title": "Simplest way to build a little web app? (i.e. which library to use?)",
       "ja_title": null,
-      "url": "https://realsound.jp/2026/10/post-2561897.html",
-      "source": "realsound.jp",
-      "source_id": "realsound-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-10-23T22:00:45Z",
-      "score": 0.8166,
-      "distance": 0.7693,
-      "interest": 0.864,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "BE:FIRSTが音楽フェス『82WORLD : LA』で「I Want It That Way」のカバーを披露し話題を集めた。そこで本稿ではこれまでのBE:FIRSTのカバー曲を振り返り、その魅力を紐解いていく。",
-      "explore": false
-    },
-    {
-      "title": "82歳・椎名誠の「一切コントロールしない生き方」とは？ - 極限の漂流118日間",
-      "ja_title": null,
-      "url": "https://diamond.jp/articles/-/401500",
-      "source": "diamond.jp",
-      "source_id": "diamond-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-10-23T21:35:00Z",
-      "score": 0.8067,
-      "distance": 0.7692,
-      "interest": 0.8442,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "物価高・円安など、老後の不安は高まるばかり。これからどう生きればいいのか？ だが、そんなことなどどこ吹く風とばかりに淡々と生きている人がいる。作家の椎名誠氏（82）だ。 1973年、太平洋を航海中にクジラと衝突して船を失い、118日間を漂流した英国人のモーリスとマラリンのベイリー夫妻。その壮絶な実話と、生還後の人生を描いたノンフィクション『極限の漂流118日間』（ソフィー・エルムハースト著、村井章子訳）に推薦文を寄せたのが椎名誠氏。今回、椎名氏に奇跡的にインタビューが実現！ 第1回は、「人生と漂流」について聞いた。",
-      "explore": false
-    },
-    {
-      "title": "How to refactor this code combining IO and Either?",
-      "ja_title": null,
-      "url": "https://discourse.haskell.org/t/how-to-refactor-this-code-combining-io-and-either/14865?page=2#post_25",
+      "url": "https://discourse.haskell.org/t/simplest-way-to-build-a-little-web-app-i-e-which-library-to-use/14891#post_2",
       "source": "discourse.haskell.org",
       "source_id": "discourse-haskell-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-23T22:50:48Z",
-      "score": 0.8037,
-      "distance": 0.7696,
-      "interest": 0.8378,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "dfilaretti: Yep, interesting… so according to the author what has been suggested before (and I ended up implementing ) is an anti pattern. IMO the blog post should be understood in the appropriate context. From the post: One commonly stated position goes something like “all excep",
-      "explore": false
-    },
-    {
-      "title": "Why AIs Can't Read?",
-      "ja_title": null,
-      "url": "https://blog.vladi.dev/en/articles/por-que-ias-nao-podem-ler.html",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
-      "tags": [
-        "tech",
-        "frontier"
-      ],
-      "published": "2026-10-23T23:42:06Z",
+      "published": "2026-10-24T09:51:14Z",
       "score": 0.8032,
-      "distance": 0.8698,
-      "interest": 0.7365,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)"
-      ],
-      "ja": null,
-      "excerpt": "",
-      "explore": false
-    },
-    {
-      "title": "Ask Ethan: Can we solve the mysteries of the largest black holes?",
-      "ja_title": null,
-      "url": "https://bigthink.com/starts-with-a-bang/solve-mysteries-largest-black-holes/",
-      "source": "bigthink.com",
-      "source_id": "bigthink-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-10-23T06:00:00Z",
-      "score": 0.8024,
-      "distance": 0.7646,
-      "interest": 0.8402,
+      "distance": 0.7658,
+      "interest": 0.8406,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -298,214 +301,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Out there in the Universe, there are some incredibly impressive astrophysical entities, including behemoths that dwarf anything we&#8217;re familiar with. There are stars hundreds of times more massive, and millions of times as luminous, as our own Sun is. There are galaxies and ",
+      "excerpt": "I used Twain recently and was happy with it: hackage.haskell.org Web.Twain You can also use the more well-known scotty: Hackage scotty Haskell web framework inspired by Ruby's Sinatra, using WAI and Warp",
       "explore": false
     },
     {
-      "title": "「事務的なミス」細野豪志復興相が“ヤミ選挙事務所”への支出を訂正　週刊文春が公職選挙法違反疑惑を報じていた《逸脱した“連絡所”が…》",
+      "title": "父親が児童性的虐待画像を大量に所持か、メーガン妃「深く心を痛めている」",
       "ja_title": null,
-      "url": "https://bunshun.jp/articles/-/93162",
-      "source": "bunshun.jp",
-      "source_id": "bunshun-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-10-23T08:00:00Z",
-      "score": 0.7919,
-      "distance": 0.7652,
-      "interest": 0.8187,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "細野豪志復興相（55）は10月23日の閣議後記者会見で、2024年の衆院選で公職選挙法違反の疑いを報じた「週刊文春」記事について、「従来から選挙期間にかかわらず連絡所を設けてきた経緯があり、それが事務…",
-      "explore": false
-    },
-    {
-      "title": "<span class=\"nop nop-start\">1/5 </span> ARIZONA'S VOTER ROLLS MUST NEVER RUN ON \"TRUST US.\"<br />\n<br />\nRecorder Heap says his office hasn't received supporting U.S. citizenship records for 24 (25?) disputed voters. County Attorney Mitchell says they're U.S. citizens.<br />\n<br />\nMake the verification auditable—and follow the law.  <span class=\"entity-embed\"><span class=\"twitter-player\"><blockquote class=\"twitter-tweet\"><a href=\"https://twitter.com/azjustinheap/status/2113350186139554256\">https://twitter.com/azjustinheap/status/2113350186139554256</a></blockquote></span></span><span class=\"row justify-content-center entity-multiple-undefined\"><span class=\"col-md-6\"><span class=\"entity-image\"><a href=\"https://pbs.twimg.com/media/HVWnLmra4AA-Kpb.jpg\" target=\"_blank\"><img alt=\"Image\" src=\"https://threadreaderapp.com/images/1px.png\" /></a></span></span><br />\n<span class=\"col-md-6\"><span class=\"entity-image\"><a href=\"https://pbs.twimg.com/media/HVWnPQnaMAAsVHq.jpg\" target=\"_blank\"><img alt=\"Image\" src=\"https://threadreaderapp.com/images/1px.png\" /></a></span></span></span>",
-      "ja_title": null,
-      "url": "https://threadreaderapp.com/thread/2113780994771988741.html",
-      "source": "threadreaderapp.com",
-      "source_id": "threadreaderapp-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-10-23T23:53:55Z",
-      "score": 0.7914,
-      "distance": 0.7699,
-      "interest": 0.813,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "1/5 ARIZONA'S VOTER ROLLS MUST NEVER RUN ON \"TRUST US.\" Recorder Heap says his office hasn't received supporting U.S. citizenship records for 24 (25?) disputed voters. County Attorney Mitchell says they're U.S. citizens. Make the verification auditable—and follow the law. https:/",
-      "explore": false
-    },
-    {
-      "title": "Why have coding agents not brought easter-egg utopia?",
-      "ja_title": null,
-      "url": "https://rallywith.ai/blog/bring-back-easter-eggs/",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
-      "tags": [
-        "tech",
-        "frontier"
-      ],
-      "published": "2026-10-23T21:58:27Z",
-      "score": 0.7897,
-      "distance": 0.8693,
-      "interest": 0.7102,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)"
-      ],
-      "ja": null,
-      "excerpt": "",
-      "explore": false
-    },
-    {
-      "title": "《泥沼の中東情勢≫「テロリストはビルごと破壊」ハマース、ヒズブッラーへのイスラエルの「斬首作戦」……ガザ戦争に続き、イスラエルがイランを戦争に引きずり込んだ日",
-      "ja_title": null,
-      "url": "https://bunshun.jp/articles/-/93123",
-      "source": "bunshun.jp",
-      "source_id": "bunshun-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-10-23T21:20:00Z",
-      "score": 0.7893,
-      "distance": 0.7691,
-      "interest": 0.8096,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "ガザへの報復に始まったイスラエルの軍事行動は「自衛」の枠を超え、中東全域へ拡大した。なぜ国際社会は対応できず、戦禍の拡大を許したのか。中東研究の第一人者、酒井啓子さんの『はみ出す中東と世界』より一部抜…",
-      "explore": false
-    },
-    {
-      "title": "龍が如く開発元新作『STRANGER THAN HEAVEN』はとにかく治安が悪くてシリアス。戦闘は「命の取り合い」、ひと足早くプレイしてきた",
-      "ja_title": null,
-      "url": "https://automaton-media.com/articles/reportjp/20261023-475301/",
-      "source": "automaton-media.com",
-      "source_id": "automaton-media-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-10-23T12:47:54Z",
-      "score": 0.7879,
-      "distance": 0.7666,
-      "interest": 0.8093,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "『STRANGER THAN HEAVEN』試遊体験会の模様をお伝えする。すべての要素が一貫してシリアス。戦闘についても命を取り合う生々しさが演出されている",
-      "explore": false
-    },
-    {
-      "title": "草原火災、KDDIが経緯説明--「モンゴル当局の車両が先導していた」",
-      "ja_title": null,
-      "url": "https://japan.cnet.com/article/35253905/",
-      "source": "japan.cnet.com",
-      "source_id": "japan-cnet-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-10-23T12:59:00Z",
-      "score": 0.7871,
-      "distance": 0.7666,
-      "interest": 0.8076,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "KDDIは10月23日、モンゴル東部のヌムルグ自然保護区で8日に発生した大規模な草原火災について、詳しい経緯を公表した。子会社の通信事業者Mobicom Corporation（モビコム）の社員らが保護区を訪れたのは、現地当局の要請に基づく通信ネットワークの確認などが目的だったと説明。国境警備隊から入域許可も得ていたとしている。",
-      "explore": false
-    },
-    {
-      "title": "社会現象化するAI楽曲「INMU KING」YouTubeから削除　作者が再審査を請求へ",
-      "ja_title": null,
-      "url": "https://kai-you.net/article/96916",
-      "source": "kai-you.net",
-      "source_id": "kai-you-net",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-10-22T11:45:00Z",
-      "score": 0.7843,
-      "distance": 0.7591,
-      "interest": 0.8094,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "インターネットミーム／ネット文化「淫夢」を題材にしたAI楽曲「INMU KING」のMVが10月22日（木）までに削除された。同日、“YAJU-MC”名義で本動画を投稿したやじゅまんさんがXで報告した。削除された動画のページには「この動画は、次の YouTube ポリシーへの違反により削除されました: ヌードまたは性的なコンテンツの禁止」と表示されている（外部リンク）。またニコニコ動画で公開されているMVについても、現在「センシティブな内容が含まれる可能性のある動画です」と表示される状態に（外部...",
-      "explore": false
-    },
-    {
-      "title": "欧州の都市、今夏の猛暑で5万人超が死亡　「記録に残る中で最悪」",
-      "ja_title": null,
-      "url": "https://www.cnn.co.jp/fringe/35253891.html?ref=rss",
+      "url": "https://www.cnn.co.jp/world/35253917.html?ref=rss",
       "source": "cnn.co.jp",
       "source_id": "cnn-co-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-23T06:51:00Z",
-      "score": 0.7818,
-      "distance": 0.7648,
-      "interest": 0.7988,
+      "published": "2026-10-24T03:16:00Z",
+      "score": 0.7893,
+      "distance": 0.7638,
+      "interest": 0.8149,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -517,76 +328,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "今年夏に欧州を襲った猛烈な熱波により、各地の都市で計5万人以上が死亡したと推計されることが、新たな分析から明らかになった。欧州で記録に残る中で最悪の猛暑被害だという。 医学誌「ネイチャー・ヘルス」に掲載された査読論文2本によると、約3分の2に当たる3万2600人以上の死については、化石燃料汚染が引き起こした気候変動に直接の原因を求めることができる。 論文著者の1人で、英インペリアル・カレッジ・ロンドンで...",
+      "excerpt": "英ヘンリー王子の妻メーガン妃は23日、父親のトーマス・マークル氏が児童への性的虐待画像を多数所持していたとの報道に触れ、「深く心を痛めている」とコメントした。父親を巡る「憂慮すべき疑惑」について、2018年の時点で知らされていたとも明かした。 英紙サンの22日夜の報道によれば、マークル氏の息子は、フィリピンにある父親の自宅で未成年の子どものわいせつ画像を大量に発見。フィリピン当局に通報した。 マークル...",
       "explore": false
     },
     {
-      "title": "Safe Cloudflare Workflow Dry-Runs for Publishing Queues",
+      "title": "橘ケンチ、LDH JAPAN「SIO」として目指す社会貢献活動の新たな指針　エンタメで地域と“長期的につながる”大切さとは",
       "ja_title": null,
-      "url": "https://dev.to/raylabs/safe-cloudflare-workflow-dry-runs-for-publishing-queues-3o57",
-      "source": "dev.to",
-      "source_id": "dev-to",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-10-24T00:05:12Z",
-      "score": 0.7815,
-      "distance": 0.7699,
-      "interest": 0.7932,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "When a publishing automation relies on a boolean flag named dryRun, it often fails to protect external budgets if the code invokes language models, image services, or database writes before inspecting that flag. A test can easily consume valuable quotas even when publication writ",
-      "explore": false
-    },
-    {
-      "title": "低濃度水素と睡眠の関係を考察 ｜MiZ・慶應義塾大学など",
-      "ja_title": null,
-      "url": "https://prtimes.jp/main/html/rd/p/000000104.000047753.html",
-      "source": "prtimes.jp",
-      "source_id": "prtimes-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-10-23T22:10:02Z",
-      "score": 0.7784,
-      "distance": 0.7694,
-      "interest": 0.7875,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "[MiZ株式会社] MiZ株式会社（神奈川県鎌倉市）は、2014 年以降の水素と血管内皮機能に関する共同研究と、2024 年に慶應義塾大学の研究者らと報告した筋痛性脳脊髄炎／慢性疲労症候群（ME/CFS）症例報告を基盤に、低濃度水素吸入...",
-      "explore": false
-    },
-    {
-      "title": "PANAMレーベル 生誕55周年記念インタビュー：鈴木実貴子ズ編「続けられるって、かっこいい」　担う役割、重なるフォーク感",
-      "ja_title": null,
-      "url": "https://realsound.jp/2026/10/post-2560372.html",
+      "url": "https://realsound.jp/2026/10/post-2559205.html",
       "source": "realsound.jp",
       "source_id": "realsound-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-23T18:00:52Z",
-      "score": 0.7777,
-      "distance": 0.7681,
-      "interest": 0.7874,
+      "published": "2026-10-24T18:00:22Z",
+      "score": 0.7871,
+      "distance": 0.7682,
+      "interest": 0.806,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -598,22 +355,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "細野晴臣、かぐや姫、イルカ、鈴木茂、大貫妙子らの作品を送り出し、創設55周年を迎えた日本を代表する老舗レーベル・PANAM。アニバーサリーで制作されたカバーアルバム、プレイリスト企画に参加した鈴木実貴子ズがPANAMについて、そして現在地を語る。",
+      "excerpt": "EXILE／EXILE THE SECONDとして活動する橘ケンチが、LDH JAPANの「Social Innovation Officer」に就任してから約3年。アーティストとしてステージに立つ一方、全国各地の自治体や企業とエンタテインメントの接点を見出し、地域活性化につながる取り組みを進めてきた。そんなSIOとしての活動を通じて見えてきたこととは何か。『EXILE CUP』への思いや、ロールモデルとして注目する岡田武史の存在、そして自身が描くこれからについて話を聞いた。",
       "explore": false
     },
     {
-      "title": "NHK「沼ハマ」がアイドルグループ＝LOVEを特集　指原莉乃が作詞のこだわりを語る",
+      "title": "「部屋が血まみれ」高級マンションの一室から見つかった“26歳女性の遺体”…20代でベンツを所有、“抜群のルックス”で成り上がったホステスはなぜ殺された（平成17年・海外の事件）",
       "ja_title": null,
-      "url": "https://kai-you.net/article/96924",
-      "source": "kai-you.net",
-      "source_id": "kai-you-net",
+      "url": "https://bunshun.jp/articles/-/93050",
+      "source": "bunshun.jp",
+      "source_id": "bunshun-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-23T09:00:00Z",
-      "score": 0.7773,
-      "distance": 0.7655,
-      "interest": 0.7892,
+      "published": "2026-10-24T08:00:00Z",
+      "score": 0.7826,
+      "distance": 0.7652,
+      "interest": 0.7999,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -625,22 +382,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "NHK Eテレのバラエティ番組「沼にハマってきいてみた」が、アイドルグループ・＝LOVE（イコールラブ／イコラブ）を特集する。10月31日（土）20時から放送の番組では、グループのプロデューサーをつとめる指原莉乃さんがVTR出演し、自身が手がける楽曲の歌詞や世界観について語る。番組のMCは、サーヤさん（ラランド）とジャンボたかおさん（レインボー）。また、ファンによる衣装の再現企画や、ライブ写真を撮影する「カメコ」の活動、音楽フェス「ROCK IN JAPAN FESTIVAL 2026」の舞台裏...",
+      "excerpt": "20代にして、「ベンツ所有」「総資産は1.5億円」――。平成17年、北京の高級マンションで26歳の伝説的ホステスが凄惨な遺体となって発見された。 貧しい農村から成り上がった彼女はなぜ惨殺されたのか。鉄…",
       "explore": false
     },
     {
-      "title": "米で相次ぐ10代容疑者の学校銃撃、「親の罪」は問えるのか",
+      "title": "「戸籍謄本を見て、あまりの衝撃に泣きじゃくり…」高校生で知った“出生の真実”…レジェンド声優・野沢雅子（90）を支えた“父と母の言葉”《目標は「118歳まで現役」》",
       "ja_title": null,
-      "url": "https://www.cnn.co.jp/usa/35253809.html?ref=rss",
-      "source": "cnn.co.jp",
-      "source_id": "cnn-co-jp",
+      "url": "https://bunshun.jp/articles/-/93165",
+      "source": "bunshun.jp",
+      "source_id": "bunshun-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-21T03:18:00Z",
-      "score": 0.777,
-      "distance": 0.7495,
-      "interest": 0.8045,
+      "published": "2026-10-24T22:00:00Z",
+      "score": 0.7809,
+      "distance": 0.7694,
+      "interest": 0.7924,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -652,51 +409,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "米オレゴン州ベンドの小学校で児童と教員4人が死亡した銃撃事件。現場で射殺された容疑者は16歳の少年だった。同州では18歳未満の未成年が銃を所持することは原則禁止されており、少年がどのような経緯で銃と銃弾を手にしたのかについては警察が今も捜査を続けている。 米国ではミシガン州やジョージア州で起きた学校銃撃事件に関連して、10代の容疑者の両親が刑事責任を問われている。 ミシガン州で14歳の少年が学校を銃撃し...",
+      "excerpt": "声優の野沢雅子が10月25日、90歳の誕生日を迎えた。日本画家だった父の教え、高校生の頃に知った“出生の真実”……。レジェンド声優の意外な生い立ち、そして「今後の目標」や引退について、かつて語っていた…",
       "explore": false
     },
     {
-      "title": "日本のアニメ批評・ゲーム批評が死んだままだと「黒船」に持っていかれるよ",
+      "title": "Why Kubernetes autoscalers keep fighting each other (and why the solution must be autonomous)",
       "ja_title": null,
-      "url": "https://p-shirokuma.hatenadiary.com/entry/20261023/1792722086",
-      "source": "シロクマの屑籠",
-      "source_id": "shirokuma",
-      "tags": [
-        "ja",
-        "essays",
-        "society"
-      ],
-      "published": "2026-10-23T02:21:26Z",
-      "score": 0.7737,
-      "distance": 0.7635,
-      "interest": 0.784,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "おとといから昨日にかけて、前から気になっていたことを代弁してくれるようなツイートを相次いで見かけた。 日本で、アニメや漫画の「考察」と呼ばれているものは、えんえんと設定の話ばかりしていて、その作品の制作意図だとか、社会的影響だとか、そういう大人の話になかなか発展しないんだよな。🙄これは、鑑賞者において、虚構と現実とのつながりの認識が切れているのが根本要因なんだろうね。🙂 https://t.co/V96qfelhtB— yunishio (@yunishio) 2026年10月22日 これらのツイートの震源になっていた韓国人の人のツイートはこちらだ。 치",
-      "explore": false
-    },
-    {
-      "title": "From feral to fiduciary: making AI agents serve your interests",
-      "ja_title": null,
-      "url": "https://thenewstack.io/ai-agent-trust-score/",
+      "url": "https://thenewstack.io/why-kubernetes-autoscalers-fight/",
       "source": "thenewstack.io",
       "source_id": "thenewstack-io",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-21T14:00:00Z",
-      "score": 0.7728,
-      "distance": 0.7527,
-      "interest": 0.7928,
+      "published": "2026-10-24T13:00:00Z",
+      "score": 0.7801,
+      "distance": 0.7667,
+      "interest": 0.7935,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -708,22 +436,23 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Tech leaders face a dilemma as they prepare to put AI agents into production. They want the higher productivity and The post From feral to fiduciary: making AI agents serve your interests appeared first on The New Stack .",
+      "excerpt": "Ask an SRE a deceptively simple question: What is the right size for checkout-api, and how many replicas should it The post Why Kubernetes autoscalers keep fighting each other (and why the solution must be autonomous) appeared first on The New Stack .",
       "explore": false
     },
     {
-      "title": "【第3報】お取引先および退職者の皆さまへ、当社グループ管理サーバーへの不正アクセスおよび情報漏えいの可能性について注意喚起のお願い",
+      "title": "ノア・スミス「フランスとリベラリズムの限界」（2026年10月22日）",
       "ja_title": null,
-      "url": "https://www.japantimes.co.jp/press/2026/10/23/notice-ransomware-incident-3rd-report-jp/",
-      "source": "japantimes.co.jp",
-      "source_id": "japantimes-co-jp",
+      "url": "https://econ101.jp/france-and-the-limits-of-liberalism/",
+      "source": "はてブ · 学び新着",
+      "source_id": "hatena-know",
       "tags": [
-        "discovered"
+        "ja",
+        "ideas"
       ],
-      "published": "2026-10-23T11:00:00Z",
-      "score": 0.7727,
-      "distance": 0.766,
-      "interest": 0.7794,
+      "published": "2026-10-24T08:07:05Z",
+      "score": 0.7798,
+      "distance": 0.7653,
+      "interest": 0.7943,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -735,22 +464,51 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "株式会社ジャパンタイムズおよび株式会社ニューズ・ツー・ユーホールディングス（東京都千代田区、以下「当社グループ」）は、当社グループ管理サーバーへの不正アクセスおよび情報漏えいの可能性につきまして、お取引先および退職者の皆さまに以下の通り現状報告と対応についてご連絡いたします。",
+      "excerpt": "この件について書くのは少し遅くなってしまったけど、フランスではかなりひどい暴動が起きている。 週末に広範囲にわたる暴動が発生し、器物損壊や窃盗による損害額は数億ドルに上ると推定されている。フランスは現在、都市型の反乱、政治の停滞、そして経済危機という危険な複合に直面している……パリ、マルセイユ、ボル...",
       "explore": false
     },
     {
-      "title": "Computer Security Is About to Get a Lot Worse, Here’s What You Can Do",
+      "title": "prpr: Rust 向けのシンプルで高速な Parser generator",
       "ja_title": null,
-      "url": "https://www.eff.org/deeplinks/2026/10/computer-security-about-get-lot-worse-heres-what-you-can-do",
-      "source": "eff.org",
-      "source_id": "eff-org",
+      "url": "https://zenn.dev/tanakh/articles/prpr-packrat-parser",
+      "source": "Zenn",
+      "source_id": "zenn",
+      "tags": [
+        "ja",
+        "tech",
+        "tools"
+      ],
+      "published": "2026-10-24T06:57:58Z",
+      "score": 0.7795,
+      "distance": 0.7649,
+      "interest": 0.7942,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "prpr (PackRat Parser in Rust) という Rust 向けの新しい Parser generator ライブラリを作りました。 https://crates.io/crates/prpr https://github.com/tanakh/prpr 詳しい使い方を書いたドキュメントがありますので、使ってみたいと思った方はぜひこちらをご覧になってください。 https://tanakh.github.io/prpr/ 開発の背景についてちょっと説明しておきますと、これ自体はずいぶん昔から開発していたものなのですが、あまり公開するに足",
+      "explore": false
+    },
+    {
+      "title": "seleness",
+      "ja_title": null,
+      "url": "https://en.wiktionary.org/w/index.php?title=seleness&diff=93812230&oldid=0",
+      "source": "en.wiktionary.org",
+      "source_id": "en-wiktionary-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-23T22:36:29Z",
-      "score": 0.7702,
-      "distance": 0.7695,
-      "interest": 0.7708,
+      "published": "2026-10-25T00:01:18Z",
+      "score": 0.7794,
+      "distance": 0.77,
+      "interest": 0.7888,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -762,22 +520,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "It is a commonly held truth among computer geeks that there is no such thing as bug free software, or a secure computer. Any piece of software that anyone actually uses will have a security vulnerability somewhere in the code . The more complex that software is, the more likely t",
+      "excerpt": "Benwing2 moved page seleness to selenes Standardize/normalize name or spelling New page ==Old English== ===Etymology=== {{rfe|ang}} ===Noun=== {{ang-noun|seleness|f|var=1}} # [[tradition]] #* {{w|Lindisfarne Gospels}}, [https://archive.org/details/gospelaccordingt00camb/page/120/",
       "explore": false
     },
     {
-      "title": "The Pirate Queen by Ariel Lawhon",
+      "title": "Listen: Stellar streams and the dark Universe",
       "ja_title": null,
-      "url": "https://adactio.com/journal/22813",
-      "source": "adactio.com",
-      "source_id": "adactio-com",
+      "url": "https://bigthink.com/starts-with-a-bang/stellar-streams-dark-universe/",
+      "source": "bigthink.com",
+      "source_id": "bigthink-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-23T14:57:23Z",
-      "score": 0.7697,
-      "distance": 0.7672,
-      "interest": 0.7723,
+      "published": "2026-10-24T06:46:51Z",
+      "score": 0.7785,
+      "distance": 0.7649,
+      "interest": 0.7921,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -789,22 +547,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "This is an infuriating book. So much so that I didn’t finish it. Don’t get me wrong; I love the idea of The Pirate Queen . Telling the life story of Gráinne Ní Mháille is an excellent premise for some rip-roaring historical fiction. It’s even got an interesting structure alternat",
+      "excerpt": "When the general public speaks about dark matter, most of the discussion centers on the topic of whether dark matter exists or not: on whether it&#8217;s real. But in astrophysical circles, we&#8217;re overwhelmingly confident of dark matter&#8217;s existence, as we&#8217;ve indi",
       "explore": false
     },
     {
-      "title": "Vintage Tones on a Budget: Why We Love Kodak ColorPlus 200",
+      "title": "Revisiting Zeiss ZM Lenses Part 1: I’ve Always Wanted to Do This",
       "ja_title": null,
-      "url": "https://petapixel.com/2026/10/23/vintage-tones-on-a-budget-why-we-love-kodak-colorplus-200/",
+      "url": "https://petapixel.com/2026/10/24/revisiting-zeiss-zm-lenses-part-1-ive-always-wanted-to-do-this/",
       "source": "petapixel.com",
       "source_id": "petapixel-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-23T17:19:36Z",
-      "score": 0.7695,
-      "distance": 0.7679,
-      "interest": 0.7711,
+      "published": "2026-10-24T14:01:56Z",
+      "score": 0.7782,
+      "distance": 0.767,
+      "interest": 0.7894,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -816,22 +574,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Today’s Film Friday takes a look at a blast from the past: Kodak ColorPlus 200. This all-purpose film is one of the most affordable color negative films available for loading into your favorite 35mm film camera. It is very much a jack-of-all-trades type of film (and a master of n",
+      "excerpt": "A few months ago on the PetaPixel Podcast, we did a lens draft where we had to pick our favorite lenses from a whole selection of choices. Naturally, this came with a lot of research, and as we delved deeper into reviews and ratings, we found that the Zeiss ZM lenses were some of",
       "explore": false
     },
     {
-      "title": "A few engineers asked IT for Linux. Then it spread to 200 machines.",
+      "title": "How to Track Your Brand in Google AI Overviews Without a Paid API",
       "ja_title": null,
-      "url": "https://thenewstack.io/linux-developer-device-management/",
-      "source": "thenewstack.io",
-      "source_id": "thenewstack-io",
+      "url": "https://dev.to/rankvelt/how-to-track-your-brand-in-google-ai-overviews-without-a-paid-api-o0b",
+      "source": "dev.to",
+      "source_id": "dev-to",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-23T14:00:00Z",
-      "score": 0.7694,
-      "distance": 0.7669,
-      "interest": 0.772,
+      "published": "2026-10-24T23:51:07Z",
+      "score": 0.7781,
+      "distance": 0.7699,
+      "interest": 0.7863,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -843,22 +601,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Linux is already part of the AI developer&#8217;s desktop toolkit. Nvidia&#8217;s DGX Spark, which became available to order on October The post A few engineers asked IT for Linux. Then it spread to 200 machines. appeared first on The New Stack .",
+      "excerpt": "Google AI Overviews now answer a large share of commercial questions before any website gets a click. Business owners ask me the same thing every week: are we even in those answers? The honest problem is tooling. Most AI visibility trackers charge per prompt and per location, bec",
       "explore": false
     },
     {
-      "title": "You gave your AI agent access, but who is giving it orders?",
+      "title": "Laravel TokenGuard Auth Bypass (CVE-2026-114509): What Site Owners Must Do Now",
       "ja_title": null,
-      "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
-      "source": "bleepingcomputer.com",
-      "source_id": "bleepingcomputer-com",
+      "url": "https://dev.to/senthil_kr/laravel-tokenguard-auth-bypass-cve-2026-114509-what-site-owners-must-do-now-1l89",
+      "source": "dev.to",
+      "source_id": "dev-to",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-23T14:00:10Z",
-      "score": 0.7682,
-      "distance": 0.7669,
-      "interest": 0.7696,
+      "published": "2026-10-24T23:49:01Z",
+      "score": 0.7771,
+      "distance": 0.7699,
+      "interest": 0.7842,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -867,132 +625,159 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "poses a question (+)"
+        "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "AI agents can be manipulated through malicious emails, websites, and plugins into executing commands, stealing data, or deleting files using their legitimate permissions. Gen Digital explains how its Agent Trust Hub helps protect agents through skill verification, secure connecti",
+      "excerpt": "Act today if this applies to you CVE-2026-114509 is a critical (CVSS 9.2) flaw in Laravel’s built-in token API guard. If your app authenticates API requests with the \"token\" driver and stores users in MySQL or MariaDB, an attacker with no account can sign in as an existing user, ",
       "explore": false
     },
     {
-      "title": "My experience suggests Apple Glasses will only sell to existing eyeglasses wearers",
+      "title": "The Vulnerability Apocalypse and Why We Should Fund Open Source",
       "ja_title": null,
-      "url": "https://9to5mac.com/2026/10/23/my-experience-suggests-apple-glasses-will-only-be-for-existing-eyeglass-wearers/",
+      "url": "https://www.eff.org/deeplinks/2026/10/vulnerability-apocalypse-and-why-we-should-fund-open-source",
+      "source": "eff.org",
+      "source_id": "eff-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-10-23T22:36:46Z",
+      "score": 0.7769,
+      "distance": 0.7624,
+      "interest": 0.7914,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "If you use the internet at all, you may have noticed that a large percentage of sites suddenly went down earlier this week — and all your nerdiest friends were talking about \"The Vulnerability Apocalypse” and this thing called PHP that powers nearly 70% of the websites on the int",
+      "explore": false
+    },
+    {
+      "title": "日本のXでインプレ稼ぎ、政治的、排外的話題がやっぱりバズりがち",
+      "ja_title": null,
+      "url": "https://nou-yunyun.hatenablog.com/entry/2026/10/24/120000",
+      "source": "nou-yunyun.hatenablog.com",
+      "source_id": "nou-yunyun-hatenablog-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-10-24T03:00:00Z",
+      "score": 0.776,
+      "distance": 0.7637,
+      "interest": 0.7882,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "Xでは有象無象が金銭目的にXで日夜インプレ稼ぎに精を出して、ここでもそういうアカウントについていくつか触れている。今回、かなりわかりやすい典型例的なアカウントがあったので、こういうアカウントにXで跋扈してるんだなというメモ的なやつ。 https://web.archive.org/web/20251020045744/https://twitter.com/Toushiniki1/status/1980136327967621230 「投資ニキ@Toushiniki1」という、当初は下記の様にビットコインなどの資産系についての投稿が多いアカウントがいた。",
+      "explore": false
+    },
+    {
+      "title": "(untitled)",
+      "ja_title": null,
+      "url": "https://www.jvt.me/mf2/2026/10/95x5j/?utm_medium=rss&utm_source=rss",
+      "source": "jvt.me",
+      "source_id": "jvt-me",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-10-24T10:25:00Z",
+      "score": 0.7734,
+      "distance": 0.7659,
+      "interest": 0.781,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Listened to WTF is a Software Factory? - Syntax #1049 Post details Adam Jacob of Swamp Club explains what software factories actually are, why they're not just slop cannons, and how to trust AI output with black box testing and architecture skills. Plus: should you delete your un",
+      "explore": false
+    },
+    {
+      "title": "Pierre Terrail, seigneur de Bayard",
+      "ja_title": null,
+      "url": "https://en.wikiquote.org/w/index.php?title=Pierre_Terrail,_seigneur_de_Bayard&diff=4043028&oldid=0",
+      "source": "en.wikiquote.org",
+      "source_id": "en-wikiquote-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-10-24T23:08:16Z",
+      "score": 0.7734,
+      "distance": 0.7697,
+      "interest": 0.7772,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Created page with &quot; thumb|If I must march out of the place, it shall be over a bridge of the dead bodies of the enemy. &#039;&#039;&#039; Pierre Terrail, seigneur de Bayard &#039;&#039;&#039; (c. 1476 – 30 April 1524) was a French knight and military leader at the transition",
+      "explore": false
+    },
+    {
+      "title": "A Quick Trip to New York",
+      "ja_title": null,
+      "url": "https://www.caseyliss.com/2026/10/24/new-york",
+      "source": "caseyliss.com",
+      "source_id": "caseyliss-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-10-24T23:45:00Z",
+      "score": 0.7719,
+      "distance": 0.7699,
+      "interest": 0.7738,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "I very much admire the writing of Matt Haughey ; in particular, his trip logs. For example, this one detailing his trip to Japan was incredible. There’s been a lot of chatter about where and how to share things amongst my peers recently, and I’ve been thinking about where, how, a",
+      "explore": false
+    },
+    {
+      "title": "iPhone Duo one day later: Here’s why its quirks don’t make it any less incredible",
+      "ja_title": null,
+      "url": "https://9to5mac.com/2026/10/24/thoughts-on-iphone-duo-24-hours-later/",
       "source": "9to5mac.com",
       "source_id": "9to5mac-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-23T16:00:00Z",
-      "score": 0.7681,
-      "distance": 0.7675,
-      "interest": 0.7687,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "No, I haven’t managed to get my hands on a prototype pair of Apple Glasses , but I now have experience of the rough equivalents of what we’re expecting from both a 1st- and 2nd-gen product. In both cases, I could definitely see attractions, and I would absolutely upgrade to smart",
-      "explore": false
-    },
-    {
-      "title": "PHP2Shell exposes the funding gap in open-source security",
-      "ja_title": null,
-      "url": "https://www.sovereign.tech/news/php2shell-shows-why-critical-open-source-needs-investment-at-scale",
-      "source": "sovereign.tech",
-      "source_id": "sovereign-tech",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-10-23T15:37:00Z",
-      "score": 0.7681,
-      "distance": 0.7674,
-      "interest": 0.7687,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "On 21 October 2026, the PHP project released fixes for two critical security vulnerabilities, collectively known as PHP2Shell . Under certain conditions, these vulnerabilities could allow attackers to execute code on affected web servers without authentication. PHP underpins a su",
-      "explore": false
-    },
-    {
-      "title": "Entering Atomic Design from the screen",
-      "ja_title": null,
-      "url": "https://uxdesign.cc/entering-atomic-design-from-the-screen-bae744ecc288?source=rss----138adf9c44c---4",
-      "source": "uxdesign.cc",
-      "source_id": "uxdesign-cc",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-10-23T11:16:30Z",
-      "score": 0.768,
-      "distance": 0.7661,
-      "interest": 0.7698,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "You don’t always have to build from atoms. Sometimes, you need to discover them. Atomic Design is one of the core mental models of modern design systems. It gives us a common language for describing the interface as a hierarchy: atoms, molecules, organisms, templates, and pages. ",
-      "explore": false
-    },
-    {
-      "title": "“Not even Microsoft uses Windows 11”: Its new Windows wallpapers were made on a Mac, and now that’s hidden",
-      "ja_title": null,
-      "url": "https://www.windowslatest.com/2026/10/23/not-even-microsoft-uses-windows-11-its-new-windows-wallpapers-were-made-on-a-mac-and-now-thats-hidden/",
-      "source": "windowslatest.com",
-      "source_id": "windowslatest-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-10-23T14:33:09Z",
-      "score": 0.7679,
-      "distance": 0.7671,
-      "interest": 0.7687,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Rafael Rivera found that Microsoft's in-house design team made the 12th anniversary Windows Insider wallpapers in Photoshop for Mac. The copies I downloaded no longer show it, Microsoft designers have picked Apple hardware for years, and Insiders deserved a gift made on a Windows",
-      "explore": false
-    },
-    {
-      "title": "Mona Chalabi on making sense of the unmeasurable",
-      "ja_title": null,
-      "url": "https://www.itsnicethat.com/articles/nicer-tuesdays-new-york-september-mona-chalabi-221026",
-      "source": "itsnicethat.com",
-      "source_id": "itsnicethat-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-10-22T13:00:00Z",
-      "score": 0.7673,
-      "distance": 0.7595,
+      "published": "2026-10-24T17:47:49Z",
+      "score": 0.7716,
+      "distance": 0.7681,
       "interest": 0.7751,
       "judged": false,
       "pinned": false,
@@ -1005,22 +790,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "The multi award-winning illustrator joins our US editor-at-large Elizabeth Goodspeed on the New York Nicer Tuesdays stage to talk about everything from her first job at the UN to how she first got into creating infographics and the difficulty of working with data in journalism wh",
+      "excerpt": "Yesterday, I picked up my iPhone Duo at Apple Fifth Avenue , and it’s been a wonder to use. Of course, the phone isn’t perfect, but after my first day of usage, I’m looking forward to daily driving it – even if it has a couple quirks. more…",
       "explore": false
     },
     {
-      "title": "Emacs finally folds to my liking",
+      "title": "Nikolai Bukharin",
       "ja_title": null,
-      "url": "https://jointhefreeworld.org/blog/articles/emacs/emacs-folding-kirigami/index.html",
-      "source": "jointhefreeworld.org",
-      "source_id": "jointhefreeworld-org",
+      "url": "https://en.wikiquote.org/w/index.php?title=Nikolai_Bukharin&diff=4043029&oldid=4010670",
+      "source": "en.wikiquote.org",
+      "source_id": "en-wikiquote-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-23T23:00:00Z",
-      "score": 0.7671,
-      "distance": 0.7696,
-      "interest": 0.7647,
+      "published": "2026-10-24T23:09:44Z",
+      "score": 0.7705,
+      "distance": 0.7697,
+      "interest": 0.7713,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1032,22 +817,106 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "I’ve been slowly turning my Emacs config into something I actually enjoy using, not just something that works, and folding was the last place where that wasn’t true. Every mode had its own idea of what folding is: treesit-fold in Tree-sitter modes, Hideshow in the Lisp-ish ones, ",
+      "excerpt": "ABC&#039;s of Communism: fix spelling error ← Older revision Revision as of 23:09, 24 October 2026 Line 23: Line 23: *The Russian bourgeoisie raised the hunt against the Jews, not only in the hope of diverting the anger of the exploited [[Working class|workers]], but also in the ",
       "explore": false
     },
     {
-      "title": "『Wesmo!推しトクキャンペーン』11月1日～12月29日の対象企業のお知らせ",
+      "title": "Spatial Intelligence: What It Is, How It Works, Where It Delivers Value",
       "ja_title": null,
-      "url": "https://prtimes.jp/main/html/rd/p/000002421.000095753.html",
-      "source": "prtimes.jp",
-      "source_id": "prtimes-jp",
+      "url": "https://www.idc.com/resource-center/blog/spatial-intelligence-what-it-is-how-it-works-where-it-delivers-value/",
+      "source": "idc.com",
+      "source_id": "idc-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-23T23:10:02Z",
-      "score": 0.767,
-      "distance": 0.7697,
-      "interest": 0.7642,
+      "published": "2026-10-23T17:35:23Z",
+      "score": 0.769,
+      "distance": 0.7609,
+      "interest": 0.7771,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Spatial intelligence is the ability to understand a physical or virtual space, and how it changes over time, well enough to reason about the likelihood of outcomes based on specific actions. As AI moves from making decisions and taking actions in business processes to doing so in",
+      "explore": false
+    },
+    {
+      "title": "On Film Criticism [1998]",
+      "ja_title": null,
+      "url": "https://jonathanrosenbaum.net/2026/10/on-film-criticism-1998/",
+      "source": "Jonathan Rosenbaum",
+      "source_id": "rosenbaum",
+      "tags": [
+        "film",
+        "criticism"
+      ],
+      "published": "2026-10-24T05:00:00Z",
+      "score": 0.7667,
+      "distance": 0.7643,
+      "interest": 0.7691,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "From Projection s 8, edited by John Boorman and Walter Donohue, 1998. Subtitled Film-makers on Film-makers , this issue of the periodic Faber and Faber publication was devoted specifically to what it called ‘criticism,’ spurred jointly by a brief declaration by Bruce Willis at Ca",
+      "explore": false
+    },
+    {
+      "title": "Apple @ Work: The browser is the biggest gap in your AI governance strategy",
+      "ja_title": null,
+      "url": "https://9to5mac.com/2026/10/24/apple-work-the-browser-is-the-biggest-gap-in-your-ai-governance-strategy/",
+      "source": "9to5mac.com",
+      "source_id": "9to5mac-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-10-24T13:00:00Z",
+      "score": 0.7665,
+      "distance": 0.7667,
+      "interest": 0.7663,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Apple @ Work is exclusively brought to you by Mosyle , the only Apple Unified Platform. Mosyle is the only solution that integrates in a single professional grade platform all the solutions necessary to seamlessly and automatically deploy, manage, and protect Apple devices at wor",
+      "explore": false
+    },
+    {
+      "title": "@napi-rs/canvas v1.0.12 で実質的な破壊的変更が入った話",
+      "ja_title": null,
+      "url": "https://zenn.dev/devuloper/articles/napi_rs_canvas_1_0_12_font_tofu",
+      "source": "Zenn",
+      "source_id": "zenn",
+      "tags": [
+        "ja",
+        "tech",
+        "tools"
+      ],
+      "published": "2026-10-24T15:28:06Z",
+      "score": 0.7664,
+      "distance": 0.7674,
+      "interest": 0.7655,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1059,50 +928,76 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "[JR西日本] 西日本旅客鉄道株式会社（本社：大阪府大阪市、代表取締役社長：倉坂昇治）は、9月1日から開催しているJR西日本のスマホ決済アプリWesmo!のキャンペーン『Wesmo!推しトクキャンペーン』について、2026年11月1日（...",
+      "excerpt": "@napi-rs/canvas を 1.0.11 から 1.0.12 以降に上げると、ctx.font = '48px M PLUS Rounded 1c' のように引用符なしで書いたフォント指定が、まるごと無視されるようになりました。日本語は 10px の豆腐で描かれ、例外も警告も出ません。フォント名を \"M PLUS Rounded 1c\" のように引用符で囲めば直ります。 この記事は、気づいたきっかけから原因の特定、対策までをまとめたものです。 きっかけ makeitaquote は、メッセージから Make it a Quote 風の引用画像を作",
       "explore": false
     },
     {
-      "title": "I built a harness so I can watch Claude edit my videos live",
+      "title": "OrgWebAlchemy: Benchmarking, Profiling, and the Long Road to Real Org Support",
       "ja_title": null,
-      "url": "https://agentcut.synteq.app",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
+      "url": "https://jointhefreeworld.org/blog/articles/lisps/orgwebalchemy-benchmarking-profiling-and-org-support/index.html",
+      "source": "jointhefreeworld.org",
+      "source_id": "jointhefreeworld-org",
       "tags": [
-        "tech",
-        "frontier"
+        "discovered"
       ],
-      "published": "2026-10-23T22:48:17Z",
-      "score": 0.7656,
-      "distance": 0.8696,
-      "interest": 0.6616,
+      "published": "2026-10-23T23:00:00Z",
+      "score": 0.7664,
+      "distance": 0.7625,
+      "interest": 0.7704,
       "judged": false,
       "pinned": false,
       "kind": null,
       "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
+        "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)"
+        "idea / essay (+)",
+        "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "",
+      "excerpt": "OrgWebAlchemy is a Guile library that parses Org mode with a Parsing Expression Grammar and renders it to HTML, Markdown, or SXML. I wrote an earlier article about why a PEG is the right tool for Org: the grammar describes the language, the parser builds a tree, the renderers tur",
       "explore": false
     },
     {
-      "title": "Repeating Words: A Developmental Phase or Something More?",
+      "title": "AI found a critical PHP flaw. The bigger failure began in 2024.",
       "ja_title": null,
-      "url": "https://www.psychologytoday.com/us/blog/speaking-in-tongues/202610/repeating-words-a-developmental-phase-or-something-more",
+      "url": "https://thenewstack.io/php2shell-chainguard-embargo-dispute/",
+      "source": "thenewstack.io",
+      "source_id": "thenewstack-io",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-10-22T15:01:54Z",
+      "score": 0.7653,
+      "distance": 0.753,
+      "interest": 0.7777,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Did one of your favorite websites go dark on Wednesday? Some did, as operators took services offline while they waited The post AI found a critical PHP flaw. The bigger failure began in 2024. appeared first on The New Stack .",
+      "explore": false
+    },
+    {
+      "title": "Why Can't I Look Away?: The Mother Who Looked Fine",
+      "ja_title": null,
+      "url": "https://www.psychologytoday.com/us/blog/the-mood-lab/202610/why-cant-i-look-away-the-mother-who-looked-fine",
       "source": "psychologytoday.com",
       "source_id": "psychologytoday-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-23T22:26:20Z",
-      "score": 0.7654,
-      "distance": 0.7695,
-      "interest": 0.7613,
+      "published": "2026-10-24T23:02:56Z",
+      "score": 0.7645,
+      "distance": 0.7697,
+      "interest": 0.7593,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1114,7 +1009,116 @@
         "poses a question (+)"
       ],
       "ja": null,
-      "excerpt": "Why do we repeat other people’s words? Echolalia can help toddlers learn to talk, but it can also reveal fascinating things about autism, communication, and the brain.",
+      "excerpt": "A mistrial and a tragedy at a family resort have raised one hard question. Here’s what our fascination really asks of us.",
+      "explore": false
+    },
+    {
+      "title": "Haskell.ing, a Haskell Learning site",
+      "ja_title": null,
+      "url": "https://discourse.haskell.org/t/haskell-ing-a-haskell-learning-site/14890#post_1",
+      "source": "discourse.haskell.org",
+      "source_id": "discourse-haskell-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-10-24T00:00:56Z",
+      "score": 0.7644,
+      "distance": 0.7629,
+      "interest": 0.7659,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "haskell.ing Haskelling Learn Haskell through interactive exercises with immediate feedback. This is a site with some small Haskell lessons based on LYAH, and a bunch of exercises that can be attempted online. I built this awhile ago, and it’s just been sitting there… I think I mo",
+      "explore": false
+    },
+    {
+      "title": "Apple, please give family IT admins a pester button",
+      "ja_title": null,
+      "url": "https://www.computerworld.com/article/4239067/apple-please-give-family-it-admins-a-pester-button.html",
+      "source": "computerworld.com",
+      "source_id": "computerworld-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-10-22T16:37:00Z",
+      "score": 0.7624,
+      "distance": 0.7535,
+      "interest": 0.7714,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "I was taking my dog for her perambulation through the leafy valleys and forests of one of the most densely populated parts of London this morning when it struck me how annoying it has become that I must now update multiple Apple devices across my family group. That’s pretty much ",
+      "explore": false
+    },
+    {
+      "title": "「お名前.com デスクトップクラウド」ご利用のお客様へ改めてのお願い（第5報） | GMOインターネットグループ株式会社",
+      "ja_title": null,
+      "url": "https://group.gmo/info/alert/2026102402/",
+      "source": "はてブ · テクノロジー新着",
+      "source_id": "hatena-it",
+      "tags": [
+        "ja",
+        "tech"
+      ],
+      "published": "2026-10-24T09:39:37Z",
+      "score": 0.7622,
+      "distance": 0.7657,
+      "interest": 0.7587,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "GMOインターネットグループ株式会社 GMOインターネット株式会社 2026年10月21日から本日にかけてお知らせいたしました「お名前.com デスクトップクラウド」への第三者による不正アクセスについて、その後の調査状況およびお客様へのお願いを、改めてお知らせいたします。 お客様には、多大なるご迷惑とご心配をおかけし...",
+      "explore": false
+    },
+    {
+      "title": "HUGE new Ct. of Appeal decision holds that CA homeowners whose ADU application was denied may sue city for damages.<br />\n<br />\nThe logic sweeps broadly, probably reaching all housing projects subject to ministerial approval under state law -- and perhaps even more.<br />\n<br />\n🧵/23 <span class=\"entity-image\"><a href=\"https://pbs.twimg.com/media/HVazrf1aQAA2lte.jpg\" target=\"_blank\"><img alt=\"Image\" src=\"https://threadreaderapp.com/images/1px.png\" /></a></span>",
+      "ja_title": null,
+      "url": "https://threadreaderapp.com/thread/2114115859430113481.html",
+      "source": "threadreaderapp.com",
+      "source_id": "threadreaderapp-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-10-24T22:04:33Z",
+      "score": 0.7621,
+      "distance": 0.7694,
+      "interest": 0.7548,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "HUGE new Ct. of Appeal decision holds that CA homeowners whose ADU application was denied may sue city for damages. The logic sweeps broadly, probably reaching all housing projects subject to ministerial approval under state law -- and perhaps even more. 🧵/23 The new (old) cause ",
       "explore": false
     }
   ]
