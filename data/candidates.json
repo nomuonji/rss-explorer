@@ -697,14 +697,15 @@
     },
     "watch.impress.co.jp": {
       "referrers": [
-        "hatena-it"
+        "hatena-it",
+        "hatena-know"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-07-23",
       "sample_url": "https://www.watch.impress.co.jp/docs/news/2125732.html",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://www.watch.impress.co.jp/data/rss/1.0/ipw/feed.rdf",
+      "checked": true,
+      "promoted": true
     },
     "jbpress.ismedia.jp": {
       "referrers": [
@@ -6330,9 +6331,11 @@
         "computerworld-com",
         "threadreaderapp-com",
         "letsencrypt-org",
-        "lwn-net"
+        "lwn-net",
+        "seldo-com",
+        "abetterinternet-org"
       ],
-      "count": 22,
+      "count": 24,
       "first_seen": "2026-07-27",
       "sample_url": "https://www.anthropic.com/news/position-open-weights-models",
       "feed": null,
@@ -15562,13 +15565,14 @@
     },
     "rumble.com": {
       "referrers": [
-        "hackernews"
+        "hackernews",
+        "threadreaderapp-com"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-07",
       "sample_url": "https://rumble.com/v798evg-secret-kosher-slaughterhouse-exposed-in-england-sickening-investigation.html",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "hakaimagazine.com": {
@@ -16890,9 +16894,10 @@
         "secretspec-dev",
         "hackernews",
         "til-simonwillison-net",
-        "jvt-me"
+        "jvt-me",
+        "dev-to"
       ],
-      "count": 6,
+      "count": 7,
       "first_seen": "2026-08-08",
       "sample_url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
       "feed": null,
@@ -17187,9 +17192,10 @@
         "schneier-com",
         "jeffgeerling-com",
         "seangoedecke-com",
-        "computerworld-com"
+        "computerworld-com",
+        "alignmentforum-org"
       ],
-      "count": 7,
+      "count": 8,
       "first_seen": "2026-08-09",
       "sample_url": "https://www.abc.net.au/news/2026-08-10/charting-the-rise-of-illegal-tobacco-in-australia/106941130",
       "feed": null,
@@ -17796,13 +17802,14 @@
     },
     "appledb.dev": {
       "referrers": [
-        "macrumors-com"
+        "macrumors-com",
+        "buyersguide-macrumors-com"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-09",
       "sample_url": "https://www.macrumors.com/2026/08/07/ios-26-dopamine-jailbreak/",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "counterpointresearch.com": {
@@ -19847,9 +19854,10 @@
         "hackernews",
         "nixos-org",
         "jointhefreeworld-org",
-        "atp-fm"
+        "atp-fm",
+        "ev-kde-org"
       ],
-      "count": 5,
+      "count": 6,
       "first_seen": "2026-08-11",
       "sample_url": "https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/",
       "feed": null,
@@ -24283,9 +24291,10 @@
         "jvt-me",
         "sourcehut-org",
         "lwn-net",
-        "opentelemetry-io"
+        "opentelemetry-io",
+        "dev-to"
       ],
-      "count": 5,
+      "count": 6,
       "first_seen": "2026-08-17",
       "sample_url": "https://git-scm.com/docs/gitweb",
       "feed": null,
@@ -26551,13 +26560,14 @@
     },
     "chat.whatsapp.com": {
       "referrers": [
-        "hackernews"
+        "hackernews",
+        "lobsters"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-20",
       "sample_url": "https://chat.whatsapp.com/BHBRf7aUKu4H2AJORsg3Xi?_fb_noscript=1",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "osmosis.ai": {
@@ -30224,9 +30234,10 @@
         "nixos-org",
         "nlnet-nl",
         "infrequently-org",
-        "matrix-org"
+        "matrix-org",
+        "abetterinternet-org"
       ],
-      "count": 4,
+      "count": 5,
       "first_seen": "2026-08-23",
       "sample_url": "https://nixos.org/blog/stories/2022/the-rise-of-special-project-infra/",
       "feed": null,
@@ -31824,9 +31835,10 @@
     "nsa.gov": {
       "referrers": [
         "spectrum-ieee-org",
-        "letsencrypt-org"
+        "letsencrypt-org",
+        "abetterinternet-org"
       ],
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-08-25",
       "sample_url": "https://spectrum.ieee.org/cold-war-codebreaker-nsa-ibm",
       "feed": null,
@@ -32361,14 +32373,15 @@
     },
     "nap.nationalacademies.org": {
       "referrers": [
-        "nlnet-nl"
+        "nlnet-nl",
+        "hackernews"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-08-25",
       "sample_url": "https://nlnet.nl/news/2025/20250814-SCION-Interview.html",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://nap.nationalacademies.org/rss",
+      "checked": true,
+      "promoted": true
     },
     "enisa.europa.eu": {
       "referrers": [
@@ -40708,13 +40721,14 @@
     },
     "ben54.jp": {
       "referrers": [
-        "hatena-know"
+        "hatena-know",
+        "hatena-it"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-09-02",
       "sample_url": "https://www.ben54.jp/news/3874",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "shorebird.hatenablog.com": {
@@ -56938,9 +56952,10 @@
     "ghostty.org": {
       "referrers": [
         "oxide-and-friends-transistor-fm",
-        "lobsters"
+        "lobsters",
+        "blogs-kde-org"
       ],
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-09-20",
       "sample_url": "https://share.transistor.fm/s/db9c733b",
       "feed": null,
@@ -60715,25 +60730,27 @@
     },
     "sovereigntechfund.de": {
       "referrers": [
-        "memorysafety-org"
+        "memorysafety-org",
+        "abetterinternet-org"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-09-24",
       "sample_url": "https://www.memorysafety.org/blog/rustls-ech-support/",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://www.sovereign.tech/feed.rss",
+      "checked": true,
+      "promoted": true
     },
     "tectonics.memorysafety.org": {
       "referrers": [
-        "memorysafety-org"
+        "memorysafety-org",
+        "abetterinternet-org"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-09-24",
       "sample_url": "https://www.memorysafety.org/blog/tectonics-readout/",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://tectonics.memorysafety.org/index.xml",
+      "checked": true,
+      "promoted": true
     },
     "aperiodical.net": {
       "referrers": [
@@ -63338,9 +63355,10 @@
     },
     "rockylinux.org": {
       "referrers": [
-        "osv-dev"
+        "osv-dev",
+        "ev-kde-org"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-09-27",
       "sample_url": "http://osv.dev/blog/posts/almalinux-and-rocky-linux-join-osv/",
       "feed": null,
@@ -75173,14 +75191,15 @@
     "cabforum.org": {
       "referrers": [
         "lwn-net",
-        "letsencrypt-org"
+        "letsencrypt-org",
+        "abetterinternet-org"
       ],
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-10-10",
       "sample_url": "https://lwn.net/Articles/1099588/",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://cabforum.org/posts/feed/",
+      "checked": true,
+      "promoted": true
     },
     "assets.publishing.service.gov.uk": {
       "referrers": [
@@ -76659,9 +76678,10 @@
     },
     "nvlpubs.nist.gov": {
       "referrers": [
-        "letsencrypt-org"
+        "letsencrypt-org",
+        "abetterinternet-org"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-10-12",
       "sample_url": "https://letsencrypt.org/2026/06/03/pq-certs.html",
       "feed": null,
@@ -76697,9 +76717,10 @@
     },
     "community.letsencrypt.org": {
       "referrers": [
-        "letsencrypt-org"
+        "letsencrypt-org",
+        "abetterinternet-org"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-10-12",
       "sample_url": "https://letsencrypt.org/2026/02/05/fosdem2026.html",
       "feed": null,
@@ -76709,13 +76730,14 @@
     "crt.sh": {
       "referrers": [
         "letsencrypt-org",
-        "captnemo-in"
+        "captnemo-in",
+        "abetterinternet-org"
       ],
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-10-12",
       "sample_url": "https://letsencrypt.org/2025/12/09/10-years.html",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "caddyserver.com": {
@@ -76789,13 +76811,14 @@
     "discourse.org": {
       "referrers": [
         "letsencrypt-org",
-        "discuss-linuxcontainers-org"
+        "discuss-linuxcontainers-org",
+        "abetterinternet-org"
       ],
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-10-12",
       "sample_url": "https://letsencrypt.org/2025/03/18/community-of-funders.html",
       "feed": null,
-      "checked": false,
+      "checked": true,
       "promoted": false
     },
     "davexunit.itch.io": {
@@ -77276,14 +77299,15 @@
     "words.filippo.io": {
       "referrers": [
         "lobsters",
-        "letsencrypt-org"
+        "letsencrypt-org",
+        "abetterinternet-org"
       ],
-      "count": 2,
+      "count": 3,
       "first_seen": "2026-10-13",
       "sample_url": "https://words.filippo.io/right-answers/",
-      "feed": null,
-      "checked": false,
-      "promoted": false
+      "feed": "https://words.filippo.io/rss/",
+      "checked": true,
+      "promoted": true
     },
     "simonkoeck.com": {
       "referrers": [
@@ -84050,9 +84074,10 @@
     },
     "jepsen.io": {
       "referrers": [
-        "lobsters"
+        "lobsters",
+        "simonwillison-net"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-10-21",
       "sample_url": "https://jepsen.io/analyses/orkes-conductor-5.3.2",
       "feed": null,
@@ -94426,9 +94451,10 @@
     },
     "bathtub-01.github.io": {
       "referrers": [
-        "discourse-haskell-org"
+        "discourse-haskell-org",
+        "lobsters"
       ],
-      "count": 1,
+      "count": 2,
       "first_seen": "2026-11-01",
       "sample_url": "https://discourse.haskell.org/t/a-haskell-processor-running-on-an-fpga/14921#post_1",
       "feed": null,
@@ -94497,6 +94523,633 @@
       "count": 1,
       "first_seen": "2026-11-01",
       "sample_url": "https://www.alignmentforum.org/posts/RHxaRkarGp9snWoKY/explaining-ai-might-obliterate-you-to-senior-policymakers-in",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "gardinerbryant.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://gardinerbryant.com/retro-gaming-has-a-port-slop-problem/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "onmilwaukee.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://onmilwaukee.com/articles/potato-halloween-candy",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "tanikella.ghost.io": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://tanikella.ghost.io/scip-rocks/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "softwaresessions.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://www.softwaresessions.com/episodes/oxide/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "jimmitchell.dev": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://jimmitchell.dev/outpost/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "heygo.in": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://heygo.in/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "better-together.fun": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://better-together.fun/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "americansentiment.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://www.americansentiment.com/datacenters",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "occupysaas.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://occupysaas.com/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "peopleyouk.now": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://peopleyouk.now/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "operator0x.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://operator0x.com/field-notes/weights-still-need-a-home/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "manishrjain.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://manishrjain.com/egres/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "sleepsignal.app": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://sleepsignal.app/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "zmap.io": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://zmap.io/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "rom.on.ca": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://www.rom.on.ca/blogs/hippos-and-whales-unlikely-cousins",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "blog.regehr.org": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://blog.regehr.org/archives/31",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "provare-typechecker.vercel.app": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://provare-typechecker.vercel.app",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "nonsens.ing": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://nonsens.ing/ubutok/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "policygradients.thefai.org": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://policygradients.thefai.org/p/americas-sewer-systems-are-surprisingly",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "tunaml.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://tunaml.com/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "ai-nerfs.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://ai-nerfs.com",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "mysportsos.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://mysportsos.com/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "mom-hub.tryapexti.ai": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://mom-hub.tryapexti.ai/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "citedbyagi.com": {
+      "referrers": [
+        "hackernews"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://citedbyagi.com/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "vinipsmaker.github.io": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://vinipsmaker.github.io/blog/article/pratt-parsing-is-a-black-box/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "undeadly.org": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://www.undeadly.org/cgi?action=article;sid=20261101115637",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "ats-lang.sourceforge.net": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/book1.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "leancrew.com": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://leancrew.com/all-this/2026/10/xkcd-and-fourier/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "stephenlindholm.com": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://www.stephenlindholm.com/groff_macros.html",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "nablag.com": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://www.nablag.com/spooky_cpp",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "web.eece.maine.edu": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://web.eece.maine.edu/~vweaver/projects/deterministic/deterministic_counters.pdf",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "karthinks.com": {
+      "referrers": [
+        "lobsters"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://karthinks.com/software/understanding-org-latex-preview/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "comcomponent.com": {
+      "referrers": [
+        "hatena-it"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://comcomponent.com/blog/ada-vs-rust-safety/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "filmreroll.com": {
+      "referrers": [
+        "jvt-me"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://www.jvt.me/mf2/2026/11/ljzug/?utm_medium=rss&utm_source=rss",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "community.spotify.com": {
+      "referrers": [
+        "flourish-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://www.flourish.org/2026/08/personal-apps/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "gns3.com": {
+      "referrers": [
+        "vincent-bernat-ch"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://vincent.bernat.ch/en/blog/2012-network-lab-qemu",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "bugs.debian.org": {
+      "referrers": [
+        "vincent-bernat-ch"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://vincent.bernat.ch/en/blog/2012-network-lab-qemu",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "clownix.net": {
+      "referrers": [
+        "vincent-bernat-ch"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://vincent.bernat.ch/en/blog/2012-network-lab-qemu",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "netkit.org": {
+      "referrers": [
+        "vincent-bernat-ch"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://vincent.bernat.ch/en/blog/2012-network-lab-qemu",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "develop.kde.org": {
+      "referrers": [
+        "blogs-kde-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://blogs.kde.org/2026/11/01/introducing-kwi/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "api.kde.org": {
+      "referrers": [
+        "blogs-kde-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://blogs.kde.org/2026/11/01/introducing-kwi/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "law.georgetown.edu": {
+      "referrers": [
+        "techpolicy-press"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://techpolicy.press/when-how-and-why-to-abandon-the-internet",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "chrisdown.name": {
+      "referrers": [
+        "discuss-linuxcontainers-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://discuss.linuxcontainers.org/t/possible-to-disable-swap-on-incusos/27474#post_3",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "tracker.debian.org": {
+      "referrers": [
+        "discuss-linuxcontainers-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://discuss.linuxcontainers.org/t/declarative-incus-thinking-aloud/27463#post_3",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "in the security advisory post for cve-2026-98432": {
+      "referrers": [
+        "forum-proxmox-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://forum.proxmox.com/threads/kernel-is-not-updated-solved.187380/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "eclectic-cactus-07703e.netlify.app": {
+      "referrers": [
+        "dev-to"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://dev.to/lululapeng/the-email-i-wish-id-sent-the-first-time-a-client-said-quick-tweak-2lo3",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "lulupearl0.gumroad.com": {
+      "referrers": [
+        "dev-to"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://dev.to/lululapeng/the-email-i-wish-id-sent-the-first-time-a-client-said-quick-tweak-2lo3",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "webgrowbd.com": {
+      "referrers": [
+        "dev-to"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://dev.to/faruk_hosen_d275fd2177d00/how-a-bangladeshi-e-commerce-store-scaled-from-facebook-to-a-custom-web-store-with-bkash-automation-198g",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "docs.uipath.com": {
+      "referrers": [
+        "dev-to"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://dev.to/pravinraj/an-operating-model-for-reliable-uipath-unattended-automation-590k",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "hermes-ide.com": {
+      "referrers": [
+        "dev-to"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://dev.to/gabrielanhaia/your-agent-never-committed-snapshot-every-turn-to-a-git-ref-then-bisect-5hc9",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "xgabriel.com": {
+      "referrers": [
+        "dev-to"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://dev.to/gabrielanhaia/your-agent-never-committed-snapshot-every-turn-to-a-git-ref-then-bisect-5hc9",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "adpresearch.com": {
+      "referrers": [
+        "seldo-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://seldo.com/posts/a-proposal-how-to-hire-junior-engineers-in-the-age-of-ai",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "countrypolitan.urbanup.com": {
+      "referrers": [
+        "urbandictionary-com"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "http://countrypolitan.urbanup.com/2074949",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "macsparky.com": {
+      "referrers": [
+        "lexontech-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://www.macsparky.com/blog/2026/10/what-would-this-actually-change/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "siros.org": {
+      "referrers": [
+        "abetterinternet-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://www.abetterinternet.org/post/humandigitalidentityspace/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "search.censys.io": {
+      "referrers": [
+        "abetterinternet-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://www.abetterinternet.org/post/first-short-lived-cert-issued/",
+      "feed": null,
+      "checked": false,
+      "promoted": false
+    },
+    "divviup.org": {
+      "referrers": [
+        "abetterinternet-org"
+      ],
+      "count": 1,
+      "first_seen": "2026-11-02",
+      "sample_url": "https://www.abetterinternet.org/post/fosdem2024/",
       "feed": null,
       "checked": false,
       "promoted": false
@@ -104264,6 +104917,126 @@
       "domain": "abetterinternet-org",
       "action": "graduated",
       "detail": "avg=0.5912 over 60 items"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "cabforum.org",
+      "action": "promoted",
+      "detail": "referred by lwn-net, letsencrypt-org, abetterinternet-org"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "crt.sh",
+      "action": "probe-failed",
+      "detail": "3 referrers, no feed found"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "discourse.org",
+      "action": "probe-failed",
+      "detail": "3 referrers, no feed found"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "words.filippo.io",
+      "action": "promoted",
+      "detail": "referred by lobsters, letsencrypt-org, abetterinternet-org"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "watch.impress.co.jp",
+      "action": "promoted",
+      "detail": "referred by hatena-it, hatena-know"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "rumble.com",
+      "action": "probe-failed",
+      "detail": "2 referrers, no feed found"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "appledb.dev",
+      "action": "probe-failed",
+      "detail": "2 referrers, no feed found"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "chat.whatsapp.com",
+      "action": "probe-failed",
+      "detail": "2 referrers, no feed found"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "nap.nationalacademies.org",
+      "action": "promoted",
+      "detail": "referred by nlnet-nl, hackernews"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "ben54.jp",
+      "action": "probe-failed",
+      "detail": "2 referrers, no feed found"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "sovereigntechfund.de",
+      "action": "promoted",
+      "detail": "referred by memorysafety-org, abetterinternet-org"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "tectonics.memorysafety.org",
+      "action": "promoted",
+      "detail": "referred by memorysafety-org, abetterinternet-org"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "futhark-lang-org",
+      "action": "graduated",
+      "detail": "avg=0.5882 over 10 items"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "hacktron-ai",
+      "action": "graduated",
+      "detail": "avg=0.5844 over 60 items"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "digitaltrends-com",
+      "action": "graduated",
+      "detail": "avg=0.6281 over 60 items"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "bidenwhitehouse-archives-gov",
+      "action": "graduated",
+      "detail": "avg=0.5821 over 10 items"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "fly-io",
+      "action": "graduated",
+      "detail": "avg=0.6157 over 30 items"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "tweedegolf-nl",
+      "action": "graduated",
+      "detail": "avg=0.5678 over 30 items"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "f-droid-org",
+      "action": "graduated",
+      "detail": "avg=0.5904 over 20 items"
+    },
+    {
+      "date": "2026-11-02",
+      "domain": "dansinker-com",
+      "action": "graduated",
+      "detail": "avg=0.5935 over 30 items"
     }
   ]
 }
