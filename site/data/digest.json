@@ -1,15 +1,23 @@
 {
-  "generated": "2026-11-05T02:04:22Z",
+  "generated": "2026-11-06T02:05:36Z",
   "count": 40,
   "meta": {
-    "sources_total": 637,
+    "sources_total": 643,
     "counts": {
       "seed": 64,
-      "active": 563,
-      "trial": 10
+      "active": 573,
+      "trial": 6
     },
-    "feeds_resolved_this_run": 1,
+    "feeds_resolved_this_run": 0,
     "discovered_this_run": [
+      "shop-macworld-com",
+      "salon-com",
+      "johndcook-com",
+      "amutable-com",
+      "docs-litellm-ai",
+      "pyfound-blogspot-com"
+    ],
+    "graduated_this_run": [
       "cultofmac-com",
       "hughhowey-com",
       "reasonablypolymorphic-com",
@@ -21,17 +29,9 @@
       "tuta-com",
       "jalopnik-com"
     ],
-    "graduated_this_run": [
-      "valkey-io",
-      "antonz-org",
-      "determinate-systems",
-      "wiki-debian-org",
-      "snowflake-com",
-      "netbsd-org"
-    ],
     "retired_this_run": [],
-    "candidates_tracked": 8728,
-    "items_seen_this_run": 12113,
+    "candidates_tracked": 8825,
+    "items_seen_this_run": 12320,
     "items_judged": 0,
     "judge_enabled": false,
     "pinned": [],
@@ -39,18 +39,97 @@
   },
   "items": [
     {
-      "title": "suricata",
+      "title": "How has the Impulse cooktop changed how I cook?",
       "ja_title": null,
-      "url": "https://wiki.debian.org/action/diff/suricata?action=diff&rev1=16&rev2=15",
-      "source": "wiki.debian.org",
-      "source_id": "wiki-debian-org",
+      "url": "https://www.simplermachines.com/how-has-the-impulse-cooktop-changed-how-i-cook/",
+      "source": "simplermachines.com",
+      "source_id": "simplermachines-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-04T18:02:31Z",
-      "score": 0.6554,
-      "distance": 0.7676,
-      "interest": 0.5433,
+      "published": "2026-10-28T21:17:20Z",
+      "score": 0.7369,
+      "distance": 0.7114,
+      "interest": 0.7623,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)"
+      ],
+      "ja": null,
+      "excerpt": "I've been a little bit surprised to discover that the most important feature of the Impulse for my day-to-day life is: It boil water fast. It boil water very fast.",
+      "explore": true
+    },
+    {
+      "title": "Microsoft Patents Tiny Liquid Pumps to Spread Heat Across a Device's Shell",
+      "ja_title": null,
+      "url": "https://patentlyze.com/patent/microsoft-liquid-cooling-built-device-shell/?utm_source=rss&utm_medium=referral&utm_campaign=patents",
+      "source": "patentlyze.com",
+      "source_id": "patentlyze-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-10-30T14:20:53Z",
+      "score": 0.7029,
+      "distance": 0.7236,
+      "interest": 0.6823,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)"
+      ],
+      "ja": null,
+      "excerpt": "Microsoft's filing describes a thin liquid pump and tiny channels inside a device's casing that carry heat away from the hot spot you feel against your palm. (Microsoft · US 2026/0343806 A1)",
+      "explore": true
+    },
+    {
+      "title": "What do I listen to while I'm writing?",
+      "ja_title": null,
+      "url": "https://www.simplermachines.com/what-do-i-listen-to-while-im-writing/",
+      "source": "simplermachines.com",
+      "source_id": "simplermachines-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-06T00:33:15Z",
+      "score": 0.673,
+      "distance": 0.7695,
+      "interest": 0.5765,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "poses a question (+)"
+      ],
+      "ja": null,
+      "excerpt": "The Sims soundtrack, a handful of other video game and movie sound tracks, 50s and 60s library music, and modern music inspired by library music, plus often some instrumental jazz and funk.",
+      "explore": true
+    },
+    {
+      "title": "Sony Files Patent for a Motorized Thumbstick That Fakes Clicks and Holds Its Position",
+      "ja_title": null,
+      "url": "https://patentlyze.com/patent/sony-motorized-controller-stick-click-feel/?utm_source=rss&utm_medium=referral&utm_campaign=patents",
+      "source": "patentlyze.com",
+      "source_id": "patentlyze-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-10-30T14:20:42Z",
+      "score": 0.6365,
+      "distance": 0.7236,
+      "interest": 0.5495,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -59,98 +138,79 @@
       ],
       "reasons_interest": [],
       "ja": null,
-      "excerpt": "Add two notes about possible breaking changes in unstable/sid, testing, stable-backports or the Debusine repo.",
+      "excerpt": "Sony has filed a patent for a controller thumbstick with its own motors, so the stick can push back, hold still, or give you a fake mechanical click at an angle the game picks. (Sony · US 2026/0339420 A1)",
       "explore": true
     },
     {
-      "title": "Teams/Publicity/DebianTimesTeam/PressReleases/SerproChoseDebianAndCollaborate",
+      "title": "【鈴木淳也のPay Attention】なぜパスポートはダメ? 大情報漏洩時代の本人確認がマイナカードに集約される理由",
       "ja_title": null,
-      "url": "https://wiki.debian.org/action/diff/Teams/Publicity/DebianTimesTeam/PressReleases/SerproChoseDebianAndCollaborate?action=diff&rev1=59&rev2=58",
-      "source": "wiki.debian.org",
-      "source_id": "wiki-debian-org",
+      "url": "https://www.watch.impress.co.jp/docs/series/suzukij/2153056.html",
+      "source": "watch.impress.co.jp",
+      "source_id": "watch-impress-co-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-04T10:27:42Z",
-      "score": 0.6525,
+      "published": "2026-11-05T23:20:00Z",
+      "score": 0.8201,
+      "distance": 0.7692,
+      "interest": 0.8711,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "近年企業や個人へのサイバー攻撃が激化しているのは既知の通りだが、要因は2つ考えられる。1つはAIの登場により攻撃のためのツール作成が容易になり、また言語の壁を破ることもたやすくなったため、これまでこの壁の存在によって、海外の犯罪グループによる直接的なフィッシング攻撃を比較的回避できていた日本においてもそのターゲットにされる機会が増えてきたといえる。もう1つは、連日不正アクセスのニュースがさまざまな媒体に露出したり、普段の会話でのテーマになりやすくなったことから、「実はウチもやられているかも……」ということで検証した結果、これまで隠れていた被害報告が一挙に",
+      "explore": false
+    },
+    {
+      "title": "なぜ醜悪な考えをもつ中年男性は女性店員にばかり話しかけるのか？",
+      "ja_title": null,
+      "url": "https://hokke-ookami.hatenablog.com/entry/20261105/1793889778",
+      "source": "hokke-ookami.hatenablog.com",
+      "source_id": "hokke-ookami-hatenablog-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-05T14:42:58Z",
+      "score": 0.8159,
+      "distance": 0.7666,
+      "interest": 0.8652,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "poses a question (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "元PHP研究所アジア総支配人で、参政党の奈良県連会長として2023年に立候補しようとした湯浅忠雄氏が、下記のような体験談を語っていた。 以前、居酒屋で、どうみても中国人の女性店員に、「中国人だよね」と中国語と日本語で問いかけたが、絶対答えなかった。他にも類似のケースがあるが、彼らは、自分は何人だと言わないケースがある。個人の選択の場合もあるが、あれは、雇い先や斡旋先から、何人と言うなと口止めされて…— 湯浅忠雄 YUASA TADAO (@GrwaNnKqMn5nG68) 2026年11月2日 以前、居酒屋で、どうみても中国人の女性店員に、「中国人だよね",
+      "explore": false
+    },
+    {
+      "title": "東大総長選 投票はなぜ覆った? 異例の“大逆転”を追った | NHKニュース",
+      "ja_title": null,
+      "url": "https://news.web.nhk/newsweb/na/nd-20261104de70318",
+      "source": "はてブ · 学び新着",
+      "source_id": "hatena-know",
+      "tags": [
+        "ja",
+        "ideas"
+      ],
+      "published": "2026-11-05T10:35:25Z",
+      "score": 0.7999,
       "distance": 0.7654,
-      "interest": 0.5397,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [],
-      "ja": null,
-      "excerpt": "Remove empty translation header, remove CategoryProposedDeletion",
-      "explore": true
-    },
-    {
-      "title": "Introducing FlakeAudit, a CLI for evaluating CycloneDX SBOMs against custom policies",
-      "ja_title": null,
-      "url": "https://determinate.systems/blog/introducing-flakeaudit/",
-      "source": "determinate.systems",
-      "source_id": "determinate-systems",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-03T00:00:00Z",
-      "score": 0.6464,
-      "distance": 0.62,
-      "interest": 0.6729,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "It's the Rust-native, Nix-aware companion to FlakeBOM that turns SBOMs from a report on what exists on a system into something you can act on",
-      "explore": true
-    },
-    {
-      "title": "Changelog: a new upstream base, GC roots for nix eval, and a faster nix copy",
-      "ja_title": null,
-      "url": "https://determinate.systems/blog/changelog-determinate-nix-3-22-2/",
-      "source": "determinate.systems",
-      "source_id": "determinate-systems",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-08-26T00:00:00Z",
-      "score": 0.6368,
-      "distance": 0.62,
-      "interest": 0.6537,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "Determinate Nix 3.22.2 moves onto upstream Nix 2.35, gives nix eval a --drv-link flag that keeps the garbage collector away from freshly instantiated derivations, and makes nix copy fast again against older daemons.",
-      "explore": true
-    },
-    {
-      "title": "一流の謙虚なリーダーが積み重ねている「クレディビリティ」とは？ - 「謙虚さ」という戦略",
-      "ja_title": null,
-      "url": "https://diamond.jp/articles/-/402411",
-      "source": "diamond.jp",
-      "source_id": "diamond-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-04T22:30:00Z",
-      "score": 0.8213,
-      "distance": 0.7689,
-      "interest": 0.8736,
+      "interest": 0.8345,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -163,22 +223,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "「謙虚さこそが、最強の戦略だ」と主張するのは、モルガンスタンレー、Googleなどで働き4大陸50カ国以上のリーダーを見て続けてきたピョートル氏。 謙虚なリーダーがチームや部下、組織から信頼されるためにやっている思考と行動があると語ります。謙虚な人がやっている具体的な行動規範と思考法について解説してもらいました。新刊『「謙虚さ」という戦略』から一部抜粋・編集してご紹介します。",
+      "excerpt": "「我々は議論を尽くしたはずなのに」 東京大学の次の総長を決めた選考会議の委員の1人は、取材にこう語りました。 教職員による意向投票で1位だった候補ではなく、なぜ、得票が半分だった2位の候補が、異例…",
       "explore": false
     },
     {
-      "title": "なぜ「3000円のスパークリングワイン」が、シャンパーニュというブランドになると「1万円」になるのか？ - アメリカに訴えられた男",
+      "title": "ハーフカメラって何？なにがそんなに面白いの？（傑作選）",
       "ja_title": null,
-      "url": "https://diamond.jp/articles/-/400242",
-      "source": "diamond.jp",
-      "source_id": "diamond-jp",
+      "url": "https://dailyportalz.jp/kiji/im_crazy_for_half_camera",
+      "source": "dailyportalz.jp",
+      "source_id": "dailyportalz-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-04T21:25:00Z",
-      "score": 0.8112,
-      "distance": 0.7686,
-      "interest": 0.8537,
+      "published": "2026-11-05T09:00:00Z",
+      "score": 0.7945,
+      "distance": 0.7649,
+      "interest": 0.8241,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -191,106 +251,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "戦略的なマーケティングとブランディングによって高級な価値を確立したビジネスモデルは、市場に大きな利益をもたらしている。一方で高い品質を誇りながらも「良いものを安く提供する」という価値観に縛られ、適切なブランディングが行えていない多くの日本のプロダクトは、そのポテンシャルを十分に活かしきれていない。シャンパン事業で大きな成功を収めた本村哲也氏は著書『アメリカに訴えられた男 エリート外資系銀行員が嵌められた罠。そして奈落からの復活』（ダイヤモンド社）で、正当な対価を得て市場を豊かに循環させる新たなビジネスのあり方を提示している。",
+      "excerpt": "今度新しく出るフィルムカメラはハーフカメラなのだという。ハーフカメラって何？という人のために、ハーフカメラの良さについて説明します。",
       "explore": false
     },
     {
-      "title": "Windows 11 using most of your RAM? Microsoft says that’s a good thing, as “the real test is whether your PC stays responsive”",
+      "title": "「まさに青天の霹靂」　イスラエル大統領、トランプ氏の支援打ち切り表明に衝撃",
       "ja_title": null,
-      "url": "https://www.windowslatest.com/2026/11/05/windows-11-using-most-of-your-ram-microsoft-says-thats-a-good-thing-as-the-real-test-is-whether-your-pc-stays-responsive/",
-      "source": "windowslatest.com",
-      "source_id": "windowslatest-com",
+      "url": "https://www.cnn.co.jp/world/35254470.html?ref=rss",
+      "source": "cnn.co.jp",
+      "source_id": "cnn-co-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-04T20:37:39Z",
-      "score": 0.8097,
-      "distance": 0.7684,
-      "interest": 0.8511,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "After a restart with no apps installed, Windows 11 used 2.4GB on a 4GB VM and 3.7GB on a 16GB VM. Microsoft’s documentation explains why Windows keeps more pages in RAM when memory is abundant, what Available and Cached mean, and when high RAM usage turns into a problem. Compress",
-      "explore": false
-    },
-    {
-      "title": "Why Do Bad Things Happen  to Bad People?",
-      "ja_title": null,
-      "url": "https://www.mcsweeneys.net/articles/why-do-bad-things-happen-to-bad-people",
-      "source": "mcsweeneys.net",
-      "source_id": "mcsweeneys-net",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-04T16:45:00Z",
-      "score": 0.8004,
-      "distance": 0.7672,
-      "interest": 0.8337,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "A decade ago, when the new world order was established, people like me—the craven, the corrupt, and the clowns—knew we would be taken care of and rewarded. But now the worst possible people are actually losing their elections, and our faith is as shaky as Ken Paxton’s ethics . De",
-      "explore": false
-    },
-    {
-      "title": "Can the midterms stall the 2028 datacenter buildout? 🚨<br />\n<br />\n\"The polls all show that Abbott is projected to win.\"<br />\n<br />\nMaya (@mayabarkin), Wayne (@waynema) and Jeremie (@JeremieEO) join Jordan (@JordanNanos) the morning of Election Day to unpack Texas's TCEQ permit freeze, the 30.3 GW of planned 2028 capacity that could be at risk, a datacenter backlash that crosses party lines, and whether $50 billion for a few thousand jobs is a bad trade, then we check their calls against the results.<span class=\"entity-video\"><video controls=\"controls\" poster=\"https://pbs.twimg.com/ext_tw_video_thumb/2118106424823644160/pu/img/D5XzMPI9HNSs--ui.jpg\" preload=\"none\"><source src=\"https://video.twimg.com/ext_tw_video/2118106424823644160/pu/vid/avc1/480x270/zcjK_gfFmH5SUIu2.mp4?tag=12\" type=\"video/mp4\" /><br />\n<source src=\"https://video.twimg.com/ext_tw_video/2118106424823644160/pu/vid/avc1/640x360/fD48NiFVj5PJ_M78.mp4?tag=12\" type=\"video/mp4\" /><br />\n<source src=\"https://video.twimg.com/ext_tw_video/2118106424823644160/pu/vid/avc1/1280x720/YT2zfA3Vft73npgy.mp4?tag=12\" type=\"video/mp4\" /><img alt=\"Video Poster\" src=\"https://pbs.twimg.com/ext_tw_video_thumb/2118106424823644160/pu/img/D5XzMPI9HNSs--ui.jpg\" /></video></span>",
-      "ja_title": null,
-      "url": "https://threadreaderapp.com/thread/2118106482684072147.html",
-      "source": "threadreaderapp.com",
-      "source_id": "threadreaderapp-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-04T22:21:52Z",
-      "score": 0.7933,
-      "distance": 0.7689,
-      "interest": 0.8178,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Can the midterms stall the 2028 datacenter buildout? 🚨 \"The polls all show that Abbott is projected to win.\" Maya (@mayabarkin), Wayne (@waynema) and Jeremie (@JeremieEO) join Jordan (@JordanNanos) the morning of Election Day to unpack Texas's TCEQ permit freeze, the 30.3 GW of p",
-      "explore": false
-    },
-    {
-      "title": "「ノーベルは秘書に恋心を抱いていました。ところが…」池上彰さんが解説する、ノーベル平和賞にまつわる“ちょっといい話”",
-      "ja_title": null,
-      "url": "https://bunshun.jp/articles/-/93402",
-      "source": "bunshun.jp",
-      "source_id": "bunshun-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-04T22:00:00Z",
-      "score": 0.7927,
-      "distance": 0.7688,
-      "interest": 0.8165,
+      "published": "2026-11-06T00:25:00Z",
+      "score": 0.789,
+      "distance": 0.7695,
+      "interest": 0.8084,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -302,22 +278,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "Q ノーベル平和賞授賞式、なぜノルウェー？ ノーベル賞受賞者がよく「スウェーデンの番号から電話がかかってきて……」というエピソードを披露しているのが印象的です。ただ、ノーベル賞創設者のアルフレッド・ノー…",
+      "excerpt": "イスラエルのヘルツォグ大統領は6日までに、トランプ米大統領が中間選挙当日の3日にイスラエル支援を打ち切る考えを表明した時の心境について、「まさに青天の霹靂（へきれき）だった」と振り返った。 ヘルツォグ氏がこの問題を取り上げたのは、ネタニヤフ首相の有力な対抗馬ガディ・アイゼンコット氏率いるヤシャル党との会談でのことだった。 「米国の支援の件を非常に心配している。私にとってもまさに青天の霹靂だった。...",
       "explore": false
     },
     {
-      "title": "20年前はヒットしなかった本が新訳でベストセラーに…AIの普及で自己啓発本の“トレンド”が変わりつつあるワケ",
+      "title": "「11月5日」は、実はゲームにとってちょうどいい発売日だった。同日発売美少女ローグライク『夢幻桜楼閣』『クライムライト』開発者に、「なぜGTA6間近にしたのか」訊いた",
       "ja_title": null,
-      "url": "https://bunshun.jp/articles/-/93331",
-      "source": "bunshun.jp",
-      "source_id": "bunshun-jp",
+      "url": "https://automaton-media.com/articles/interviewsjp/crymelight-mugenzakura-20261105-477793/",
+      "source": "automaton-media.com",
+      "source_id": "automaton-media-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-04T08:00:00Z",
-      "score": 0.7921,
-      "distance": 0.7646,
-      "interest": 0.8197,
+      "published": "2026-11-05T11:17:38Z",
+      "score": 0.7865,
+      "distance": 0.7656,
+      "interest": 0.8075,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -329,22 +305,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "『やりたいことが見つかる 世界の果てのカフェ』（ジョン・ストレルキー 著／鹿田昌美 訳） 人生に迷った主人公が偶然辿り着いた不思議なカフェ。メニューには「あなたはなぜここにいるのか？」「あなたは死を恐れ…",
+      "excerpt": "『クライムライト』と『夢幻桜楼閣』は同日発売かつローグライク・ローグライトアクションという共通項をもつゲームだ。そんな2作品が手を取り合う。",
       "explore": false
     },
     {
-      "title": "In 2010, a national evening newscast reported something no network would touch today.<br />\n<br />\nThe WHO had changed the definition of a pandemic. Governments had bought hundreds of millions of swine flu doses nobody needed. And Europe's top health watchdog was accusing Pharma of \"organising a campaign of panic.\"<br />\n<br />\nSound familiar? This is what the news looked like before Pharma owned it. 🧵<span class=\"entity-video\"><video controls=\"controls\" poster=\"https://pbs.twimg.com/amplify_video_thumb/2117932950654246912/img/fdzvJIHuUPLDu6wS.jpg\" preload=\"none\"><source src=\"https://video.twimg.com/amplify_video/2117932950654246912/vid/avc1/480x270/FH4ae56tvLpHV2yF.mp4\" type=\"video/mp4\" /><br />\n<source src=\"https://video.twimg.com/amplify_video/2117932950654246912/vid/avc1/640x360/bN9sHEPARBGjDFTb.mp4\" type=\"video/mp4\" /><br />\n<source src=\"https://video.twimg.com/amplify_video/2117932950654246912/vid/avc1/854x480/_5X5qPKwjIe2zwQ3.mp4\" type=\"video/mp4\" /><img alt=\"Video Poster\" src=\"https://pbs.twimg.com/amplify_video_thumb/2117932950654246912/img/fdzvJIHuUPLDu6wS.jpg\" /></video></span>",
+      "title": "アップル、公開iCloudリンクを検査へ　「有害」なら削除やアカウント停止も",
       "ja_title": null,
-      "url": "https://threadreaderapp.com/thread/2118124885696545070.html",
-      "source": "threadreaderapp.com",
-      "source_id": "threadreaderapp-com",
+      "url": "https://japan.cnet.com/article/35254451/",
+      "source": "japan.cnet.com",
+      "source_id": "japan-cnet-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-04T23:35:00Z",
-      "score": 0.7913,
-      "distance": 0.7693,
-      "interest": 0.8134,
+      "published": "2026-11-05T09:35:00Z",
+      "score": 0.7856,
+      "distance": 0.7651,
+      "interest": 0.8062,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -353,56 +329,26 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "poses a question (+)",
-        "long-form (+)"
+        "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "In 2010, a national evening newscast reported something no network would touch today. The WHO had changed the definition of a pandemic. Governments had bought hundreds of millions of swine flu doses nobody needed. And Europe's top health watchdog was accusing Pharma of \"organisin",
+      "excerpt": "アップルは、公開リンクを使って共有されたiCloud上の写真やファイルについて、「有害コンテンツ」がないか確認する方針を明らかにした。",
       "explore": false
     },
     {
-      "title": "America’s Most Offensive? Ice Cube’s Death Certificate Revisited",
+      "title": "Show HN: I made a game where you have to think of answers others wouldn't give",
       "ja_title": null,
-      "url": "https://thequietus.com/opinion-and-essays/anniversary/ice-cube-death-certificate-2/",
-      "source": "The Quietus",
-      "source_id": "thequietus",
-      "tags": [
-        "music",
-        "criticism"
-      ],
-      "published": "2026-10-29T09:57:01Z",
-      "score": 0.7903,
-      "distance": 0.7223,
-      "interest": 0.8582,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Angus Batey looks back 35 years at the 360-degree attack of one of the most creatively independent yet offensive hip hop albums ever made. First published October 2011 Classic albums are supposed to be celebrated, but Death Certificate doesn't permit unqualified responses. It's a",
-      "explore": false
-    },
-    {
-      "title": "Why LSP, Why the LSP Plugin, and Why Claude Code Doesn't Save Tokens",
-      "ja_title": null,
-      "url": "https://byteask.ai/research/lsp-claude-code-cpp",
+      "url": "https://downtheline.io/",
       "source": "Hacker News (new, pre-viral)",
       "source_id": "hackernews",
       "tags": [
         "tech",
         "frontier"
       ],
-      "published": "2026-11-05T00:32:55Z",
-      "score": 0.787,
-      "distance": 0.8695,
-      "interest": 0.7044,
+      "published": "2026-11-06T00:13:29Z",
+      "score": 0.7855,
+      "distance": 0.8694,
+      "interest": 0.7017,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -418,126 +364,18 @@
       "explore": false
     },
     {
-      "title": "米国の有権者、国の現状やトランプ氏の仕事ぶりに不満　CNN調査",
+      "title": "Demystifying the MCP Protocol for Open Source AI",
       "ja_title": null,
-      "url": "https://www.cnn.co.jp/usa/35254332.html?ref=rss",
-      "source": "cnn.co.jp",
-      "source_id": "cnn-co-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-03T23:45:00Z",
-      "score": 0.7866,
-      "distance": 0.7622,
-      "interest": 0.811,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "CNNが行った「有権者調査」の暫定的な全国結果によると、米国の有権者は国の現状や経済状況、そしてトランプ大統領の職務遂行ぶりに対して、総じて不満を抱いている。 調査の結果、全米の有権者の約4分の3が、国の現状について「不満」あるいはそれ以上に否定的な感情を抱いていると回答していることが分かった。10人中4人近くは「怒り」を感じていると答えた。 初期調査の結果からは、こうした不満の背景に、トランプ氏に対...",
-      "explore": false
-    },
-    {
-      "title": "バイナンス、約1兆円流出の侵入経路を公表　「偽の採用面接」が起点",
-      "ja_title": null,
-      "url": "https://japan.cnet.com/article/35254371/",
-      "source": "japan.cnet.com",
-      "source_id": "japan-cnet-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-04T08:15:00Z",
-      "score": 0.7864,
-      "distance": 0.7647,
-      "interest": 0.808,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "暗号資産取引所のバイナンスは、10月29日に発生した約1兆円相当の暗号資産流出について侵入経路を明らかにした。",
-      "explore": false
-    },
-    {
-      "title": "Steamの釣りゲーム開発者、作品ページに「なぜか現実で釣った魚を自慢する人」が出没して困惑。場違いリアル釣り人、魚は立派",
-      "ja_title": null,
-      "url": "https://automaton-media.com/articles/newsjp/20261104-477484/",
-      "source": "automaton-media.com",
-      "source_id": "automaton-media-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-04T11:00:23Z",
-      "score": 0.7863,
-      "distance": 0.7655,
-      "interest": 0.807,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "ある開発者が「なぜかうちの釣りゲームに、現実で釣った魚を自慢し続けてくる人がいる」と、困惑を交えながらその存在を紹介している。",
-      "explore": false
-    },
-    {
-      "title": "時空の組み替えで物質にエネルギーが渡る――アインシュタインの方程式はそれが可能だと示唆している",
-      "ja_title": null,
-      "url": "https://nazology.kusuguru.co.jp/archives/205904",
-      "source": "nazology.kusuguru.co.jp",
-      "source_id": "nazology-kusuguru-co-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-04T08:00:32Z",
-      "score": 0.7825,
-      "distance": 0.7646,
-      "interest": 0.8004,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "米コロンビア大学で行われた研究によって、重力の「線」も磁力線と同じように「切れて、つなぎ直される」ことがありうると、アインシュタインの方程式から示されました。 アインシュタインの描き方では、重力は時空のゆがみそのものです。 つまり重力の線のつなぎ替えは、時空の歪みのつながりが組み替わるということで、研究チームはこれを「重力再結合」と名づけました。 さらに研究では、つなぎ替えが起きると重力と物質のあいだのエネルギーのやり取りが変わり、重力の側から物質へエネルギーが渡ることもありうると導いています。 いったい時空の何が切れ、なぜそれがエネルギーにまで響くので",
-      "explore": false
-    },
-    {
-      "title": "GitHub Achievements Explained: Every Badge, Tier, and a CLI to Track Your Progress",
-      "ja_title": null,
-      "url": "https://dev.to/6t9/github-achievements-explained-every-badge-tier-and-a-cli-to-track-your-progress-3io",
+      "url": "https://dev.to/tercelyi/demystifying-the-mcp-protocol-for-open-source-ai-39da",
       "source": "dev.to",
       "source_id": "dev-to",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-05T01:46:58Z",
-      "score": 0.7814,
+      "published": "2026-11-06T01:44:56Z",
+      "score": 0.785,
       "distance": 0.7699,
-      "interest": 0.793,
+      "interest": 0.8,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -549,21 +387,237 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "GitHub Achievements: The Complete Guide to Every Badge, Tier &amp; Progress Tracking GitHub is more than commits, pull requests, and repositories. Your profile can also showcase achievements that recognize your contributions to the open-source community. But how do you unlock eve",
+      "excerpt": "The MCP protocol is the connective tissue for many open source AI workflows—yet is often treated as a black box. Here’s a developer’s-eye primer on why MCP matters, how it relates to A2A and CLI adapters, and where runtimes like apcore step up to fill governance, audit, and multi",
       "explore": false
     },
     {
-      "title": "リカバリーウェアって実際どう？カインズの手頃な価格で買える疲労回復ウェアを1年使ってみた",
+      "title": "老後に「人生を楽しめなくなる人」の共通点・ワースト1 - 幸せの人類史",
       "ja_title": null,
-      "url": "https://soredoko.jp/entry/2026/11/05/103000",
-      "source": "soredoko.jp",
-      "source_id": "soredoko-jp",
+      "url": "https://diamond.jp/articles/-/402393",
+      "source": "diamond.jp",
+      "source_id": "diamond-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-05T01:30:00Z",
+      "published": "2026-11-05T21:40:00Z",
+      "score": 0.7822,
+      "distance": 0.7687,
+      "interest": 0.7956,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "「定年したら、のんびり好きなことをしたい」「仕事一筋で、趣味と呼べるものがない」「会社を離れたら、何をすればいいかわからない」。長年働いてきた人にとって、定年は大きな節目です。自由な時間が増える一方で、何をして過ごせばいいのか分からなくなってしまう人もいます。では、定年後にやることがなくなる人には、どんな共通点があるのでしょうか？ ウェルビーイング研究の第一人者である前野隆司氏は著書『幸せの人類史 なぜ「幸福」は人類を「不幸」にしたのか』の中で、さまざまな分野の「達人」の研究をもとに、これからの時代の生き方について語っています。",
+      "explore": false
+    },
+    {
+      "title": "老後、猛烈に後悔すること・ワースト1 - 小学生がたった1日でかんぺきに倍数と約数がわかる本",
+      "ja_title": null,
+      "url": "https://diamond.jp/articles/-/402432",
+      "source": "diamond.jp",
+      "source_id": "diamond-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-05T23:00:00Z",
       "score": 0.7813,
+      "distance": 0.7691,
+      "interest": 0.7935,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "年齢を重ねると、新しいことを学ぶ意欲があっても、「もう遅いのではないか」とためらってしまうことがあります。しかし、年をとったからといって、学ぶことをあきらめる必要はありません。江戸時代後期の儒学者・佐藤一斎が残した言葉をもとに、老後に後悔しないための「学び直し」の大切さについて、11月発売の『小学生がたった1日でかんぺきに倍数と約数がわかる本』の著者が解説します。",
+      "explore": false
+    },
+    {
+      "title": "Everyone’s got a quick question",
+      "ja_title": null,
+      "url": "https://uxdesign.cc/everyones-got-a-quick-question-374a736ff7cb?source=rss----138adf9c44c---4",
+      "source": "uxdesign.cc",
+      "source_id": "uxdesign-cc",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-05T10:47:24Z",
+      "score": 0.7809,
+      "distance": 0.7654,
+      "interest": 0.7964,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "And you shouldn’t have to answer them all. There’s an interactive version of this story. Explore it → Frequently asked questions in my inbox, recreated. I became the team’s search engine Every team has a person everyone reaches out to. They know where things live, why a decision ",
+      "explore": false
+    },
+    {
+      "title": "The first DNA crime test didn’t catch the killer. It freed an innocent man.",
+      "ja_title": null,
+      "url": "https://bigthink.com/books/dna-profiling/",
+      "source": "bigthink.com",
+      "source_id": "bigthink-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-05T15:30:00Z",
+      "score": 0.7801,
+      "distance": 0.7668,
+      "interest": 0.7934,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "The events leading to the first forensic DNA case began in 1983. Lynda Mann was only 15 years old when, returning home from babysitting one evening in the Leicestershire village of Narborough, she was raped and murdered as she took a shortcut along a footpath known by villagers a",
+      "explore": false
+    },
+    {
+      "title": "Understanding Your Chances of Getting a Developer Job in Japan",
+      "ja_title": null,
+      "url": "https://www.tokyodev.com/articles/understanding-your-chances-of-getting-a-developer-job-in-japan",
+      "source": "tokyodev.com",
+      "source_id": "tokyodev-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-06T01:26:33Z",
+      "score": 0.7795,
       "distance": 0.7698,
+      "interest": 0.7893,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "People often ask me about their chances of getting a developer job in Japan. It’s not something that I’m typically comfortable giving an opinion on, as I believe it always comes down to an individual’s specific circumstances, tactics, and motivation. Through TokyoDev, though, I’v",
+      "explore": false
+    },
+    {
+      "title": "ふるさとチョイス、6日12時に復旧　パスワード再設定を呼びかけ",
+      "ja_title": null,
+      "url": "https://www.watch.impress.co.jp/docs/news/2153935.html",
+      "source": "watch.impress.co.jp",
+      "source_id": "watch-impress-co-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-05T05:04:59Z",
+      "score": 0.7794,
+      "distance": 0.7637,
+      "interest": 0.7952,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "トラストバンクは、ふるさと納税サービス「ふるさとチョイス」において発生した不正アクセスについてシステム側の対策を完了し、11月6日12時から順次サービスを再開する。",
+      "explore": false
+    },
+    {
+      "title": "When fonts fall",
+      "ja_title": null,
+      "url": "https://unsung.aresluna.org/when-fonts-fall",
+      "source": "unsung.aresluna.org",
+      "source_id": "unsung-aresluna-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-06T00:42:50Z",
+      "score": 0.7791,
+      "distance": 0.7696,
+      "interest": 0.7885,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "…is an essay I wrote in 2020 about font fallback and all these mysterious “missing character” characters like �. If you are curious, too, you might find it interesting! It was fun researching this, and I ended up going in unexpected directions, including emoji and “Unicode fonts.",
+      "explore": false
+    },
+    {
+      "title": "Please rename Haskell Foundation",
+      "ja_title": null,
+      "url": "https://discourse.haskell.org/t/please-rename-haskell-foundation/14960?page=2#post_38",
+      "source": "discourse.haskell.org",
+      "source_id": "discourse-haskell-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-05T20:56:41Z",
+      "score": 0.7791,
+      "distance": 0.7685,
+      "interest": 0.7896,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "I can’t see the posts that you’re referring to, but now I recognise the name, I’d like to thank whoever made the decision to make the ban on Reddit. The stream of consciousness, context free posts were frustrating noise that I, among many others, had complained about. They were s",
+      "explore": false
+    },
+    {
+      "title": "トランプ氏、中間選挙の戦略に「後悔なし」　共和党内で非難の応酬も",
+      "ja_title": null,
+      "url": "https://www.cnn.co.jp/world/35254402.html?ref=rss",
+      "source": "cnn.co.jp",
+      "source_id": "cnn-co-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-04T23:15:00Z",
+      "score": 0.7774,
+      "distance": 0.762,
       "interest": 0.7928,
       "judged": false,
       "pinned": false,
@@ -573,18 +627,97 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "poses a question (+)",
-        "thin (−)",
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "お手頃価格なカインズのリカバリーウェアを愛用するライター・まいしろさんが、着心地や疲労回復効果についてレビューします。",
+      "excerpt": "トランプ米大統領は4日、中間選挙における自身の訴えや戦略について後悔はないと述べた。自身の集会には多くの「愛」があふれていたが、それが共和党候補の勝利には結びつかなかったと説明した。 選挙戦の戦略について後悔している点はあるかと記者に問われると、「ない。私の名前が投票用紙に載っていたら勝っていただろう。集会にいた人々を見たはずだ。どこも満員で、何千、何万という人で埋め尽くされていた。私が候補者と...",
       "explore": false
     },
     {
-      "title": "SigLIP2に匹敵する画像エンコーダーをフルスクラッチで開発した話",
+      "title": "「ペーペー神主の私は…」トリプルファイヤー吉田が語る、東京のライブと香川の神社を行き来する“二足のわらじ生活”",
       "ja_title": null,
-      "url": "https://zenn.dev/noetra_techblog/articles/0cea39ce67d2c2",
+      "url": "https://bunshun.jp/articles/-/93337",
+      "source": "bunshun.jp",
+      "source_id": "bunshun-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-05T21:00:00Z",
+      "score": 0.7773,
+      "distance": 0.7685,
+      "interest": 0.7861,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "人気ロックバンド「トリプルファイヤー」でボーカルを務める吉田靖直氏は、「神主」としての顔もあるという。吉田氏が自身と「神職」とのかかわりについて語った。◆◆◆ 大学時代に組んだロックバンドを、39歳に…",
+      "explore": false
+    },
+    {
+      "title": "Voters Rallied Against President Nyarlathotep’s Tenure of Terror. Now, It’s Time to Move On Like Nothing Happened",
+      "ja_title": null,
+      "url": "https://www.mcsweeneys.net/articles/voters-rallied-against-president-nyarlathoteps-tenure-of-terror-now-its-time-to-move-on-like-nothing-happened",
+      "source": "mcsweeneys.net",
+      "source_id": "mcsweeneys-net",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-05T13:00:00Z",
+      "score": 0.7767,
+      "distance": 0.7661,
+      "interest": 0.7873,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "I’m as stunned as you all are. Nate Silver’s most recent goat entrail analysis foretold good tidings for the Democrats against Nyarlathotep’s death cultists in the midterms. As the House Minority Leader, I knew it was my job to project confidence going into Tuesday, but I admit n",
+      "explore": false
+    },
+    {
+      "title": "As Your Late Dentist’s Sister, I Can’t Believe You Didn’t Choose Me to Take Over His Dental Practice",
+      "ja_title": null,
+      "url": "https://www.mcsweeneys.net/articles/as-your-late-dentists-sister-i-cant-believe-you-didnt-choose-me-to-take-over-his-dental-practice",
+      "source": "mcsweeneys.net",
+      "source_id": "mcsweeneys-net",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-04T19:20:00Z",
+      "score": 0.7762,
+      "distance": 0.7608,
+      "interest": 0.7915,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "“I’m just looking at these results as I’m talking&#8230; I see that Darline lost. Wow, that’s amazing.&quot; — Donald Trump, speaking to The New York Times about South Carolina Republican Senate candidate (and brother of late South Carolina senator Lindsay Graham) Darline Graham&",
+      "explore": false
+    },
+    {
+      "title": "Xで積み重ねた日々をmixi2へ。過去ポストのインポート機能ができるまで",
+      "ja_title": null,
+      "url": "https://zenn.dev/mixi/articles/bcf2363e83b0a2",
       "source": "Zenn",
       "source_id": "zenn",
       "tags": [
@@ -592,10 +725,10 @@
         "tech",
         "tools"
       ],
-      "published": "2026-11-04T05:42:59Z",
-      "score": 0.7806,
-      "distance": 0.7639,
-      "interest": 0.7972,
+      "published": "2026-11-05T04:29:39Z",
+      "score": 0.7756,
+      "distance": 0.7636,
+      "interest": 0.7877,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -607,22 +740,50 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "はじめに Noetraでは、フィジカルAIの実現に向けて、国産マルチモーダルLLMの開発を進めています。その基盤技術の一つとして、本記事では画像エンコーダーをフルスクラッチで構築した取り組みについて紹介します。 近年、国内外の企業・研究機関でマルチモーダルLLMの開発が活発化しています。多くのモデルは、言語モデルを独自開発している一方で、画像エンコーダーにはSigLIP2に代表される、非公開データで学習された高性能なモデルを利用しています。しかし、そのデータや学習過程が分からないままでは、透明性や安全性に関する懸念が残ります。 そこで我々のチームでは、自",
+      "excerpt": "こんにちは！mixi2 エンジニアの久野です🦆 今回は、X の過去ポストを mixi2 に取り込めるインポート機能について、開発のきっかけや設計、実装で考えたことを紹介します！ 開発のきっかけ mixi2には、過去の投稿をカレンダーから振り返る機能があります📅 日付を辿って、その日に書いたことや撮った写真を見返せる、自分の記録を積み重ねていくための機能です。 月ごとのカレンダー 日ごとのカレンダー（タイムラインビュー） 日ごとのカレンダー（メディアビュー） 投稿数が多い日ほど濃いオレンジ色に🍊 その日に感じていたことがテキストで振り返られる💬 モーニング",
       "explore": false
     },
     {
-      "title": "macOS 27 prend en charge nativement le Steam Controller, contrairement à Windows",
+      "title": "Wednesday assorted links",
       "ja_title": null,
-      "url": "https://www.macg.co/materiel/2026/11/macos-27-prend-en-charge-nativement-le-steam-controller-contrairement-windows-312165",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/11/wednesday-assorted-links-578.html?utm_source=rss&utm_medium=rss&utm_campaign=wednesday-assorted-links-578",
+      "source": "Marginal Revolution",
+      "source_id": "marginalrev",
+      "tags": [
+        "economics",
+        "curation"
+      ],
+      "published": "2026-11-04T16:48:24Z",
+      "score": 0.7755,
+      "distance": 0.7601,
+      "interest": 0.791,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "1. Important people in the AI world. 2. Ted Nordhaus on Bill Nordhaus. 3. &#8220;That universities facilitate broader political mobilization can explain why governments often seek to restrict student activism.&#8221; 4. NYT obituary for William Nordhaus. 5. A new (job market) pap",
+      "explore": false
+    },
+    {
+      "title": "Shopify délaisse React Native pour revenir à Swift et Kotlin grâce à l’IA",
+      "ja_title": null,
+      "url": "https://www.macg.co/intelligence-artificielle/2026/11/shopify-delaisse-react-native-pour-revenir-swift-et-kotlin-grace-lia-312195",
       "source": "macg.co",
       "source_id": "macg-co",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-04T16:25:00Z",
-      "score": 0.7802,
+      "published": "2026-11-05T16:20:00Z",
+      "score": 0.7752,
       "distance": 0.7671,
-      "interest": 0.7932,
+      "interest": 0.7832,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -634,22 +795,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Les Mac ne sont pas des machines de jeu, mais Apple essaye tout de même de faire le nécessaire pour les joueurs. Le dernier exemple en date est celui du Steam Controller, la manette de Valve. Lancée fin avril, la manette est en rupture constante depuis, mais Valve livre en réalit",
+      "excerpt": "Nouveau changement de cap technologique pour Shopify. En 2020, l’entreprise spécialisée dans le commerce en ligne adoptait React Native pour ses applications mobiles. Six ans plus tard, ce framework JavaScript multiplateforme est abandonné au profit d'un retour aux technologies n",
       "explore": false
     },
     {
-      "title": "What I learned teaching AI prototyping at university",
+      "title": "Six humanoid robots worked a 24-hour shift at a convenience store, but two weren't good enough to keep their jobs",
       "ja_title": null,
-      "url": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
-      "source": "uxdesign.cc",
-      "source_id": "uxdesign-cc",
+      "url": "https://www.techspot.com/news/114445-six-humanoid-robots-worked-24-hour-shift-convenience.html",
+      "source": "techspot.com",
+      "source_id": "techspot-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-03T10:09:09Z",
-      "score": 0.7777,
-      "distance": 0.7581,
-      "interest": 0.7973,
+      "published": "2026-11-04T12:47:00Z",
+      "score": 0.7752,
+      "distance": 0.7589,
+      "interest": 0.7914,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -661,23 +822,23 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Teaching students how to prototype with AI tools instead of Figma revealed exciting possibilities and uncomfortable trade-offs. It also offered valuable insight into how non-tech people can create apps with generative AI. I teach digital prototyping to fashion design undergraduat",
+      "excerpt": "Agibot's G2 robots took over duties at an operating convenience store in Shanghai's Xuhui district between November 2 and 3. The company called the broadcast \"Robots Never Clock Out,\" which perfectly captures why managers are introducing these robots. Read Entire Article",
       "explore": false
     },
     {
-      "title": "I made the cheapest web analytics service ($1 a month)",
+      "title": "Teaching Qwen Why",
       "ja_title": null,
-      "url": "https://simplytics.dev/",
+      "url": "https://www.lesswrong.com/posts/35yw2qGK7naFLAvcq/teaching-qwen-why-1",
       "source": "Hacker News (new, pre-viral)",
       "source_id": "hackernews",
       "tags": [
         "tech",
         "frontier"
       ],
-      "published": "2026-11-04T23:57:48Z",
-      "score": 0.7773,
-      "distance": 0.8694,
-      "interest": 0.6853,
+      "published": "2026-11-06T00:33:44Z",
+      "score": 0.7748,
+      "distance": 0.8695,
+      "interest": 0.68,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -693,18 +854,18 @@
       "explore": false
     },
     {
-      "title": "トランプ氏、「自分と対立した」候補者たちを非難　米中間選挙の結果受け",
+      "title": "ゲームの「仕組み」を読み解く批評誌『遊星』刊行　『テトリス』の乱数から物語表現まで",
       "ja_title": null,
-      "url": "https://www.cnn.co.jp/usa/35254363.html?ref=rss",
-      "source": "cnn.co.jp",
-      "source_id": "cnn-co-jp",
+      "url": "https://kai-you.net/article/97065",
+      "source": "kai-you.net",
+      "source_id": "kai-you-net",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-04T07:06:00Z",
-      "score": 0.7773,
+      "published": "2026-11-05T07:13:00Z",
+      "score": 0.7747,
       "distance": 0.7644,
-      "interest": 0.7903,
+      "interest": 0.785,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -716,185 +877,48 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "3日投開票の米中間選挙で、トランプ大統領は、自身が支持した共和党候補者たちが敗北した理由について、自分と「対立した」候補者が一部にいたためだとの見方を示した。また個人的には好ましくないと感じていた候補者であっても、「党のためを思って」支援したとも主張した。 トランプ氏はFOXニュースの取材に答え、「彼ら（支持者ら）が特定の候補者らを好ましく思わなかった」と選挙での不振を分析。「私が推薦した候補者の...",
+      "excerpt": "ゲームの仕組みに着目した批評誌『遊星 物語るゲームたち』が、11月8日（日）に東京ビッグサイトで開催される「文学フリマ東京43」で頒布される。実験的なゲームを紹介／批評する同人誌企画「遊星歯車機関」が手がけた一冊。B5判408ページで、価格は2500円。noteで公開してきた記事を増補／改訂した論考26本に加え、新規コンテンツとして約10本のミニコラムを収録する。【画像】批評誌『遊星 物語るゲームたち』誌面『テトリス』の乱数からセーブ＆ロードまで、ゲーム独自の仕組みを考察『遊星 物語るゲームたち...",
       "explore": false
     },
     {
-      "title": "If you skipped Windows 11’s 2026 update over bugs, Microsoft has now fixed all but one, and even that’s mitigated",
+      "title": "Use Your Year-End Review to Reach for a Promotion",
       "ja_title": null,
-      "url": "https://www.windowslatest.com/2026/11/04/if-you-skipped-windows-11s-2026-update-over-bugs-microsoft-has-now-fixed-all-but-one-and-even-thats-mitigated/",
-      "source": "windowslatest.com",
-      "source_id": "windowslatest-com",
+      "url": "https://spectrum.ieee.org/how-to-get-a-promotion",
+      "source": "spectrum.ieee.org",
+      "source_id": "spectrum-ieee-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-04T11:00:24Z",
-      "score": 0.7772,
-      "distance": 0.7655,
-      "interest": 0.7889,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Weeks after September's update broke File History, Remote Desktop and File Explorer, Microsoft's 25H2 status page tells users to move to 26H2. We break down every fix from KB5129195 to KB5127936, the USB audio bug Microsoft hasn't fixed, and why skipping 26H2 won't help. The post",
-      "explore": false
-    },
-    {
-      "title": "The Midterms Were a Reckoning, but I Have No Doubt the Republican Party Will Emerge Stronger, More Unified, and Still Extremely Racist",
-      "ja_title": null,
-      "url": "https://www.mcsweeneys.net/articles/the-midterms-were-a-reckoning-but-i-have-no-doubt-the-republican-party-will-emerge-stronger-more-unified-and-still-extremely-racist",
-      "source": "mcsweeneys.net",
-      "source_id": "mcsweeneys-net",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-04T13:00:00Z",
-      "score": 0.7764,
-      "distance": 0.7661,
-      "interest": 0.7867,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "The midterm elections did not go well for Republicans, but there are still plenty of reasons for optimism. I have no doubt that the devastating losses, while painful in the short term, will motivate the party to create an energized, more dynamic, and ideologically diverse coaliti",
-      "explore": false
-    },
-    {
-      "title": "Funny Games: Aphex Twin’s Richard D. James Album 30 years on",
-      "ja_title": null,
-      "url": "https://thequietus.com/opinion-and-essays/anniversary/aphex-twin-richard-d-james-album-review/",
-      "source": "The Quietus",
-      "source_id": "thequietus",
-      "tags": [
-        "music",
-        "criticism"
-      ],
-      "published": "2026-11-04T07:30:45Z",
-      "score": 0.7756,
-      "distance": 0.8145,
-      "interest": 0.7368,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "scarce source (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "With a manic grin leering from the cover, Aphex Twin's fourth was readily incorporated into blather about drill &amp; bass but his best, most cohesive album was neither wacky nor a novelty, says Toby Manning Richard D. James Album by Aphex Twin The year is 1996, the era of Britpo",
-      "explore": false
-    },
-    {
-      "title": "ドコモ社長、5G基地局がKDDIやソフトバンクより少ない理由を説明",
-      "ja_title": null,
-      "url": "https://japan.cnet.com/article/35254374/",
-      "source": "japan.cnet.com",
-      "source_id": "japan-cnet-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-04T09:56:00Z",
-      "score": 0.7736,
-      "distance": 0.7652,
-      "interest": 0.782,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "NTTドコモは11月4日、2026年度の設備投資計画を430億円増額して9000億円にすると明らかにした。前田義晃社長は、5G基地局数が他社の半分以下にとどまる点について、容量を取れるサブ6を優先して整備しており、4G周波数の転用には収容装置の交換が必要だと説明した。",
-      "explore": false
-    },
-    {
-      "title": "The Nikon ZR’s First Major Firmware Update Improves Video Quality and Adds More Control",
-      "ja_title": null,
-      "url": "https://petapixel.com/2026/11/04/the-nikon-zrs-first-major-firmware-update-improves-video-quality-and-adds-more-control/",
-      "source": "petapixel.com",
-      "source_id": "petapixel-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-04T13:16:50Z",
-      "score": 0.7736,
-      "distance": 0.7662,
-      "interest": 0.781,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Nikon has unveiled more details about the Nikon ZR's first major firmware update. Firmware 2.00, slated to arrive before the end of the year, brings major improvements to Nikon's popular video-first camera. [ Read More ]",
-      "explore": false
-    },
-    {
-      "title": "夢の中の登場人物は「計算が苦手」だった",
-      "ja_title": null,
-      "url": "https://nazology.kusuguru.co.jp/archives/205210",
-      "source": "nazology.kusuguru.co.jp",
-      "source_id": "nazology-kusuguru-co-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-05T01:30:00Z",
-      "score": 0.773,
-      "distance": 0.7698,
-      "interest": 0.7761,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "私たちはほぼ毎晩、自分の頭の中にしかいない人たちと会話をしています。 夢の中の彼らは話し、言い争い、笑い、ときにはこちらが予想もしない振る舞いを見せます。 けれども、よく考えると不思議なことがあります。 夢の登場人物は、どれも自分の脳が作り出したもののはずです。 それなのになぜ、私たちは彼らが次に何を言うのか分からないのでしょうか。 研究者たちは、夢の中の住人に直接問題を出してもらうという方法で、この謎に迫りました。 計算や絵を頼まれた夢の住人は、いったいどう応じたのでしょうか。 この話題の詳細は2026年10月29日に『Psychology Today",
-      "explore": false
-    },
-    {
-      "title": "The more you know, the harder it is to change someone’s mind",
-      "ja_title": null,
-      "url": "https://bigthink.com/books/the-persuasive-leader/",
-      "source": "bigthink.com",
-      "source_id": "bigthink-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-04T16:00:00Z",
-      "score": 0.7729,
+      "published": "2026-11-05T16:08:03Z",
+      "score": 0.7742,
       "distance": 0.767,
+      "interest": 0.7815,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "This article is crossposted from IEEE Spectrum ’s careers newsletter. Sign up now to get insider tips, expert advice, and practical strategies, written i n partnership with tech career development company Parsity and delivered to your inbox for free! Hard work rarely speaks for i",
+      "explore": false
+    },
+    {
+      "title": "Electoralism is diametrically opposed on a metaphysical level to Communism (“illiberal democracy”). I am opposed to the entire system of electoral politics & seek to replace this system with the Communist system of whole-process democracy. I believe national popular elections are socially caustic events & do not serve the task of serving the people, but rather, using the people as a means of laundering the machinations of private interests at the expense of the body politic. I would like to have a system in which “the midterms” & “presidential elections” are not even possible & do not exist. I would like for there to be neither Democrats or Republicans. I actually oppose Liberalism as Liberalism— I do not want to “reform liberalism” I want to abolish it.",
+      "ja_title": null,
+      "url": "https://threadreaderapp.com/thread/2118484945429791035.html",
+      "source": "threadreaderapp.com",
+      "source_id": "threadreaderapp-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-05T23:25:45Z",
+      "score": 0.774,
+      "distance": 0.7692,
       "interest": 0.7788,
       "judged": false,
       "pinned": false,
@@ -907,22 +931,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Here’s the bad news: The deeper your understanding of an issue and the stronger your conviction about the solution, the worse you often become at persuasion. This isn’t a character flaw; it’s a law of neuroscience. Once you understand it, you’ll stop wondering why your brilliant ",
+      "excerpt": "Electoralism is diametrically opposed on a metaphysical level to Communism (“illiberal democracy”). I am opposed to the entire system of electoral politics & seek to replace this system with the Communist system of whole-process democracy. I believe national popular elections are",
       "explore": false
     },
     {
-      "title": "Security Bite: The record $6.3B Binance heist started with a fake Homebrew install on Mac",
+      "title": "3 original methods for measuring the distance to the stars",
       "ja_title": null,
-      "url": "https://9to5mac.com/2026/11/04/security-bite-the-record-6-3b-binance-heist-started-with-a-fake-homebrew-install-on-mac/",
-      "source": "9to5mac.com",
-      "source_id": "9to5mac-com",
+      "url": "https://bigthink.com/starts-with-a-bang/how-far-away-stars/",
+      "source": "bigthink.com",
+      "source_id": "bigthink-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-04T17:18:56Z",
-      "score": 0.7709,
-      "distance": 0.7674,
-      "interest": 0.7743,
+      "published": "2026-11-05T07:00:00Z",
+      "score": 0.7736,
+      "distance": 0.7643,
+      "interest": 0.7829,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -934,22 +958,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "9to5Mac Security Bite is exclusively brought to you by Mosyle, the only Apple Unified Platform . Making Apple devices work-ready and enterprise-safe is all we do. Our unique integrated approach to management and security combines state-of-the-art Apple-specific security solutions",
+      "excerpt": "Out there in space, blazing just a scant 150 million kilometers away lies the brightest and most massive object in our Solar System: the Sun. Shining hundreds of thousands of times as bright in Earth&#8217;s skies as the next brightest object, the full Moon, the Sun is unique amo",
       "explore": false
     },
     {
-      "title": "When Rustdesk Meets Incus",
+      "title": "Students Test Prototype Landing Pad to Make Lunar Operations Safe",
       "ja_title": null,
-      "url": "https://discuss.linuxcontainers.org/t/when-rustdesk-meets-incus/27486#post_1",
-      "source": "discuss.linuxcontainers.org",
-      "source_id": "discuss-linuxcontainers-org",
+      "url": "https://www.universetoday.com/articles/students-test-prototype-landing-pad-to-make-lunar-operations-safe",
+      "source": "universetoday.com",
+      "source_id": "universetoday-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-04T07:54:38Z",
-      "score": 0.7709,
-      "distance": 0.7646,
-      "interest": 0.7772,
+      "published": "2026-11-03T21:45:06Z",
+      "score": 0.7735,
+      "distance": 0.7544,
+      "interest": 0.7926,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -961,49 +985,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "When RustDesk Meets Incus Why RustDesk? We could use XRDP. Two reasons we don’t: XRDP is a delivery tool, not a platform. It ships one X session over RDP. It has no notion of a container desktop cloud — no per-user containers, no lifecycle, no orchestration. All of that is yours ",
+      "excerpt": "This summer, a team of students and researchers at the University of Alabama in Huntsville successfully conducted three rocket-motor firing tests on a prototype lunar landing pad. The tests showed the prototype’s ability to capture and redirect rocket exhaust through an integrate",
       "explore": false
     },
     {
-      "title": "サービス終了近づく『ポケモンユナイト』の「長年のフレンド」を捜索する人あらわる。ゲーム内でしか知らない友達",
+      "title": "Two Dimensional Version Control",
       "ja_title": null,
-      "url": "https://automaton-media.com/articles/newsjp/20261104-477455/",
-      "source": "automaton-media.com",
-      "source_id": "automaton-media-com",
+      "url": "https://www.redblobgames.com/blog/2026-09-27-jujutsu-experience/",
+      "source": "redblobgames.com",
+      "source_id": "redblobgames-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-04T09:42:31Z",
-      "score": 0.7703,
-      "distance": 0.7651,
-      "interest": 0.7756,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "『ポケモンユナイト』でしかやり取りをしていないフレンドについて、同作以外でも連絡を取りたいユーザーの投稿が注目を集めている。「人探し」にはある種の抜け道のようなアドバイスも寄せられている。",
-      "explore": false
-    },
-    {
-      "title": "Please rename Haskell Foundation",
-      "ja_title": null,
-      "url": "https://discourse.haskell.org/t/please-rename-haskell-foundation/14960#post_2",
-      "source": "discourse.haskell.org",
-      "source_id": "discourse-haskell-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-04T19:33:32Z",
-      "score": 0.7695,
-      "distance": 0.7681,
-      "interest": 0.7709,
+      "published": "2026-11-04T21:29:00Z",
+      "score": 0.7733,
+      "distance": 0.7615,
+      "interest": 0.7851,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1015,22 +1012,23 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Haskell Foundation is not some nebulous thing imposing its will on the community. It is a framework built to help lubricate and facilitate changes that benefit people in the community, and it consists of its members. If you find that you’re underrepresented, or that the HF does n",
+      "excerpt": "This summer I participated in the r/roguelikedev summer event where we write a Roguelike game , following one of the Roguelike coding tutorials. I'm not trying to learn coding, so I use this event to try learning something else. This year, one of the things I wanted to tackle was",
       "explore": false
     },
     {
-      "title": "Call for evidence on advertising repositories",
+      "title": "A Style of One’s Own",
       "ja_title": null,
-      "url": "https://digital-strategy.ec.europa.eu/en/consultations/call-evidence-advertising-repositories",
-      "source": "digital-strategy.ec.europa.eu",
-      "source_id": "digital-strategy-ec-europa-eu",
+      "url": "https://mubi.com/en/notebook/posts/a-style-of-one-s-own",
+      "source": "MUBI Notebook",
+      "source_id": "mubi-notebook",
       "tags": [
-        "discovered"
+        "film",
+        "criticism"
       ],
-      "published": "2026-11-04T10:10:00Z",
-      "score": 0.7693,
-      "distance": 0.7653,
-      "interest": 0.7734,
+      "published": "2026-11-05T13:23:00Z",
+      "score": 0.7728,
+      "distance": 0.7662,
+      "interest": 0.7793,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1042,22 +1040,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Call for evidence on advertising repositories Anonymous (not verified) Wed, 11/04/2026 - 11:10 &nbsp; Opening: 04 November 2026 &nbsp; Closing: 02 December 2026 The Commission is seeking feedback on upcoming technical guidelines concerning advertising repositories under the Digit",
+      "excerpt": "https://www.youtube.com/watch?v=jk6unmAR9CI In this episode, cinematic tradition is explored as a refuge from artistic orphanhood. Valentina Maurel is a Costa Rican screenwriter and director. After completing her studies in Belgium, her graduation short film, Paul Is Here (2017),",
       "explore": false
     },
     {
-      "title": "Desiderata for the Theory of Agents",
+      "title": "It’s Interesting That Neither Sony Nor Tamron Have Said Anything Regarding Acquisition",
       "ja_title": null,
-      "url": "https://www.alignmentforum.org/posts/sqjti8dxcKSvZJikd/desiderata-for-the-theory-of-agents",
-      "source": "alignmentforum.org",
-      "source_id": "alignmentforum-org",
+      "url": "https://petapixel.com/2026/11/05/its-interesting-that-neither-sony-nor-tamron-have-said-anything-regarding-acquisition/",
+      "source": "petapixel.com",
+      "source_id": "petapixel-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-04T11:25:12Z",
-      "score": 0.7678,
-      "distance": 0.7656,
-      "interest": 0.7701,
+      "published": "2026-11-05T20:10:29Z",
+      "score": 0.7728,
+      "distance": 0.7682,
+      "interest": 0.7773,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1069,22 +1067,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "TLDR: I give informal conceptual desiderata for the theory of agents we need to solve ASI alignment, and show a few examples of how existing theories fall short of these desiderata. A Theory of What? The word \"agent\" is often used in the AI safety discourse and in other research ",
+      "excerpt": "In late July, news broke that Sony was trying to acquire Tamron, a fact Tamron itself confirmed shortly after. However, since then, it's been crickets. [ Read More ]",
       "explore": false
     },
     {
-      "title": "BREAKING NEWS – IMMINENT ATTACK",
+      "title": "Industrial LCD Selection: Why Your Panel Spec Sheet Lies About Readability",
       "ja_title": null,
-      "url": "https://www.eveonline.com/news/view/breaking-news-imminent-attack",
-      "source": "eveonline.com",
-      "source_id": "eveonline-com",
+      "url": "https://dev.to/stone_module/industrial-lcd-selection-why-your-panel-spec-sheet-lies-about-readability-b34",
+      "source": "dev.to",
+      "source_id": "dev-to",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-04T11:00:00Z",
-      "score": 0.7677,
-      "distance": 0.7655,
-      "interest": 0.7699,
+      "published": "2026-11-06T01:50:34Z",
+      "score": 0.7725,
+      "distance": 0.7699,
+      "interest": 0.775,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1096,22 +1094,23 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "The Scope reports: Violence appears imminent in the Azdaja Redoubt wormhole system. The Triglavian Collective has challenged capsuleers of New Eden to attack the system’s Drifter Nexus Structure on 5 November at 19:00 UTC. A message from the Triglavian Collective is being shared ",
+      "excerpt": "You've spec'd a 1000-nit display with a 1000:1 contrast ratio. On the bench, it looks fantastic. You ship the prototype. Two weeks later, the customer reports the screen is \"unreadable\" when the operator stands at the machine. Nothing changed in software. Nothing changed in brigh",
       "explore": false
     },
     {
-      "title": "The cryptography behind electronic voting (and why paper ballots are still essential)",
+      "title": "Spool’s Out: Cassette Reviews for November by Daryl Worthington",
       "ja_title": null,
-      "url": "https://blog.trailofbits.com/2026/11/03/the-cryptography-behind-electronic-voting-and-why-paper-ballots-are-still-essential/",
-      "source": "blog.trailofbits.com",
-      "source_id": "blog-trailofbits-com",
+      "url": "https://thequietus.com/quietus-reviews/cassettes/spools-out-cassette-reviews-for-november-by-daryl-worthington/",
+      "source": "The Quietus",
+      "source_id": "thequietus",
       "tags": [
-        "discovered"
+        "music",
+        "criticism"
       ],
-      "published": "2026-11-03T12:00:00Z",
-      "score": 0.767,
-      "distance": 0.7587,
-      "interest": 0.7753,
+      "published": "2026-11-03T08:00:00Z",
+      "score": 0.7724,
+      "distance": 0.7503,
+      "interest": 0.7946,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1123,7 +1122,7 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "As millions of Americans vote in today’s U.S. midterms, most will use paper ballots, which are protected by strict chain-of-custody protocols and, in some cases, statistical audits. You may wonder why we still use paper for our elections and voting systems when tasks like banking",
+      "excerpt": "Daryl Worthington considers the extent to which Spool’s Out offers investment advice, and reviews a crop of tapes including a footwork legend from Japan going ultra-crisp, mesmerising live code improvisations, ferocious eco-pop and more Roxanne Harris, photo by Cecilia Díaz Betz ",
       "explore": false
     }
   ]
