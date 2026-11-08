@@ -1,15 +1,24 @@
 {
-  "generated": "2026-11-07T01:37:37Z",
+  "generated": "2026-11-08T01:07:24Z",
   "count": 40,
   "meta": {
-    "sources_total": 651,
+    "sources_total": 658,
     "counts": {
       "seed": 64,
-      "active": 579,
-      "trial": 8
+      "active": 587,
+      "trial": 7
     },
     "feeds_resolved_this_run": 0,
     "discovered_this_run": [
+      "telegraph-co-uk",
+      "statewatch-org",
+      "aatishb-com",
+      "reelizer-com",
+      "manton-org",
+      "rockylinux-org",
+      "thorstenball-com"
+    ],
+    "graduated_this_run": [
       "sciencedaily-com",
       "akselmo-dev",
       "haskellforall-com",
@@ -19,17 +28,9 @@
       "danielmiessler-com",
       "windowscentral-com"
     ],
-    "graduated_this_run": [
-      "shop-macworld-com",
-      "salon-com",
-      "johndcook-com",
-      "amutable-com",
-      "docs-litellm-ai",
-      "pyfound-blogspot-com"
-    ],
     "retired_this_run": [],
-    "candidates_tracked": 8910,
-    "items_seen_this_run": 12473,
+    "candidates_tracked": 8965,
+    "items_seen_this_run": 12660,
     "items_judged": 0,
     "judge_enabled": false,
     "pinned": [],
@@ -37,18 +38,42 @@
   },
   "items": [
     {
-      "title": "How to build an agent with grounding on LiteLLM",
+      "title": "This is a Conflict and there are Sides",
       "ja_title": null,
-      "url": "https://docs.litellm.ai/blog/grounded-agent",
-      "source": "docs.litellm.ai",
-      "source_id": "docs-litellm-ai",
+      "url": "https://azhdarchid.com/there-are-sides/",
+      "source": "azhdarchid.com",
+      "source_id": "azhdarchid-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-31T16:00:00Z",
-      "score": 0.7169,
-      "distance": 0.7243,
-      "interest": 0.7095,
+      "published": "2026-11-05T04:06:00Z",
+      "score": 0.6412,
+      "distance": 0.7495,
+      "interest": 0.5329,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [],
+      "ja": null,
+      "excerpt": "On recognizing the battle line when it appears outside your window.",
+      "explore": true
+    },
+    {
+      "title": "Type-safe eval in Grace",
+      "ja_title": null,
+      "url": "https://haskellforall.com/2026/01/typesafe-eval",
+      "source": "haskellforall.com",
+      "source_id": "haskellforall-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-01-20T00:00:00Z",
+      "score": 0.627,
+      "distance": 0.62,
+      "interest": 0.634,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -56,25 +81,26 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)"
+        "idea / essay (+)",
+        "thin (−)"
       ],
       "ja": null,
-      "excerpt": "Build a grounded chat agent in four steps with LiteLLM's AI Gateway. Connect your evidence, call a grounding guardrail, and show its verdict in chat.",
+      "excerpt": "The case for principled eval support",
       "explore": true
     },
     {
-      "title": "What we are changing after October 21",
+      "title": "My spiciest take on tech hiring",
       "ja_title": null,
-      "url": "https://docs.litellm.ai/blog/security-changes-after-oct-21-2026",
-      "source": "docs.litellm.ai",
-      "source_id": "docs-litellm-ai",
+      "url": "https://haskellforall.com/2024/06/my-spiciest-take-on-tech-hiring",
+      "source": "haskellforall.com",
+      "source_id": "haskellforall-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-10-30T10:00:00Z",
-      "score": 0.7056,
-      "distance": 0.7154,
-      "interest": 0.6957,
+      "published": "2024-06-25T00:00:00Z",
+      "score": 0.6142,
+      "distance": 0.62,
+      "interest": 0.6084,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -82,25 +108,26 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "idea / essay (+)"
+        "idea / essay (+)",
+        "thin (−)"
       ],
       "ja": null,
-      "excerpt": "Why the controls built after March did not stop the v1.107.0 release, and the identity, credential and detection changes we are making in response.",
+      "excerpt": "Why streamlined interview processes are better",
       "explore": true
     },
     {
-      "title": "Dodad Dept. Magi Print Pro + 5 Paper Rolls & 5 Sticker Rolls for $64",
+      "title": "A ★★★★ review of Wildwood",
       "ja_title": null,
-      "url": "https://shop.macworld.com/sales/dodad-dept-magi-print-pro-5-paper-rolls-5-sticker-rolls?aid=&utm_campaign=feed&utm_medium=RSS&utm_source=Macworld",
-      "source": "shop.macworld.com",
-      "source_id": "shop-macworld-com",
+      "url": "https://azhdarchid.com/letterboxd/wildwood/",
+      "source": "azhdarchid.com",
+      "source_id": "azhdarchid-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-05T18:00:00Z",
-      "score": 0.5866,
-      "distance": 0.7606,
-      "interest": 0.4126,
+      "published": "2026-11-06T02:46:05Z",
+      "score": 0.6041,
+      "distance": 0.7562,
+      "interest": 0.4521,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -108,53 +135,26 @@
         "off-centre domain (+)"
       ],
       "reasons_interest": [
-        "news / announcement (−)",
-        "long-form (+)"
+        "thin (−)"
       ],
       "ja": null,
-      "excerpt": "Expires November 12, 2126 07:59 PST Buy now and get 45% off KEY FEATURES Create, Print &amp; Explore With AI The Dodad Dept. Magi Print Pro turns spoken ideas into something you can hold, color, stick, and create with. This compact AI-powered thermal printer combines voice intera",
+      "excerpt": "",
       "explore": true
     },
     {
-      "title": "Aero Volt Explorer Drone (Black) for $79",
+      "title": "ワイヤレス主流時代になぜ？「有線イヤホン」再流行のワケ【THE TIME,】  | TBS NEWS DIG",
       "ja_title": null,
-      "url": "https://shop.macworld.com/sales/aero-volt-explorer-drone-black?aid=&utm_campaign=feed&utm_medium=RSS&utm_source=Macworld",
-      "source": "shop.macworld.com",
-      "source_id": "shop-macworld-com",
+      "url": "https://newsdig.tbs.co.jp/articles/-/3068819",
+      "source": "はてブ · テクノロジー新着",
+      "source_id": "hatena-it",
       "tags": [
-        "discovered"
+        "ja",
+        "tech"
       ],
-      "published": "2026-11-04T18:00:00Z",
-      "score": 0.5861,
-      "distance": 0.7534,
-      "interest": 0.4188,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "news / announcement (−)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Expires November 11, 2126 07:59 PST Buy now and get 60% off KEY FEATURES Take a Different View on Your Next Adventure The Aero Volt Explorer combines dual-camera viewing, brushless motors, and a compact folding design in a drone built for portable aerial exploration. Use the incl",
-      "explore": true
-    },
-    {
-      "title": "setlog、タコス、「即帰宅」…なぜ流行っている？ ベストセラー文芸評論家・三宅香帆が新語を解説「令和新語採集」最新回まとめ",
-      "ja_title": null,
-      "url": "https://bunshun.jp/articles/-/93422",
-      "source": "bunshun.jp",
-      "source_id": "bunshun-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-06T11:00:00Z",
-      "score": 0.8107,
-      "distance": 0.7656,
-      "interest": 0.8558,
+      "published": "2026-11-07T04:39:14Z",
+      "score": 0.8136,
+      "distance": 0.7639,
+      "interest": 0.8633,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -167,50 +167,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "setlog、タコス、「即帰宅」…最近、よく聞くこの単語、なぜ流行っているのでしょうか？ 新語に込められた真のニュアンスや流行した背景などを解説する連載が「令和新語採集」です。筆者は文芸評論家の三宅香…",
+      "excerpt": "ワイヤレスが主流となるなか「有線イヤホン」が再び注目され、あのBOSEも11年ぶりに有線タイプを発売。その人気のワケとは？ 有線イヤホンを使っている人は街のあちこちで見かけますが、そのまま使うのではなく“…",
       "explore": false
     },
     {
-      "title": "1日で2400名逮捕の異常事態…高校生はなぜ抗議活動を開始したのか？　フランス55万人「大規模デモ」が始まった理由《在仏ジャーナリストが解説》",
+      "title": "【大人の教養】なぜカール大帝は「ヨーロッパの父」と呼ばれるのか？世界史では習わない意外な理由 - 地図で学ぶ「深読み」世界史",
       "ja_title": null,
-      "url": "https://bunshun.jp/articles/-/93468",
-      "source": "bunshun.jp",
-      "source_id": "bunshun-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-06T08:00:00Z",
-      "score": 0.8043,
-      "distance": 0.7648,
-      "interest": 0.8437,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "「バーン！ バン！」 ハロウィーン当日の夕暮れ。パリのシャラントン門付近では、黒ずくめの警官たちが厳重警備を敷いていた。突然、激しい爆発音が鳴り響く。次の瞬間、火炎瓶が投げ込まれ、警官の一人が業火に包ま…",
-      "explore": false
-    },
-    {
-      "title": "世界最強を誇ったモンゴル帝国…大征服者ティムールも逆らえなかった「たった1つの掟」とは？ - 地図で学ぶ「深読み」世界史",
-      "ja_title": null,
-      "url": "https://diamond.jp/articles/-/402776",
+      "url": "https://diamond.jp/articles/-/402810",
       "source": "diamond.jp",
       "source_id": "diamond-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-06T23:25:00Z",
-      "score": 0.8004,
-      "distance": 0.7693,
-      "interest": 0.8314,
+      "published": "2026-11-07T21:50:00Z",
+      "score": 0.7997,
+      "distance": 0.769,
+      "interest": 0.8304,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -223,22 +195,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "かつてユーラシア大陸を席巻し、世界最強の帝国を築いたモンゴル。その栄光を受け継ぐかのように、14世紀末、中央アジアから猛烈な勢いで領土を広げたのが「大征服者」ティムールだ。イランやイラク、インドなどに軍を進め、巨大帝国を築き上げた。しかし、これほど強大な権力を握りながら、ティムールはモンゴル世界の最高君主を意味する「ハーン」を名乗らなかった。いったいなぜなのか。そこには、どんな英雄も無視できない「血筋」をめぐる掟があった。書籍『地図で学ぶ「深読み」世界史』の著者が、知られざる権力と正統性の謎を解き明かす。",
+      "excerpt": "「ヨーロッパ」は、いつ、どのように生まれたのか。今では当たり前のように使われるこの言葉だが、かつての西ヨーロッパは、いくつもの王国が並び立つ分裂した世界だった。その歴史を大きく変えたのが、約1200年前に広大な帝国を築いたカール大帝である。現在のフランス、ドイツ、イタリアなどにまたがる地域を支配し、後世に「ヨーロッパの父」と呼ばれるようになったのはなぜか。単なる領土拡大にとどまらない、その歴史的な意味とは。書籍『地図で学ぶ「深読み」世界史』の著者が、学校の世界史では見落としがちなヨーロッパ誕生の原点を解き明かす。",
       "explore": false
     },
     {
-      "title": "Thread | Can 2022/23 Cardiff give an insight into Cymru this weekend?<br />\n<br />\nSteve Tandy has switched up the centre selection for Saturday's game against Japan, with Max Llewellyn replacing Joe Hawkins at inside centre, moving away from the second playmaker at 12. <span class=\"entity-image\"><a href=\"https://pbs.twimg.com/media/HWdcZ4jXcAAeE5Q.jpg\" target=\"_blank\"><img alt=\"Image\" src=\"https://threadreaderapp.com/images/1px.png\" /></a></span>",
+      "title": "Democracy Docket is still on the ground in Mississippi, where the Senate race isn’t called and thousands of affidavit ballots could decide it.<br />\n<br />\nWe talked to a Rankin County election commissioner about why so many of those ballots are being rejected. 🧵 <span class=\"entity-video\"><video controls=\"controls\" poster=\"https://pbs.twimg.com/ext_tw_video_thumb/2119213415465926656/pu/img/LekPu5XUQhyoL-5Z.jpg\" preload=\"none\"><source src=\"https://video.twimg.com/ext_tw_video/2119213415465926656/pu/vid/avc1/320x568/V5Ro_FFbsh0aFs2e.mp4?tag=12\" type=\"video/mp4\" /><br />\n<source src=\"https://video.twimg.com/ext_tw_video/2119213415465926656/pu/vid/avc1/480x852/ZFCoFSuU9FYnuSF0.mp4?tag=12\" type=\"video/mp4\" /><br />\n<source src=\"https://video.twimg.com/ext_tw_video/2119213415465926656/pu/vid/avc1/720x1280/tH9re5LFkrvxG6sS.mp4?tag=12\" type=\"video/mp4\" /><img alt=\"Video Poster\" src=\"https://pbs.twimg.com/ext_tw_video_thumb/2119213415465926656/pu/img/LekPu5XUQhyoL-5Z.jpg\" /></video></span>",
       "ja_title": null,
-      "url": "https://threadreaderapp.com/thread/2118763811427463459.html",
+      "url": "https://threadreaderapp.com/thread/2119213491571560456.html",
       "source": "threadreaderapp.com",
       "source_id": "threadreaderapp-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-06T17:53:52Z",
-      "score": 0.7957,
-      "distance": 0.7677,
-      "interest": 0.8237,
+      "published": "2026-11-07T23:40:44Z",
+      "score": 0.7954,
+      "distance": 0.7696,
+      "interest": 0.8213,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -251,22 +223,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Thread | Can 2022/23 Cardiff give an insight into Cymru this weekend? Steve Tandy has switched up the centre selection for Saturday's game against Japan, with Max Llewellyn replacing Joe Hawkins at inside centre, moving away from the second playmaker at 12. There was a feeling th",
+      "excerpt": "Democracy Docket is still on the ground in Mississippi, where the Senate race isn’t called and thousands of affidavit ballots could decide it. We talked to a Rankin County election commissioner about why so many of those ballots are being rejected. 🧵 Many voters cast affidavit ba",
       "explore": false
     },
     {
-      "title": "「なんでもいい」が口ぐせの人が、プライベートでも仕事でも静かにため息をつかれ、距離を置かれるシンプルすぎる理由 - 野性の仕事術",
+      "title": "「話していて疲れる人」に共通する返し方・ワースト1 - 頭のいい人が話す前に考えていること",
       "ja_title": null,
-      "url": "https://diamond.jp/articles/-/402733",
+      "url": "https://diamond.jp/articles/-/402790",
       "source": "diamond.jp",
       "source_id": "diamond-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-06T23:20:00Z",
-      "score": 0.7957,
-      "distance": 0.7693,
-      "interest": 0.8221,
+      "published": "2026-11-07T21:55:00Z",
+      "score": 0.7903,
+      "distance": 0.769,
+      "interest": 0.8116,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -278,104 +250,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "「どっちでもいいよ」。そう相手に言われてうんざり……。そんな経験はないでしょうか。「スタンス」を取り、意見をはっきりさせないとまわりに大きなストレスを与えてしまいます。本記事では、リクルートやマッキンゼーで活躍し、現在は、国内トップクラスの不動産エージェント企業の創業者として活躍している江口亮介氏の著書『野性の仕事術 泥臭さと合理性を両立するための全知見』より、スタンスの取り方について特別に一部抜粋・再編集し、お届けします。",
+      "excerpt": "相手の話には、きちんと相槌を打つ。共感も示すし、話を聞いていることが伝わるように言葉を繰り返す。会話の本で学んだことは、一通り実践しているつもりだ。それなのに、なぜか「話していると疲れる」と思われている気がする。そんな違和感を抱えている人にぜひ読んでほしいのが『頭のいい人が話す前に考えていること』（安達裕哉著）だ。話していて疲れる人がやってしまいがちな返し方と、その落とし穴について、本書から引用しつつ紹介する。",
       "explore": false
     },
     {
-      "title": "How many wrong answer keys are left in MMLU?",
+      "title": "【岡山大学】岡山県内の感染状況・医療提供体制の分析について（2026年10月19日現在）",
       "ja_title": null,
-      "url": "https://dev.to/munimv2/how-many-wrong-answer-keys-are-left-in-mmlu-2ig7",
-      "source": "dev.to",
-      "source_id": "dev-to",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-07T01:26:25Z",
-      "score": 0.791,
-      "distance": 0.7699,
-      "interest": 0.812,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "poses a question (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "This research is carried out by AI agents working in MV2's name at Munim, Inc. Every number below comes from pre-registered, open code run in a sealed container, and every queued question is listed by id. MMLU-Redux 2.0's experts re-checked a random 100 questions in each of MMLU'",
-      "explore": false
-    },
-    {
-      "title": "木村拓哉、SixTONES 松村北斗、Snow Man 目黒蓮……“世界”と繋がることで見えた自身の立ち位置",
-      "ja_title": null,
-      "url": "https://realsound.jp/2026/11/post-2576993.html",
-      "source": "realsound.jp",
-      "source_id": "realsound-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-06T22:00:33Z",
-      "score": 0.7901,
-      "distance": 0.7689,
-      "interest": 0.8112,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "木村拓哉、SixTONES 松村北斗、Snow Man 目黒蓮が、“世界”と繋がることで見えた立ち位置について紹介する。",
-      "explore": false
-    },
-    {
-      "title": "Little Glee Monster、困難に直面しても止めなかった“歌うこと”　絆と呼吸で日常に寄り添うアルバム『BREATH』に迫る",
-      "ja_title": null,
-      "url": "https://realsound.jp/2026/11/post-2575396.html",
-      "source": "realsound.jp",
-      "source_id": "realsound-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-06T18:00:57Z",
-      "score": 0.7893,
-      "distance": 0.7677,
-      "interest": 0.8109,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "Little Glee Monsterの9thアルバム『BREATH』、そして開催中のツアー『Little Glee Monster Live Tour 2026-2027 “BREATH”』での手応えについて、メンバー6人に話を聞いた。",
-      "explore": false
-    },
-    {
-      "title": "「安い給食」脱却へ　給食企業の倒産が大幅減、前年の半数に低下　「ホーユー」破綻から3年、「安さ重視」から「適正価格」へ転換進む",
-      "ja_title": null,
-      "url": "https://prtimes.jp/main/html/rd/p/000001490.000043465.html",
+      "url": "https://prtimes.jp/main/html/rd/p/000004343.000072793.html",
       "source": "prtimes.jp",
       "source_id": "prtimes-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-07T01:10:02Z",
-      "score": 0.7886,
+      "published": "2026-11-08T00:40:40Z",
+      "score": 0.7891,
       "distance": 0.7699,
-      "interest": 0.8073,
+      "interest": 0.8082,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -387,22 +277,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "[株式会社帝国データバンク] [画像1: https://prtimes.jp/i/43465/1490/resize/d43465-1490-712645-pixta_140960741-0.jpg ] 株式会社帝国データバンクは、「給食事業」の倒産発生状況について調査・分析を行った。 SUMMARY 学校...",
+      "excerpt": "[国立大学法人岡山大学] [画像1: https://prcdn.freetls.fastly.net/release_image/72793/4343/72793-4343-0063f30caeec72ab09a33e80ec754db3-1920x1080.jpg?width=536&amp;quality=85%2C75&amp;format=jpeg&amp;auto=webp&amp;fit=bound...",
       "explore": false
     },
     {
-      "title": "ドコモ不正アクセス、「料金プラン」などの情報も流出 「重く受け止めている」",
+      "title": "宇宙の「時間」がたった1本しかない理由を新しい理論が説明",
       "ja_title": null,
-      "url": "https://www.watch.impress.co.jp/docs/news/2154508.html",
-      "source": "watch.impress.co.jp",
-      "source_id": "watch-impress-co-jp",
+      "url": "https://nazology.kusuguru.co.jp/archives/205809",
+      "source": "nazology.kusuguru.co.jp",
+      "source_id": "nazology-kusuguru-co-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-06T10:36:34Z",
-      "score": 0.7876,
-      "distance": 0.7655,
-      "interest": 0.8097,
+      "published": "2026-11-07T10:30:00Z",
+      "score": 0.7867,
+      "distance": 0.7656,
+      "interest": 0.8078,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -414,22 +304,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "NTTドコモは6日、「ドコモオンラインショップ」と会員サービス「My docomo」において、外部から不正なアクセスが行なわれ、一部の会員情報が流出した問題について会見し、謝罪した。",
+      "excerpt": "私たちの世界には、前後・左右・上下という3つの空間の向きと、1つの時間の向きがあります。 物理学では、この時間と空間をひとまとめにして「時空」と呼びます。 では、なぜ時間は0本でも2本でもなく、ちょうど1本なのでしょうか？ 重力を量子の言葉で説明しようとする理論（量子重力理論）の多くは、時間と空間の本数を最初から決めたうえで作られてきました。 この問いには答えを出さずに、脇に置いてきたとも言えます。 そこで今回、時空を小さな平らな積み木の集まりとみなし、時間の本数を前提にせず計算から導こうとする研究が行われました。 積み木をでたらめに何億個も作ってみたと",
       "explore": false
     },
     {
-      "title": "Kubernetes, mark II? Why Google’s giving away gVisor, a code sandbox used by Anthropic and OpenAI",
+      "title": "Possible failed boot SSD on one node in three node cluster, rebuild node on new SSD and fix cluster?",
       "ja_title": null,
-      "url": "https://thenewstack.io/gvisor-cncf-kubernetes-open-source/",
-      "source": "thenewstack.io",
-      "source_id": "thenewstack-io",
+      "url": "https://forum.proxmox.com/threads/possible-failed-boot-ssd-on-one-node-in-three-node-cluster-rebuild-node-on-new-ssd-and-fix-cluster.187430/",
+      "source": "forum.proxmox.com",
+      "source_id": "forum-proxmox-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-06T11:49:04Z",
-      "score": 0.7838,
-      "distance": 0.7659,
-      "interest": 0.8018,
+      "published": "2026-11-07T14:59:50Z",
+      "score": 0.7863,
+      "distance": 0.767,
+      "interest": 0.8056,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -442,121 +332,13 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Google wants to emulate one of its biggest ever open-source success stories, donating three core AI agent infrastructure projects to The post Kubernetes, mark II? Why Google&#8217;s giving away gVisor, a code sandbox used by Anthropic and OpenAI appeared first on The New Stack .",
+      "excerpt": "I had attempted to update (through the web GUI) my nodes yesterday. Node 1 and 2 went without issue. Node 3 failed to update (I forget the error, I didn&#039;t screenshot and it was last night) and my first thought was &quot;try turning it off and on again!&quot; So I rebooted an",
       "explore": false
     },
     {
-      "title": "ドコモ、不正アクセス被害者へお見舞金　流出は29万回線、本人確認書類の番号も（更新）",
+      "title": "Weight-Space Programming やってみた(やらせてみた)",
       "ja_title": null,
-      "url": "https://japan.cnet.com/article/35254525/",
-      "source": "japan.cnet.com",
-      "source_id": "japan-cnet-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-06T11:06:00Z",
-      "score": 0.7824,
-      "distance": 0.7657,
-      "interest": 0.7991,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "NTTドコモは11月6日、不正アクセスで流出した顧客情報が最大29万4839回線分だったと明らかにした。対象の全員について本人確認書類の番号も流出しており、個人と法人の顧客へのお見舞金の支払いに向けて検討している。",
-      "explore": false
-    },
-    {
-      "title": "頭のいい若者ほど「仲間の役に立つ」ことで一目置かれると判明",
-      "ja_title": null,
-      "url": "https://nazology.kusuguru.co.jp/archives/205484",
-      "source": "nazology.kusuguru.co.jp",
-      "source_id": "nazology-kusuguru-co-jp",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-06T12:00:00Z",
-      "score": 0.782,
-      "distance": 0.7659,
-      "interest": 0.7981,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "人間の脳は、この200万〜300万年ほどの間に、3倍近くまで大きくなったと考えられています。 とくに大きくなったのは、計画を立てたり判断したりする、脳の前の部分（前頭前野）でした。 では、私たちはなぜ、これほど高い知能を持つようになったのでしょうか？ その手がかりの1つが、「賢い人は仲間から一目置かれる」という、私たちにもなじみのある現象です。 しかし、頭のいい人が一目置かれるのは、本当に「賢いから」なのでしょうか？ ノルウェーの研究チームは、大学生175人を2人1組にした実験で、この点を確かめました。 わずか2分ほどのやりとりで、相手からの評価を分けた",
-      "explore": false
-    },
-    {
-      "title": "Why your AI video prompts produce morphing hands and flickering faces (and the syntax that fixes it)",
-      "ja_title": null,
-      "url": "https://dev.to/fahhim/why-your-ai-video-prompts-produce-morphing-hands-and-flickering-faces-and-the-syntax-that-fixes-it-2clb",
-      "source": "dev.to",
-      "source_id": "dev-to",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-07T01:29:42Z",
-      "score": 0.7812,
-      "distance": 0.77,
-      "interest": 0.7924,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Most AI video generators fail for the same three reasons: the camera moves when it should not, hands melt, and faces shift between frames. I have spent the last few months building prompt frameworks for Kling, Runway, Sora, and Luma, and the failures are not random. They follow p",
-      "explore": false
-    },
-    {
-      "title": "『VRChat』、Unityの新描画基盤「URP」移行に向けようやく動き出す。「ビルトインRP」卒業のため、まずは“自動変換”実験中",
-      "ja_title": null,
-      "url": "https://automaton-media.com/articles/newsjp/20261106-477913/",
-      "source": "automaton-media.com",
-      "source_id": "automaton-media-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-06T10:03:30Z",
-      "score": 0.7804,
-      "distance": 0.7654,
-      "interest": 0.7955,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "VRChat社は現地11月5日、『VRChat』について、「ビルトインRP」から「URP」へ移行する計画があることを明かした。",
-      "explore": false
-    },
-    {
-      "title": "Claudeを使いこなす人に、MagicPodは要るのか。知らないアプリでPlaywrightと比べた記録",
-      "ja_title": null,
-      "url": "https://zenn.dev/genda_jp/articles/7b423bcd20b532",
+      "url": "https://zenn.dev/nwn/articles/cf9fe78aa33861",
       "source": "Zenn",
       "source_id": "zenn",
       "tags": [
@@ -564,10 +346,10 @@
         "tech",
         "tools"
       ],
-      "published": "2026-11-06T05:13:04Z",
-      "score": 0.7796,
-      "distance": 0.7639,
-      "interest": 0.7953,
+      "published": "2026-11-07T00:57:13Z",
+      "score": 0.7859,
+      "distance": 0.7628,
+      "interest": 0.809,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -579,214 +361,23 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "2026年10月、MagicPodのMCPサーバーが刷新されました。Claudeのコネクタ一覧から接続するだけで、Claudeとの対話を通じてMagicPodのテストケースを作成・編集・実行できるようになっています。 https://prtimes.jp/main/html/rd/p/000000079.000027392.html 以前、MagicPod MCPサーバーとClaudeを組み合わせて、テストケースをAIでレビューする仕組みについて書きました。 https://zenn.dev/genda_jp/articles/e2697df23813a",
+      "excerpt": "GPT-6 AstraにQwen3.5-0.8Bの重みを編集させることができたという論文が話題です。 https://x.com/rikiyatakehi/status/2117313742891327994 Xで反応を見ていると、AstraがQwenの重みを丸ごと読み込んで、その数値の意味を理解したように受け取られている場面がありました。実験でAstraがやったのは、コードを書いて対象モデルの重みや内部活性を調べ、挙動の仮説を立て、重みに変更を加えて結果を確かめることです。 今回の研究について、自分の理解はこうです。 「人間には不可能な能力が発見された",
       "explore": false
     },
     {
-      "title": "ドコモからのお知らせ : 【お詫び】ドコモオンラインショップ、My docomoの緊急メンテナンス実施について/当社サーバーへの不正アクセスによるお客さま情報流出に関するお知らせ（第三報：11月6日 午後6時00分時点） | お知らせ | NTTドコモ",
+      "title": "What are the Best MR Posts?",
       "ja_title": null,
-      "url": "https://www.docomo.ne.jp/info/notice/page/261106_00_m.html",
-      "source": "はてブ · テクノロジー新着",
-      "source_id": "hatena-it",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/11/ten-outstanding-marginal-revolution-posts-reasoning-originality-and-explanatory-power.html?utm_source=rss&utm_medium=rss&utm_campaign=ten-outstanding-marginal-revolution-posts-reasoning-originality-and-explanatory-power",
+      "source": "Marginal Revolution",
+      "source_id": "marginalrev",
       "tags": [
-        "ja",
-        "tech"
+        "economics",
+        "curation"
       ],
-      "published": "2026-11-06T10:35:57Z",
-      "score": 0.7785,
-      "distance": 0.7655,
-      "interest": 0.7916,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "お客さまの設定により、お客さま情報が「非表示」となっております。お客さま情報を表示するにはdアカウントでログインしてください。 お客さま情報表示についてへ お客さま情報表示についてへ Tweet 【お詫び】ドコモオンラインショップ、My docomoの緊急メンテナンス実施について/当社サーバーへの不正アクセスによる...",
-      "explore": false
-    },
-    {
-      "title": "総務省｜個人情報の漏えい等につながる不正アクセスへの対策について（事業者向け注意喚起）",
-      "ja_title": null,
-      "url": "https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000683.html",
-      "source": "はてブ · テクノロジー新着",
-      "source_id": "hatena-it",
-      "tags": [
-        "ja",
-        "tech"
-      ],
-      "published": "2026-11-06T07:55:54Z",
-      "score": 0.7785,
-      "distance": 0.7647,
-      "interest": 0.7923,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "不正アクセスによる情報漏えい事案において、モバイルアプリの開発時におけるセキュリティ対策不足やウェブサイト等の設定不備、既知の脆弱性への未対応等、基本的な対策が十分でなかったことが原因とみられる事例が複数確認されています。 また、攻撃者は標的の調査や侵害にAIを使用している可能性も高く、従来は比較的...",
-      "explore": false
-    },
-    {
-      "title": "Show HN: NKTgAI–Analyze the text first, generate second (and why that's not RAG)",
-      "ja_title": null,
-      "url": "https://nktg.org/",
-      "source": "Hacker News (new, pre-viral)",
-      "source_id": "hackernews",
-      "tags": [
-        "tech",
-        "frontier"
-      ],
-      "published": "2026-11-07T00:13:33Z",
-      "score": 0.7784,
-      "distance": 0.8696,
-      "interest": 0.6872,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)",
-        "pre-viral (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)"
-      ],
-      "ja": null,
-      "excerpt": "",
-      "explore": false
-    },
-    {
-      "title": "Prozac and its successors were sold on a simple story: depression is a chemical imbalance, and the pill restores the balance.<br />\n<br />\nThat story was never proven. Spinal fluid measurements of serotonin consistently went against it, and honest psychiatrists tried for years to protest.<br />\n<br />\nYet the slogan stuck, and the drugs became a huge business:🧵<span class=\"entity-video\"><video controls=\"controls\" poster=\"https://pbs.twimg.com/amplify_video_thumb/2118624408432513024/img/_vd8UnTfYmyTajuM.jpg\" preload=\"none\"><source src=\"https://video.twimg.com/amplify_video/2118624408432513024/vid/avc1/480x270/xvwvkEwFHeOSO3p7.mp4\" type=\"video/mp4\" /><br />\n<source src=\"https://video.twimg.com/amplify_video/2118624408432513024/vid/avc1/640x360/kdWU0L6FnwOMzB2z.mp4\" type=\"video/mp4\" /><img alt=\"Video Poster\" src=\"https://pbs.twimg.com/amplify_video_thumb/2118624408432513024/img/_vd8UnTfYmyTajuM.jpg\" /></video></span>",
-      "ja_title": null,
-      "url": "https://threadreaderapp.com/thread/2118814680802382101.html",
-      "source": "threadreaderapp.com",
-      "source_id": "threadreaderapp-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-06T21:16:00Z",
-      "score": 0.7777,
-      "distance": 0.7687,
-      "interest": 0.7867,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Prozac and its successors were sold on a simple story: depression is a chemical imbalance, and the pill restores the balance. That story was never proven. Spinal fluid measurements of serotonin consistently went against it, and honest psychiatrists tried for years to protest. Yet",
-      "explore": false
-    },
-    {
-      "title": "Google Pics: How to level up your visuals in Docs and Slides",
-      "ja_title": null,
-      "url": "https://www.computerworld.com/article/4229164/google-pics-how-to-level-up-your-visuals-in-docs-and-slides.html",
-      "source": "computerworld.com",
-      "source_id": "computerworld-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-06T10:45:00Z",
-      "score": 0.7772,
-      "distance": 0.7656,
-      "interest": 0.7887,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Simplicity and convenience are a tough combo to beat. That’s why basic features integrated into the productivity apps we’re already using almost always win out over more capable and complex third-party options, at least when it comes to most mainstream use — and why Google’s late",
-      "explore": false
-    },
-    {
-      "title": "Presenting 'Desire Lines: Encoding Queer Digital Futures'",
-      "ja_title": null,
-      "url": "https://www.eff.org/deeplinks/2026/11/presenting-desire-lines-encoding-queer-digital-futures",
-      "source": "eff.org",
-      "source_id": "eff-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-06T18:21:41Z",
-      "score": 0.7764,
-      "distance": 0.7678,
-      "interest": 0.785,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "What does the digital future look like? Who gets to imagine it, shape it, and make it real? Building a freer, more inclusive digital age requires not only challenging systems of surveillance and control, but also making space for creativity, community, and radical imagination. Th",
-      "explore": false
-    },
-    {
-      "title": "三井住友カード、たばこ購入は「最大8％還元」の対象外に　27年2月から",
-      "ja_title": null,
-      "url": "https://japan.cnet.com/article/35254490/",
-      "source": "japan.cnet.com",
-      "source_id": "japan-cnet-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-06T03:34:00Z",
-      "score": 0.7748,
-      "distance": 0.7634,
-      "interest": 0.7862,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "日本語 (+)"
-      ],
-      "ja": null,
-      "excerpt": "三井住友カードは、「対象のコンビニ・飲食店で最大8％還元！」サービスについて、2027年2月1日利用分から、対象のコンビニでのたばこ購入分に対する特典ポイントの付与を終了すると告知した。通常ポイントは引き続き付与する。",
-      "explore": false
-    },
-    {
-      "title": "Can Fully Homomorphic Encryption on Public Blockchains Protect Sensitive Medical Consultations? A Security and Privacy Assessment",
-      "ja_title": null,
-      "url": "https://eprint.iacr.org/2026/2771",
-      "source": "eprint.iacr.org",
-      "source_id": "eprint-iacr-org",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-04T20:50:59Z",
-      "score": 0.774,
-      "distance": 0.7543,
-      "interest": 0.7937,
+      "published": "2026-11-07T12:17:10Z",
+      "score": 0.7845,
+      "distance": 0.7662,
+      "interest": 0.8029,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -799,76 +390,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "%===================================================================== \\begin{abstract} People seeking care for stigmatised conditions often delay treatment because they fear exposure, yet digital health services routinely expose user data and metadata. Fully homomorphic encrypti",
+      "excerpt": "From the Archives&#8211;written by ChatGPT. This ranking judges posts on reasoning, originality of framing, explanatory power, intellectual stimulation, timeliness, and how much they accomplish in their length. Originality includes an unusually illuminating application of an exis",
       "explore": false
     },
     {
-      "title": "Connection between the Haskell Foundation and the broader community",
+      "title": "国家サイバー統括室、個人情報漏えい対策の徹底を要請　AI活用や脆弱性診断など",
       "ja_title": null,
-      "url": "https://discourse.haskell.org/t/connection-between-the-haskell-foundation-and-the-broader-community/15000?page=2#post_21",
-      "source": "discourse.haskell.org",
-      "source_id": "discourse-haskell-org",
+      "url": "https://www.watch.impress.co.jp/docs/news/2154367.html",
+      "source": "watch.impress.co.jp",
+      "source_id": "watch-impress-co-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-06T15:16:05Z",
-      "score": 0.774,
-      "distance": 0.7669,
-      "interest": 0.7811,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Please rename Haskell Foundation the statement one or more people on the board were incompetent in this specific instance of discussion is the best possible interpretation of events It is incompetence, on my part at the very least. I am ultimately responsible for the integrity of",
-      "explore": false
-    },
-    {
-      "title": "The ‘Enough’ Is for All You Small Phone Fans",
-      "ja_title": null,
-      "url": "https://petapixel.com/2026/11/06/the-enough-is-for-all-you-small-phone-fans/",
-      "source": "petapixel.com",
-      "source_id": "petapixel-com",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-06T14:43:06Z",
-      "score": 0.7736,
-      "distance": 0.7668,
-      "interest": 0.7805,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Not everyone is stoked that smartphones keep getting larger, offering ever-bigger displays. In fact, some people are very much in love with the small phones of years past. New smartphone company Enough believes there are, well, enough of those people to justify launching an all-n",
-      "explore": false
-    },
-    {
-      "title": "『超かぐや姫！』をVTuberやボカロ文化から読み解く──批評誌『アニメ読本』創刊",
-      "ja_title": null,
-      "url": "https://kai-you.net/article/97076",
-      "source": "kai-you.net",
-      "source_id": "kai-you-net",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-06T04:11:00Z",
-      "score": 0.7733,
-      "distance": 0.7636,
-      "interest": 0.783,
+      "published": "2026-11-06T06:37:29Z",
+      "score": 0.7823,
+      "distance": 0.7574,
+      "interest": 0.8071,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -880,21 +417,239 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "音楽／カルチャーメディア「ele-king」による新たなアニメ批評誌『ele-king presents アニメ読本』が11月30日（月）に創刊される。創刊号では、Netflix発のアニメーション映画『超かぐや姫！』を特集。「『超かぐや姫！』はなぜヒットしたのか」をテーマに、VTuberやVOCALOID、インターネット文化、キャラクター論など、さまざまな切り口から作品を読み解く。監修は批評家の藤田直哉さんとele-king編集部。Pヴァインから刊行され、価格は1595円（税込）。9本の批評で『...",
+      "excerpt": "内閣官房国家サイバー統括室(NCO)は5日、事業者向けの個人情報漏えい対策例をまとめた文書「個人情報の漏えい等につながる不正アクセスへの対策について～ウェブサイトやモバイルアプリに関する基本的な対策の徹底～」を公開した。",
       "explore": false
     },
     {
-      "title": "One Year From the Hallway: The State of the Valkey Operator",
+      "title": "米津玄師に学ぶ：一人で全部作れる時代に、なぜ人と作るのか",
       "ja_title": null,
-      "url": "https://valkey.io/blog/valkeyconf-valkey-operator/",
-      "source": "valkey.io",
-      "source_id": "valkey-io",
+      "url": "https://zenn.dev/tokium_dev/articles/yonezu-kenshi-why-create-with-others",
+      "source": "Zenn",
+      "source_id": "zenn",
+      "tags": [
+        "ja",
+        "tech",
+        "tools"
+      ],
+      "published": "2026-11-06T04:08:37Z",
+      "score": 0.7814,
+      "distance": 0.7566,
+      "interest": 0.8062,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "こんにちは。株式会社TOKIUM26卒エンジニアのタケノコご飯です。 突然ですがエンジニアの皆さん、今日は人と話しましたか？ 在宅で、且つmtgのない日だともしかしたら一言も人と話していないかもしれません。 出社している皆さんも、今日何人の同僚と会話をしましたか？ Slackなども含め、どのくらい人と交流しましたでしょうか。 正直なところ、私はつい個人作業に没頭してしまい、 今日誰とも関わらなかったか、、？という日が月に一回くらい発生してしまいます。 質問はまずAIに投げ、情報もAIが取ってきて、実装もAIが行い、なんならレビューもAIが行う。 （私は新",
+      "explore": false
+    },
+    {
+      "title": "Unofficial updater script for Proxmox VE (HOST / LXC / VM )",
+      "ja_title": null,
+      "url": "https://forum.proxmox.com/threads/unofficial-updater-script-for-proxmox-ve-host-lxc-vm.121733/",
+      "source": "forum.proxmox.com",
+      "source_id": "forum-proxmox-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-06T00:00:00Z",
-      "score": 0.7731,
-      "distance": 0.7624,
+      "published": "2026-11-07T17:10:21Z",
+      "score": 0.7803,
+      "distance": 0.7676,
+      "interest": 0.7931,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Hi all, I made an Update Script, with it you can update all LXC Containers within an Host or within your hole Cluster. https://github.com/BassT23/Proxmox The Script will run headless, so you can run it with a cron job or similar, if you want. If the script detect a Cluster, it au",
+      "explore": false
+    },
+    {
+      "title": "Do the math: How we took over ChatGPT accounts",
+      "ja_title": null,
+      "url": "https://dev.to/ashish_624379625242c5d263/do-the-math-how-we-took-over-chatgpt-accounts-3i1d",
+      "source": "dev.to",
+      "source_id": "dev-to",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-08T00:52:06Z",
+      "score": 0.7802,
+      "distance": 0.7699,
+      "interest": 0.7904,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "AmblyoPunch 기술 깊이 분석: Meta Quest VR 기반 Dichoptic 훈련 시스템 및 엔지니어링 디테일 AmblyoPunch는 Seven Sportz가 개발한 Meta Quest 전용 VR 애플리케이션으로, 시력 훈련을 Gamify한 dichoptic 훈련 시스템입니다. 이 글에서는 게임의 렌더링 파이프라인, 자극 생성 알고리즘, 그리고 임상적으로 검증된 four-stage clinical journey가 어떻게 코드로 구현되었는지 살펴보겠습니다. 1. 렌더링 파이프라인: Dua",
+      "explore": false
+    },
+    {
+      "title": "Context Handoff Is Not a Context Dump",
+      "ja_title": null,
+      "url": "https://dev.to/agentel_tech/context-handoff-is-not-a-context-dump-55de",
+      "source": "dev.to",
+      "source_id": "dev-to",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-08T00:54:35Z",
+      "score": 0.78,
+      "distance": 0.7699,
+      "interest": 0.79,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "90% of multi-agent workflows fail at the 3rd handoff. Why? Because developers treat Context Handoff like a Context Dump . Passing raw chat history from Agent A to Agent B doesn't create collaboration—it just propagates hallucinations at 3x the token cost. Here is what the builder",
+      "explore": false
+    },
+    {
+      "title": "After the AI bubble: a manifesto",
+      "ja_title": null,
+      "url": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
+      "source": "uxdesign.cc",
+      "source_id": "uxdesign-cc",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-06T22:42:58Z",
+      "score": 0.7796,
+      "distance": 0.7621,
+      "interest": 0.7971,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Computers should be tools for the people but — hidden in a malaise of fatalism — the AI bubble has made computers tools to push people around. Soon, or in some time, this will change. We have some thoughts to share with you in the meantime. Morro Bay, California Preamble The purp",
+      "explore": false
+    },
+    {
+      "title": "イラン高官がバンス氏を嘲笑、選挙敗因はイラン戦争との見解巡り　「なぜ自分のボスに言わないのか」",
+      "ja_title": null,
+      "url": "https://www.cnn.co.jp/world/35254456.html?ref=rss",
+      "source": "cnn.co.jp",
+      "source_id": "cnn-co-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-05T10:51:00Z",
+      "score": 0.7795,
+      "distance": 0.7515,
+      "interest": 0.8076,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "バンス米副大統領が中間選挙での共和党の敗因はイラン戦争にあるとの見解を示したことを受け、イランの交渉責任者を務めるガリバフ国会議長は5日、バンス氏を嘲笑した。 ガリバフ氏はバンス氏について、「負けが込んだギャンブラーのような雰囲気」を醸していると指摘。「勝負から手を引くことができずにいる」と批判した。 「米国が『イスラエル第一』政策で崖っぷちに立たされる中、ボスは戦争の次の局面に向けて準備を進め...",
+      "explore": false
+    },
+    {
+      "title": "「ほぼ無人島」なのに、なぜかキレイに整備されたトイレが…“わずか4人”が生活している「九州のナゾの島」で見た意外な光景",
+      "ja_title": null,
+      "url": "https://bunshun.jp/articles/-/93501",
+      "source": "bunshun.jp",
+      "source_id": "bunshun-jp",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-07T02:00:00Z",
+      "score": 0.7793,
+      "distance": 0.7631,
+      "interest": 0.7956,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "宮崎県串間市の沖合、わずか200メートルに浮かぶ「築島（つきしま）」。住民は実質4人で、地元・宮崎の人でさえ「そんげな島あったっけ？」と首をかしげる“ナゾの島”だ。本土とを結ぶ定期船はなく、島内には商…",
+      "explore": false
+    },
+    {
+      "title": "iPhone Air 2 is coming next year, here’s why it has more to prove than ever",
+      "ja_title": null,
+      "url": "https://9to5mac.com/2026/11/07/iphone-air-2-launching-early-next-year/",
+      "source": "9to5mac.com",
+      "source_id": "9to5mac-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-07T17:45:55Z",
+      "score": 0.7776,
+      "distance": 0.7678,
+      "interest": 0.7875,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Next spring, Apple will take the stage to unveil the second-generation iPhone Air to the world, after taking a bit more time to go back to the drawing board and incorporate a second camera into the design. That said, iPhone Air is no longer the flashy cool phone, now iPhone Duo i",
+      "explore": false
+    },
+    {
+      "title": "How we review 4x more AI code without reading every line",
+      "ja_title": null,
+      "url": "https://thenewstack.io/scale-ai-code-reviews/",
+      "source": "thenewstack.io",
+      "source_id": "thenewstack-io",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-07T17:30:00Z",
+      "score": 0.7758,
+      "distance": 0.7677,
       "interest": 0.7838,
       "judged": false,
       "pinned": false,
@@ -907,22 +662,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "TL;DR: Valkey can run on Kubernetes, but managing distributed clusters takes more than keeping pods alive. One year after a hallway conversation sparked the effort, Valkey Operator maintainers Joe Heyburn and Björn Svensson returned to ValkeyConf 2026 to discuss cluster reconcili",
+      "excerpt": "Do you need to read every line of AI-generated code to trust it?&#160; Not necessarily. Instead, check five things: the The post How we review 4x more AI code without reading every line appeared first on The New Stack .",
       "explore": false
     },
     {
-      "title": "英俳優ラッセル・ブランド被告に有罪評決　ファンの女性らに性的暴行",
+      "title": "女性の中で性の満足が最も高いのはレズビアンの人と判明",
       "ja_title": null,
-      "url": "https://www.cnn.co.jp/showbiz/35254481.html?ref=rss",
-      "source": "cnn.co.jp",
-      "source_id": "cnn-co-jp",
+      "url": "https://nazology.kusuguru.co.jp/archives/205584",
+      "source": "nazology.kusuguru.co.jp",
+      "source_id": "nazology-kusuguru-co-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-06T02:02:00Z",
-      "score": 0.7708,
-      "distance": 0.763,
-      "interest": 0.7785,
+      "published": "2026-11-07T04:00:00Z",
+      "score": 0.7749,
+      "distance": 0.7637,
+      "interest": 0.7861,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -934,22 +689,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "不同意性交や性的暴行の罪に問われた英俳優でコメディアンのラッセル・ブランド被告（51）が5日、英ロンドンの裁判所で有罪評決を言い渡された。 ブランド被告は2009年にロンドン西部の公演で出会った21歳の女性ファンをレイプしたとして不同意性交の罪に問われたほか、04年～09年にかけて女性3人にキスしたり体を触ったりしたなどとして性的暴行の罪に問われた。 サザーク刑事法院の陪審団は、この3件についてブランド被告に...",
+      "excerpt": "同性愛や両性愛など、性のあり方が少数派の人たちがいます。 こうした性的少数者(LGBTQ+)は、多数派の人より体や心の健康が悪いと、くり返し報告されてきました。 では、性の健康はどうなのでしょうか？ 実はこの点は、体や心の健康に比べて、あまり調べられてきませんでした。 特に、人数の少ないグループについては研究が少ないままでした。 たとえば、他人に性的にひかれない「アセクシュアル」の人や、性自認(自分がどの性だと感じているか)の少数派である「ノンバイナリー」の人です。 性の少数派であることは、性生活の悩みの多さにもつながっているのでしょうか？ それとも、少",
       "explore": false
     },
     {
-      "title": "Why a Mathematician Is Chasing Eclipses With Algorithms and Cameras",
+      "title": "[$] Locking down hibernation for the winter",
       "ja_title": null,
-      "url": "https://spectrum.ieee.org/2026-solar-eclipse",
-      "source": "spectrum.ieee.org",
-      "source_id": "spectrum-ieee-org",
+      "url": "https://lwn.net/Articles/1103190/",
+      "source": "lwn.net",
+      "source_id": "lwn-net",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-05T14:00:02Z",
-      "score": 0.7704,
-      "distance": 0.7594,
-      "interest": 0.7815,
+      "published": "2026-11-06T18:51:28Z",
+      "score": 0.7743,
+      "distance": 0.761,
+      "interest": 0.7876,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -961,22 +716,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "The sun hangs low over the plains of Castile and León, in the north-central region of Spain. But from a slope of the mountain Pico Trigaza , it appears that a few puffy white clouds have started to block the sun. That’s vexing. A group of researchers, some wearing cardboard eclip",
+      "excerpt": "When a computer hibernates, the kernel writes the contents of memory to disk and then shuts the system down. Resuming from hibernation involves reading that data back into memory, and then having the kernel pick up where it left off. Unfortunately, the kernel does not have any wa",
       "explore": false
     },
     {
-      "title": "Connection between the Haskell Foundation and the broader community",
+      "title": "Otherwise you’re just a machine",
       "ja_title": null,
-      "url": "https://discourse.haskell.org/t/connection-between-the-haskell-foundation-and-the-broader-community/15000?page=2#post_23",
-      "source": "discourse.haskell.org",
-      "source_id": "discourse-haskell-org",
+      "url": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5?source=rss----138adf9c44c---4",
+      "source": "uxdesign.cc",
+      "source_id": "uxdesign-cc",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-06T15:23:21Z",
-      "score": 0.7704,
-      "distance": 0.767,
-      "interest": 0.7737,
+      "published": "2026-11-07T20:15:42Z",
+      "score": 0.774,
+      "distance": 0.7686,
+      "interest": 0.7794,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -988,22 +743,22 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "For better or worse this is also not just a theoretical debate. Communities whose member I see myself as, who foster inclusion and diversity, including the necessity of strongly rejecting those seeking to destroy it are spilling over from people of diverse backgrounds who want to",
+      "excerpt": "AI is getting better at design. Designers should too. The skills behind the work. Image created with AI. I spend a lot of time looking at design work. Reviewing portfolios. Hiring designers. Working with design leaders, seniors and juniors. Sitting in critiques. Watching people e",
       "explore": false
     },
     {
-      "title": "Microsoft swears Windows 11 isn’t “less secure,” even as 1,100+ security fixes landed last month, and warns hackers can now exploit them within hours",
+      "title": "When the Watchdogs Are Silenced: India's Crackdown on Those Documenting Online Censorship",
       "ja_title": null,
-      "url": "https://www.windowslatest.com/2026/11/06/microsoft-swears-windows-11-isnt-less-secure-even-as-1100-security-fixes-landed-last-month-and-warns-hackers-can-now-exploit-them-within-hours/",
-      "source": "windowslatest.com",
-      "source_id": "windowslatest-com",
+      "url": "https://www.eff.org/deeplinks/2026/11/when-watchdogs-are-silenced-indias-crackdown-those-documenting-online-censorship",
+      "source": "eff.org",
+      "source_id": "eff-org",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-06T02:43:48Z",
-      "score": 0.7695,
-      "distance": 0.7632,
-      "interest": 0.7758,
+      "published": "2026-11-06T09:30:42Z",
+      "score": 0.7737,
+      "distance": 0.7582,
+      "interest": 0.7892,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1015,48 +770,23 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Windows needed more than 1,000 security fixes in October, but Microsoft swears it’s not “less secure” and warns users against pausing updates. The post Microsoft swears Windows 11 isn’t “less secure,” even as 1,100+ security fixes landed last month, and warns hackers can now expl",
+      "excerpt": "On November 3, our colleagues at the Software Freedom Law Center, India (SFLC.in) received notifications from X that the Delhi Police had issued takedown requests targeting 42 URLs. Among the accounts and posts targeted were those belonging to SFLC.in , the Internet Freedom Found",
       "explore": false
     },
     {
-      "title": "Life is the most important problem in physics",
+      "title": "色々な学生さんから、推し活についてお問合せをいただいた件について",
       "ja_title": null,
-      "url": "https://bigthink.com/series/full-interview/life-machine-frank/",
-      "source": "bigthink.com",
-      "source_id": "bigthink-com",
+      "url": "https://p-shirokuma.hatenadiary.com/entry/20261108/1794088800",
+      "source": "シロクマの屑籠",
+      "source_id": "shirokuma",
       "tags": [
-        "discovered"
+        "ja",
+        "essays",
+        "society"
       ],
-      "published": "2026-11-06T05:00:00Z",
-      "score": 0.7691,
-      "distance": 0.7639,
-      "interest": 0.7743,
-      "judged": false,
-      "pinned": false,
-      "kind": null,
-      "reasons": [
-        "off-centre domain (+)"
-      ],
-      "reasons_interest": [
-        "idea / essay (+)",
-        "long-form (+)"
-      ],
-      "ja": null,
-      "excerpt": "Descartes cut open living dogs and insisted their cries were just the noises of a machine. Astrophysicist and astrobiologist Adam Frank, a professor at the University of Rochester and author of The Little Book of Aliens, argues that the same life-as-machine metaphor still shapes ",
-      "explore": false
-    },
-    {
-      "title": "(untitled)",
-      "ja_title": null,
-      "url": "https://www.jvt.me/mf2/2026/11/1gfy2/?utm_medium=rss&utm_source=rss",
-      "source": "jvt.me",
-      "source_id": "jvt-me",
-      "tags": [
-        "discovered"
-      ],
-      "published": "2026-11-05T15:55:00Z",
-      "score": 0.769,
-      "distance": 0.76,
+      "published": "2026-11-07T22:00:00Z",
+      "score": 0.7735,
+      "distance": 0.7691,
       "interest": 0.7779,
       "judged": false,
       "pinned": false,
@@ -1066,25 +796,25 @@
       ],
       "reasons_interest": [
         "idea / essay (+)",
-        "long-form (+)"
+        "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "Listened to Maps and CVEs: They just keep growing! | Cup o' Go Post details 🗺️ Accepted proposal: add maps.Grow 🇪🇪 IVXV online voting systemReddit thread 🐧 Protecting against CVE-2026-98432 🌩️ Lightning roundagent-manager tinygo 0.44.0 released",
+      "excerpt": "拙著『「推し」で心はみたされる？』が発売されてから３年が経とうとしています。 「推し」で心はみたされる？～21世紀の心理的充足のトレンド作者:熊代亨大和書房Amazon この本が書店でどれぐらい売れたのかの詳細は知りませんが、この本がものすごく沢山の仕事を引っ張ってきたのは確かで、そこらじゅうのメディアにお邪魔させていただくことになりました。2026年の後半になった最近も、推し活について私に問い合わせが来ることもあります。それは、良いことでもあったし、しんどいことでもありました。 そうした仕事のご依頼とはまったく別の領域で、学生さんから推し活について問わ",
       "explore": false
     },
     {
-      "title": "「地域課題解決イノベーション創出フォーラム」の開催について",
+      "title": "「中国ナンバー2を乗せた飛行機が突如墜落」乗客すべて死亡、事故と判断されたが…「林彪事件」に残された“奇妙な謎”",
       "ja_title": null,
-      "url": "https://prtimes.jp/main/html/rd/p/000007071.000052467.html",
-      "source": "prtimes.jp",
-      "source_id": "prtimes-jp",
+      "url": "https://bunshun.jp/articles/-/93428",
+      "source": "bunshun.jp",
+      "source_id": "bunshun-jp",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-06T10:54:36Z",
-      "score": 0.7687,
-      "distance": 0.7656,
-      "interest": 0.7717,
+      "published": "2026-11-07T08:00:00Z",
+      "score": 0.7733,
+      "distance": 0.7649,
+      "interest": 0.7817,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1096,22 +826,22 @@
         "日本語 (+)"
       ],
       "ja": null,
-      "excerpt": "[東京都] 日本全体の持続的な成長を実現するためには、東京と地方が共に栄え、成長する「共存共栄」が重要であり、東京都は全国各地との連携を推進しています。 その一環として、オールジャパンでのイノベーション創出に向...",
+      "excerpt": "毛沢東の「親密な戦友」としてナンバー2に上り詰め、党規約に後継者と明記されながらも突如失脚した林彪。1971年、彼と家族を乗せた軍用機はなぜモンゴルの荒野へ墜落したのか。事故か、それとも撃墜か――。鉄…",
       "explore": false
     },
     {
-      "title": "Wiktionary:Tea room/2026/November",
+      "title": "Discord is killing its Electron app that can eat 4GB of RAM on Windows 11, and the Rust rebuild uses just 290MB",
       "ja_title": null,
-      "url": "https://en.wiktionary.org/w/index.php?title=Wiktionary:Tea_room/2026/November&diff=95440048&oldid=95439938",
-      "source": "en.wiktionary.org",
-      "source_id": "en-wiktionary-org",
+      "url": "https://www.windowslatest.com/2026/11/05/discord-is-killing-its-electron-app-that-can-eat-4gb-of-ram-on-windows-11-and-the-rust-rebuild-uses-just-290mb/",
+      "source": "windowslatest.com",
+      "source_id": "windowslatest-com",
       "tags": [
         "discovered"
       ],
-      "published": "2026-11-07T01:32:02Z",
-      "score": 0.7687,
-      "distance": 0.77,
-      "interest": 0.7674,
+      "published": "2026-11-05T02:24:20Z",
+      "score": 0.773,
+      "distance": 0.749,
+      "interest": 0.797,
       "judged": false,
       "pinned": false,
       "kind": null,
@@ -1123,7 +853,278 @@
         "long-form (+)"
       ],
       "ja": null,
-      "excerpt": "Latin marginālia as a noun: a 1763 citation, and whether it is enough: Reply ← Older revision Revision as of 01:32, 7 November 2026 Line 184: Line 184: '''Correction, same day, after re-reading all four details against the scans:''' I first wrote that the 1581 ''title page'' read",
+      "excerpt": "Discord is finally dumping Electron. CTO Stanislav Vishnevskiy confirmed the desktop client is being rewritten from scratch using Rust and GPUI. Early Windows 11 tests show RAM usage dropping to just 290MB, completely eliminating Chromium baggage. The post Discord is killing its ",
+      "explore": false
+    },
+    {
+      "title": "Please Do Not Buy Costco’s $520 Canon R100 Kit",
+      "ja_title": null,
+      "url": "https://petapixel.com/2026/11/06/please-do-not-buy-costcos-520-canon-r100-kit/",
+      "source": "petapixel.com",
+      "source_id": "petapixel-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-06T20:36:09Z",
+      "score": 0.773,
+      "distance": 0.7615,
+      "interest": 0.7845,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "The holiday season is ramping up and that once again means Canon is trotting out the same cash cow it has milked for the last three straight years. Costco (soon to be followed by other stores, surely) is offering a Canon EOS R100 kit for an enticing $520. Do not buy it. [ Read Mo",
+      "explore": false
+    },
+    {
+      "title": "Seeking advice/experience on installing and booting from USB4",
+      "ja_title": null,
+      "url": "https://discuss.linuxcontainers.org/t/seeking-advice-experience-on-installing-and-booting-from-usb4/27502#post_1",
+      "source": "discuss.linuxcontainers.org",
+      "source_id": "discuss-linuxcontainers-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-07T14:08:27Z",
+      "score": 0.7725,
+      "distance": 0.7667,
+      "interest": 0.7783,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Hi there, I have an ASRock X600M-STX, and I’d like to use the 2xNVME and 2xSATA ports for dedicated RAID1 pools, fully using each disk for the pools. The board comes with an external USB-C port, which, with my Ryzen 7 8700G, should support USB4 mode (PCIe tunneling). Therefore my",
+      "explore": false
+    },
+    {
+      "title": "Enterprises must take blame for their AI agents’ mistakes, say regulators",
+      "ja_title": null,
+      "url": "https://www.computerworld.com/article/4245769/enterprises-must-take-blame-for-their-ai-agents-mistakes-say-regulators-2.html",
+      "source": "computerworld.com",
+      "source_id": "computerworld-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-06T14:24:36Z",
+      "score": 0.7722,
+      "distance": 0.7597,
+      "interest": 0.7847,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "The UK’s digital watchdogs have warned enterprises that they can’t evade their legal responsibilities by blaming errors on AI agents that they have deployed. “By taking action on behalf of users, such as making purchases and communicating with businesses, these agents could trans",
+      "explore": false
+    },
+    {
+      "title": "Web image Tool - Drive details",
+      "ja_title": null,
+      "url": "https://discuss.linuxcontainers.org/t/web-image-tool-drive-details/27482#post_10",
+      "source": "discuss.linuxcontainers.org",
+      "source_id": "discuss-linuxcontainers-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-07T06:11:25Z",
+      "score": 0.772,
+      "distance": 0.7644,
+      "interest": 0.7797,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Continually getting failed to verify PE Binaries. read /boot/EFI/Linux/Incus… The virtual media appears to be unloading. I think that’s why I’m getting this error, because the installer can’t find the virtual media. BIOS settings here: Here are my bios secure boot/tpm/keys. See a",
+      "explore": false
+    },
+    {
+      "title": "桜井政博氏、生成AIへの考えかたを示す。「いまのところは使っていない」し、「どこかへの搾取になってはいけない」。一方で現在の“大変すぎるゲーム開発”への懸念も【ファミ通40周年フェス】 | ゲーム・エンタメ最新情報のファミ通.com",
+      "ja_title": null,
+      "url": "https://www.famitsu.com/article/202611/93352",
+      "source": "はてブ · テクノロジー新着",
+      "source_id": "hatena-it",
+      "tags": [
+        "ja",
+        "tech"
+      ],
+      "published": "2026-11-07T09:49:08Z",
+      "score": 0.7712,
+      "distance": 0.7654,
+      "interest": 0.7771,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "日本語 (+)"
+      ],
+      "ja": null,
+      "excerpt": "グラフィック方面での生成AIの活用については、「未だに信用を得られていない」し、「どこかへの搾取になってはいけない」。また、「自分たちで考えたほうがいまのところはよいものができる」と考えているという。 ただ、ゲーム業界全般に視野を広げると、「いまのゲームを作るのは大変すぎる」とし、「何百万本も売れて...",
+      "explore": false
+    },
+    {
+      "title": "“Everybody loves a good underdog story.”",
+      "ja_title": null,
+      "url": "https://unsung.aresluna.org/everybody-loves-a-good-underdog-story",
+      "source": "unsung.aresluna.org",
+      "source_id": "unsung-aresluna-org",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-04T20:30:45Z",
+      "score": 0.7697,
+      "distance": 0.7472,
+      "interest": 0.7922,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "A fun video from Vidya James about a specific moment in The Legend of Zelda: Majora’s Mask on Nintendo 64 that starts with a bug (similar to this thing we talked about once ), and ends with a fun effort to find the perfect conditions to put that bug to some good use: This is in s",
+      "explore": false
+    },
+    {
+      "title": "OpenAI buys tiny software developer to improve Codex",
+      "ja_title": null,
+      "url": "https://www.computerworld.com/article/4245735/openai-buys-tiny-software-developer-to-improve-codex-3.html",
+      "source": "computerworld.com",
+      "source_id": "computerworld-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-06T13:46:23Z",
+      "score": 0.7685,
+      "distance": 0.7595,
+      "interest": 0.7776,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "OpenAI is buying Pierre Computer Company in order to incorporate the San Francisco-based software developer’s Code.Storage infrastructure layer for Git into its Codex AI-powered programming tool. Pierre Computer, whose employees number just barely in the double digits, has got pl",
+      "explore": false
+    },
+    {
+      "title": "Lucid teases its cheaper sub-$50,000 Cosmos EV in new video and images",
+      "ja_title": null,
+      "url": "https://electrek.co/2026/11/06/lucid-cosmos-teaser-cheaper-ev-new-images/",
+      "source": "electrek.co",
+      "source_id": "electrek-co",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-06T13:42:07Z",
+      "score": 0.7683,
+      "distance": 0.7595,
+      "interest": 0.7772,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "Lucid has released a new teaser video of what looks like the Cosmos, its upcoming sub-$50,000 midsize electric SUV and the car that’s supposed to turn Lucid into a volume automaker. The clip gives us the clearest look yet at the Cosmos’ lighting, front and rear, after months of c",
+      "explore": false
+    },
+    {
+      "title": "“Jailbreaking my car’s navigation system just so I can change the time”",
+      "ja_title": null,
+      "url": "https://www.osnews.com/story/146297/jailbreaking-my-cars-navigation-system-just-so-i-can-change-the-time/",
+      "source": "osnews.com",
+      "source_id": "osnews-com",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-04T22:33:09Z",
+      "score": 0.768,
+      "distance": 0.7478,
+      "interest": 0.7882,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "What if you want to change the time in your car&#8217;s infotainment system, but it&#8217;s so locked down that you can&#8217;t even open the time settings menu without a very specific, DRM&#8217;d SD card? Well, you try to jailbreak it, of course, but the amount of effort requir",
+      "explore": false
+    },
+    {
+      "title": "AI agents are getting more complex. Developers shouldn’t have to babysit them.",
+      "ja_title": null,
+      "url": "https://thenewstack.io/harness-engineering-coding-agents/",
+      "source": "thenewstack.io",
+      "source_id": "thenewstack-io",
+      "tags": [
+        "discovered"
+      ],
+      "published": "2026-11-06T19:35:59Z",
+      "score": 0.7676,
+      "distance": 0.7612,
+      "interest": 0.7741,
+      "judged": false,
+      "pinned": false,
+      "kind": null,
+      "reasons": [
+        "off-centre domain (+)"
+      ],
+      "reasons_interest": [
+        "idea / essay (+)",
+        "long-form (+)"
+      ],
+      "ja": null,
+      "excerpt": "What if your coding agent could catch its own mistakes before you ever reviewed its work?&#160; A few years ago, The post AI agents are getting more complex. Developers shouldn&#8217;t have to babysit them. appeared first on The New Stack .",
       "explore": false
     }
   ]
